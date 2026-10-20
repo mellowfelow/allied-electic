@@ -9101,6 +9101,809 @@ export const PRODUCTS: Product[] = [
       '48V 10-15Ah Lithium-ion',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-kingsong-16x-high-torque-euw',
+    slug: 'allied-kingsong-16x-high-torque-euw',
+    name: 'KingSong 16X High-Torque EUW',
+    price: 2499,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'KingSong 16X High-Torque EUW — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The KingSong 16X High-Torque EUW is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/706/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'KingSong genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-veteran-patton-suspension-euw',
+    slug: 'allied-veteran-patton-suspension-euw',
+    name: 'Veteran Patton Suspension EUW',
+    price: 3999,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Veteran Patton Suspension EUW — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Veteran Patton Suspension EUW is part of ALLIED\'s authorized Veteran electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/520/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Veteran genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-begode-master-pro-v2-euc-134v',
+    slug: 'allied-begode-master-pro-v2-euc-134v',
+    name: 'Begode Master Pro V2 EUC 134V',
+    price: 5499,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Begode Master Pro V2 EUC 134V — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Begode Master Pro V2 EUC 134V is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/325/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Begode genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v14-adventure-euc',
+    slug: 'allied-inmotion-v14-adventure-euc',
+    name: 'InMotion V14 Adventure EUC',
+    price: 4899,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'InMotion V14 Adventure EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The InMotion V14 Adventure EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/492/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-leaperkim-lynx-151v-euc',
+    slug: 'allied-leaperkim-lynx-151v-euc',
+    name: 'Leaperkim Lynx 151V EUC',
+    price: 5999,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Leaperkim Lynx 151V EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Leaperkim Lynx 151V EUC is part of ALLIED\'s authorized Leaperkim electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/335/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Leaperkim genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-begode-extreme-134v-off-road-euc',
+    slug: 'allied-begode-extreme-134v-off-road-euc',
+    name: 'Begode Extreme 134V Off-Road EUC',
+    price: 4299,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Begode Extreme 134V Off-Road EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Begode Extreme 134V Off-Road EUC is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/692/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Begode genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kingsong-s22-pro-eagle-euc',
+    slug: 'allied-kingsong-s22-pro-eagle-euc',
+    name: 'Kingsong S22 Pro Eagle EUC',
+    price: 4699,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'KingSong Kingsong S22 Pro Eagle EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Kingsong S22 Pro Eagle EUC is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/174/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'KingSong genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v12-ht-high-torque-euc',
+    slug: 'allied-inmotion-v12-ht-high-torque-euc',
+    name: 'InMotion V12 HT High Torque EUC',
+    price: 2999,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'InMotion V12 HT High Torque EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The InMotion V12 HT High Torque EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/215/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-begode-falcon-100v-compact-euc',
+    slug: 'allied-begode-falcon-100v-compact-euc',
+    name: 'Begode Falcon 100V Compact EUC',
+    price: 2399,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Begode Falcon 100V Compact EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Begode Falcon 100V Compact EUC is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/424/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Begode genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kingsong-ks-16xs-suspension-euc',
+    slug: 'allied-kingsong-ks-16xs-suspension-euc',
+    name: 'Kingsong KS-16XS Suspension EUC',
+    price: 2799,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    featured: false,
+    shortDescription: 'KingSong Kingsong KS-16XS Suspension EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Kingsong KS-16XS Suspension EUC is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/581/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'KingSong genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v11-suspension-euc',
+    slug: 'allied-inmotion-v11-suspension-euc',
+    name: 'InMotion V11 Suspension EUC',
+    price: 3299,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'InMotion V11 Suspension EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The InMotion V11 Suspension EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/242/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-begode-commander-mini-116v',
+    slug: 'allied-begode-commander-mini-116v',
+    name: 'Begode Commander Mini 116V',
+    price: 3899,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Begode Commander Mini 116V — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The Begode Commander Mini 116V is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/473/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'Begode genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v13-challenger-euc',
+    slug: 'allied-inmotion-v13-challenger-euc',
+    name: 'InMotion V13 Challenger EUC',
+    price: 4999,
+    category: 'self-balancing-ev',
+    subcategory: 'electric-unicycles',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'InMotion V13 Challenger EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
+    description: 'The InMotion V13 Challenger EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/249/800/600'],
+    specs: {
+      voltage: '84V/100.8V/134V System',
+      batteryType: '84V-134V 1000-3600Wh Lithium-ion',
+      range: '60-180 km per charge',
+      topSpeed: '35-70 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '1500W-3000W Single Hub Motor',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg',
+      warranty: '1 Year EUC & Motor'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Unicycles (EUWs) class — 1500w-3000w single hub motor',
+      '84V-134V 1000-3600Wh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-segway-ninebot-s-plus-hoverboard',
+    slug: 'allied-segway-ninebot-s-plus-hoverboard',
+    name: 'Segway-Ninebot S Plus Hoverboard',
+    price: 1299,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Segway Ninebot Segway-Ninebot S Plus Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Segway-Ninebot S Plus Hoverboard is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/997/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-swagtron-t6-outlaw-off-road',
+    slug: 'allied-swagtron-t6-outlaw-off-road',
+    name: 'Swagtron T6 Outlaw Off-Road',
+    price: 599,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Swagtron T6 Outlaw Off-Road — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Swagtron T6 Outlaw Off-Road is part of ALLIED\'s authorized Swagtron hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/764/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Swagtron genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hover-1-titan-all-terrain-board',
+    slug: 'allied-hover-1-titan-all-terrain-board',
+    name: 'Hover-1 Titan All-Terrain Board',
+    price: 499,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Hover-1 Titan All-Terrain Board — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Hover-1 Titan All-Terrain Board is part of ALLIED\'s authorized Hover-1 hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/289/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Hover-1 genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-segway-ninebot-s-max-self-balancing',
+    slug: 'allied-segway-ninebot-s-max-self-balancing',
+    name: 'Segway Ninebot S-MAX Self-Balancing',
+    price: 1499,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Segway Ninebot S-MAX Self-Balancing — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Segway Ninebot S-MAX Self-Balancing is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/474/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hover-1-titan-pro-all-terrain-hoverboard',
+    slug: 'allied-hover-1-titan-pro-all-terrain-hoverboard',
+    name: 'Hover-1 Titan Pro All-Terrain Hoverboard',
+    price: 599,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Hover-1 Titan Pro All-Terrain Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Hover-1 Titan Pro All-Terrain Hoverboard is part of ALLIED\'s authorized Hover-1 hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/950/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Hover-1 genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-razor-hovertrax-positech-smart-board',
+    slug: 'allied-razor-hovertrax-positech-smart-board',
+    name: 'Razor Hovertrax Positech Smart Board',
+    price: 499,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Razor Hovertrax Positech Smart Board — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Razor Hovertrax Positech Smart Board is part of ALLIED\'s authorized Razor hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/828/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Razor genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-segway-ninebot-s-kids-hoverboard',
+    slug: 'allied-segway-ninebot-s-kids-hoverboard',
+    name: 'Segway Ninebot S Kids Hoverboard',
+    price: 799,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Segway Ninebot S Kids Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Segway Ninebot S Kids Hoverboard is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/439/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-gyroor-warrior-all-terrain-hoverboard',
+    slug: 'allied-gyroor-warrior-all-terrain-hoverboard',
+    name: 'Gyroor Warrior All-Terrain Hoverboard',
+    price: 699,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Gyroor Warrior All-Terrain Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Gyroor Warrior All-Terrain Hoverboard is part of ALLIED\'s authorized Gyroor hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/261/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Gyroor genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bullet-sx-2500-6-5-inch-hoverboard',
+    slug: 'allied-bullet-sx-2500-6-5-inch-hoverboard',
+    name: 'Bullet SX-2500 6.5 Inch Hoverboard',
+    price: 199,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Bullet SX-2500 6.5 Inch Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Bullet SX-2500 6.5 Inch Hoverboard is part of ALLIED\'s authorized Bullet hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/459/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Bullet genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bullet-gen-iii-sx-3000-6-5-inch-hoverboard',
+    slug: 'allied-bullet-gen-iii-sx-3000-6-5-inch-hoverboard',
+    name: 'Bullet Gen III SX-3000 6.5 Inch Hoverboard',
+    price: 259,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    featured: false,
+    shortDescription: 'Bullet Gen III SX-3000 6.5 Inch Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Bullet Gen III SX-3000 6.5 Inch Hoverboard is part of ALLIED\'s authorized Bullet hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/296/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Bullet genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-vivid-v500-6-5-inch-street-hoverboard',
+    slug: 'allied-vivid-v500-6-5-inch-street-hoverboard',
+    name: 'Vivid V500 6.5 Inch Street Hoverboard',
+    price: 360,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Vivid V500 6.5 Inch Street Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The Vivid V500 6.5 Inch Street Hoverboard is part of ALLIED\'s authorized Vivid hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/912/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Vivid genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-e-glide-65b-street-hoverboard',
+    slug: 'allied-e-glide-65b-street-hoverboard',
+    name: 'E-Glide 65B Street Hoverboard',
+    price: 319,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboards',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'E-Glide 65B Street Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
+    description: 'The E-Glide 65B Street Hoverboard is part of ALLIED\'s authorized E-Glide hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/775/800/600'],
+    specs: {
+      voltage: '36V/42V System',
+      batteryType: '36V-42V 4-4.4Ah Lithium-ion',
+      range: '10-18 km per charge',
+      topSpeed: '10-18 km/h',
+      payloadCapacity: '100-120 kg max rider weight',
+      motorPower: '300W-400W Dual Hub Motor',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '10-13 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'E-Glide genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboards & Self-Balancing Boards class — 300w-400w dual hub motor',
+      '36V-42V 4-4.4Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bullet-kart-x-hoverboard-go-kart-attachment',
+    slug: 'allied-bullet-kart-x-hoverboard-go-kart-attachment',
+    name: 'Bullet KART-X Hoverboard Go-Kart Attachment',
+    price: 92,
+    category: 'self-balancing-ev',
+    subcategory: 'hoverboard-kart-attachments',
+    featured: false,
+    shortDescription: 'Bullet KART-X Hoverboard Go-Kart Attachment — hoverboard go-kart attachments with N/A - powered by attached hoverboard lithium power and Matches attached hoverboard range range.',
+    description: 'The Bullet KART-X Hoverboard Go-Kart Attachment is part of ALLIED\'s authorized Bullet hoverboard go-kart attachments range, featuring n/a - uses attached hoverboard motors, n/a - powered by attached hoverboard, and a top speed of matches attached hoverboard top speed. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/264/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A - powered by attached hoverboard',
+      range: 'Matches attached hoverboard range',
+      topSpeed: 'Matches attached hoverboard top speed',
+      payloadCapacity: '100 kg max rider weight',
+      motorPower: 'N/A - uses attached hoverboard motors',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '4-6 kg (attachment only)',
+      warranty: '1 Year Frame'
+    },
+    features: [
+      'Bullet genuine authorized stock, inspected prior to Australian dispatch',
+      'Hoverboard Go-Kart Attachments class — n/a - uses attached hoverboard motors',
+      'N/A - powered by attached hoverboard',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
