@@ -111,7 +111,7 @@ export const Header: React.FC<HeaderProps> = ({
 
               {/* Mega Dropdown Menu */}
               {megaMenuOpen && (
-                <div className="absolute top-full left-0 w-[840px] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl p-6 grid grid-cols-12 gap-6 animate-in fade-in duration-150 z-50">
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[840px] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl p-6 grid grid-cols-12 gap-6 animate-in fade-in duration-150 z-50">
                   
                   {/* Left Column: Categories List (5 cols) */}
                   <div className="col-span-5 border-r border-slate-800/80 pr-4 space-y-1.5">
