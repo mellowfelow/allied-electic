@@ -11203,6 +11203,746 @@ export const PRODUCTS: Product[] = [
       '24V-36V 7-10Ah Lithium-ion/SLA',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-afiscooter-c3-compact-3-wheel',
+    slug: 'allied-afiscooter-c3-compact-3-wheel',
+    name: 'Afiscooter C3 Compact 3-Wheel',
+    price: 3699,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Afiscooter C3 Compact 3-Wheel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Afiscooter C3 Compact 3-Wheel is part of ALLIED\'s authorized Afiscooter travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/260/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Afiscooter genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-merits-health-pacer-folding-scooter',
+    slug: 'allied-merits-health-pacer-folding-scooter',
+    name: 'Merits Health Pacer Folding Scooter',
+    price: 3199,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Merits Health Pacer Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Merits Health Pacer Folding Scooter is part of ALLIED\'s authorized Merits travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/550/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Merits genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-pride-mobility-go-go-ultra-x',
+    slug: 'allied-pride-mobility-go-go-ultra-x',
+    name: 'Pride Mobility Go-Go Ultra X',
+    price: 1999,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Pride Mobility Go-Go Ultra X — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Pride Mobility Go-Go Ultra X is part of ALLIED\'s authorized Pride Mobility travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/571/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Pride Mobility genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shoprider-cordoba-luxury-scooter',
+    slug: 'allied-shoprider-cordoba-luxury-scooter',
+    name: 'Shoprider Cordoba Luxury Scooter',
+    price: 3999,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Shoprider Cordoba Luxury Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Shoprider Cordoba Luxury Scooter is part of ALLIED\'s authorized Shoprider travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/402/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Shoprider genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-pride-mobility-go-go-lx-travel',
+    slug: 'allied-pride-mobility-go-go-lx-travel',
+    name: 'Pride Mobility Go-Go LX Travel',
+    price: 2899,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Pride Mobility Go-Go LX Travel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Pride Mobility Go-Go LX Travel is part of ALLIED\'s authorized Pride Mobility travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/565/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Pride Mobility genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-drive-medical-scout-4-travel-scooter',
+    slug: 'allied-drive-medical-scout-4-travel-scooter',
+    name: 'Drive Medical Scout 4 Travel Scooter',
+    price: 2299,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Drive Medical Scout 4 Travel Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Drive Medical Scout 4 Travel Scooter is part of ALLIED\'s authorized Drive Medical travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/382/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Drive Medical genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-solax-transformer-auto-folding-scooter',
+    slug: 'allied-solax-transformer-auto-folding-scooter',
+    name: 'Solax Transformer Auto-Folding Scooter',
+    price: 3899,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Solax Transformer Auto-Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Solax Transformer Auto-Folding Scooter is part of ALLIED\'s authorized Solax travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/161/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Solax genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-merits-roadster-4-portable-scooter',
+    slug: 'allied-merits-roadster-4-portable-scooter',
+    name: 'Merits Roadster 4 Portable Scooter',
+    price: 2499,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Merits Roadster 4 Portable Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Merits Roadster 4 Portable Scooter is part of ALLIED\'s authorized Merits travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/209/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Merits genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-tzora-titan-hummer-folding-scooter',
+    slug: 'allied-tzora-titan-hummer-folding-scooter',
+    name: 'Tzora Titan Hummer Folding Scooter',
+    price: 4299,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Tzora Titan Hummer Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Tzora Titan Hummer Folding Scooter is part of ALLIED\'s authorized Tzora travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/854/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Tzora genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shoprider-echo-3-portable-scooter',
+    slug: 'allied-shoprider-echo-3-portable-scooter',
+    name: 'Shoprider Echo 3 Portable Scooter',
+    price: 1899,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Shoprider Echo 3 Portable Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Shoprider Echo 3 Portable Scooter is part of ALLIED\'s authorized Shoprider travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/854/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Shoprider genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-monarch-buzzaround-ex-heavy-travel',
+    slug: 'allied-monarch-buzzaround-ex-heavy-travel',
+    name: 'Monarch Buzzaround EX Heavy Travel',
+    price: 3499,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    featured: false,
+    shortDescription: 'Monarch Buzzaround EX Heavy Travel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Monarch Buzzaround EX Heavy Travel is part of ALLIED\'s authorized Monarch travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/402/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Monarch genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-solax-mobie-plus-folding-scooter',
+    slug: 'allied-solax-mobie-plus-folding-scooter',
+    name: 'Solax Mobie Plus Folding Scooter',
+    price: 3699,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Solax Mobie Plus Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Solax Mobie Plus Folding Scooter is part of ALLIED\'s authorized Solax travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/420/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Solax genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-equipmed-smartpacer-folding-mobility-scooter',
+    slug: 'allied-equipmed-smartpacer-folding-mobility-scooter',
+    name: 'Equipmed SmartPacer+ Folding Mobility Scooter',
+    price: 1099,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    featured: false,
+    shortDescription: 'Equipmed SmartPacer+ Folding Mobility Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Equipmed SmartPacer+ Folding Mobility Scooter is part of ALLIED\'s authorized Equipmed travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/951/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Equipmed genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-equipmed-ultra-lightweight-folding-mobility-scooter',
+    slug: 'allied-equipmed-ultra-lightweight-folding-mobility-scooter',
+    name: 'Equipmed Ultra-Lightweight Folding Mobility Scooter',
+    price: 1299,
+    category: 'mobility-scooters',
+    subcategory: 'travel-mobility-scooters',
+    featured: false,
+    shortDescription: 'Equipmed Ultra-Lightweight Folding Mobility Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
+    description: 'The Equipmed Ultra-Lightweight Folding Mobility Scooter is part of ALLIED\'s authorized Equipmed travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/413/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      range: '15-30 km per charge',
+      topSpeed: '6-10 km/h',
+      payloadCapacity: '115-135 kg max user weight',
+      motorPower: '250W-350W Motor',
+      chargeTime: '4-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-30 kg (disassembles into airline-friendly pieces)',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Equipmed genuine authorized stock, inspected prior to Australian dispatch',
+      'Travel & Folding Mobility Scooters class — 250w-350w motor',
+      '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-afiscooter-s3-3-wheel-all-terrain',
+    slug: 'allied-afiscooter-s3-3-wheel-all-terrain',
+    name: 'Afiscooter S3 3-Wheel All-Terrain',
+    price: 7499,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Afiscooter S3 3-Wheel All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Afiscooter S3 3-Wheel All-Terrain is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/308/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Afiscooter genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-merits-pioneer-14-heavy-duty',
+    slug: 'allied-merits-pioneer-14-heavy-duty',
+    name: 'Merits Pioneer 14 Heavy Duty',
+    price: 5499,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Merits Pioneer 14 Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Merits Pioneer 14 Heavy Duty is part of ALLIED\'s authorized Merits heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/664/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Merits genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-pride-pursuit-xl-heavy-duty',
+    slug: 'allied-pride-pursuit-xl-heavy-duty',
+    name: 'Pride Pursuit XL Heavy Duty',
+    price: 6899,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Pride Mobility Pride Pursuit XL Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Pride Pursuit XL Heavy Duty is part of ALLIED\'s authorized Pride Mobility heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/883/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Pride Mobility genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-afiscooter-s4-heavy-duty-4-wheel',
+    slug: 'allied-afiscooter-s4-heavy-duty-4-wheel',
+    name: 'Afiscooter S4 Heavy Duty 4-Wheel',
+    price: 7999,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Afiscooter S4 Heavy Duty 4-Wheel — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Afiscooter S4 Heavy Duty 4-Wheel is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/449/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Afiscooter genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-pride-wrangler-all-terrain-heavy-duty',
+    slug: 'allied-pride-wrangler-all-terrain-heavy-duty',
+    name: 'Pride Wrangler All-Terrain Heavy Duty',
+    price: 8499,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Pride Mobility Pride Wrangler All-Terrain Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Pride Wrangler All-Terrain Heavy Duty is part of ALLIED\'s authorized Pride Mobility heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/774/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Pride Mobility genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shoprider-endeavor-889-all-terrain',
+    slug: 'allied-shoprider-endeavor-889-all-terrain',
+    name: 'Shoprider Endeavor 889 All-Terrain',
+    price: 5299,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Shoprider Endeavor 889 All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Shoprider Endeavor 889 All-Terrain is part of ALLIED\'s authorized Shoprider heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/975/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Shoprider genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-drive-medical-cobra-gt4-heavy-duty',
+    slug: 'allied-drive-medical-cobra-gt4-heavy-duty',
+    name: 'Drive Medical Cobra GT4 Heavy Duty',
+    price: 6499,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Drive Medical Cobra GT4 Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Drive Medical Cobra GT4 Heavy Duty is part of ALLIED\'s authorized Drive Medical heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/911/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Drive Medical genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-invacare-comet-ultra-heavy-duty',
+    slug: 'allied-invacare-comet-ultra-heavy-duty',
+    name: 'Invacare Comet Ultra Heavy Duty',
+    price: 6899,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    featured: false,
+    shortDescription: 'Invacare Comet Ultra Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Invacare Comet Ultra Heavy Duty is part of ALLIED\'s authorized Invacare heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/371/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Invacare genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-afiscooter-c4-mid-size-all-terrain',
+    slug: 'allied-afiscooter-c4-mid-size-all-terrain',
+    name: 'Afiscooter C4 Mid-Size All-Terrain',
+    price: 6299,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Afiscooter C4 Mid-Size All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Afiscooter C4 Mid-Size All-Terrain is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/628/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Afiscooter genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-merits-silverado-extreme-heavy-duty',
+    slug: 'allied-merits-silverado-extreme-heavy-duty',
+    name: 'Merits Silverado Extreme Heavy Duty',
+    price: 7499,
+    category: 'mobility-scooters',
+    subcategory: 'heavy-duty-mobility-scooters',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Merits Silverado Extreme Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
+    description: 'The Merits Silverado Extreme Heavy Duty is part of ALLIED\'s authorized Merits heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/720/800/600'],
+    specs: {
+      voltage: '24V System',
+      batteryType: '24V 55-75Ah AGM/Lithium-ion',
+      range: '30-60 km per charge',
+      topSpeed: '10-12 km/h',
+      payloadCapacity: '150-180 kg max user weight',
+      motorPower: '500W-800W Dual Motor',
+      chargeTime: '8-10 Hours',
+      dimensions: 'Varies by model',
+      weight: '80-120 kg',
+      warranty: '2 Years Frame & Motor'
+    },
+    features: [
+      'Merits genuine authorized stock, inspected prior to Australian dispatch',
+      'Heavy-Duty All-Terrain Mobility Scooters class — 500w-800w dual motor',
+      '24V 55-75Ah AGM/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
