@@ -65,7 +65,7 @@ export const SHOP = {
 export const BRAND = {
   foundingYear: '2000',
   foundingLocation: 'Perth, Western Australia',
-  description: 'ALLIED ELECTRIC VEHICLES (a division of ALLIED FORKLIFTS PTY LTD, ABN 66 060 256 377) is Australia\'s premier authorized reseller and fleet distributor of leading electric city bikes, folding e-bikes, step-through commuters, cargo e-bikes, lithium forklifts, and zero-emission utility vehicles. We do not manufacture bikes; we source, inspect, stock, sell, and service genuine top-tier electric bikes, lithium battery packs, and spare parts across Western Australia and nationwide.',
+  description: 'ALLIED ELECTRIC VEHICLES (a division of ALLIED FORKLIFTS PTY LTD, ABN 66 060 256 377) is Australia\'s premier authorized reseller and fleet distributor of leading electric bikes, electric scooters, self-balancing EVs, and zero-emission personal mobility vehicles. We do not manufacture bikes; we source, inspect, stock, sell, and service genuine top-tier electric bikes, lithium battery packs, and spare parts across Western Australia and nationwide.',
   milestones: [
     { year: '2000', event: 'ALLIED FORKLIFTS PTY LTD established in Western Australia.' },
     { year: '2008', event: 'Launched dedicated zero-emission commercial EV & electric bike distribution division.' },
@@ -127,57 +127,138 @@ export interface Category {
   subcategories: Subcategory[];
 }
 
+// Taxonomy mirrors independentelectricbikes.com.au's category/subcategory structure
+// (research: C:\Users\rtutc\Desktop\allied electric\01-taxonomy-map.md). Category/subcategory
+// slugs and names match theirs; descriptions are Allied's own copy. Categories with no current
+// Allied product show an empty shop grid until real stock is sourced for that line (never
+// fabricate placeholder products — see docs/PROJECT.md).
 export const CATEGORIES: Category[] = [
   {
-    slug: 'city-commuter-ebikes',
-    name: 'City & Commuter E-Bikes',
-    description: 'Everyday urban commuter e-bikes featuring Allied Byron, Allied Noosa Step-Through, and Allied Metro series.',
+    slug: 'electric-bikes',
+    name: 'Electric Bikes',
+    description: 'Urban commuter, cargo, mountain, folding and fat-tyre electric bikes for Australian conditions.',
     image: 'https://picsum.photos/id/1071/800/600',
     subcategories: [
-      { slug: 'urban-city-bikes', name: 'Urban City Bikes (Byron Series)', description: '27.5" puncture resistant tyres for daily city commuting.' },
-      { slug: 'step-through-bikes', name: 'Step-Through E-Bikes (Noosa Series)', description: 'Low step-frame geometry for easy mounting and relaxed upright riding.' },
-      { slug: 'high-speed-commuters', name: 'High-Range Commuters (Metro Series)', description: '48V high-torque power for long distance urban travel.' }
+      { slug: 'urban-commuter-ebikes', name: 'Urban & Commuter E-Bikes', description: 'Everyday city commuter e-bikes for daily riding.' },
+      { slug: 'cargo-family-ebikes', name: 'Cargo & Family E-Bikes', description: 'Heavy-duty cargo e-bikes for deliveries and family hauling.' },
+      { slug: 'electric-mountain-bikes', name: 'Electric Mountain Bikes (eMTB)', description: 'Hardtail and full-suspension trail e-bikes for off-road riding.' },
+      { slug: 'foldable-electric-bikes', name: 'Foldable E-Bikes', description: 'Compact folding e-bikes for cars, boats, caravans and small storage.' },
+      { slug: 'fat-tyre-lifestyle-ebikes', name: 'Fat Tyre & Lifestyle E-Bikes', description: 'Wide-tyre cruisers for sand, gravel and relaxed lifestyle riding.' },
+      { slug: 'electric-dirt-motorbikes', name: 'Electric Dirt & Motorbikes', description: 'Off-road electric dirt bikes and motorbike-style EVs.' },
+      { slug: 'electric-mopeds', name: 'Electric Mopeds', description: 'Moped-style electric two-wheelers for urban riding.' },
+      { slug: 'electric-tricycles', name: 'Electric Tricycles & Trikes', description: 'Stable three-wheel e-bikes for cargo and accessible riding.' }
     ]
   },
   {
-    slug: 'folding-compact-ebikes',
-    name: 'Folding & Compact E-Bikes',
-    description: 'Portable folding e-bikes and compact fat tyre cruisers for motorhomes, caravans, and boats.',
-    image: 'https://picsum.photos/id/1072/800/600',
+    slug: 'electric-scooters',
+    name: 'Electric Scooters',
+    description: 'Commuter and long-range performance electric scooters.',
+    image: 'https://picsum.photos/id/1082/800/600',
     subcategories: [
-      { slug: 'folding-ebikes', name: 'Portable Folding Bikes (Torquay Series)', description: 'Quick 3-step fold mechanism (70x60x45cm folded) with 70km range.' },
-      { slug: 'fat-tyre-cruisers', name: 'Compact Fat Tyre Cruisers', description: '20" x 3.0" wide stability tyres for sand, gravel, and rough pathways.' }
+      { slug: 'commuter-electric-scooters', name: 'Commuter E-Scooters', description: 'Lightweight, portable scooters for daily commuting.' },
+      { slug: 'long-range-electric-scooters', name: 'Long-Range & Performance E-Scooters', description: 'High-capacity battery and motor scooters for distance and speed.' }
     ]
   },
   {
-    slug: 'mountain-offroad-ebikes',
-    name: 'Mountain & Off-Road E-Bikes',
-    description: 'Rugged hardtail and full-suspension trail e-bikes built for off-road adventure.',
-    image: 'https://picsum.photos/id/1073/800/600',
+    slug: 'electric-skateboards',
+    name: 'Electric Skateboards',
+    description: 'Street, all-terrain, portable and self-balancing electric skateboards.',
+    image: 'https://picsum.photos/id/1084/800/600',
     subcategories: [
-      { slug: 'hardtail-mtb', name: 'Hardtail Trail E-Bikes (Ripper Series)', description: '29" all-terrain wheels with 48V 500W Bafang motors.' },
-      { slug: 'full-suspension-mtb', name: 'Full-Suspension Enduro (Apex Series)', description: 'Bafang M600 750W mid-drive motors with RockShox 150mm air suspension.' }
+      { slug: 'street-electric-skateboards', name: 'Street Electric Longboards', description: 'Smooth-surface longboards for street and campus riding.' },
+      { slug: 'all-terrain-electric-skateboards', name: 'All-Terrain / Pneumatic Boards', description: 'Air-tyre boards built for rough surfaces and trails.' },
+      { slug: 'mini-electric-skateboards', name: 'Mini & Portable Shortboards', description: 'Compact boards for easy carrying and storage.' },
+      { slug: 'onewheel-style-boards', name: 'Onewheel-Style Boards', description: 'Single-wheel self-balancing electric boards.' }
     ]
   },
   {
-    slug: 'cargo-utility-vehicles',
-    name: 'Cargo & Utility Vehicles',
-    description: 'Heavy duty cargo e-bikes, site delivery trikes, electric cargo trucks, and lithium forklifts.',
-    image: 'https://picsum.photos/id/1076/800/600',
+    slug: 'self-balancing-ev',
+    name: 'Self-Balancing EV',
+    description: 'Electric unicycles, hoverboards and self-balancing accessories.',
+    image: 'https://picsum.photos/id/1080/800/600',
     subcategories: [
-      { slug: 'cargo-ebikes-trikes', name: 'Utility Cargo E-Bikes (Hauler Series)', description: '200kg system load capacity with dual 36V 15.6Ah batteries.' },
-      { slug: 'commercial-utility-trucks', name: 'Commercial Utility Trucks & Tippers', description: 'Allied Titan 1500 hydraulic tipping beds for mine sites and grounds.' },
-      { slug: 'lithium-forklifts', name: 'Lithium Counterbalance Forklifts', description: '1.8T to 5.0T forklifts with fast-charge 80V LiFePO4 battery packs.' }
+      { slug: 'electric-unicycles', name: 'Electric Unicycles (EUWs)', description: 'Single-wheel self-balancing electric unicycles.' },
+      { slug: 'hoverboards', name: 'Hoverboards & Self-Balancing Boards', description: 'Two-wheel self-balancing boards for all ages.' },
+      { slug: 'hoverboard-kart-attachments', name: 'Hoverboard Go-Kart Attachments', description: 'Kart conversion attachments for hoverboards.' }
     ]
   },
   {
-    slug: 'batteries-and-accessories',
-    name: 'Batteries & Accessories',
-    description: 'High-density 36V & 48V LG/Samsung lithium battery packs, fast chargers, racks, and Tektro/Shimano spares.',
+    slug: 'kids-off-road-ev',
+    name: 'Kids & Off-Road EV',
+    description: 'Electric balance bikes, youth dirt bikes and electric go-karts.',
+    image: 'https://picsum.photos/id/1074/800/600',
+    subcategories: [
+      { slug: 'electric-balance-bikes', name: 'Electric Balance Bikes', description: 'Entry-level electric bikes for young riders.' },
+      { slug: 'youth-electric-dirt-bikes', name: 'Youth Electric Dirt & Pit Bikes', description: 'Off-road electric dirt bikes sized for younger riders.' },
+      { slug: 'electric-go-karts', name: 'Electric Go-Karts & Drift Trikes', description: 'Electric go-karts and drift trikes for recreational riding.' }
+    ]
+  },
+  {
+    slug: 'mobility-scooters',
+    name: 'Mobility & Assisted Living',
+    description: 'Travel, folding and heavy-duty mobility scooters for assisted living.',
+    image: 'https://picsum.photos/id/1083/800/600',
+    subcategories: [
+      { slug: 'travel-mobility-scooters', name: 'Travel & Folding Mobility Scooters', description: 'Lightweight, foldable mobility scooters for travel.' },
+      { slug: 'heavy-duty-mobility-scooters', name: 'Heavy-Duty All-Terrain Mobility Scooters', description: 'Robust all-terrain mobility scooters for daily use.' }
+    ]
+  },
+  {
+    slug: 'electric-quad-bikes',
+    name: 'Electric Quad Bikes & ATVs',
+    description: 'Kids, adult and farm/utility electric quad bikes.',
+    image: 'https://picsum.photos/id/1075/800/600',
+    subcategories: [
+      { slug: 'kids-electric-quads', name: 'Kids Electric Quad Bikes', description: 'Electric quad bikes sized for younger riders.' },
+      { slug: 'adult-electric-quads', name: 'Adult Electric Quad Bikes & ATVs', description: 'Full-size electric ATVs for adult riders.' },
+      { slug: 'farm-utility-quads', name: 'Farm & Utility Electric Quads', description: 'Utility-rated electric quads for farm and site work.' }
+    ]
+  },
+  {
+    slug: 'electric-water-sports',
+    name: 'Electric Water Sports',
+    description: 'Electric surfboards, jetboards and personal watercraft.',
+    image: 'https://picsum.photos/id/1080/800/600',
+    subcategories: [
+      { slug: 'electric-surfboards', name: 'Electric Surfboards & Hydrofoils', description: 'Motorised surfboards and hydrofoil boards.' },
+      { slug: 'electric-jetboards', name: 'Electric Jetboards', description: 'Stand-up electric jetboards.' },
+      { slug: 'electric-jetskis', name: 'Electric Jet Skis & Personal Watercraft', description: 'Zero-emission personal watercraft.' }
+    ]
+  },
+  {
+    slug: 'batteries-parts-kits',
+    name: 'Batteries, Parts & Kits',
+    description: 'Replacement batteries, chargers, tyres, brakes and conversion kits for every category above.',
     image: 'https://picsum.photos/id/1078/800/600',
     subcategories: [
-      { slug: 'lithium-batteries-chargers', name: 'Lithium Batteries & Smart Chargers', description: '36V 15.6Ah and 48V 17.5Ah replacement packs and smart chargers.' },
-      { slug: 'ebike-spares-accessories', name: 'Racks, Baskets & Spare Parts', description: 'Front alloy baskets, rear luggage decks, waterproof bags, and brake pads.' }
+      { slug: 'ebike-batteries', name: 'E-Bike Batteries', description: 'Replacement lithium battery packs for electric bikes.' },
+      { slug: 'ebike-chargers', name: 'E-Bike Chargers', description: 'Smart chargers for e-bike battery packs.' },
+      { slug: 'scooter-batteries', name: 'Scooter, Board & Mobility Batteries', description: 'Replacement batteries for scooters, boards and mobility scooters.' },
+      { slug: 'scooter-skate-chargers', name: 'Scooter, Skate & Kids Chargers', description: 'Chargers for scooters, skateboards and kids EVs.' },
+      { slug: 'scooter-skate-parts', name: 'Scooter, Skate & Kids Parts', description: 'Spare parts for scooters, skateboards and kids EVs.' },
+      { slug: 'kids-dirt-bike-batteries', name: 'Kids & Dirt Bike Batteries', description: 'Replacement batteries for youth and dirt bike EVs.' },
+      { slug: 'tyres-tubes', name: 'Tyres & Tubes', description: 'Replacement tyres and inner tubes.' },
+      { slug: 'brakes-rotors-pads', name: 'Brake Pads & Rotors', description: 'Replacement brake pads and rotors.' },
+      { slug: 'mid-drive-conversion-kits', name: 'Mid-Drive Conversion Kits', description: 'Mid-drive motor kits to convert a standard bike.' },
+      { slug: 'hub-motor-conversion-kits', name: 'Hub Motor Conversion Kits', description: 'Hub motor kits to convert a standard bike.' }
+    ]
+  },
+  {
+    slug: 'safety-security-carry',
+    name: 'Safety, Locks & Carry',
+    description: 'Helmets, lights, locks, racks and carry accessories for every category above.',
+    image: 'https://picsum.photos/id/1076/800/600',
+    subcategories: [
+      { slug: 'helmets', name: 'Helmets', description: 'Safety helmets for riders of all ages.' },
+      { slug: 'lights-visibility', name: 'Lights & Visibility', description: 'Front and rear lights for visibility and safety.' },
+      { slug: 'jackets-hi-vis', name: 'Jackets & Hi-Vis', description: 'Protective and high-visibility riding apparel.' },
+      { slug: 'u-d-locks', name: 'U-Locks & D-Locks', description: 'High-security U-locks and D-locks.' },
+      { slug: 'folding-locks', name: 'Folding Locks', description: 'Compact folding security locks.' },
+      { slug: 'chain-locks', name: 'Chain Locks', description: 'Heavy-duty chain security locks.' },
+      { slug: 'racks-baskets', name: 'Racks & Baskets', description: 'Front and rear racks and baskets.' },
+      { slug: 'panniers-bags', name: 'Panniers & Bags', description: 'Pannier bags and carry storage.' },
+      { slug: 'child-seats', name: 'Child Seats', description: 'Child seats for family e-bike riding.' },
+      { slug: 'phone-mounts', name: 'Phone Mounts', description: 'Handlebar phone mounts.' }
     ]
   }
 ];
@@ -188,8 +269,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-byron-electric-city-bike',
     name: 'ALLIED Byron Electric City Bike',
     price: 2290,
-    category: 'city-commuter-ebikes',
-    subcategory: 'urban-city-bikes',
+    category: 'electric-bikes',
+    subcategory: 'urban-commuter-ebikes',
     badge: 'Best Seller',
     featured: true,
     shortDescription: 'Everyday urban commuter e-bike with 350W brushless motor, 36V 15.6Ah LG lithium battery and 27.5" puncture-resistant tyres.',
@@ -220,8 +301,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-noosa-step-through-electric-city-bike',
     name: 'ALLIED Noosa Step-Through Electric City Bike',
     price: 2390,
-    category: 'city-commuter-ebikes',
-    subcategory: 'step-through-bikes',
+    category: 'electric-bikes',
+    subcategory: 'urban-commuter-ebikes',
     badge: 'Step Through',
     featured: true,
     shortDescription: 'Comfort-focused low step-frame e-bike with Tektro hydraulic disc brakes, 36V 15.6Ah battery and 70km range.',
@@ -252,8 +333,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-torquay-electric-folding-bike',
     name: 'ALLIED Torquay Electric Folding Bike',
     price: 2150,
-    category: 'folding-compact-ebikes',
-    subcategory: 'folding-ebikes',
+    category: 'electric-bikes',
+    subcategory: 'foldable-electric-bikes',
     badge: 'Folding',
     featured: true,
     shortDescription: 'Compact folding e-bike with 20" stability tyres, 36V 15.6Ah lithium battery and 3-step fold frame (70x60x45cm).',
@@ -284,8 +365,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-metro-commuter-ebike',
     name: 'ALLIED Metro High-Range Commuter E-Bike',
     price: 2690,
-    category: 'city-commuter-ebikes',
-    subcategory: 'high-speed-commuters',
+    category: 'electric-bikes',
+    subcategory: 'urban-commuter-ebikes',
     badge: 'Popular',
     featured: false,
     shortDescription: '48V high-torque urban commuter with 500W rear hub motor, 48V 14Ah Samsung cells and hydraulic brakes.',
@@ -315,8 +396,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-ripper-offroad-mtb-ebike',
     name: 'ALLIED Ripper Hardtail Off-Road MTB E-Bike',
     price: 2990,
-    category: 'mountain-offroad-ebikes',
-    subcategory: 'hardtail-mtb',
+    category: 'electric-bikes',
+    subcategory: 'electric-mountain-bikes',
     badge: 'New Release',
     featured: true,
     shortDescription: '29" hardtail trail e-bike with 48V 500W Bafang motor, 48V 17.5Ah LG battery and air suspension fork.',
@@ -346,8 +427,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-apex-full-suspension-trail-ebike',
     name: 'ALLIED Apex Full-Suspension Enduro Trail E-Bike',
     price: 4250,
-    category: 'mountain-offroad-ebikes',
-    subcategory: 'full-suspension-mtb',
+    category: 'electric-bikes',
+    subcategory: 'electric-mountain-bikes',
     badge: 'Heavy Duty',
     featured: true,
     shortDescription: '750W Bafang mid-drive full suspension enduro e-bike with 150mm RockShox air fork and 48V 17.5Ah battery.',
@@ -377,8 +458,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-hauler-commercial-cargo-ebike',
     name: 'ALLIED Hauler Heavy Duty Utility Cargo E-Bike',
     price: 3490,
-    category: 'cargo-utility-vehicles',
-    subcategory: 'cargo-ebikes-trikes',
+    category: 'electric-bikes',
+    subcategory: 'cargo-family-ebikes',
     badge: 'Heavy Duty',
     featured: true,
     shortDescription: 'Heavy-duty 200kg load capacity cargo e-bike with dual 36V 15.6Ah batteries and front/rear platform racks.',
@@ -408,8 +489,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-titan-1500-heavy-cargo-truck',
     name: 'ALLIED Titan 1500 Heavy Electric Cargo Truck',
     price: 24950,
-    category: 'cargo-utility-vehicles',
-    subcategory: 'commercial-utility-trucks',
+    category: 'electric-quad-bikes',
+    subcategory: 'farm-utility-quads',
     badge: 'Heavy Duty',
     featured: true,
     shortDescription: '1,500kg payload capacity electric flatbed truck with hydraulic drop-side tipping bed and 72V LiFePO4 battery.',
@@ -438,8 +519,8 @@ export const PRODUCTS: Product[] = [
     slug: 'allied-36v-156ah-lg-lithium-battery-pack',
     name: 'ALLIED 36V 15.6Ah LG Cell Replacement Battery Pack',
     price: 690,
-    category: 'batteries-and-accessories',
-    subcategory: 'lithium-batteries-chargers',
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
     badge: 'Popular',
     featured: false,
     shortDescription: 'Genuine high-density 36V 15.6Ah LG cell lithium-ion battery pack for Allied Byron, Noosa & Torquay e-bikes.',

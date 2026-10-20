@@ -9,12 +9,14 @@ export const ContactView: React.FC = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name || !email || !message) return;
 
-    saveEnquiry({
+    setSubmitting(true);
+    await saveEnquiry({
       id: `ENQ-${Date.now().toString().slice(-6)}`,
       createdAt: new Date().toISOString(),
       name,
@@ -25,7 +27,7 @@ export const ContactView: React.FC = () => {
       message,
       status: 'new'
     });
-
+    setSubmitting(false);
     setSubmitted(true);
   };
 
@@ -117,8 +119,9 @@ export const ContactView: React.FC = () => {
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4 text-xs">
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Your Name *</label>
+                <label htmlFor="contact-name" className="block text-slate-300 font-semibold mb-1">Your Name *</label>
                 <input
+                  id="contact-name"
                   type="text"
                   required
                   value={name}
@@ -129,8 +132,9 @@ export const ContactView: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Email Address *</label>
+                <label htmlFor="contact-email" className="block text-slate-300 font-semibold mb-1">Email Address *</label>
                 <input
+                  id="contact-email"
                   type="email"
                   required
                   value={email}
@@ -141,8 +145,9 @@ export const ContactView: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Phone Number</label>
+                <label htmlFor="contact-phone" className="block text-slate-300 font-semibold mb-1">Phone Number</label>
                 <input
+                  id="contact-phone"
                   type="tel"
                   value={phone}
                   onChange={e => setPhone(e.target.value)}
@@ -152,8 +157,9 @@ export const ContactView: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">Message / Question *</label>
+                <label htmlFor="contact-message" className="block text-slate-300 font-semibold mb-1">Message / Question *</label>
                 <textarea
+                  id="contact-message"
                   rows={4}
                   required
                   value={message}
@@ -165,10 +171,11 @@ export const ContactView: React.FC = () => {
 
               <button
                 type="submit"
-                className="w-full py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-lg"
+                disabled={submitting}
+                className="w-full py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-lg disabled:opacity-50"
               >
                 <Send className="w-4 h-4" />
-                <span>Send Direct Inquiry</span>
+                <span>{submitting ? 'Sending…' : 'Send Direct Inquiry'}</span>
               </button>
             </form>
           )}

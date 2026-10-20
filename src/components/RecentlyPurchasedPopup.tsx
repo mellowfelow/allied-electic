@@ -132,7 +132,7 @@ export const RecentlyPurchasedPopup: React.FC<RecentlyPurchasedPopupProps> = ({ 
 
             {/* Price & Time Ago Footer */}
             <div className="flex items-center justify-between text-[11px] pt-0.5 border-t border-slate-800/80">
-              <span className="font-mono font-bold text-emerald-400">{money(product.price)} AUD</span>
+              <span className="font-mono font-bold text-emerald-400">{money(product.price)}</span>
               <span className="text-[10px] text-slate-400 font-mono">{buyer.timeAgo}</span>
             </div>
 

@@ -3,41 +3,23 @@
   navigator.modelContext.provideContext({
     tools: [
       {
-        name: "search_products",
-        description: "Search ALLIED ELECTRIC VEHICLES products by keyword, category, or price",
-        inputSchema: {
-          type: "object",
-          properties: {
-            query: { type: "string" },
-            category: { type: "string" },
-            max_price: { type: "number" }
-          }
-        },
-        execute: async ({ query, category, max_price }) => {
-          const params = new URLSearchParams();
-          if (query) params.set('q', query);
-          if (category) params.set('category', category);
-          if (max_price) params.set('max_price', max_price.toString());
-          const res = await fetch(`https://alliedelectricvehicles.com.au/api/search?${params}`);
-          return res.json();
-        }
-      },
-      {
         name: "browse_products",
-        description: "Browse products by category",
+        description: "Browse ALLIED electric bikes and commercial vehicles by category",
         inputSchema: {
           type: "object",
           properties: { category: { type: "string" } }
         },
         execute: async ({ category }) => {
-          const url = category ? `https://alliedelectricvehicles.com.au/shop/${category}/` : `https://alliedelectricvehicles.com.au/shop/`;
+          const url = category
+            ? `https://alliedelectricvehicles.com.au/#shop/${category}`
+            : `https://alliedelectricvehicles.com.au/#shop`;
           window.location.href = url;
           return { url };
         }
       },
       {
         name: "order_via_whatsapp",
-        description: "Initiate a WhatsApp order. Minimum order $300 AUD. Human completes.",
+        description: "Initiate a WhatsApp order enquiry. Minimum order $300 AUD. Human completes the order.",
         inputSchema: {
           type: "object",
           properties: { message: { type: "string" } }
@@ -50,15 +32,15 @@
         }
       },
       {
-        name: "get_wholesale_info",
-        description: "Get corporate mining tender and volume fleet pricing",
+        name: "read_blog",
+        description: "Open the ALLIED electric vehicle blog and buying guides",
         inputSchema: {
           type: "object",
           properties: {}
         },
         execute: async () => {
-          window.location.href = `https://alliedelectricvehicles.com.au/wholesale/`;
-          return { url: `https://alliedelectricvehicles.com.au/wholesale/` };
+          window.location.href = `https://alliedelectricvehicles.com.au/#blog`;
+          return { url: `https://alliedelectricvehicles.com.au/#blog` };
         }
       }
     ]

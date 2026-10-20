@@ -5,16 +5,13 @@ import {
   getOrders,
   updateOrderStatus,
   markPaymentConfirmed,
-  deleteOrder,
-  saveOrder,
-  generateOrderRef
+  deleteOrder
 } from '../../lib/orderStore';
 import {
   Enquiry,
   getEnquiries,
   markEnquiryReplied,
-  deleteEnquiry,
-  saveEnquiry
+  deleteEnquiry
 } from '../../lib/enquiryStore';
 import { parsePaymentDetail, money, paymentTermsLines, ParsedPaymentField } from '../../lib/order';
 import { waLinkTo, waPaymentDetailsMessage } from '../../lib/whatsapp';
@@ -54,6 +51,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
   const [passcode, setPasscode] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [authError, setAuthError] = useState('');
+  const [authLoading, setAuthLoading] = useState(false);
+  const [dataSource, setDataSource] = useState<'shared' | 'local' | null>(null);
 
   // Portal view tab
   const [activeTab, setActiveTab] = useState<'dashboard' | 'orders' | 'enquiries' | 'composer'>('dashboard');
@@ -98,81 +97,49 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
     );
   });
 
-  // Seed demo data if local storage is empty
-  const seedDemoDataIfNeeded = () => {
-    let existingOrders = getOrders();
-    if (existingOrders.length === 0) {
-      saveOrder({
-        id: 'AEV-98F12A',
-        createdAt: new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-        customerName: 'Marcus Vance',
-        email: 'm.vance@miningwa.com.au',
-        phone: '+61412345678',
-        companyName: 'Vance Mining Solutions',
-        address: '14 Industrial Road',
-        suburb: 'Malaga',
-        state: 'WA',
-        postcode: '6090',
-        paymentMethod: 'Bank Transfer (EFT)',
-        items: [
-          { id: '1', name: 'EP Equipment 2.5T Lithium-Ion Electric Forklift', price: 28500, quantity: 1 },
-          { id: '2', name: 'Zallys M5 Heavy Duty Electric Tug', price: 12400, quantity: 1 }
-        ],
-        subtotal: 40900,
-        discount: 0,
-        shipping: 450,
-        total: 41350,
-        channel: 'email',
-        status: 'new'
-      });
-    }
-    let existingEnquiries = getEnquiries();
-    if (existingEnquiries.length === 0) {
-      saveEnquiry({
-        id: 'ENQ-77201',
-        createdAt: new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-        name: 'Sarah Jenkins',
-        email: 's.jenkins@logisticsgroup.com.au',
-        phone: '+61498765432',
-        company: 'WA Logistics Hub',
-        type: 'wholesale',
-        subject: 'Bulk Fleet Pricing Request - Lithium Forklifts',
-        message: 'Hello Allied team, we are looking to replace 5 LPG forklifts at our Welshpool warehouse with 2.5T lithium-ion electric units. Could you provide a formal wholesale quotation and estimated delivery timeframe?',
-        status: 'new'
-      });
-    }
-  };
-
-  // Load initial orders & enquiries
-  const refreshData = () => {
-    seedDemoDataIfNeeded();
-    setOrders(getOrders());
-    setEnquiries(getEnquiries());
+  // Load orders & enquiries from the shared Cloudflare KV store (via /api/orders
+  // and /api/enquiries), falling back to this browser's localStorage if the API
+  // isn't reachable (e.g. local `vite dev` without `wrangler pages dev`).
+  const refreshData = async () => {
+    const [ordersRes, enquiriesRes] = await Promise.all([
+      getOrders(passcode),
+      getEnquiries(passcode)
+    ]);
+    setOrders(ordersRes.orders);
+    setEnquiries(enquiriesRes.enquiries);
+    setDataSource(ordersRes.shared && enquiriesRes.shared ? 'shared' : 'local');
   };
 
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen && isAuthenticated) {
       refreshData();
     }
-  }, [isOpen]);
+  }, [isOpen, isAuthenticated]);
 
   useEffect(() => {
     setParsedFields(parsePaymentDetail(rawPaymentText));
   }, [rawPaymentText]);
 
-  const handleLogin = (e: React.FormEvent) => {
+  // Security: the passcode is verified server-side by the /api/orders Cloudflare
+  // Function against ADMIN_PASSCODE (a Pages env var, never shipped to the
+  // browser) — not compared against anything hardcoded or bundled in this file.
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    const envPasscode = (import.meta as any).env?.VITE_ADMIN_PASSCODE || (import.meta as any).env?.ADMIN_PASSCODE;
-    const validPasscodes = ['allied2026', 'admin'];
-    if (envPasscode) {
-      validPasscodes.push(envPasscode.trim());
-    }
-    if (validPasscodes.includes(passcode.trim())) {
-      setIsAuthenticated(true);
-      setAuthError('');
-      refreshData();
-    } else {
-      setAuthError('Incorrect passcode. Default passcode: allied2026');
+    setAuthLoading(true);
+    setAuthError('');
+    try {
+      const res = await fetch('/api/orders', { headers: { 'X-Admin-Passcode': passcode } });
+      if (res.ok) {
+        setIsAuthenticated(true);
+      } else if (res.status === 503) {
+        setAuthError('Admin portal is not configured. Set ADMIN_PASSCODE in Cloudflare Pages → Settings → Environment Variables.');
+      } else {
+        setAuthError('Incorrect passcode.');
+      }
+    } catch (err) {
+      setAuthError('Could not reach the admin API. If you are running `vite dev` locally, use `wrangler pages dev` instead to test the Reply Portal.');
+    } finally {
+      setAuthLoading(false);
     }
   };
 
@@ -196,6 +163,18 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
           </div>
 
           <div className="flex items-center gap-2">
+            {isAuthenticated && dataSource && (
+              <span
+                className={`hidden md:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-mono font-bold border ${
+                  dataSource === 'shared'
+                    ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400'
+                    : 'bg-amber-500/10 border-amber-500/30 text-amber-400'
+                }`}
+                title={dataSource === 'shared' ? 'Connected to the shared Cloudflare KV store' : 'API unreachable — showing this browser\'s local data only'}
+              >
+                {dataSource === 'shared' ? 'Live Shared Inbox' : 'Local-Only (API Unreachable)'}
+              </span>
+            )}
             {isAuthenticated && (
               <button
                 type="button"
@@ -237,7 +216,7 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                   <KeyRound className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
                   <input
                     type="password"
-                    placeholder="Enter Passcode (Default: allied2026)"
+                    placeholder="Enter Passcode"
                     value={passcode}
                     onChange={(e) => setPasscode(e.target.value)}
                     className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-cyan-500 font-mono"
@@ -252,9 +231,10 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
 
                 <button
                   type="submit"
-                  className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition-colors shadow-lg shadow-cyan-500/20"
+                  disabled={authLoading}
+                  className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition-colors shadow-lg shadow-cyan-500/20 disabled:opacity-50"
                 >
-                  Unlock Admin Portal
+                  {authLoading ? 'Checking…' : 'Unlock Admin Portal'}
                 </button>
               </form>
 
@@ -458,8 +438,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                             <div className="flex items-center gap-2 flex-wrap">
                               <select
                                 value={ord.status}
-                                onChange={(e) => {
-                                  updateOrderStatus(ord.id, e.target.value as Order['status']);
+                                onChange={async (e) => {
+                                  await updateOrderStatus(ord.id, e.target.value as Order['status'], passcode);
                                   refreshData();
                                 }}
                                 className="px-2.5 py-1.5 rounded-xl text-xs font-mono font-bold bg-slate-950 border border-slate-800 text-cyan-400 focus:outline-none focus:border-cyan-500"
@@ -482,8 +462,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                               </button>
                               <button
                                 type="button"
-                                onClick={() => {
-                                  deleteOrder(ord.id);
+                                onClick={async () => {
+                                  await deleteOrder(ord.id, passcode);
                                   refreshData();
                                 }}
                                 className="p-1.5 text-slate-500 hover:text-amber-400"
@@ -682,8 +662,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                               </span>
                               <button
                                 type="button"
-                                onClick={() => {
-                                  deleteEnquiry(enq.id);
+                                onClick={async () => {
+                                  await deleteEnquiry(enq.id, passcode);
                                   refreshData();
                                 }}
                                 className="p-1.5 text-slate-500 hover:text-amber-400 transition-colors"
@@ -763,8 +743,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                               <div className="flex justify-end gap-2">
                                 <button
                                   type="button"
-                                  onClick={() => {
-                                    markEnquiryReplied(enq.id, enquiryReplyText);
+                                  onClick={async () => {
+                                    await markEnquiryReplied(enq.id, enquiryReplyText, passcode);
                                     setSelectedEnquiry(null);
                                     refreshData();
                                   }}
@@ -826,8 +806,8 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                       {emailSentSuccess ? (
                         <div className="p-6 text-center space-y-2 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl">
                           <CheckCircle2 className="w-8 h-8 text-emerald-400 mx-auto" />
-                          <h5 className="font-bold text-white text-sm">Payment Details Dispatched & Saved</h5>
-                          <p className="text-xs text-slate-300">Order status updated to 'payment_details_sent'. Email notification & WhatsApp link generated.</p>
+                          <h5 className="font-bold text-white text-sm">Order Status Updated</h5>
+                          <p className="text-xs text-slate-300">Marked 'payment_details_sent'. Use the WhatsApp button below or your own mail client to actually send the details — no SMTP is configured on this static site.</p>
                         </div>
                       ) : (
                         <div className="space-y-4 text-xs">
@@ -880,9 +860,9 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                           <div className="pt-2 flex flex-col gap-2">
                             <button
                               type="button"
-                              onClick={() => {
+                              onClick={async () => {
                                 if (selectedOrder) {
-                                  updateOrderStatus(selectedOrder.id, 'payment_details_sent', parsedFields);
+                                  await updateOrderStatus(selectedOrder.id, 'payment_details_sent', passcode, parsedFields);
                                   refreshData();
                                 }
                                 setEmailSentSuccess(true);
@@ -891,7 +871,7 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                               className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20"
                             >
                               <Mail className="w-4 h-4" />
-                              <span>Dispatch Payment Details Email & Update Status</span>
+                              <span>Mark "Payment Details Sent" (then email/WhatsApp manually)</span>
                             </button>
 
                             <a

@@ -171,7 +171,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
                               <Trash2 className="w-3.5 h-3.5" />
                             </button>
                           </div>
-                          <p className="text-sm text-white font-extrabold font-mono">{money(p.price)} AUD</p>
+                          <p className="text-sm text-white font-extrabold font-mono">{money(p.price)}</p>
                         </div>
 
                         <button

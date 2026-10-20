@@ -3,6 +3,7 @@ import { SITE, SHOP, CONTACT } from '../config/site';
 import { OrderItem, saveOrder, generateOrderRef } from '../lib/orderStore';
 import { money } from '../lib/order';
 import { waOrderLink } from '../lib/whatsapp';
+import { orderMailtoLink } from '../lib/order';
 import { X, Trash2, ShoppingBag, Send, AlertTriangle, CheckCircle, ShieldCheck, Zap } from 'lucide-react';
 
 interface CartDrawerProps {
@@ -39,6 +40,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [paymentMethod, setPaymentMethod] = useState('bank-transfer');
   const [placedOrderRef, setPlacedOrderRef] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [submitting, setSubmitting] = useState(false);
 
   if (!isOpen) return null;
 
@@ -49,13 +51,14 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
   const meetsMinOrder = subtotal >= SHOP.minOrder;
 
-  const handleCheckoutSubmit = (channel: 'email' | 'whatsapp') => {
+  const handleCheckoutSubmit = async (channel: 'email' | 'whatsapp') => {
     if (!customerName || !email || !phone || !address || !suburb || !postcode) {
       setErrorMessage('Please complete all required fields (Name, Email, Phone, Address, Suburb, Postcode).');
       return;
     }
 
     setErrorMessage('');
+    setSubmitting(true);
     const orderRef = generateOrderRef();
 
     const orderData = {
@@ -79,13 +82,18 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       status: 'new' as const
     };
 
-    saveOrder(orderData);
+    await saveOrder(orderData);
+    setSubmitting(false);
     setPlacedOrderRef(orderRef);
 
     if (channel === 'whatsapp') {
       const itemsFormatted = items.map(i => `${i.quantity}x ${i.name} ($${i.price})`).join('\n');
       const waUrl = waOrderLink(orderRef, itemsFormatted, money(total), customerName);
       window.open(waUrl, '_blank');
+    } else {
+      // No SMTP backend exists — open the customer's own mail client so the
+      // order actually reaches the business, instead of silently vanishing.
+      window.location.href = orderMailtoLink(orderRef, items, money(total), customerName, email);
     }
 
     onClearCart();
@@ -129,7 +137,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     <div key={item.id} className="p-3.5 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-between gap-3">
                       <div className="flex-1 min-w-0">
                         <h4 className="font-semibold text-sm text-white truncate">{item.name}</h4>
-                        <p className="text-xs font-mono text-sky-400 mt-0.5">{money(item.price)} AUD</p>
+                        <p className="text-xs font-mono text-sky-400 mt-0.5">{money(item.price)}</p>
                       </div>
 
                       <div className="flex items-center gap-2">
@@ -183,7 +191,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   {!meetsMinOrder && (
                     <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs flex items-center gap-2">
                       <AlertTriangle className="w-4 h-4 shrink-0 text-amber-400" />
-                      <span>Minimum commercial order requirement is <strong>{money(SHOP.minOrder)} AUD</strong>. Please add more items.</span>
+                      <span>Minimum commercial order requirement is <strong>{money(SHOP.minOrder)}</strong>. Please add more items.</span>
                     </div>
                   )}
 
@@ -227,8 +235,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
               <div className="space-y-3 text-xs">
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Full Name *</label>
+                  <label htmlFor="checkout-name" className="block text-slate-300 font-semibold mb-1">Full Name *</label>
                   <input
+                    id="checkout-name"
                     type="text"
                     required
                     value={customerName}
@@ -240,8 +249,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
                 <div className="grid grid-cols-2 gap-2">
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1">Email Address *</label>
+                    <label htmlFor="checkout-email" className="block text-slate-300 font-semibold mb-1">Email Address *</label>
                     <input
+                      id="checkout-email"
                       type="email"
                       required
                       value={email}
@@ -251,8 +261,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1">Phone Number *</label>
+                    <label htmlFor="checkout-phone" className="block text-slate-300 font-semibold mb-1">Phone Number *</label>
                     <input
+                      id="checkout-phone"
                       type="tel"
                       required
                       value={phone}
@@ -264,8 +275,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 </div>
 
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Company / Entity Name (Optional)</label>
+                  <label htmlFor="checkout-company" className="block text-slate-300 font-semibold mb-1">Company / Entity Name (Optional)</label>
                   <input
+                    id="checkout-company"
                     type="text"
                     value={companyName}
                     onChange={e => setCompanyName(e.target.value)}
@@ -275,8 +287,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 </div>
 
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Street Address *</label>
+                  <label htmlFor="checkout-address" className="block text-slate-300 font-semibold mb-1">Street Address *</label>
                   <input
+                    id="checkout-address"
                     type="text"
                     required
                     value={address}
@@ -288,8 +301,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
                 <div className="grid grid-cols-3 gap-2">
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1">Suburb *</label>
+                    <label htmlFor="checkout-suburb" className="block text-slate-300 font-semibold mb-1">Suburb *</label>
                     <input
+                      id="checkout-suburb"
                       type="text"
                       required
                       value={suburb}
@@ -299,8 +313,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1">State *</label>
+                    <label htmlFor="checkout-state" className="block text-slate-300 font-semibold mb-1">State *</label>
                     <select
+                      id="checkout-state"
                       value={state}
                       onChange={e => setState(e.target.value)}
                       className="w-full px-3 py-2 rounded bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
@@ -316,8 +331,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     </select>
                   </div>
                   <div>
-                    <label className="block text-slate-300 font-semibold mb-1">Postcode *</label>
+                    <label htmlFor="checkout-postcode" className="block text-slate-300 font-semibold mb-1">Postcode *</label>
                     <input
+                      id="checkout-postcode"
                       type="text"
                       required
                       value={postcode}
@@ -329,8 +345,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 </div>
 
                 <div>
-                  <label className="block text-slate-300 font-semibold mb-1">Payment Method *</label>
+                  <label htmlFor="checkout-payment-method" className="block text-slate-300 font-semibold mb-1">Payment Method *</label>
                   <select
+                    id="checkout-payment-method"
                     value={paymentMethod}
                     onChange={e => setPaymentMethod(e.target.value)}
                     className="w-full px-3 py-2 rounded bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500 font-mono"
@@ -357,7 +374,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <h4 className="font-bold text-lg text-white">Order Draft Submitted!</h4>
               <p className="text-xs text-slate-300 leading-relaxed max-w-xs mx-auto">
                 Your order reference is <strong className="text-sky-400 font-mono">{placedOrderRef}</strong>.
-                A confirmation email has been dispatched to <strong>{email}</strong>.
+                {' '}Please keep this reference — quote it in your email or WhatsApp message to confirm the order.
               </p>
 
               <div className="p-4 rounded-lg bg-slate-950 border border-slate-800 space-y-2 text-xs text-left">
@@ -397,8 +414,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <div className="grid grid-cols-2 gap-2">
                 <button
                   type="button"
+                  disabled={submitting}
                   onClick={() => handleCheckoutSubmit('email')}
-                  className="py-3 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors"
+                  className="py-3 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors disabled:opacity-50"
                 >
                   <Send className="w-3.5 h-3.5" />
                   <span>Place Order (Email)</span>
@@ -406,8 +424,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
                 <button
                   type="button"
+                  disabled={submitting}
                   onClick={() => handleCheckoutSubmit('whatsapp')}
-                  className="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors"
+                  className="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors disabled:opacity-50"
                 >
                   <Send className="w-3.5 h-3.5" />
                   <span>Order via WhatsApp</span>

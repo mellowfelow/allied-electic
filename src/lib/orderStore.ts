@@ -33,60 +33,139 @@ export interface Order {
 
 const STORAGE_KEY = 'allied_ev_orders_v1';
 
-export function getOrders(): Order[] {
+// --- localStorage fallback (used when the /api/orders Cloudflare Function isn't
+// reachable — e.g. running `vite dev` locally without `wrangler pages dev`, or a
+// network hiccup). This keeps the UI usable everywhere, but only the API path
+// gives a shared, cross-device order inbox. ---
+
+function localGetOrders(): Order[] {
   if (typeof window === 'undefined') return [];
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [];
-    return JSON.parse(raw);
+    return raw ? JSON.parse(raw) : [];
   } catch (e) {
-    console.error('Failed to parse orders:', e);
+    console.error('Failed to parse local orders:', e);
     return [];
   }
 }
 
-export function saveOrder(order: Order): void {
+function localSaveOrder(order: Order): void {
   if (typeof window === 'undefined') return;
-  const existing = getOrders();
+  const existing = localGetOrders();
   const updated = [order, ...existing.filter(o => o.id !== order.id)];
   localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
 }
 
-export function getOrderById(id: string): Order | undefined {
-  const orders = getOrders();
-  return orders.find(o => o.id.toLowerCase() === id.toLowerCase());
+function localDeleteOrder(id: string): void {
+  if (typeof window === 'undefined') return;
+  const updated = localGetOrders().filter(o => o.id.toLowerCase() !== id.toLowerCase());
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
 }
 
-export function updateOrderStatus(id: string, status: Order['status'], parsedPaymentDetails?: { label: string; value: string }[]): Order | undefined {
-  const orders = getOrders();
-  const order = orders.find(o => o.id.toLowerCase() === id.toLowerCase());
-  if (!order) return undefined;
-  
-  order.status = status;
-  if (parsedPaymentDetails) {
-    order.parsedPaymentDetails = parsedPaymentDetails;
+async function apiFetch(path: string, init?: RequestInit): Promise<Response> {
+  return fetch(path, {
+    ...init,
+    headers: { 'Content-Type': 'application/json', ...(init?.headers || {}) }
+  });
+}
+
+/** Creates an order. Always tries the shared API first; falls back to this
+ * browser's localStorage only if the API is unreachable (e.g. local `vite dev`). */
+export async function saveOrder(order: Order): Promise<{ shared: boolean }> {
+  try {
+    const res = await apiFetch('/api/orders', { method: 'POST', body: JSON.stringify(order) });
+    if (res.ok) {
+      localSaveOrder(order); // keep a local mirror too, so this device's admin view stays in sync even offline
+      return { shared: true };
+    }
+  } catch (e) {
+    console.warn('Order API unreachable, saved locally only:', e);
   }
-  saveOrder(order);
-  return order;
+  localSaveOrder(order);
+  return { shared: false };
 }
 
-export function markPaymentConfirmed(id: string, note?: string, fileName?: string): Order | undefined {
-  const orders = getOrders();
+/** Admin-only: lists orders from the shared store. Requires the admin passcode. */
+export async function getOrders(passcode: string): Promise<{ orders: Order[]; shared: boolean }> {
+  try {
+    const res = await apiFetch('/api/orders', { headers: { 'X-Admin-Passcode': passcode } });
+    if (res.ok) return { orders: await res.json(), shared: true };
+  } catch (e) {
+    console.warn('Order API unreachable, showing local-only orders:', e);
+  }
+  return { orders: localGetOrders(), shared: false };
+}
+
+export async function updateOrderStatus(
+  id: string,
+  status: Order['status'],
+  passcode: string,
+  parsedPaymentDetails?: { label: string; value: string }[]
+): Promise<Order | undefined> {
+  const patch: Partial<Order> = { status };
+  if (parsedPaymentDetails) patch.parsedPaymentDetails = parsedPaymentDetails;
+  try {
+    const res = await apiFetch(`/api/orders/${encodeURIComponent(id)}`, {
+      method: 'PATCH',
+      headers: { 'X-Admin-Passcode': passcode },
+      body: JSON.stringify(patch)
+    });
+    if (res.ok) {
+      const updated = await res.json();
+      localSaveOrder(updated);
+      return updated;
+    }
+  } catch (e) {
+    console.warn('Order API unreachable, updating locally only:', e);
+  }
+  const orders = localGetOrders();
   const order = orders.find(o => o.id.toLowerCase() === id.toLowerCase());
   if (!order) return undefined;
-  
-  order.status = 'payment_confirmed';
-  if (note) order.remittanceNote = note;
-  if (fileName) order.remittanceFile = fileName;
-  
-  saveOrder(order);
+  Object.assign(order, patch);
+  localSaveOrder(order);
   return order;
 }
 
-export function deleteOrder(id: string): void {
-  const orders = getOrders();
-  const filtered = orders.filter(o => o.id.toLowerCase() !== id.toLowerCase());
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
+export async function markPaymentConfirmed(id: string, passcode: string, note?: string, fileName?: string): Promise<Order | undefined> {
+  const patch: Partial<Order> = { status: 'payment_confirmed' };
+  if (note) patch.remittanceNote = note;
+  if (fileName) patch.remittanceFile = fileName;
+  try {
+    const res = await apiFetch(`/api/orders/${encodeURIComponent(id)}`, {
+      method: 'PATCH',
+      headers: { 'X-Admin-Passcode': passcode },
+      body: JSON.stringify(patch)
+    });
+    if (res.ok) {
+      const updated = await res.json();
+      localSaveOrder(updated);
+      return updated;
+    }
+  } catch (e) {
+    console.warn('Order API unreachable, updating locally only:', e);
+  }
+  const orders = localGetOrders();
+  const order = orders.find(o => o.id.toLowerCase() === id.toLowerCase());
+  if (!order) return undefined;
+  Object.assign(order, patch);
+  localSaveOrder(order);
+  return order;
+}
+
+export async function deleteOrder(id: string, passcode: string): Promise<void> {
+  try {
+    const res = await apiFetch(`/api/orders/${encodeURIComponent(id)}`, {
+      method: 'DELETE',
+      headers: { 'X-Admin-Passcode': passcode }
+    });
+    if (res.ok) {
+      localDeleteOrder(id);
+      return;
+    }
+  } catch (e) {
+    console.warn('Order API unreachable, deleting locally only:', e);
+  }
+  localDeleteOrder(id);
 }
 
 export function generateOrderRef(): string {

@@ -8,9 +8,8 @@
   "scopes_supported": [],
   "note": "ALLIED ELECTRIC VEHICLES has no protected APIs. All resources publicly accessible.",
   "public_resources": [
-    "https://alliedelectricvehicles.com.au/shop/",
-    "https://alliedelectricvehicles.com.au/faq/",
-    "https://alliedelectricvehicles.com.au/wholesale/",
+    "https://alliedelectricvehicles.com.au/#shop",
+    "https://alliedelectricvehicles.com.au/#faq",
     "https://alliedelectricvehicles.com.au/llms.txt",
     "https://alliedelectricvehicles.com.au/.well-known/api-catalog",
     "https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json",

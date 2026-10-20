@@ -24,7 +24,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
   const [activeImageIdx, setActiveImageIdx] = useState(0);
 
   const handleWhatsAppQuote = () => {
-    const message = `Inquiry regarding ${product.name} (Price: ${money(product.price)} AUD). Please send technical spec sheet and fleet discount availability.`;
+    const message = `Inquiry regarding ${product.name} (Price: ${money(product.price)}). Please send technical spec sheet and fleet discount availability.`;
     window.open(waLink(message), '_blank');
   };
 

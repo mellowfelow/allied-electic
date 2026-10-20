@@ -1,4 +1,5 @@
 import { SITE } from '../config/site';
+import { OrderItem } from './orderStore';
 
 export interface ParsedPaymentField {
   label: string;
@@ -71,6 +72,20 @@ export function paymentTermsLines(ref: string): string[] {
     `ABN: ${SITE.abn} (${SITE.legalEntity}). GST inclusive invoice issued upon dispatch.`,
     `${SITE.reply.dispatchLine}`
   ];
+}
+
+/**
+ * No SMTP/API backend exists on this static site (see docs/PROJECT.md), so the
+ * "Place Order (Email)" checkout path must not claim to have sent anything itself.
+ * Instead it opens a pre-filled mailto: to the business, mirroring the WhatsApp
+ * order flow, so the order actually reaches the business via the customer's own
+ * mail client rather than silently vanishing into localStorage.
+ */
+export function orderMailtoLink(orderRef: string, items: OrderItem[], totalFormatted: string, customerName: string, customerEmail: string): string {
+  const itemsText = items.map(i => `${i.quantity}x ${i.name} ($${i.price} ea)`).join('%0D%0A');
+  const subject = encodeURIComponent(`Order ${orderRef} — ${SITE.name}`);
+  const body = `Order Reference: ${orderRef}%0D%0ACustomer: ${customerName} (${customerEmail})%0D%0A%0D%0AItems:%0D%0A${itemsText}%0D%0A%0D%0ATotal: ${encodeURIComponent(totalFormatted)}%0D%0A%0D%0APlease confirm stock availability and payment steps.`;
+  return `mailto:${SITE.reply.channels.email}?subject=${subject}&body=${body}`;
 }
 
 export function paymentTermsHtml(ref: string): string {

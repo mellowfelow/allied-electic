@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { SITE, PRODUCTS, Product } from './config/site';
+import { SITE, BRAND, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
 import { OrderItem } from './lib/orderStore';
+import { useSEO } from './lib/seo';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { CartDrawer } from './components/CartDrawer';
@@ -155,6 +156,105 @@ export default function App() {
 
   const [adminPortalOpen, setAdminPortalOpen] = useState(false);
   const comparedProducts = PRODUCTS.filter(p => comparedIds.includes(p.id));
+
+  // Per-route SEO: title/meta/canonical/JSON-LD for this hash-routed SPA.
+  const activeCategoryObj = CATEGORIES.find(c => c.slug === selectedCategory);
+  const activeSubcatObj = activeCategoryObj?.subcategories.find(s => s.slug === selectedSubcategory);
+
+  const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[] }> = {
+    home: {
+      title: 'Electric Bikes & Commercial Electric Vehicles Australia',
+      description: BRAND.description.slice(0, 155),
+      path: '',
+      jsonLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: FAQ.map(f => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer }
+        }))
+      }]
+    },
+    shop: {
+      title: activeSubcatObj?.name || activeCategoryObj?.name || 'Shop Electric Bikes & Vehicles',
+      description: activeSubcatObj?.description || activeCategoryObj?.description || 'Browse ALLIED electric city bikes, folding e-bikes, mountain e-bikes, cargo vehicles and lithium forklifts.',
+      path: selectedCategory ? `shop/${selectedCategory}${selectedSubcategory ? `/${selectedSubcategory}` : ''}` : 'shop',
+      jsonLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
+          { '@type': 'ListItem', position: 2, name: 'Shop', item: `https://${SITE.domain}/#shop` },
+          ...(activeCategoryObj ? [{ '@type': 'ListItem', position: 3, name: activeCategoryObj.name, item: `https://${SITE.domain}/#shop/${activeCategoryObj.slug}` }] : [])
+        ]
+      }]
+    },
+    blog: {
+      title: 'E-Bike & Electric Transport Blog',
+      description: 'In-depth technical guides, lithium battery maintenance tips, and Australian electric bike comparisons from ALLIED.',
+      path: 'blog'
+    },
+    about: {
+      title: 'About ALLIED ELECTRIC VEHICLES',
+      description: 'ALLIED FORKLIFTS PTY LTD (ABN 66 060 256 377) — 25+ years supplying electric bikes, lithium forklifts and commercial EVs across Australia from Perth, WA.',
+      path: 'about',
+      jsonLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        about: { '@id': `https://${SITE.domain}/#organization` }
+      }]
+    },
+    contact: {
+      title: 'Contact ALLIED ELECTRIC VEHICLES — Perth HQ',
+      description: 'Contact ALLIED Electric Vehicles Perth headquarters for technical specifications, spare parts, or mobile service bookings.',
+      path: 'contact'
+    },
+    faq: {
+      title: 'Frequently Asked Questions',
+      description: 'Charging, lithium battery life, warranty terms and freight delivery answers for ALLIED electric bikes and vehicles.',
+      path: 'faq',
+      jsonLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: FAQ.map(f => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer }
+        }))
+      }]
+    },
+    compare: {
+      title: 'Compare Electric Bikes & Vehicles',
+      description: 'Compare specifications, range, battery capacity and pricing across ALLIED electric bikes and vehicles side by side.',
+      path: 'compare'
+    }
+  };
+
+  const productSeo = quickViewProduct ? {
+    title: quickViewProduct.name,
+    description: quickViewProduct.shortDescription.slice(0, 155),
+    path: `product/${quickViewProduct.slug}`,
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: quickViewProduct.name,
+      description: quickViewProduct.shortDescription,
+      image: quickViewProduct.images,
+      sku: quickViewProduct.id,
+      brand: { '@type': 'Brand', name: SITE.name },
+      offers: {
+        '@type': 'Offer',
+        url: `https://${SITE.domain}/#product/${quickViewProduct.slug}`,
+        priceCurrency: 'AUD',
+        price: quickViewProduct.price,
+        availability: 'https://schema.org/InStock',
+        seller: { '@id': `https://${SITE.domain}/#organization` }
+      }
+    }]
+  } : null;
+
+  useSEO(productSeo || seoByTab[activeTab] || seoByTab.home);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-slate-950">

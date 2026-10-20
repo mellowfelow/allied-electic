@@ -1,0 +1,4 @@
+# SPA fallback — this is a client-side routed app (hash routes + the /admin path
+# check in src/App.tsx). Without this, a direct hit on /admin or a deep link
+# 404s on static hosts since there's no matching file on disk.
+/*    /index.html   200

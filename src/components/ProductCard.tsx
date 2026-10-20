@@ -121,7 +121,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             <p className="text-[10px] text-slate-500 font-mono uppercase tracking-wider">STANDARD PRICE</p>
             <div className="flex items-baseline gap-1">
               <span className="text-base font-extrabold text-white font-mono">{money(product.price)}</span>
-              <span className="text-[10px] text-slate-400 font-mono">AUD</span>
             </div>
           </div>
 

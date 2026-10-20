@@ -1,5 +1,5 @@
 import React from 'react';
-import { SITE, CONTACT, BRAND } from '../config/site';
+import { SITE, CONTACT, BRAND, CATEGORIES } from '../config/site';
 import { BrandLogo } from './BrandLogo';
 import { Zap, ShieldCheck, Truck, Phone } from 'lucide-react';
 
@@ -74,62 +74,22 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
         <div className="space-y-3">
           <h4 className="font-semibold text-white text-sm uppercase tracking-wider font-mono">Electric Vehicles & Bikes</h4>
           <ul className="space-y-2 text-xs">
-            <li>
-              <a
-                href="#shop/electric-city-commuter-bikes"
-                onClick={(e) => {
-                  if (!e.ctrlKey && !e.metaKey && e.button === 0) {
-                    setActiveTab('shop');
-                    setSelectedCategory('electric-city-commuter-bikes');
-                  }
-                }}
-                className="hover:text-sky-400 transition-colors"
-              >
-                City & Commuter E-Bikes
-              </a>
-            </li>
-            <li>
-              <a
-                href="#shop/electric-folding-compact-bikes"
-                onClick={(e) => {
-                  if (!e.ctrlKey && !e.metaKey && e.button === 0) {
-                    setActiveTab('shop');
-                    setSelectedCategory('electric-folding-compact-bikes');
-                  }
-                }}
-                className="hover:text-sky-400 transition-colors"
-              >
-                Electric Folding Bikes
-              </a>
-            </li>
-            <li>
-              <a
-                href="#shop/electric-mountain-offroad-bikes"
-                onClick={(e) => {
-                  if (!e.ctrlKey && !e.metaKey && e.button === 0) {
-                    setActiveTab('shop');
-                    setSelectedCategory('electric-mountain-offroad-bikes');
-                  }
-                }}
-                className="hover:text-sky-400 transition-colors"
-              >
-                Electric Mountain Bikes
-              </a>
-            </li>
-            <li>
-              <a
-                href="#shop/commercial-cargo-heavy-utility"
-                onClick={(e) => {
-                  if (!e.ctrlKey && !e.metaKey && e.button === 0) {
-                    setActiveTab('shop');
-                    setSelectedCategory('commercial-cargo-heavy-utility');
-                  }
-                }}
-                className="hover:text-sky-400 transition-colors"
-              >
-                Cargo & Utility E-Vehicles
-              </a>
-            </li>
+            {CATEGORIES.map((cat) => (
+              <li key={cat.slug}>
+                <a
+                  href={`#shop/${cat.slug}`}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey && e.button === 0) {
+                      setActiveTab('shop');
+                      setSelectedCategory(cat.slug);
+                    }
+                  }}
+                  className="hover:text-sky-400 transition-colors"
+                >
+                  {cat.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 

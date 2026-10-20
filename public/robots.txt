@@ -1,10 +1,5 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /thank-you-contact/
-Disallow: /thank-you-order/
-Disallow: /thank-you-wholesale/
-Disallow: /order/payment-details
-Disallow: /order/confirm-payment
+Disallow: /admin
 Sitemap: https://alliedelectricvehicles.com.au/sitemap.xml
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no
@@ -16,13 +11,28 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Claude-Web
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: MistralAI-Index
 Allow: /
 
 User-agent: Applebot
@@ -41,6 +51,9 @@ User-agent: Google-Extended
 Allow: /
 
 User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-WebIndexer
 Allow: /
 
 User-agent: cohere-ai

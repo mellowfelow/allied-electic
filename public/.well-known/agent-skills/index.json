@@ -2,34 +2,34 @@
   "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
   "name": "ALLIED ELECTRIC VEHICLES",
   "url": "https://alliedelectricvehicles.com.au",
-  "description": "Australia's premier commercial & industrial electric vehicles, utility carts, forklifts & personnel shuttles. ABN 66 060 256 377.",
+  "description": "Australia's premier authorized reseller of electric bikes, electric scooters, self-balancing EVs and personal mobility vehicles. ABN 66 060 256 377.",
   "skills": [
     {
-      "name": "search-products",
-      "type": "commerce",
-      "description": "Search commercial EVs, forklifts and e-bikes by category, voltage or payload",
-      "url": "https://alliedelectricvehicles.com.au/api/mcp",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "name": "browse-catalog",
+      "name": "browse-products",
       "type": "navigation",
-      "description": "Browse full commercial vehicle and material handling catalogue",
-      "url": "https://alliedelectricvehicles.com.au/shop/",
+      "description": "Browse the electric bike and commercial vehicle catalogue by category",
+      "url": "https://alliedelectricvehicles.com.au/#shop",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "name": "order-draft",
+      "name": "order-via-whatsapp",
       "type": "commerce",
-      "description": "Create prefilled vehicle order draft. Human completes remittance.",
-      "url": "https://alliedelectricvehicles.com.au/api/mcp",
+      "description": "Place an order enquiry via WhatsApp. Minimum order $300 AUD. Accepts bank transfer, crypto, and commercial finance.",
+      "url": "https://wa.me/61892488555",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "name": "fleet-inquiry",
-      "type": "commerce",
-      "description": "Corporate mining tender and volume fleet inquiries",
-      "url": "https://alliedelectricvehicles.com.au/wholesale/",
+      "name": "product-education",
+      "type": "content",
+      "description": "Electric bike buying guides, battery care, and fleet economics articles",
+      "url": "https://alliedelectricvehicles.com.au/#blog",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Contact Perth HQ for product questions, orders, or technical support",
+      "url": "https://alliedelectricvehicles.com.au/#contact",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
   ]

@@ -4,17 +4,17 @@
     "version": "0.1.0"
   },
   "name": "ALLIED ELECTRIC VEHICLES",
-  "description": "Australia's premier commercial & industrial electric vehicles, utility carts & forklifts. ABN 66 060 256 377.",
+  "description": "Australia's premier authorized reseller of electric bikes, electric scooters, self-balancing EVs and personal mobility vehicles. ABN 66 060 256 377.",
   "api_base_url": "https://alliedelectricvehicles.com.au",
   "homepage": "https://alliedelectricvehicles.com.au",
   "transports": ["https"],
   "capabilities": {
-    "services": ["product-catalog", "wholesale", "faq", "mcp-server"],
+    "services": ["product-catalog", "blog", "faq"],
     "ordering": "human-assisted",
     "payment_methods": ["bank-transfer", "crypto-pay", "commercial-lease"],
     "currency": "AUD",
-    "minimum_order_usd": "200",
-    "free_shipping_threshold_usd": "0"
+    "minimum_order_aud": "300",
+    "free_shipping_threshold_aud": "0"
   },
   "contact": {
     "whatsapp": "https://wa.me/61892488555",
@@ -24,7 +24,7 @@
     "age_restriction": "none",
     "region": "Australia",
     "ships_to": "Australia",
-    "product_type": "commercial-electric-vehicles",
+    "product_type": "electric-bikes-and-commercial-electric-vehicles",
     "compliance": "ABN 66 060 256 377 GST Registered"
   }
 }

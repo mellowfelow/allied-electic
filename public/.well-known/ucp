@@ -5,49 +5,36 @@
   "schema": "https://ucp.dev/schema/v1.json",
   "site": "https://alliedelectricvehicles.com.au",
   "name": "ALLIED ELECTRIC VEHICLES",
-  "description": "Australia's premier commercial & industrial electric vehicles, utility carts & forklifts. ABN 66 060 256 377.",
+  "description": "Australia's premier authorized reseller of electric bikes, electric scooters, self-balancing EVs and personal mobility vehicles. ABN 66 060 256 377.",
   "services": [
     {
       "id": "product-catalog",
       "type": "catalog",
-      "url": "https://alliedelectricvehicles.com.au/shop/",
-      "description": "Full commercial electric vehicle catalog"
-    },
-    {
-      "id": "mcp-server",
-      "type": "mcp",
-      "url": "https://alliedelectricvehicles.com.au/api/mcp",
-      "description": "MCP Streamable HTTP server"
+      "url": "https://alliedelectricvehicles.com.au/#shop",
+      "description": "Electric bike and commercial vehicle catalogue"
     },
     {
       "id": "order",
       "type": "commerce",
       "url": "https://wa.me/61892488555",
-      "description": "Place orders via WhatsApp"
-    },
-    {
-      "id": "wholesale",
-      "type": "b2b",
-      "url": "https://alliedelectricvehicles.com.au/wholesale/",
-      "description": "Corporate & mining fleet quotes"
+      "description": "Place orders via WhatsApp (human-assisted, no live ordering API)"
     }
   ],
-  "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"],
+  "capabilities": ["browse", "inquiry", "content"],
   "endpoints": {
-    "mcp": "https://alliedelectricvehicles.com.au/api/mcp",
-    "catalog": "https://alliedelectricvehicles.com.au/shop/",
-    "contact": "https://alliedelectricvehicles.com.au/contact/",
+    "catalog": "https://alliedelectricvehicles.com.au/#shop",
+    "contact": "https://alliedelectricvehicles.com.au/#contact",
     "agent_skills": "https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json",
     "mcp_server_card": "https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json",
     "api_catalog": "https://alliedelectricvehicles.com.au/.well-known/api-catalog",
     "llms_txt": "https://alliedelectricvehicles.com.au/llms.txt"
   },
   "currency": "AUD",
-  "minimum_order_usd": "200",
+  "minimum_order_aud": "300",
   "payment_methods": ["bank-transfer", "crypto-pay", "commercial-lease"],
   "legal": {
     "age_restriction": "none",
-    "product_type": "commercial-electric-vehicles",
+    "product_type": "electric-bikes-and-commercial-electric-vehicles",
     "compliance": "ABN 66 060 256 377 GST Registered"
   }
 }

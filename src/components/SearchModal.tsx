@@ -59,9 +59,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           <input
             type="text"
             autoFocus
+            aria-label="Search products and articles"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search forklifts, utility trucks, lithium batteries, 4x4 quads..."
+            placeholder="Search e-bikes, cargo vehicles, lithium forklifts, batteries..."
             className="w-full bg-transparent text-white placeholder-slate-500 font-sans text-sm focus:outline-none"
           />
           {query && (
