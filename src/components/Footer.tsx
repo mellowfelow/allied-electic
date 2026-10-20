@@ -77,7 +77,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
             {CATEGORIES.map((cat) => (
               <li key={cat.slug}>
                 <a
-                  href={`#shop/${cat.slug}`}
+                  href={`/shop/${cat.slug}/`}
                   onClick={(e) => {
                     if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                       setActiveTab('shop');
@@ -99,7 +99,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
           <ul className="space-y-2 text-xs">
             <li>
               <a
-                href="#about"
+                href="/about/"
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setActiveTab('about');
@@ -112,7 +112,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
             </li>
             <li>
               <a
-                href="#contact"
+                href="/contact/"
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setActiveTab('contact');
@@ -125,7 +125,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
             </li>
             <li>
               <a
-                href="#faq"
+                href="/faq/"
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setActiveTab('faq');

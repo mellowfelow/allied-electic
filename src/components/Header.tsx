@@ -73,7 +73,7 @@ export const Header: React.FC<HeaderProps> = ({
           
           {/* Logo & Entity Branding */}
           <a
-            href="#home"
+            href="/"
             className="cursor-pointer"
             onClick={(e) => {
               if (!e.ctrlKey && !e.metaKey && e.button === 0) {
@@ -95,7 +95,7 @@ export const Header: React.FC<HeaderProps> = ({
               onMouseLeave={() => setMegaMenuOpen(false)}
             >
               <a
-                href="#shop"
+                href="/shop/"
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setActiveTab('shop');
@@ -121,7 +121,7 @@ export const Header: React.FC<HeaderProps> = ({
                     {CATEGORIES.map((cat) => (
                       <a
                         key={cat.slug}
-                        href={`#shop/${cat.slug}`}
+                        href={`/shop/${cat.slug}/`}
                         onMouseEnter={() => setActiveHoverCategory(cat.slug)}
                         onClick={(e) => {
                           if (!e.ctrlKey && !e.metaKey && e.button === 0) {
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
                         {activeCategoryObj.name}
                       </h4>
                       <a
-                        href={`#shop/${activeCategoryObj.slug}`}
+                        href={`/shop/${activeCategoryObj.slug}/`}
                         onClick={(e) => {
                           if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                             setActiveTab('shop');
@@ -170,7 +170,7 @@ export const Header: React.FC<HeaderProps> = ({
                       {activeCategoryObj.subcategories.map((subcat) => (
                         <a
                           key={subcat.slug}
-                          href={`#shop/${activeCategoryObj.slug}/${subcat.slug}`}
+                          href={`/shop/${activeCategoryObj.slug}/${subcat.slug}/`}
                           onClick={(e) => {
                             if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                               setActiveTab('shop');
@@ -194,7 +194,7 @@ export const Header: React.FC<HeaderProps> = ({
                   <div className="col-span-12 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400 font-mono">
                     <span>GST Inclusive AUD Pricing · Australia-wide Express Freight</span>
                     <a
-                      href="#shop"
+                      href="/shop/"
                       onClick={(e) => {
                         if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                           setActiveTab('shop');
@@ -214,7 +214,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* 2. Blog */}
             <a
-              href="#blog"
+              href="/blog/"
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setActiveTab('blog');
@@ -227,7 +227,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* 3. About */}
             <a
-              href="#about"
+              href="/about/"
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setActiveTab('about');
@@ -240,7 +240,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* 4. Contact */}
             <a
-              href="#contact"
+              href="/contact/"
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setActiveTab('contact');
@@ -253,7 +253,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* 5. Compare */}
             <a
-              href="#compare"
+              href="/compare/"
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setActiveTab('compare');

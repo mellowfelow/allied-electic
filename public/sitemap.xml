@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Note: this site is a client-side hash-routed SPA (no server-side routing).
-  Google does not index "#" fragment URLs as distinct pages, so only the root
-  URL below is a reliable indexing target today. The hash routes are listed
-  for other crawlers/agents that do resolve them, as a best-effort aid, but
-  real per-page indexing requires moving off hash routing to server-rendered
-  or prerendered routes — see the audit notes in docs/PROJECT.md.
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alliedelectricvehicles.com.au/</loc>
@@ -15,33 +7,147 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://alliedelectricvehicles.com.au/#shop</loc>
+    <loc>https://alliedelectricvehicles.com.au/shop/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://alliedelectricvehicles.com.au/#blog</loc>
+    <loc>https://alliedelectricvehicles.com.au/shop/electric-bikes/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/electric-scooters/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/electric-skateboards/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alliedelectricvehicles.com.au/#about</loc>
+    <loc>https://alliedelectricvehicles.com.au/shop/self-balancing-ev/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/kids-off-road-ev/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/mobility-scooters/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/electric-quad-bikes/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/electric-water-sports/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/batteries-parts-kits/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/shop/safety-security-carry/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/blog/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/about/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alliedelectricvehicles.com.au/#contact</loc>
+    <loc>https://alliedelectricvehicles.com.au/contact/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alliedelectricvehicles.com.au/#faq</loc>
+    <loc>https://alliedelectricvehicles.com.au/faq/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-byron-electric-city-bike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-noosa-step-through-electric-city-bike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-torquay-electric-folding-bike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-metro-commuter-ebike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-ripper-offroad-mtb-ebike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-apex-full-suspension-trail-ebike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-hauler-commercial-cargo-ebike/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-titan-1500-heavy-cargo-truck/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://alliedelectricvehicles.com.au/product/allied-36v-156ah-lg-lithium-battery-pack/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

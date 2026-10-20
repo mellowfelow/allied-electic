@@ -99,7 +99,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                     {matchedProducts.map((p) => (
                       <a
                         key={p.id}
-                        href={`#product/${p.slug}`}
+                        href={`/product/${p.slug}/`}
                         onClick={(e) => {
                           if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                             onSelectProduct(p);
@@ -132,7 +132,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                     {matchedCategories.map((c) => (
                       <a
                         key={c.slug}
-                        href={`#shop/${c.slug}`}
+                        href={`/shop/${c.slug}/`}
                         onClick={(e) => {
                           if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                             onSelectCategory(c.slug);

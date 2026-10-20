@@ -10,7 +10,7 @@
     {
       "id": "product-catalog",
       "type": "catalog",
-      "url": "https://alliedelectricvehicles.com.au/#shop",
+      "url": "https://alliedelectricvehicles.com.au/shop",
       "description": "Electric bike and commercial vehicle catalogue"
     },
     {
@@ -22,8 +22,8 @@
   ],
   "capabilities": ["browse", "inquiry", "content"],
   "endpoints": {
-    "catalog": "https://alliedelectricvehicles.com.au/#shop",
-    "contact": "https://alliedelectricvehicles.com.au/#contact",
+    "catalog": "https://alliedelectricvehicles.com.au/shop",
+    "contact": "https://alliedelectricvehicles.com.au/contact",
     "agent_skills": "https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json",
     "mcp_server_card": "https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json",
     "api_catalog": "https://alliedelectricvehicles.com.au/.well-known/api-catalog",

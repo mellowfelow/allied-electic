@@ -137,7 +137,7 @@ export const CATEGORIES: Category[] = [
     slug: 'electric-bikes',
     name: 'Electric Bikes',
     description: 'Urban commuter, cargo, mountain, folding and fat-tyre electric bikes for Australian conditions.',
-    image: 'https://picsum.photos/id/1071/800/600',
+    image: '/images/categories/category-electric-bikes.webp',
     subcategories: [
       { slug: 'urban-commuter-ebikes', name: 'Urban & Commuter E-Bikes', description: 'Everyday city commuter e-bikes for daily riding.' },
       { slug: 'cargo-family-ebikes', name: 'Cargo & Family E-Bikes', description: 'Heavy-duty cargo e-bikes for deliveries and family hauling.' },
@@ -153,7 +153,7 @@ export const CATEGORIES: Category[] = [
     slug: 'electric-scooters',
     name: 'Electric Scooters',
     description: 'Commuter and long-range performance electric scooters.',
-    image: 'https://picsum.photos/id/1082/800/600',
+    image: '/images/categories/category-electric-scooters.webp',
     subcategories: [
       { slug: 'commuter-electric-scooters', name: 'Commuter E-Scooters', description: 'Lightweight, portable scooters for daily commuting.' },
       { slug: 'long-range-electric-scooters', name: 'Long-Range & Performance E-Scooters', description: 'High-capacity battery and motor scooters for distance and speed.' }
@@ -163,7 +163,7 @@ export const CATEGORIES: Category[] = [
     slug: 'electric-skateboards',
     name: 'Electric Skateboards',
     description: 'Street, all-terrain, portable and self-balancing electric skateboards.',
-    image: 'https://picsum.photos/id/1084/800/600',
+    image: '/images/categories/category-electric-skateboards.webp',
     subcategories: [
       { slug: 'street-electric-skateboards', name: 'Street Electric Longboards', description: 'Smooth-surface longboards for street and campus riding.' },
       { slug: 'all-terrain-electric-skateboards', name: 'All-Terrain / Pneumatic Boards', description: 'Air-tyre boards built for rough surfaces and trails.' },
@@ -175,7 +175,7 @@ export const CATEGORIES: Category[] = [
     slug: 'self-balancing-ev',
     name: 'Self-Balancing EV',
     description: 'Electric unicycles, hoverboards and self-balancing accessories.',
-    image: 'https://picsum.photos/id/1080/800/600',
+    image: '/images/categories/category-self-balancing-ev.webp',
     subcategories: [
       { slug: 'electric-unicycles', name: 'Electric Unicycles (EUWs)', description: 'Single-wheel self-balancing electric unicycles.' },
       { slug: 'hoverboards', name: 'Hoverboards & Self-Balancing Boards', description: 'Two-wheel self-balancing boards for all ages.' },
@@ -186,7 +186,7 @@ export const CATEGORIES: Category[] = [
     slug: 'kids-off-road-ev',
     name: 'Kids & Off-Road EV',
     description: 'Electric balance bikes, youth dirt bikes and electric go-karts.',
-    image: 'https://picsum.photos/id/1074/800/600',
+    image: '/images/categories/category-kids-off-road-ev.webp',
     subcategories: [
       { slug: 'electric-balance-bikes', name: 'Electric Balance Bikes', description: 'Entry-level electric bikes for young riders.' },
       { slug: 'youth-electric-dirt-bikes', name: 'Youth Electric Dirt & Pit Bikes', description: 'Off-road electric dirt bikes sized for younger riders.' },
@@ -197,7 +197,7 @@ export const CATEGORIES: Category[] = [
     slug: 'mobility-scooters',
     name: 'Mobility & Assisted Living',
     description: 'Travel, folding and heavy-duty mobility scooters for assisted living.',
-    image: 'https://picsum.photos/id/1083/800/600',
+    image: '/images/categories/category-mobility-scooters.webp',
     subcategories: [
       { slug: 'travel-mobility-scooters', name: 'Travel & Folding Mobility Scooters', description: 'Lightweight, foldable mobility scooters for travel.' },
       { slug: 'heavy-duty-mobility-scooters', name: 'Heavy-Duty All-Terrain Mobility Scooters', description: 'Robust all-terrain mobility scooters for daily use.' }
@@ -207,7 +207,7 @@ export const CATEGORIES: Category[] = [
     slug: 'electric-quad-bikes',
     name: 'Electric Quad Bikes & ATVs',
     description: 'Kids, adult and farm/utility electric quad bikes.',
-    image: 'https://picsum.photos/id/1075/800/600',
+    image: '/images/categories/category-electric-quad-bikes.webp',
     subcategories: [
       { slug: 'kids-electric-quads', name: 'Kids Electric Quad Bikes', description: 'Electric quad bikes sized for younger riders.' },
       { slug: 'adult-electric-quads', name: 'Adult Electric Quad Bikes & ATVs', description: 'Full-size electric ATVs for adult riders.' },
@@ -218,7 +218,7 @@ export const CATEGORIES: Category[] = [
     slug: 'electric-water-sports',
     name: 'Electric Water Sports',
     description: 'Electric surfboards, jetboards and personal watercraft.',
-    image: 'https://picsum.photos/id/1080/800/600',
+    image: '/images/categories/category-electric-water-sports.webp',
     subcategories: [
       { slug: 'electric-surfboards', name: 'Electric Surfboards & Hydrofoils', description: 'Motorised surfboards and hydrofoil boards.' },
       { slug: 'electric-jetboards', name: 'Electric Jetboards', description: 'Stand-up electric jetboards.' },
@@ -229,7 +229,7 @@ export const CATEGORIES: Category[] = [
     slug: 'batteries-parts-kits',
     name: 'Batteries, Parts & Kits',
     description: 'Replacement batteries, chargers, tyres, brakes and conversion kits for every category above.',
-    image: 'https://picsum.photos/id/1078/800/600',
+    image: '/images/categories/category-batteries-parts-kits.webp',
     subcategories: [
       { slug: 'ebike-batteries', name: 'E-Bike Batteries', description: 'Replacement lithium battery packs for electric bikes.' },
       { slug: 'ebike-chargers', name: 'E-Bike Chargers', description: 'Smart chargers for e-bike battery packs.' },
@@ -247,7 +247,7 @@ export const CATEGORIES: Category[] = [
     slug: 'safety-security-carry',
     name: 'Safety, Locks & Carry',
     description: 'Helmets, lights, locks, racks and carry accessories for every category above.',
-    image: 'https://picsum.photos/id/1076/800/600',
+    image: '/images/categories/category-safety-security-carry.webp',
     subcategories: [
       { slug: 'helmets', name: 'Helmets', description: 'Safety helmets for riders of all ages.' },
       { slug: 'lights-visibility', name: 'Lights & Visibility', description: 'Front and rear lights for visibility and safety.' },

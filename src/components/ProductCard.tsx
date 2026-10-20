@@ -58,7 +58,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
         {/* Quick View Overlay Button */}
         <a
-          href={`#product/${product.slug}`}
+          href={`/product/${product.slug}/`}
           onClick={(e) => {
             if (!e.ctrlKey && !e.metaKey && e.button === 0) {
               e.preventDefault();
@@ -77,7 +77,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <div className="space-y-2">
           
           <a
-            href={`#product/${product.slug}`}
+            href={`/product/${product.slug}/`}
             onClick={(e) => {
               if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                 e.preventDefault();

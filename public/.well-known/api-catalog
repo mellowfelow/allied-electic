@@ -3,17 +3,17 @@
     {
       "anchor": "https://alliedelectricvehicles.com.au/",
       "https://www.iana.org/assignments/link-relations/service-doc": [
-        { "href": "https://alliedelectricvehicles.com.au/#faq" }
+        { "href": "https://alliedelectricvehicles.com.au/faq" }
       ],
       "title": "ALLIED ELECTRIC VEHICLES — Electric Bikes & Commercial EVs Australia"
     },
     {
-      "anchor": "https://alliedelectricvehicles.com.au/#shop",
+      "anchor": "https://alliedelectricvehicles.com.au/shop",
       "type": "text/html",
       "title": "ALLIED Electric Bike & Vehicle Catalogue"
     },
     {
-      "anchor": "https://alliedelectricvehicles.com.au/#blog",
+      "anchor": "https://alliedelectricvehicles.com.au/blog",
       "type": "text/html",
       "title": "ALLIED Electric Vehicles Blog"
     }

@@ -11,8 +11,8 @@
         },
         execute: async ({ category }) => {
           const url = category
-            ? `https://alliedelectricvehicles.com.au/#shop/${category}`
-            : `https://alliedelectricvehicles.com.au/#shop`;
+            ? `https://alliedelectricvehicles.com.au/shop/${category}`
+            : `https://alliedelectricvehicles.com.au/shop`;
           window.location.href = url;
           return { url };
         }
@@ -39,8 +39,8 @@
           properties: {}
         },
         execute: async () => {
-          window.location.href = `https://alliedelectricvehicles.com.au/#blog`;
-          return { url: `https://alliedelectricvehicles.com.au/#blog` };
+          window.location.href = `https://alliedelectricvehicles.com.au/blog`;
+          return { url: `https://alliedelectricvehicles.com.au/blog` };
         }
       }
     ]

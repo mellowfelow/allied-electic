@@ -76,7 +76,7 @@ export const BlogView: React.FC = () => {
           {POSTS.map((post) => (
             <a
               key={post.slug}
-              href={`#blog/${post.slug}`}
+              href={`/blog/${post.slug}/`}
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   e.preventDefault();

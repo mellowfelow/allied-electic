@@ -56,7 +56,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
         {/* Breadcrumb Trail */}
         <div className="flex items-center gap-2 font-mono text-xs text-slate-400">
           <a
-            href="#shop"
+            href="/shop/"
             onClick={(e) => {
               if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                 setSelectedCategory(null);
@@ -70,7 +70,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
             <>
               <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
               <a
-                href={`#shop/${currentCategoryObj.slug}`}
+                href={`/shop/${currentCategoryObj.slug}/`}
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setSelectedCategory(currentCategoryObj.slug, null);
@@ -113,7 +113,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-mono text-slate-500 mr-2">Category:</span>
           <a
-            href="#shop"
+            href="/shop/"
             onClick={(e) => {
               if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                 setSelectedCategory(null);
@@ -131,7 +131,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
           {CATEGORIES.map(c => (
             <a
               key={c.slug}
-              href={`#shop/${c.slug}`}
+              href={`/shop/${c.slug}/`}
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setSelectedCategory(c.slug);
@@ -154,7 +154,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
           <div className="flex flex-wrap items-center gap-2 pt-3 border-t border-slate-800/80">
             <span className="text-xs font-mono text-slate-500 mr-2">Subcategory:</span>
             <a
-              href={`#shop/${currentCategoryObj.slug}`}
+              href={`/shop/${currentCategoryObj.slug}/`}
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   setActiveSubcat(null);
@@ -171,7 +171,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
             {currentCategoryObj.subcategories.map(s => (
               <a
                 key={s.slug}
-                href={`#shop/${currentCategoryObj.slug}/${s.slug}`}
+                href={`/shop/${currentCategoryObj.slug}/${s.slug}/`}
                 onClick={(e) => {
                   if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                     setActiveSubcat(s.slug);

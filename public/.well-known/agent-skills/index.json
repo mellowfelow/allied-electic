@@ -8,7 +8,7 @@
       "name": "browse-products",
       "type": "navigation",
       "description": "Browse the electric bike and commercial vehicle catalogue by category",
-      "url": "https://alliedelectricvehicles.com.au/#shop",
+      "url": "https://alliedelectricvehicles.com.au/shop",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
@@ -22,14 +22,14 @@
       "name": "product-education",
       "type": "content",
       "description": "Electric bike buying guides, battery care, and fleet economics articles",
-      "url": "https://alliedelectricvehicles.com.au/#blog",
+      "url": "https://alliedelectricvehicles.com.au/blog",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "name": "contact",
       "type": "support",
       "description": "Contact Perth HQ for product questions, orders, or technical support",
-      "url": "https://alliedelectricvehicles.com.au/#contact",
+      "url": "https://alliedelectricvehicles.com.au/contact",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
   ]

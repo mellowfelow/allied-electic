@@ -19,12 +19,12 @@
       {
         "name": "product-catalog",
         "description": "Electric bike and commercial vehicle catalogue",
-        "uri": "https://alliedelectricvehicles.com.au/#shop"
+        "uri": "https://alliedelectricvehicles.com.au/shop"
       },
       {
         "name": "blog",
         "description": "Educational content",
-        "uri": "https://alliedelectricvehicles.com.au/#blog"
+        "uri": "https://alliedelectricvehicles.com.au/blog"
       }
     ],
     "commerce": {

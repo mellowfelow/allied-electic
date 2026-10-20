@@ -20,11 +20,11 @@ function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
 
 /**
  * Updates document.title, meta description/OG/Twitter tags, the canonical link,
- * and a per-route JSON-LD block for this client-side-routed (hash) SPA.
- *
- * Note: Google does not index hash-fragment URLs as distinct pages, so the
- * canonical below is the best-effort honest representation of the route, not
- * a claim that each "page" is separately indexable. See audit notes.
+ * and a per-route JSON-LD block for this client-side-routed SPA. Routes use real
+ * paths (History API pushState in App.tsx, not "#" fragments), and the host's
+ * rewrite config (vercel.json / public/_redirects) serves index.html for any
+ * unmatched path, so each canonical URL below is a genuinely resolvable,
+ * deep-linkable, indexable page — not just an in-memory tab switch.
  */
 export function useSEO({ title, description, path, jsonLd }: SEOInput) {
   useEffect(() => {
@@ -35,7 +35,7 @@ export function useSEO({ title, description, path, jsonLd }: SEOInput) {
     upsertMeta('property', 'og:title', fullTitle);
     upsertMeta('property', 'og:description', description);
 
-    const canonicalUrl = `https://${SITE.domain}/${path ? `#${path}` : ''}`;
+    const canonicalUrl = `https://${SITE.domain}/${path ? `${path}/` : ''}`;
     upsertMeta('property', 'og:url', canonicalUrl);
     let canonicalLink = document.getElementById('canonical-link') as HTMLLinkElement | null;
     if (canonicalLink) canonicalLink.href = canonicalUrl;

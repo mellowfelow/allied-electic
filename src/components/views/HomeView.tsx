@@ -42,25 +42,25 @@ export const HomeView: React.FC<HomeViewProps> = ({
       title: "ALLIED Electric Bikes & Commercial Vehicles",
       subtitle: "High-performance electric city bikes, folding e-bikes, step-through commuters, and heavy utility e-vehicles built for Australian conditions.",
       cta: "Explore Catalogue",
-      bg: "https://picsum.photos/id/1071/1600/900"
+      bg: "/images/hero/hero-electric-bikes-vehicles-lineup.webp"
     },
     {
       title: "ALLIED Byron & Noosa Electric City Bikes",
       subtitle: "27.5\" puncture-resistant tyres, 350W high-torque motor, 36V 15.6Ah LG lithium battery, and Shimano 7-speed gearing.",
       cta: "View City E-Bikes",
-      bg: "https://picsum.photos/id/1072/1600/900"
+      bg: "/images/hero/hero-byron-noosa-city-ebikes.webp"
     },
     {
       title: "ALLIED Torquay Electric Folding Bikes",
       subtitle: "Compact 3-step folding mechanism with 70km range. Folds down in under 15 seconds to fit into car boots or motorhomes.",
       cta: "View Folding Bikes",
-      bg: "https://picsum.photos/id/1076/1600/900"
+      bg: "/images/hero/hero-torquay-folding-ebike.webp"
     },
     {
       title: "ALLIED Ripper Off-Road Mountain E-Bikes",
       subtitle: "29\" trail tyres, 48V 500W Bafang motor, 48V 17.5Ah LG battery, and air suspension fork for off-road trails.",
       cta: "View Off-Road MTB",
-      bg: "https://picsum.photos/id/1073/1600/900"
+      bg: "/images/hero/hero-ripper-offroad-mtb-ebike.webp"
     }
   ];
 
@@ -183,7 +183,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           {CATEGORIES.map((cat) => (
             <a
               key={cat.slug}
-              href={`#shop/${cat.slug}`}
+              href={`/shop/${cat.slug}/`}
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   onNavigateCategory(cat.slug);

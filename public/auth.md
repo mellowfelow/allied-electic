@@ -8,11 +8,11 @@ No authentication required. All product specifications, technical sheets, pricin
 ## Public Resources
 | Resource | URL |
 |---|---|
-| Product Catalog | https://alliedelectricvehicles.com.au/#shop |
-| About Allied | https://alliedelectricvehicles.com.au/#about |
-| Blog | https://alliedelectricvehicles.com.au/#blog |
-| FAQ | https://alliedelectricvehicles.com.au/#faq |
-| Contact | https://alliedelectricvehicles.com.au/#contact |
+| Product Catalog | https://alliedelectricvehicles.com.au/shop |
+| About Allied | https://alliedelectricvehicles.com.au/about |
+| Blog | https://alliedelectricvehicles.com.au/blog |
+| FAQ | https://alliedelectricvehicles.com.au/faq |
+| Contact | https://alliedelectricvehicles.com.au/contact |
 
 ## Authentication
 

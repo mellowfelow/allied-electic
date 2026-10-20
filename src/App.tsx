@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { SITE, BRAND, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
@@ -47,61 +47,97 @@ export default function App() {
   const [compareModalOpen, setCompareModalOpen] = useState(false);
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
 
-  // Synchronize hash location with state to allow opening any tab/page/category/product/admin in a new tab
-  useEffect(() => {
-    const handleHashChange = () => {
-      if (window.location.pathname.startsWith('/admin')) {
-        setAdminPortalOpen(true);
-        return;
-      }
+  // Real (flat) URL routing via the History API — no "#" fragments. Vercel's
+  // vercel.json and Cloudflare's public/_redirects both rewrite unmatched paths
+  // to /index.html, so a direct hit or deep link to e.g. /shop/electric-bikes/
+  // resolves server-side before this client router ever runs. `vite dev` does
+  // the same for local dev automatically.
+  const applyPath = (pathname: string) => {
+    if (pathname.startsWith('/admin')) {
+      setAdminPortalOpen(true);
+      return;
+    }
+    setAdminPortalOpen(false);
 
-      const rawHash = window.location.hash.replace(/^#\/?/, '');
-      if (!rawHash) return;
+    const parts = pathname.replace(/^\/|\/$/g, '').split('/').filter(Boolean);
+    const route = parts[0];
 
-      const parts = rawHash.split('/');
-      const route = parts[0];
-
-      if (route === 'admin') {
-        setAdminPortalOpen(true);
-        return;
-      }
-
-      if (route === 'home') {
-        setActiveTab('home');
-        setSelectedCategory(null);
-        setSelectedSubcategory(null);
-        setSelectedSubSubcategory(null);
-      } else if (route === 'shop' || route === 'category' || route === 'subcategory') {
-        setActiveTab('shop');
-        setSelectedCategory(parts[1] ? decodeURIComponent(parts[1]) : null);
-        setSelectedSubcategory(parts[2] ? decodeURIComponent(parts[2]) : null);
-        setSelectedSubSubcategory(parts[3] ? decodeURIComponent(parts[3]) : null);
-      } else if (route === 'product') {
-        const slug = parts[1] ? decodeURIComponent(parts[1]) : null;
-        if (slug) {
-          const matched = PRODUCTS.find(p => p.slug === slug || p.id === slug);
-          if (matched) {
-            setQuickViewProduct(matched);
-            setActiveTab('shop');
-          }
+    if (!route) {
+      setActiveTab('home');
+      setSelectedCategory(null);
+      setSelectedSubcategory(null);
+      setSelectedSubSubcategory(null);
+    } else if (route === 'shop') {
+      setActiveTab('shop');
+      setSelectedCategory(parts[1] ? decodeURIComponent(parts[1]) : null);
+      setSelectedSubcategory(parts[2] ? decodeURIComponent(parts[2]) : null);
+      setSelectedSubSubcategory(parts[3] ? decodeURIComponent(parts[3]) : null);
+      setQuickViewProduct(null);
+    } else if (route === 'product') {
+      const slug = parts[1] ? decodeURIComponent(parts[1]) : null;
+      if (slug) {
+        const matched = PRODUCTS.find(p => p.slug === slug || p.id === slug);
+        if (matched) {
+          setQuickViewProduct(matched);
+          setActiveTab('shop');
         }
-      } else if (route === 'blog') {
-        setActiveTab('blog');
-      } else if (route === 'about') {
-        setActiveTab('about');
-      } else if (route === 'contact') {
-        setActiveTab('contact');
-      } else if (route === 'faq') {
-        setActiveTab('faq');
-      } else if (route === 'compare') {
-        setActiveTab('compare');
       }
-    };
+    } else if (route === 'blog') {
+      setActiveTab('blog');
+      setQuickViewProduct(null);
+    } else if (route === 'about') {
+      setActiveTab('about');
+      setQuickViewProduct(null);
+    } else if (route === 'contact') {
+      setActiveTab('contact');
+      setQuickViewProduct(null);
+    } else if (route === 'faq') {
+      setActiveTab('faq');
+      setQuickViewProduct(null);
+    } else if (route === 'compare') {
+      setActiveTab('compare');
+      setQuickViewProduct(null);
+    }
+  };
 
-    handleHashChange();
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+  // Guards the URL->state effect below from immediately overwriting the URL
+  // again with stale default state before this state update has committed —
+  // without this, a direct deep link (e.g. /shop/electric-bikes/) gets its
+  // URL clobbered back to "/" on first render, before applyPath's setState
+  // calls take effect.
+  const isSyncingFromUrl = useRef(true);
+
+  useEffect(() => {
+    const applyFromLocation = () => {
+      isSyncingFromUrl.current = true;
+      applyPath(window.location.pathname);
+    };
+    applyFromLocation();
+    window.addEventListener('popstate', applyFromLocation);
+    return () => window.removeEventListener('popstate', applyFromLocation);
   }, []);
+
+  // Keep the URL in sync with UI state (so every view is a real, shareable,
+  // bookmarkable, server-resolvable path — not just an in-memory tab switch).
+  useEffect(() => {
+    if (isSyncingFromUrl.current) {
+      isSyncingFromUrl.current = false;
+      return;
+    }
+    let path = '/';
+    if (quickViewProduct) {
+      path = `/product/${quickViewProduct.slug}/`;
+    } else if (activeTab === 'shop') {
+      path = selectedCategory
+        ? `/shop/${selectedCategory}${selectedSubcategory ? `/${selectedSubcategory}` : ''}/`
+        : '/shop/';
+    } else if (activeTab !== 'home') {
+      path = `/${activeTab}/`;
+    }
+    if (window.location.pathname !== path) {
+      window.history.pushState(null, '', path);
+    }
+  }, [activeTab, selectedCategory, selectedSubcategory, quickViewProduct]);
 
   const handleSelectCategory = (cat: string | null, subcat?: string | null, subSubcat?: string | null) => {
     setSelectedCategory(cat);
@@ -185,8 +221,8 @@ export default function App() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
-          { '@type': 'ListItem', position: 2, name: 'Shop', item: `https://${SITE.domain}/#shop` },
-          ...(activeCategoryObj ? [{ '@type': 'ListItem', position: 3, name: activeCategoryObj.name, item: `https://${SITE.domain}/#shop/${activeCategoryObj.slug}` }] : [])
+          { '@type': 'ListItem', position: 2, name: 'Shop', item: `https://${SITE.domain}/shop/` },
+          ...(activeCategoryObj ? [{ '@type': 'ListItem', position: 3, name: activeCategoryObj.name, item: `https://${SITE.domain}/shop/${activeCategoryObj.slug}/` }] : [])
         ]
       }]
     },
@@ -245,7 +281,7 @@ export default function App() {
       brand: { '@type': 'Brand', name: SITE.name },
       offers: {
         '@type': 'Offer',
-        url: `https://${SITE.domain}/#product/${quickViewProduct.slug}`,
+        url: `https://${SITE.domain}/product/${quickViewProduct.slug}/`,
         priceCurrency: 'AUD',
         price: quickViewProduct.price,
         availability: 'https://schema.org/InStock',
