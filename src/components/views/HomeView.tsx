@@ -89,7 +89,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             className="w-full h-full object-cover scale-105 transition-all duration-1000"
             loading="eager"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/55 via-slate-950/30 to-slate-950/5" />
         </div>
 
         {/* Hero Banner Content */}
