@@ -62,7 +62,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             aria-label="Search products and articles"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search e-bikes, cargo vehicles, lithium forklifts, batteries..."
+            placeholder="Search e-bikes, scooters, skateboards, batteries, helmets..."
             className="w-full bg-transparent text-white placeholder-slate-500 font-sans text-sm focus:outline-none"
           />
           {query && (
@@ -70,7 +70,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
               <X className="w-4 h-4" />
             </button>
           )}
-          <button onClick={onClose} className="p-1 text-slate-400 hover:text-white">
+          <button onClick={onClose} aria-label="Close search" className="p-1 text-slate-400 hover:text-white">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -79,13 +79,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         <div className="p-4 max-h-[60vh] overflow-y-auto space-y-4">
           {!cleanQuery ? (
             <div className="p-4 text-center text-xs text-slate-500 font-mono">
-              Type keywords above e.g. "Lithium", "1500kg", "Forklift", "Shuttle", "E-Bike"
+              Type keywords above e.g. "Lithium", "Scooter", "Helmet", "Segway", "E-Bike"
             </div>
           ) : (
             <>
               {matchedProducts.length === 0 && matchedCategories.length === 0 && matchedPosts.length === 0 && (
                 <div className="p-8 text-center text-slate-400 text-xs font-mono">
-                  No matches found for "{query}". Try searching "Forklift", "Truck", or "Battery".
+                  No matches found for "{query}". Try searching "Scooter", "Helmet", or "Battery".
                 </div>
               )}
 

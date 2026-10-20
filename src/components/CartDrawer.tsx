@@ -113,6 +113,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
           </div>
           <button
             onClick={onClose}
+            aria-label="Close cart"
             className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
           >
             <X className="w-5 h-5" />
@@ -128,7 +129,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 <div className="text-center py-12 space-y-3">
                   <ShoppingBag className="w-12 h-12 text-slate-600 mx-auto" />
                   <p className="text-slate-400 text-sm font-medium">Your order cart is currently empty.</p>
-                  <p className="text-xs text-slate-500">Select commercial vehicles, forklifts, or e-bikes from the catalogue.</p>
+                  <p className="text-xs text-slate-500">Select electric bikes, scooters, or vehicles from the catalogue.</p>
                 </div>
               ) : (
                 <div className="space-y-4">
@@ -145,6 +146,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                           <button
                             type="button"
                             onClick={() => onUpdateQuantity(item.id, Math.max(1, item.quantity - 1))}
+                            aria-label={`Decrease quantity of ${item.name}`}
                             className="px-2 py-1 text-slate-400 hover:text-white text-xs font-bold"
                           >
                             -
@@ -153,6 +155,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                           <button
                             type="button"
                             onClick={() => onUpdateQuantity(item.id, item.quantity + 1)}
+                            aria-label={`Increase quantity of ${item.name}`}
                             className="px-2 py-1 text-slate-400 hover:text-white text-xs font-bold"
                           >
                             +
@@ -162,6 +165,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                         <button
                           type="button"
                           onClick={() => onRemoveItem(item.id)}
+                          aria-label={`Remove ${item.name} from cart`}
                           className="p-1.5 text-slate-500 hover:text-red-400 transition-colors"
                         >
                           <Trash2 className="w-4 h-4" />

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
 import { SITE, BRAND, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
@@ -6,11 +6,14 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { CartDrawer } from './components/CartDrawer';
 import { ChatHub } from './components/ChatHub';
-import { ProductDetailModal } from './components/ProductDetailModal';
-import { CompareModal } from './components/CompareModal';
-import { SearchModal } from './components/SearchModal';
 import { RecentlyPurchasedPopup } from './components/RecentlyPurchasedPopup';
-import { AdminReplyPortal } from './components/admin/AdminReplyPortal';
+
+// Lazily loaded: not needed for the initial paint of any route, so keeping
+// them out of the main bundle shrinks the parse/execute cost on first load.
+const ProductDetailModal = lazy(() => import('./components/ProductDetailModal').then(m => ({ default: m.ProductDetailModal })));
+const CompareModal = lazy(() => import('./components/CompareModal').then(m => ({ default: m.CompareModal })));
+const SearchModal = lazy(() => import('./components/SearchModal').then(m => ({ default: m.SearchModal })));
+const AdminReplyPortal = lazy(() => import('./components/admin/AdminReplyPortal').then(m => ({ default: m.AdminReplyPortal })));
 
 // Views
 import { HomeView } from './components/views/HomeView';
@@ -20,6 +23,7 @@ import { AboutView } from './components/views/AboutView';
 import { ContactView } from './components/views/ContactView';
 import { FaqView } from './components/views/FaqView';
 import { CompareView } from './components/views/CompareView';
+import { NotFoundView } from './components/views/NotFoundView';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('home');
@@ -75,12 +79,13 @@ export default function App() {
       setQuickViewProduct(null);
     } else if (route === 'product') {
       const slug = parts[1] ? decodeURIComponent(parts[1]) : null;
-      if (slug) {
-        const matched = PRODUCTS.find(p => p.slug === slug || p.id === slug);
-        if (matched) {
-          setQuickViewProduct(matched);
-          setActiveTab('shop');
-        }
+      const matched = slug ? PRODUCTS.find(p => p.slug === slug || p.id === slug) : undefined;
+      if (matched) {
+        setQuickViewProduct(matched);
+        setActiveTab('shop');
+      } else {
+        setQuickViewProduct(null);
+        setActiveTab('not-found');
       }
     } else if (route === 'blog') {
       setActiveTab('blog');
@@ -96,6 +101,9 @@ export default function App() {
       setQuickViewProduct(null);
     } else if (route === 'compare') {
       setActiveTab('compare');
+      setQuickViewProduct(null);
+    } else {
+      setActiveTab('not-found');
       setQuickViewProduct(null);
     }
   };
@@ -197,7 +205,7 @@ export default function App() {
   const activeCategoryObj = CATEGORIES.find(c => c.slug === selectedCategory);
   const activeSubcatObj = activeCategoryObj?.subcategories.find(s => s.slug === selectedSubcategory);
 
-  const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[] }> = {
+  const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[]; image?: string; noindex?: boolean }> = {
     home: {
       title: 'Electric Bikes & Commercial Electric Vehicles Australia',
       description: BRAND.description.slice(0, 155),
@@ -214,8 +222,9 @@ export default function App() {
     },
     shop: {
       title: activeSubcatObj?.name || activeCategoryObj?.name || 'Shop Electric Bikes & Vehicles',
-      description: activeSubcatObj?.description || activeCategoryObj?.description || 'Browse ALLIED electric city bikes, folding e-bikes, mountain e-bikes, cargo vehicles and lithium forklifts.',
+      description: activeSubcatObj?.description || activeCategoryObj?.description || 'Browse ALLIED\'s full electric bike, scooter, skateboard, self-balancing EV, mobility and off-road vehicle catalogue.',
       path: selectedCategory ? `shop/${selectedCategory}${selectedSubcategory ? `/${selectedSubcategory}` : ''}` : 'shop',
+      image: activeCategoryObj?.image,
       jsonLd: [{
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
@@ -233,7 +242,7 @@ export default function App() {
     },
     about: {
       title: 'About ALLIED ELECTRIC VEHICLES',
-      description: 'ALLIED FORKLIFTS PTY LTD (ABN 66 060 256 377) — 25+ years supplying electric bikes, lithium forklifts and commercial EVs across Australia from Perth, WA.',
+      description: 'ALLIED FORKLIFTS PTY LTD (ABN 66 060 256 377) — 25+ years supplying electric bikes, scooters, mobility and off-road EVs across Australia from Perth, WA.',
       path: 'about',
       jsonLd: [{
         '@context': 'https://schema.org',
@@ -264,6 +273,12 @@ export default function App() {
       title: 'Compare Electric Bikes & Vehicles',
       description: 'Compare specifications, range, battery capacity and pricing across ALLIED electric bikes and vehicles side by side.',
       path: 'compare'
+    },
+    'not-found': {
+      title: 'Page Not Found',
+      description: 'The page you requested could not be found.',
+      path: 'not-found',
+      noindex: true
     }
   };
 
@@ -271,6 +286,7 @@ export default function App() {
     title: quickViewProduct.name,
     description: quickViewProduct.shortDescription.slice(0, 155),
     path: `product/${quickViewProduct.slug}`,
+    image: quickViewProduct.images[0],
     jsonLd: [{
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -356,6 +372,17 @@ export default function App() {
           />
         )}
 
+        {activeTab === 'not-found' && (
+          <NotFoundView
+            onNavigateHome={() => setActiveTab('home')}
+            onNavigateShop={() => {
+              setSelectedCategory(null);
+              setSelectedSubcategory(null);
+              setActiveTab('shop');
+            }}
+          />
+        )}
+
       </main>
 
       {/* Floating Chat Hub */}
@@ -378,38 +405,47 @@ export default function App() {
         onOrderPlaced={() => {}}
       />
 
-      <ProductDetailModal
-        product={quickViewProduct}
-        onClose={() => setQuickViewProduct(null)}
-        onAddToCart={handleAddToCart}
-        onToggleCompare={handleToggleCompare}
-        isCompared={quickViewProduct ? comparedIds.includes(quickViewProduct.id) : false}
-      />
+      <Suspense fallback={null}>
+        {quickViewProduct && (
+          <ProductDetailModal
+            product={quickViewProduct}
+            onClose={() => setQuickViewProduct(null)}
+            onAddToCart={handleAddToCart}
+            onToggleCompare={handleToggleCompare}
+            isCompared={quickViewProduct ? comparedIds.includes(quickViewProduct.id) : false}
+          />
+        )}
 
-      <CompareModal
-        isOpen={compareModalOpen}
-        onClose={() => setCompareModalOpen(false)}
-        products={comparedProducts}
-        onRemoveCompare={(id) => setComparedIds(prev => prev.filter(pId => pId !== id))}
-        onAddCompare={(p) => handleToggleCompare(p)}
-        onAddToCart={handleAddToCart}
-      />
+        {compareModalOpen && (
+          <CompareModal
+            isOpen={compareModalOpen}
+            onClose={() => setCompareModalOpen(false)}
+            products={comparedProducts}
+            onRemoveCompare={(id) => setComparedIds(prev => prev.filter(pId => pId !== id))}
+            onAddCompare={(p) => handleToggleCompare(p)}
+            onAddToCart={handleAddToCart}
+          />
+        )}
 
-      <SearchModal
-        isOpen={searchModalOpen}
-        onClose={() => setSearchModalOpen(false)}
-        onSelectProduct={(p) => setQuickViewProduct(p)}
-        onSelectCategory={(cat) => {
-          handleSelectCategory(cat);
-          setActiveTab('shop');
-        }}
-      />
+        {searchModalOpen && (
+          <SearchModal
+            isOpen={searchModalOpen}
+            onClose={() => setSearchModalOpen(false)}
+            onSelectProduct={(p) => setQuickViewProduct(p)}
+            onSelectCategory={(cat) => {
+              handleSelectCategory(cat);
+              setActiveTab('shop');
+            }}
+          />
+        )}
+
+        {adminPortalOpen && (
+          <AdminReplyPortal isOpen={adminPortalOpen} onClose={() => setAdminPortalOpen(false)} />
+        )}
+      </Suspense>
 
       {/* Recently Purchased Popup (Every 40.5s) */}
       <RecentlyPurchasedPopup onQuickView={(p) => setQuickViewProduct(p)} />
-
-      {/* Admin Reply Portal Modal */}
-      <AdminReplyPortal isOpen={adminPortalOpen} onClose={() => setAdminPortalOpen(false)} />
 
     </div>
   );

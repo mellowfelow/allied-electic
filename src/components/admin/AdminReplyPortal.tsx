@@ -189,6 +189,7 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
             <button
               type="button"
               onClick={onClose}
+              aria-label="Close admin portal"
               className="p-2 text-slate-400 hover:text-white bg-slate-900 rounded-xl border border-slate-800"
             >
               <X className="w-5 h-5" />

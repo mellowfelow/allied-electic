@@ -47,7 +47,7 @@ export const AboutView: React.FC = () => {
 
         <div className="space-y-3 text-xs sm:text-sm text-slate-300 leading-relaxed pt-2">
           <p>
-            For over 25 years, ALLIED FORKLIFTS PTY LTD has stood as a cornerstone of Western Australia's equipment supply and fleet logistics industry. Operating from our Perth headquarters in Malaga, our specialized division, <strong>ALLIED ELECTRIC VEHICLES</strong>, acts as an <strong>authorized reseller, fleet supplier, and service provider</strong> for premier electric bike brands, lithium forklifts, and zero-emission commercial utility vehicles.
+            For over 25 years, ALLIED FORKLIFTS PTY LTD has stood as a cornerstone of Western Australia's equipment supply and fleet logistics industry. Operating from our Perth headquarters in Malaga, our specialized division, <strong>ALLIED ELECTRIC VEHICLES</strong>, acts as an <strong>authorized reseller, fleet supplier, and service provider</strong> for premier electric bike, scooter, skateboard, self-balancing EV, and mobility vehicle brands across Australia.
           </p>
           <p>
             We do not manufacture electric bikes; instead, we partner with established, top-tier global manufacturers to curate, inspect, stock, and distribute genuine electric bikes and commercial utility vehicles. Every vehicle and battery pack undergoes rigorous pre-delivery inspection, safety testing, and assembly check at our Malaga WA workshop before dispatch, backed by complete local Australian warranty support and direct spare parts availability.

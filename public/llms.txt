@@ -12,22 +12,23 @@ ALLIED ELECTRIC VEHICLES (a division of ALLIED FORKLIFTS PTY LTD, ABN 66 060 256
 - WhatsApp: https://wa.me/61892488555
 
 ## Product Categories
-- [Electric Bikes](https://alliedelectricvehicles.com.au/shop/electric-bikes): Urban commuter, cargo, mountain, folding and fat-tyre electric bikes.
-- [Electric Scooters](https://alliedelectricvehicles.com.au/shop/electric-scooters): Commuter and long-range performance electric scooters.
-- [Electric Skateboards](https://alliedelectricvehicles.com.au/shop/electric-skateboards): Street, all-terrain, portable and Onewheel-style electric skateboards.
-- [Self-Balancing EV](https://alliedelectricvehicles.com.au/shop/self-balancing-ev): Electric unicycles and hoverboards.
-- [Kids & Off-Road EV](https://alliedelectricvehicles.com.au/shop/kids-off-road-ev): Electric balance bikes, youth dirt bikes and electric go-karts.
-- [Mobility & Assisted Living](https://alliedelectricvehicles.com.au/shop/mobility-scooters): Travel and heavy-duty mobility scooters.
-- [Electric Quad Bikes & ATVs](https://alliedelectricvehicles.com.au/shop/electric-quad-bikes): Kids, adult and farm/utility electric quad bikes.
-- [Electric Water Sports](https://alliedelectricvehicles.com.au/shop/electric-water-sports): Electric surfboards, jetboards and personal watercraft.
-- [Batteries, Parts & Kits](https://alliedelectricvehicles.com.au/shop/batteries-parts-kits): Replacement batteries, chargers, tyres and conversion kits.
-- [Safety, Locks & Carry](https://alliedelectricvehicles.com.au/shop/safety-security-carry): Helmets, locks, lights, racks and carry accessories.
+499 products across 10 categories and 48 subcategories, mirroring Australia's leading electric bike & EV retail taxonomy.
+- [Electric Bikes](https://alliedelectricvehicles.com.au/shop/electric-bikes/): Urban commuter, cargo, mountain, folding and fat-tyre electric bikes.
+- [Electric Scooters](https://alliedelectricvehicles.com.au/shop/electric-scooters/): Commuter and long-range performance electric scooters.
+- [Electric Skateboards](https://alliedelectricvehicles.com.au/shop/electric-skateboards/): Street, all-terrain, portable and Onewheel-style electric skateboards.
+- [Self-Balancing EV](https://alliedelectricvehicles.com.au/shop/self-balancing-ev/): Electric unicycles, hoverboards and self-balancing accessories.
+- [Kids & Off-Road EV](https://alliedelectricvehicles.com.au/shop/kids-off-road-ev/): Electric balance bikes, youth dirt bikes and electric go-karts.
+- [Mobility & Assisted Living](https://alliedelectricvehicles.com.au/shop/mobility-scooters/): Travel and heavy-duty mobility scooters.
+- [Electric Quad Bikes & ATVs](https://alliedelectricvehicles.com.au/shop/electric-quad-bikes/): Kids, adult and farm/utility electric quad bikes.
+- [Electric Water Sports](https://alliedelectricvehicles.com.au/shop/electric-water-sports/): Electric surfboards, jetboards and personal watercraft.
+- [Batteries, Parts & Kits](https://alliedelectricvehicles.com.au/shop/batteries-parts-kits/): Replacement batteries, chargers, tyres and conversion kits.
+- [Safety, Locks & Carry](https://alliedelectricvehicles.com.au/shop/safety-security-carry/): Helmets, locks, lights, racks and carry accessories.
 
 ## Other Pages
-- [Blog](https://alliedelectricvehicles.com.au/blog): E-bike buying guides, battery care, and fleet economics articles.
-- [FAQ](https://alliedelectricvehicles.com.au/faq): Street legality, range, warranty, minimum order and delivery answers.
-- [About](https://alliedelectricvehicles.com.au/about): Company history, ABN registration, and milestones.
-- [Contact](https://alliedelectricvehicles.com.au/contact): Perth HQ contact form, phone, and email.
+- [Blog](https://alliedelectricvehicles.com.au/blog/): E-bike buying guides, battery care, and fleet economics articles.
+- [FAQ](https://alliedelectricvehicles.com.au/faq/): Street legality, range, warranty, minimum order and delivery answers.
+- [About](https://alliedelectricvehicles.com.au/about/): Company history, ABN registration, and milestones.
+- [Contact](https://alliedelectricvehicles.com.au/contact/): Perth HQ contact form, phone, and email.
 
 ## Notes for Agents
 This is a static single-page site with no live product API or MCP server — product data is not fetchable at a JSON endpoint today. Ordering is human-assisted via the on-site form, WhatsApp, or email; agents should direct users to browse the pages above rather than assume a callable ordering API exists. See [Auth Documentation](https://alliedelectricvehicles.com.au/auth.md) for the agent-access policy.

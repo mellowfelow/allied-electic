@@ -164,7 +164,7 @@ export const ContactView: React.FC = () => {
                   required
                   value={message}
                   onChange={e => setMessage(e.target.value)}
-                  placeholder="Ask about forklift lithium specs, utility cart accessories, delivery times..."
+                  placeholder="Ask about product specs, battery compatibility, delivery times..."
                   className="w-full px-3 py-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
                 />
               </div>

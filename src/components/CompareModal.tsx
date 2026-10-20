@@ -50,7 +50,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
             <div>
               <h3 className="font-bold text-lg text-white">Side-by-Side Specification Comparator</h3>
               <p className="text-xs text-slate-400 font-mono">
-                Compare E-Bikes, Utility Vehicles, Forklifts, Batteries & Spare Parts
+                Compare E-Bikes, Scooters, Skateboards, Mobility Vehicles, Batteries & Spare Parts
               </p>
             </div>
           </div>
@@ -69,6 +69,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
 
             <button
               onClick={onClose}
+              aria-label="Close compare"
               className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
             >
               <X className="w-5 h-5" />
