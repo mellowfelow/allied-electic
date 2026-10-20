@@ -12343,6 +12343,1901 @@ export const PRODUCTS: Product[] = [
       '120V+ 12-18kWh Lithium-ion',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-bosch-powertube-500-vertical-battery',
+    slug: 'allied-bosch-powertube-500-vertical-battery',
+    name: 'Bosch PowerTube 500 Vertical Battery',
+    price: 1149,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Bosch PowerTube 500 Vertical Battery — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
+    description: 'The Bosch PowerTube 500 Vertical Battery is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/125/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 8 ST and 10 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-powertube-500-horizontal-battery-bbp3750',
+    slug: 'allied-bosch-powertube-500-horizontal-battery-bbp3750',
+    name: 'Bosch PowerTube 500 Horizontal Battery (BBP3750)',
+    price: 1299,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Bosch PowerTube 500 Horizontal Battery (BBP3750) — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
+    description: 'The Bosch PowerTube 500 Horizontal Battery (BBP3750) is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/182/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 8 ST and 10 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-powertube-625-horizontal-battery',
+    slug: 'allied-bosch-powertube-625-horizontal-battery',
+    name: 'Bosch PowerTube 625 Horizontal Battery',
+    price: 1399,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Bosch PowerTube 625 Horizontal Battery — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
+    description: 'The Bosch PowerTube 625 Horizontal Battery is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/495/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 8 ST and 10 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-steps-bt-e8035-integrated-down-tube-battery-504wh',
+    slug: 'allied-shimano-steps-bt-e8035-integrated-down-tube-battery-504wh',
+    name: 'Shimano STEPS BT-E8035 Integrated Down Tube Battery 504Wh',
+    price: 860,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Shimano STEPS BT-E8035 Integrated Down Tube Battery 504Wh — e-bike batteries. Merida eBig.Nine 400 and 2 more.',
+    description: 'The Shimano STEPS BT-E8035 Integrated Down Tube Battery 504Wh is a genuine ALLIED-stocked e-bike batteries component. Merida eBig.Nine 400 and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/722/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Merida eBig.Nine 400 and 2 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-steps-bt-e8010-down-tube-battery-504wh',
+    slug: 'allied-shimano-steps-bt-e8010-down-tube-battery-504wh',
+    name: 'Shimano STEPS BT-E8010 Down Tube Battery 504Wh',
+    price: 750,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Shimano STEPS BT-E8010 Down Tube Battery 504Wh — e-bike batteries. Merida eSpresso 300 SE and 2 more.',
+    description: 'The Shimano STEPS BT-E8010 Down Tube Battery 504Wh is a genuine ALLIED-stocked e-bike batteries component. Merida eSpresso 300 SE and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/599/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Merida eSpresso 300 SE and 2 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-specialized-u2-710-battery-turbo-tero-vado-and-como-gen-2',
+    slug: 'allied-specialized-u2-710-battery-turbo-tero-vado-and-como-gen-2',
+    name: 'Specialized U2-710 Battery (Turbo Tero, Vado and Como Gen 2)',
+    price: 1716,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Specialized U2-710 Battery (Turbo Tero, Vado and Como Gen 2) — e-bike batteries. Specialized Turbo Tero 3.0 and 3 more.',
+    description: 'The Specialized U2-710 Battery (Turbo Tero, Vado and Como Gen 2) is a genuine ALLIED-stocked e-bike batteries component. Specialized Turbo Tero 3.0 and 3 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/340/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Specialized genuine authorized stock, inspected prior to Australian dispatch',
+      'Specialized Turbo Tero 3.0 and 3 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-lectric-xpedition-2-0-spare-battery',
+    slug: 'allied-lectric-xpedition-2-0-spare-battery',
+    name: 'Lectric XPedition 2.0 Spare Battery',
+    price: 608,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Lectric XPedition 2.0 Spare Battery — e-bike batteries. Lectric XPedition Dual Battery.',
+    description: 'The Lectric XPedition 2.0 Spare Battery is a genuine ALLIED-stocked e-bike batteries component. Lectric XPedition Dual Battery. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/776/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Lectric genuine authorized stock, inspected prior to Australian dispatch',
+      'Lectric XPedition Dual Battery',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-aventon-level-replacement-battery-48v-14ah',
+    slug: 'allied-aventon-level-replacement-battery-48v-14ah',
+    name: 'Aventon Level Replacement Battery 48V 14Ah',
+    price: 715,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Aventon Level Replacement Battery 48V 14Ah — e-bike batteries. Aventon Level 3 Step-Through and 1 more.',
+    description: 'The Aventon Level Replacement Battery 48V 14Ah is a genuine ALLIED-stocked e-bike batteries component. Aventon Level 3 Step-Through and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/494/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Aventon genuine authorized stock, inspected prior to Australian dispatch',
+      'Aventon Level 3 Step-Through and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-fiido-c11-and-c11-pro-replacement-battery',
+    slug: 'allied-fiido-c11-and-c11-pro-replacement-battery',
+    name: 'Fiido C11 and C11 Pro Replacement Battery',
+    price: 382,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Fiido C11 and C11 Pro Replacement Battery — e-bike batteries. Fiido C11 Step-Through and 1 more.',
+    description: 'The Fiido C11 and C11 Pro Replacement Battery is a genuine ALLIED-stocked e-bike batteries component. Fiido C11 Step-Through and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/921/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Fiido genuine authorized stock, inspected prior to Australian dispatch',
+      'Fiido C11 Step-Through and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-brompton-electric-replacement-battery-36v-8-55ah-original',
+    slug: 'allied-brompton-electric-replacement-battery-36v-8-55ah-original',
+    name: 'Brompton Electric Replacement Battery 36V 8.55Ah (Original)',
+    price: 1143,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Brompton Electric Replacement Battery 36V 8.55Ah (Original) — e-bike batteries. Brompton Electric C Line 6-Speed.',
+    description: 'The Brompton Electric Replacement Battery 36V 8.55Ah (Original) is a genuine ALLIED-stocked e-bike batteries component. Brompton Electric C Line 6-Speed. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/560/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Brompton genuine authorized stock, inspected prior to Australian dispatch',
+      'Brompton Electric C Line 6-Speed',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-eunorau-universal-48v-15ah-secondary-battery',
+    slug: 'allied-eunorau-universal-48v-15ah-secondary-battery',
+    name: 'Eunorau Universal 48V 15Ah Secondary Battery',
+    price: 699,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Eunorau Universal 48V 15Ah Secondary Battery — e-bike batteries. Eunorau G30 Max Cargo and 1 more.',
+    description: 'The Eunorau Universal 48V 15Ah Secondary Battery is a genuine ALLIED-stocked e-bike batteries component. Eunorau G30 Max Cargo and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/918/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Eunorau genuine authorized stock, inspected prior to Australian dispatch',
+      'Eunorau G30 Max Cargo and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-mokwheel-basalt-series-battery-48v-19-6ah',
+    slug: 'allied-mokwheel-basalt-series-battery-48v-19-6ah',
+    name: 'Mokwheel Basalt Series Battery 48V 19.6Ah',
+    price: 858,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Mokwheel Basalt Series Battery 48V 19.6Ah — e-bike batteries. Mokwheel Basalt Step-Thru and 1 more.',
+    description: 'The Mokwheel Basalt Series Battery 48V 19.6Ah is a genuine ALLIED-stocked e-bike batteries component. Mokwheel Basalt Step-Thru and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/963/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Mokwheel genuine authorized stock, inspected prior to Australian dispatch',
+      'Mokwheel Basalt Step-Thru and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-dirodi-rover-g5-6-battery-52v-20ah',
+    slug: 'allied-dirodi-rover-g5-6-battery-52v-20ah',
+    name: 'DiroDi Rover G5-6 Battery 52V 20Ah',
+    price: 890,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'DiroDi Rover G5-6 Battery 52V 20Ah — e-bike batteries. DiroDi Rover Gen 6 1000W Dual and 1 more.',
+    description: 'The DiroDi Rover G5-6 Battery 52V 20Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Gen 6 1000W Dual and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/986/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'DiroDi genuine authorized stock, inspected prior to Australian dispatch',
+      'DiroDi Rover Gen 6 1000W Dual and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-dirodi-rover-pro-dual-battery-52v-20ah',
+    slug: 'allied-dirodi-rover-pro-dual-battery-52v-20ah',
+    name: 'DiroDi Rover Pro/Dual Battery 52V 20Ah',
+    price: 950,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'DiroDi Rover Pro/Dual Battery 52V 20Ah — e-bike batteries. DiroDi Rover Gen 6 1000W Dual.',
+    description: 'The DiroDi Rover Pro/Dual Battery 52V 20Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Gen 6 1000W Dual. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/874/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'DiroDi genuine authorized stock, inspected prior to Australian dispatch',
+      'DiroDi Rover Gen 6 1000W Dual',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-dirodi-rover-gen-1-4-battery-48v-17-4ah',
+    slug: 'allied-dirodi-rover-gen-1-4-battery-48v-17-4ah',
+    name: 'DiroDi Rover Gen 1-4 Battery 48V 17.4Ah',
+    price: 790,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'DiroDi Rover Gen 1-4 Battery 48V 17.4Ah — e-bike batteries. DiroDi Rover Plus 750W and 1 more.',
+    description: 'The DiroDi Rover Gen 1-4 Battery 48V 17.4Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Plus 750W and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/597/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'DiroDi genuine authorized stock, inspected prior to Australian dispatch',
+      'DiroDi Rover Plus 750W and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-dirodi-rover-gen-1-4-battery-48v-15-6ah',
+    slug: 'allied-dirodi-rover-gen-1-4-battery-48v-15-6ah',
+    name: 'DiroDi Rover Gen 1-4 Battery 48V 15.6Ah',
+    price: 730,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'DiroDi Rover Gen 1-4 Battery 48V 15.6Ah — e-bike batteries. DiroDi Rover Plus Low-Step 48V and 1 more.',
+    description: 'The DiroDi Rover Gen 1-4 Battery 48V 15.6Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Plus Low-Step 48V and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/660/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'DiroDi genuine authorized stock, inspected prior to Australian dispatch',
+      'DiroDi Rover Plus Low-Step 48V and 1 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-rad-power-safe-shield-semi-integrated-battery-14ah',
+    slug: 'allied-rad-power-safe-shield-semi-integrated-battery-14ah',
+    name: 'Rad Power Safe Shield Semi-Integrated Battery 14Ah',
+    price: 714,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Rad Power Bikes Rad Power Safe Shield Semi-Integrated Battery 14Ah — e-bike batteries. Rad Power RadWagon 4 Pro.',
+    description: 'The Rad Power Safe Shield Semi-Integrated Battery 14Ah is a genuine ALLIED-stocked e-bike batteries component. Rad Power RadWagon 4 Pro. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/204/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Rad Power Bikes genuine authorized stock, inspected prior to Australian dispatch',
+      'Rad Power RadWagon 4 Pro',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-pedego-long-range-cargo-battery-48v-20ah',
+    slug: 'allied-pedego-long-range-cargo-battery-48v-20ah',
+    name: 'Pedego Long Range Cargo Battery 48V 20Ah',
+    price: 1572,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Pedego Long Range Cargo Battery 48V 20Ah — e-bike batteries. Fits by size: see product page.',
+    description: 'The Pedego Long Range Cargo Battery 48V 20Ah is a genuine ALLIED-stocked e-bike batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/318/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Pedego genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-powertube-750-horizontal-battery-bbp3770',
+    slug: 'allied-bosch-powertube-750-horizontal-battery-bbp3770',
+    name: 'Bosch PowerTube 750 Horizontal Battery (BBP3770)',
+    price: 1599,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Bosch PowerTube 750 Horizontal Battery (BBP3770) — e-bike batteries. Riese & Müller Load 4 75 and 2 more.',
+    description: 'The Bosch PowerTube 750 Horizontal Battery (BBP3770) is a genuine ALLIED-stocked e-bike batteries component. Riese & Müller Load 4 75 and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/911/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Riese & Müller Load 4 75 and 2 more',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-giant-energypak-500-top-load-battery',
+    slug: 'allied-giant-energypak-500-top-load-battery',
+    name: 'Giant EnergyPak 500 Top Load Battery',
+    price: 1199,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Giant EnergyPak 500 Top Load Battery — e-bike batteries. Fits by size: see product page.',
+    description: 'The Giant EnergyPak 500 Top Load Battery is a genuine ALLIED-stocked e-bike batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/683/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Giant genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-engwe-ep-2-pro-battery-13ah',
+    slug: 'allied-engwe-ep-2-pro-battery-13ah',
+    name: 'Engwe EP-2 Pro Battery 13Ah',
+    price: 487,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-batteries',
+    featured: false,
+    shortDescription: 'Engwe EP-2 Pro Battery 13Ah — e-bike batteries. Engwe EP-2 Pro Fat Folder.',
+    description: 'The Engwe EP-2 Pro Battery 13Ah is a genuine ALLIED-stocked e-bike batteries component. Engwe EP-2 Pro Fat Folder. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/429/800/600'],
+    specs: {
+      voltage: '36V/48V/52V Pack',
+      batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A - battery component',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '1-2 Years Battery Cells & BMS'
+    },
+    features: [
+      'Engwe genuine authorized stock, inspected prior to Australian dispatch',
+      'Engwe EP-2 Pro Fat Folder',
+      'E-Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-fast-charger-6a-for-system-2-batteries',
+    slug: 'allied-bosch-fast-charger-6a-for-system-2-batteries',
+    name: 'Bosch Fast Charger 6A for System 2 Batteries',
+    price: 249,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-chargers',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Bosch Fast Charger 6A for System 2 Batteries — e-bike chargers. Trek Allant+ 5 and 22 more.',
+    description: 'The Bosch Fast Charger 6A for System 2 Batteries is a genuine ALLIED-stocked e-bike chargers component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/104/800/600'],
+    specs: {
+      voltage: '36V/42V/48V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 2A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.2 kg',
+      warranty: '1-2 Years Charger & Cable'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 5 and 22 more',
+      'E-Bike Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-steps-4a-fast-battery-charger',
+    slug: 'allied-shimano-steps-4a-fast-battery-charger',
+    name: 'Shimano STEPS 4A Fast Battery Charger',
+    price: 199,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-chargers',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Shimano STEPS 4A Fast Battery Charger — e-bike chargers. Merida eSpresso City 300 EQ and 6 more.',
+    description: 'The Shimano STEPS 4A Fast Battery Charger is a genuine ALLIED-stocked e-bike chargers component. Merida eSpresso City 300 EQ and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/888/800/600'],
+    specs: {
+      voltage: '36V/42V/48V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 2A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.2 kg',
+      warranty: '1-2 Years Charger & Cable'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Merida eSpresso City 300 EQ and 6 more',
+      'E-Bike Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-steps-ec-e6002-battery-charger',
+    slug: 'allied-shimano-steps-ec-e6002-battery-charger',
+    name: 'Shimano STEPS EC-E6002 Battery Charger',
+    price: 99,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-chargers',
+    featured: false,
+    shortDescription: 'Shimano STEPS EC-E6002 Battery Charger — e-bike chargers. Merida eBig.Nine 400 and 6 more.',
+    description: 'The Shimano STEPS EC-E6002 Battery Charger is a genuine ALLIED-stocked e-bike chargers component. Merida eBig.Nine 400 and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/734/800/600'],
+    specs: {
+      voltage: '36V/42V/48V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 2A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.2 kg',
+      warranty: '1-2 Years Charger & Cable'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Merida eBig.Nine 400 and 6 more',
+      'E-Bike Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-4a-standard-charger-smart-system-bpc3400',
+    slug: 'allied-bosch-4a-standard-charger-smart-system-bpc3400',
+    name: 'Bosch 4A Standard Charger Smart System (BPC3400)',
+    price: 199,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-chargers',
+    featured: false,
+    shortDescription: 'Bosch 4A Standard Charger Smart System (BPC3400) — e-bike chargers. Trek Allant+ 5 and 22 more.',
+    description: 'The Bosch 4A Standard Charger Smart System (BPC3400) is a genuine ALLIED-stocked e-bike chargers component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/858/800/600'],
+    specs: {
+      voltage: '36V/42V/48V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 2A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.2 kg',
+      warranty: '1-2 Years Charger & Cable'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 5 and 22 more',
+      'E-Bike Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-giant-energypak-smart-charger',
+    slug: 'allied-giant-energypak-smart-charger',
+    name: 'Giant EnergyPak Smart Charger',
+    price: 284,
+    category: 'batteries-parts-kits',
+    subcategory: 'ebike-chargers',
+    featured: false,
+    shortDescription: 'Giant EnergyPak Smart Charger — e-bike chargers. Giant Explore E+ 4 and 3 more.',
+    description: 'The Giant EnergyPak Smart Charger is a genuine ALLIED-stocked e-bike chargers component. Giant Explore E+ 4 and 3 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/741/800/600'],
+    specs: {
+      voltage: '36V/42V/48V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 2A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.2 kg',
+      warranty: '1-2 Years Charger & Cable'
+    },
+    features: [
+      'Giant genuine authorized stock, inspected prior to Australian dispatch',
+      'Giant Explore E+ 4 and 3 more',
+      'E-Bike Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-dualtron-thunder-60v-35ah-replacement-battery',
+    slug: 'allied-dualtron-thunder-60v-35ah-replacement-battery',
+    name: 'Dualtron Thunder 60V 35Ah Replacement Battery',
+    price: 4099,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-batteries',
+    featured: false,
+    shortDescription: 'Dualtron Thunder 60V 35Ah Replacement Battery — scooter, board & mobility batteries. Dualtron Thunder 60V 35Ah.',
+    description: 'The Dualtron Thunder 60V 35Ah Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Dualtron Thunder 60V 35Ah. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/805/800/600'],
+    specs: {
+      voltage: '12V/36V/60V Pack',
+      batteryType: 'Lithium-ion / AGM Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '1.5-12 kg',
+      warranty: '1 Year Battery Cells & BMS'
+    },
+    features: [
+      'Dualtron genuine authorized stock, inspected prior to Australian dispatch',
+      'Dualtron Thunder 60V 35Ah',
+      'Scooter, Board & Mobility Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-evolve-standard-electric-skateboard-battery',
+    slug: 'allied-evolve-standard-electric-skateboard-battery',
+    name: 'Evolve Standard Electric Skateboard Battery',
+    price: 763,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-batteries',
+    featured: false,
+    shortDescription: 'Evolve Skateboards Evolve Standard Electric Skateboard Battery — scooter, board & mobility batteries. Evolve Bamboo GTR Series 2 Street and 6 more.',
+    description: 'The Evolve Standard Electric Skateboard Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Evolve Bamboo GTR Series 2 Street and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/292/800/600'],
+    specs: {
+      voltage: '12V/36V/60V Pack',
+      batteryType: 'Lithium-ion / AGM Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '1.5-12 kg',
+      warranty: '1 Year Battery Cells & BMS'
+    },
+    features: [
+      'Evolve Skateboards genuine authorized stock, inspected prior to Australian dispatch',
+      'Evolve Bamboo GTR Series 2 Street and 6 more',
+      'Scooter, Board & Mobility Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hoverboard-36v-4-4ah-10s2p-replacement-battery',
+    slug: 'allied-hoverboard-36v-4-4ah-10s2p-replacement-battery',
+    name: 'Hoverboard 36V 4.4Ah 10S2P Replacement Battery',
+    price: 109,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-batteries',
+    featured: false,
+    shortDescription: 'Universal Hoverboard 36V 4.4Ah 10S2P Replacement Battery — scooter, board & mobility batteries. Fits by size: see product page.',
+    description: 'The Hoverboard 36V 4.4Ah 10S2P Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/278/800/600'],
+    specs: {
+      voltage: '12V/36V/60V Pack',
+      batteryType: 'Lithium-ion / AGM Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '1.5-12 kg',
+      warranty: '1 Year Battery Cells & BMS'
+    },
+    features: [
+      'Universal genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Scooter, Board & Mobility Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-mobility-scooter-12v-35ah-agm-replacement-battery',
+    slug: 'allied-mobility-scooter-12v-35ah-agm-replacement-battery',
+    name: 'Mobility Scooter 12V 35Ah AGM Replacement Battery',
+    price: 164,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-batteries',
+    featured: false,
+    shortDescription: 'Universal Mobility Scooter 12V 35Ah AGM Replacement Battery — scooter, board & mobility batteries. Fits by size: see product page.',
+    description: 'The Mobility Scooter 12V 35Ah AGM Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/284/800/600'],
+    specs: {
+      voltage: '12V/36V/60V Pack',
+      batteryType: 'Lithium-ion / AGM Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '1.5-12 kg',
+      warranty: '1 Year Battery Cells & BMS'
+    },
+    features: [
+      'Universal genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Scooter, Board & Mobility Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-segway-ninebot-fast-charger-for-max-scooters',
+    slug: 'allied-segway-ninebot-fast-charger-for-max-scooters',
+    name: 'Segway-Ninebot Fast Charger for MAX Scooters',
+    price: 150,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Segway Ninebot Segway-Ninebot Fast Charger for MAX Scooters — scooter, skate & kids chargers. Segway Ninebot Max G2 Pro.',
+    description: 'The Segway-Ninebot Fast Charger for MAX Scooters is a genuine ALLIED-stocked scooter, skate & kids chargers component. Segway Ninebot Max G2 Pro. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/209/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Segway Ninebot Max G2 Pro',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-original-ninebot-by-segway-scooter-charger-42v-1-7a',
+    slug: 'allied-original-ninebot-by-segway-scooter-charger-42v-1-7a',
+    name: 'Original Ninebot by Segway Scooter Charger 42V 1.7A',
+    price: 100,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Segway Ninebot Original Ninebot by Segway Scooter Charger 42V 1.7A — scooter, skate & kids chargers. Xiaomi Mi Electric Scooter 1S.',
+    description: 'The Original Ninebot by Segway Scooter Charger 42V 1.7A is a genuine ALLIED-stocked scooter, skate & kids chargers component. Xiaomi Mi Electric Scooter 1S. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/897/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Xiaomi Mi Electric Scooter 1S',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-multi-voltage-charger-for-kaabo-dualtron-apollo-and-vsett-scooters',
+    slug: 'allied-multi-voltage-charger-for-kaabo-dualtron-apollo-and-vsett-scooters',
+    name: 'Multi-Voltage Charger for Kaabo, Dualtron, Apollo and Vsett Scooters',
+    price: 99,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Universal Multi-Voltage Charger for Kaabo, Dualtron, Apollo and Vsett Scooters — scooter, skate & kids chargers. Dualtron Thunder 60V 35Ah and 20 more.',
+    description: 'The Multi-Voltage Charger for Kaabo, Dualtron, Apollo and Vsett Scooters is a genuine ALLIED-stocked scooter, skate & kids chargers component. Dualtron Thunder 60V 35Ah and 20 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/377/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Universal genuine authorized stock, inspected prior to Australian dispatch',
+      'Dualtron Thunder 60V 35Ah and 20 more',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-evolve-5a-charger-for-hadean-diablo-and-renegade',
+    slug: 'allied-evolve-5a-charger-for-hadean-diablo-and-renegade',
+    name: 'Evolve 5A Charger for Hadean, Diablo and Renegade',
+    price: 171,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Evolve Skateboards Evolve 5A Charger for Hadean, Diablo and Renegade — scooter, skate & kids chargers. Evolve Hadean Carbon All-Terrain and 1 more.',
+    description: 'The Evolve 5A Charger for Hadean, Diablo and Renegade is a genuine ALLIED-stocked scooter, skate & kids chargers component. Evolve Hadean Carbon All-Terrain and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/684/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Evolve Skateboards genuine authorized stock, inspected prior to Australian dispatch',
+      'Evolve Hadean Carbon All-Terrain and 1 more',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-onewheel-pint-car-charger',
+    slug: 'allied-onewheel-pint-car-charger',
+    name: 'Onewheel Pint Car Charger',
+    price: 150,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Onewheel Pint Car Charger — scooter, skate & kids chargers. Onewheel Pint.',
+    description: 'The Onewheel Pint Car Charger is a genuine ALLIED-stocked scooter, skate & kids chargers component. Onewheel Pint. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/834/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Onewheel genuine authorized stock, inspected prior to Australian dispatch',
+      'Onewheel Pint',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-stacyc-18v-smart-battery-charger',
+    slug: 'allied-stacyc-18v-smart-battery-charger',
+    name: 'Stacyc 18V Smart Battery Charger',
+    price: 219,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'STACYC Stacyc 18V Smart Battery Charger — scooter, skate & kids chargers. Stacyc 12eDrive Balance Bike and 4 more.',
+    description: 'The Stacyc 18V Smart Battery Charger is a genuine ALLIED-stocked scooter, skate & kids chargers component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/248/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'STACYC genuine authorized stock, inspected prior to Australian dispatch',
+      'Stacyc 12eDrive Balance Bike and 4 more',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v12-charger-100-8v-2-3a',
+    slug: 'allied-inmotion-v12-charger-100-8v-2-3a',
+    name: 'InMotion V12 Charger 100.8V 2.3A',
+    price: 153,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'InMotion V12 Charger 100.8V 2.3A — scooter, skate & kids chargers. InMotion V12 HT High Torque EUC.',
+    description: 'The InMotion V12 Charger 100.8V 2.3A is a genuine ALLIED-stocked scooter, skate & kids chargers component. InMotion V12 HT High Torque EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/587/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'InMotion V12 HT High Torque EUC',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-100-8v-8a-rapid-charger-for-begode-ex-n-rs-sherman-and-inmotion-v12',
+    slug: 'allied-100-8v-8a-rapid-charger-for-begode-ex-n-rs-sherman-and-inmotion-v12',
+    name: '100.8V 8A Rapid Charger for Begode EX.N, RS, Sherman and InMotion V12',
+    price: 285,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Universal 100.8V 8A Rapid Charger for Begode EX.N, RS, Sherman and InMotion V12 — scooter, skate & kids chargers. InMotion V12 HT High Torque EUC.',
+    description: 'The 100.8V 8A Rapid Charger for Begode EX.N, RS, Sherman and InMotion V12 is a genuine ALLIED-stocked scooter, skate & kids chargers component. InMotion V12 HT High Torque EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/867/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Universal genuine authorized stock, inspected prior to Australian dispatch',
+      'InMotion V12 HT High Torque EUC',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-84-2v-5a-rapid-charger-for-kingsong-16x-18xl-and-inmotion-v11-v10f',
+    slug: 'allied-84-2v-5a-rapid-charger-for-kingsong-16x-18xl-and-inmotion-v11-v10f',
+    name: '84.2V 5A Rapid Charger for KingSong 16X/18XL and InMotion V11/V10F',
+    price: 215,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-chargers',
+    featured: false,
+    shortDescription: 'Universal 84.2V 5A Rapid Charger for KingSong 16X/18XL and InMotion V11/V10F — scooter, skate & kids chargers. KingSong 16X High-Torque EUW and 1 more.',
+    description: 'The 84.2V 5A Rapid Charger for KingSong 16X/18XL and InMotion V11/V10F is a genuine ALLIED-stocked scooter, skate & kids chargers component. KingSong 16X High-Torque EUW and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/275/800/600'],
+    specs: {
+      voltage: '36V-100.8V Output',
+      batteryType: 'N/A - charger component',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - charger component',
+      chargeTime: 'Delivers 1.7A-8A charge current',
+      dimensions: 'Varies by model',
+      weight: '0.3-1 kg',
+      warranty: '1 Year Charger & Cable'
+    },
+    features: [
+      'Universal genuine authorized stock, inspected prior to Australian dispatch',
+      'KingSong 16X High-Torque EUW and 1 more',
+      'Scooter, Skate & Kids Chargers compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-evolve-replacement-trucks-hadean-gt-gtr',
+    slug: 'allied-evolve-replacement-trucks-hadean-gt-gtr',
+    name: 'Evolve Replacement Trucks (Hadean, GT, GTR)',
+    price: 72,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-parts',
+    featured: false,
+    shortDescription: 'Evolve Skateboards Evolve Replacement Trucks (Hadean, GT, GTR) — scooter, skate & kids parts. Evolve Hadean Carbon All-Terrain and 6 more.',
+    description: 'The Evolve Replacement Trucks (Hadean, GT, GTR) is a genuine ALLIED-stocked scooter, skate & kids parts component. Evolve Hadean Carbon All-Terrain and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/738/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-1 kg',
+      warranty: '6-12 Months Part'
+    },
+    features: [
+      'Evolve Skateboards genuine authorized stock, inspected prior to Australian dispatch',
+      'Evolve Hadean Carbon All-Terrain and 6 more',
+      'Scooter, Skate & Kids Parts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-exway-riot-15mm-replacement-belt-pair',
+    slug: 'allied-exway-riot-15mm-replacement-belt-pair',
+    name: 'Exway Riot 15mm Replacement Belt (Pair)',
+    price: 35,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-parts',
+    featured: false,
+    shortDescription: 'Exway Riot 15mm Replacement Belt (Pair) — scooter, skate & kids parts. Exway Flex Riot Street Board and 2 more.',
+    description: 'The Exway Riot 15mm Replacement Belt (Pair) is a genuine ALLIED-stocked scooter, skate & kids parts component. Exway Flex Riot Street Board and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/466/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-1 kg',
+      warranty: '6-12 Months Part'
+    },
+    features: [
+      'Exway genuine authorized stock, inspected prior to Australian dispatch',
+      'Exway Flex Riot Street Board and 2 more',
+      'Scooter, Skate & Kids Parts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-stacyc-replacement-throttle-for-12edrive-and-16edrive',
+    slug: 'allied-stacyc-replacement-throttle-for-12edrive-and-16edrive',
+    name: 'Stacyc Replacement Throttle for 12eDrive and 16eDrive',
+    price: 139,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-parts',
+    featured: false,
+    shortDescription: 'STACYC Stacyc Replacement Throttle for 12eDrive and 16eDrive — scooter, skate & kids parts. Stacyc 12eDrive Balance Bike and 4 more.',
+    description: 'The Stacyc Replacement Throttle for 12eDrive and 16eDrive is a genuine ALLIED-stocked scooter, skate & kids parts component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/987/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-1 kg',
+      warranty: '6-12 Months Part'
+    },
+    features: [
+      'STACYC genuine authorized stock, inspected prior to Australian dispatch',
+      'Stacyc 12eDrive Balance Bike and 4 more',
+      'Scooter, Skate & Kids Parts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-xiaomi-scooter-8-5-x-2-0-inner-tube-with-bent-valve',
+    slug: 'allied-xiaomi-scooter-8-5-x-2-0-inner-tube-with-bent-valve',
+    name: 'Xiaomi Scooter 8.5 x 2.0 Inner Tube with Bent Valve',
+    price: 20,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-parts',
+    featured: false,
+    shortDescription: 'Xiaomi Scooter 8.5 x 2.0 Inner Tube with Bent Valve — scooter, skate & kids parts. Xiaomi Mi Electric Scooter 1S.',
+    description: 'The Xiaomi Scooter 8.5 x 2.0 Inner Tube with Bent Valve is a genuine ALLIED-stocked scooter, skate & kids parts component. Xiaomi Mi Electric Scooter 1S. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/296/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-1 kg',
+      warranty: '6-12 Months Part'
+    },
+    features: [
+      'Xiaomi genuine authorized stock, inspected prior to Australian dispatch',
+      'Xiaomi Mi Electric Scooter 1S',
+      'Scooter, Skate & Kids Parts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-inmotion-v11-18-x-3-cst-c-1488-tyre',
+    slug: 'allied-inmotion-v11-18-x-3-cst-c-1488-tyre',
+    name: 'InMotion V11 18 x 3 CST C-1488 Tyre',
+    price: 76,
+    category: 'batteries-parts-kits',
+    subcategory: 'scooter-skate-parts',
+    featured: false,
+    shortDescription: 'InMotion V11 18 x 3 CST C-1488 Tyre — scooter, skate & kids parts. InMotion V11 Suspension EUC.',
+    description: 'The InMotion V11 18 x 3 CST C-1488 Tyre is a genuine ALLIED-stocked scooter, skate & kids parts component. InMotion V11 Suspension EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/621/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-1 kg',
+      warranty: '6-12 Months Part'
+    },
+    features: [
+      'InMotion genuine authorized stock, inspected prior to Australian dispatch',
+      'InMotion V11 Suspension EUC',
+      'Scooter, Skate & Kids Parts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-razor-mx650-12v-12ah-sealed-lead-acid-battery-3-pack',
+    slug: 'allied-razor-mx650-12v-12ah-sealed-lead-acid-battery-3-pack',
+    name: 'Razor MX650 12V 12Ah Sealed Lead Acid Battery (3-Pack)',
+    price: 171,
+    category: 'batteries-parts-kits',
+    subcategory: 'kids-dirt-bike-batteries',
+    featured: false,
+    shortDescription: 'Razor MX650 12V 12Ah Sealed Lead Acid Battery (3-Pack) — kids & dirt bike batteries. Razor MX650 Dirt Rocket Pit Bike.',
+    description: 'The Razor MX650 12V 12Ah Sealed Lead Acid Battery (3-Pack) is a genuine ALLIED-stocked kids & dirt bike batteries component. Razor MX650 Dirt Rocket Pit Bike. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/591/800/600'],
+    specs: {
+      voltage: '12V/18V Pack',
+      batteryType: 'SLA / Lithium-ion Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-5 Hours',
+      dimensions: 'Varies by model',
+      weight: '1-4 kg',
+      warranty: '1 Year Battery Cells'
+    },
+    features: [
+      'Razor genuine authorized stock, inspected prior to Australian dispatch',
+      'Razor MX650 Dirt Rocket Pit Bike',
+      'Kids & Dirt Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-stacyc-18v-5ah-battery',
+    slug: 'allied-stacyc-18v-5ah-battery',
+    name: 'Stacyc 18V 5Ah Battery',
+    price: 329,
+    category: 'batteries-parts-kits',
+    subcategory: 'kids-dirt-bike-batteries',
+    featured: false,
+    shortDescription: 'STACYC Stacyc 18V 5Ah Battery — kids & dirt bike batteries. Stacyc 12eDrive Balance Bike and 4 more.',
+    description: 'The Stacyc 18V 5Ah Battery is a genuine ALLIED-stocked kids & dirt bike batteries component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/158/800/600'],
+    specs: {
+      voltage: '12V/18V Pack',
+      batteryType: 'SLA / Lithium-ion Cell',
+      range: 'N/A - battery component',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - compatible motor system listed in fitment',
+      chargeTime: '3-5 Hours',
+      dimensions: 'Varies by model',
+      weight: '1-4 kg',
+      warranty: '1 Year Battery Cells'
+    },
+    features: [
+      'STACYC genuine authorized stock, inspected prior to Australian dispatch',
+      'Stacyc 12eDrive Balance Bike and 4 more',
+      'Kids & Dirt Bike Batteries compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-schwalbe-marathon-e-plus-27-5-x-2-0-wire-bead-tyre',
+    slug: 'allied-schwalbe-marathon-e-plus-27-5-x-2-0-wire-bead-tyre',
+    name: 'Schwalbe Marathon E-Plus 27.5 x 2.0 Wire Bead Tyre',
+    price: 80,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Schwalbe Marathon E-Plus 27.5 x 2.0 Wire Bead Tyre — tyres & tubes. Fits by size: see product page.',
+    description: 'The Schwalbe Marathon E-Plus 27.5 x 2.0 Wire Bead Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/306/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Schwalbe genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-schwalbe-marathon-plus-700c-wire-bead-tyre',
+    slug: 'allied-schwalbe-marathon-plus-700c-wire-bead-tyre',
+    name: 'Schwalbe Marathon Plus 700C Wire Bead Tyre',
+    price: 60,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Schwalbe Marathon Plus 700C Wire Bead Tyre — tyres & tubes. Fits by size: see product page.',
+    description: 'The Schwalbe Marathon Plus 700C Wire Bead Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/742/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Schwalbe genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-schwalbe-marathon-plus-tour-reflective-700c-tyre',
+    slug: 'allied-schwalbe-marathon-plus-tour-reflective-700c-tyre',
+    name: 'Schwalbe Marathon Plus Tour Reflective 700C Tyre',
+    price: 80,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Schwalbe Marathon Plus Tour Reflective 700C Tyre — tyres & tubes. Fits by size: see product page.',
+    description: 'The Schwalbe Marathon Plus Tour Reflective 700C Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/481/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Schwalbe genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-schwalbe-marathon-plus-e-25-hybrid-tyre-700-x-35c',
+    slug: 'allied-schwalbe-marathon-plus-e-25-hybrid-tyre-700-x-35c',
+    name: 'Schwalbe Marathon Plus E-25 Hybrid Tyre 700 x 35c',
+    price: 80,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Schwalbe Marathon Plus E-25 Hybrid Tyre 700 x 35c — tyres & tubes. Fits by size: see product page.',
+    description: 'The Schwalbe Marathon Plus E-25 Hybrid Tyre 700 x 35c is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/223/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Schwalbe genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-entity-inner-tube-700c',
+    slug: 'allied-entity-inner-tube-700c',
+    name: 'Entity Inner Tube 700c',
+    price: 7,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Entity Inner Tube 700c — tyres & tubes. Fits by size: see product page.',
+    description: 'The Entity Inner Tube 700c is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/247/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Entity genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-freedom-to-ride-schrader-tube-27-5-x-2-1-2-5',
+    slug: 'allied-freedom-to-ride-schrader-tube-27-5-x-2-1-2-5',
+    name: 'Freedom to Ride Schrader Tube 27.5 x 2.1-2.5',
+    price: 10,
+    category: 'batteries-parts-kits',
+    subcategory: 'tyres-tubes',
+    featured: false,
+    shortDescription: 'Freedom to Ride Schrader Tube 27.5 x 2.1-2.5 — tyres & tubes. Fits by size: see product page.',
+    description: 'The Freedom to Ride Schrader Tube 27.5 x 2.1-2.5 is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/414/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'Puncture/wear rated for e-bike loads',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.2-1 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Freedom to Ride genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Tyres & Tubes compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-tektro-180mm-disc-brake-rotor',
+    slug: 'allied-tektro-180mm-disc-brake-rotor',
+    name: 'Tektro 180mm Disc Brake Rotor',
+    price: 23,
+    category: 'batteries-parts-kits',
+    subcategory: 'brakes-rotors-pads',
+    featured: false,
+    shortDescription: 'Tektro 180mm Disc Brake Rotor — brake pads & rotors. Fits by size: see product page.',
+    description: 'The Tektro 180mm Disc Brake Rotor is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/579/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-0.3 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Tektro genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Brake Pads & Rotors compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-deore-rt56-6-bolt-disc-rotor-160mm',
+    slug: 'allied-shimano-deore-rt56-6-bolt-disc-rotor-160mm',
+    name: 'Shimano Deore RT56 6-Bolt Disc Rotor 160mm',
+    price: 27,
+    category: 'batteries-parts-kits',
+    subcategory: 'brakes-rotors-pads',
+    featured: false,
+    shortDescription: 'Shimano Deore RT56 6-Bolt Disc Rotor 160mm — brake pads & rotors. Fits by size: see product page.',
+    description: 'The Shimano Deore RT56 6-Bolt Disc Rotor 160mm is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/721/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-0.3 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Brake Pads & Rotors compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-shimano-slx-rt66-disc-rotor-180mm',
+    slug: 'allied-shimano-slx-rt66-disc-rotor-180mm',
+    name: 'Shimano SLX RT66 Disc Rotor 180mm',
+    price: 45,
+    category: 'batteries-parts-kits',
+    subcategory: 'brakes-rotors-pads',
+    featured: false,
+    shortDescription: 'Shimano SLX RT66 Disc Rotor 180mm — brake pads & rotors. Fits by size: see product page.',
+    description: 'The Shimano SLX RT66 Disc Rotor 180mm is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/340/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-0.3 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Shimano genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Brake Pads & Rotors compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-swissstop-disc-27e-brake-pads-shimano-tektro',
+    slug: 'allied-swissstop-disc-27e-brake-pads-shimano-tektro',
+    name: 'SwissStop Disc 27E Brake Pads (Shimano/Tektro)',
+    price: 35,
+    category: 'batteries-parts-kits',
+    subcategory: 'brakes-rotors-pads',
+    featured: false,
+    shortDescription: 'SwissStop Disc 27E Brake Pads (Shimano/Tektro) — brake pads & rotors. Fits by size: see product page.',
+    description: 'The SwissStop Disc 27E Brake Pads (Shimano/Tektro) is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/783/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-0.3 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'SwissStop genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Brake Pads & Rotors compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-tektro-mechanical-disc-brake-pads',
+    slug: 'allied-tektro-mechanical-disc-brake-pads',
+    name: 'Tektro Mechanical Disc Brake Pads',
+    price: 18,
+    category: 'batteries-parts-kits',
+    subcategory: 'brakes-rotors-pads',
+    featured: false,
+    shortDescription: 'Tektro Mechanical Disc Brake Pads — brake pads & rotors. Fits by size: see product page.',
+    description: 'The Tektro Mechanical Disc Brake Pads is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/871/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical part)',
+      batteryType: 'N/A - mechanical part',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A - mechanical part',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.1-0.3 kg',
+      warranty: '6 Months Manufacturing Defects'
+    },
+    features: [
+      'Tektro genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Brake Pads & Rotors compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bafang-bbs02b-48v-750w-mid-drive-conversion-kit',
+    slug: 'allied-bafang-bbs02b-48v-750w-mid-drive-conversion-kit',
+    name: 'Bafang BBS02B 48V 750W Mid-Drive Conversion Kit',
+    price: 849,
+    category: 'batteries-parts-kits',
+    subcategory: 'mid-drive-conversion-kits',
+    featured: false,
+    shortDescription: 'Bafang BBS02B 48V 750W Mid-Drive Conversion Kit — mid-drive conversion kits. Fits by size: see product page.',
+    description: 'The Bafang BBS02B 48V 750W Mid-Drive Conversion Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/858/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '750W-1000W Bafang Mid-Drive Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '4-5 kg (motor unit)',
+      warranty: '1 Year Motor & Controller'
+    },
+    features: [
+      'Bafang genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Mid-Drive Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bafang-bbshd-48v-1000w-mid-drive-conversion-kit',
+    slug: 'allied-bafang-bbshd-48v-1000w-mid-drive-conversion-kit',
+    name: 'Bafang BBSHD 48V 1000W Mid-Drive Conversion Kit',
+    price: 1150,
+    category: 'batteries-parts-kits',
+    subcategory: 'mid-drive-conversion-kits',
+    featured: false,
+    shortDescription: 'Bafang BBSHD 48V 1000W Mid-Drive Conversion Kit — mid-drive conversion kits. Fits by size: see product page.',
+    description: 'The Bafang BBSHD 48V 1000W Mid-Drive Conversion Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/866/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '750W-1000W Bafang Mid-Drive Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '4-5 kg (motor unit)',
+      warranty: '1 Year Motor & Controller'
+    },
+    features: [
+      'Bafang genuine authorized stock, inspected prior to Australian dispatch',
+      'Fits by size: see product page',
+      'Mid-Drive Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bafang-bbs02b-750w-mid-drive-kit',
+    slug: 'allied-bafang-bbs02b-750w-mid-drive-kit',
+    name: 'Bafang BBS02B 750W Mid-Drive Kit',
+    price: 699,
+    category: 'batteries-parts-kits',
+    subcategory: 'mid-drive-conversion-kits',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Bafang BBS02B 750W Mid-Drive Kit — mid-drive conversion kits. Universal bottom bracket fitment.',
+    description: 'The Bafang BBS02B 750W Mid-Drive Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Universal bottom bracket fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/651/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '750W-1000W Bafang Mid-Drive Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '4-5 kg (motor unit)',
+      warranty: '1 Year Motor & Controller'
+    },
+    features: [
+      'Bafang genuine authorized stock, inspected prior to Australian dispatch',
+      'Universal bottom bracket fitment',
+      'Mid-Drive Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bafang-bbshd-1000w-mid-drive-kit',
+    slug: 'allied-bafang-bbshd-1000w-mid-drive-kit',
+    name: 'Bafang BBSHD 1000W Mid-Drive Kit',
+    price: 899,
+    category: 'batteries-parts-kits',
+    subcategory: 'mid-drive-conversion-kits',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Bafang BBSHD 1000W Mid-Drive Kit — mid-drive conversion kits. Universal bottom bracket fitment.',
+    description: 'The Bafang BBSHD 1000W Mid-Drive Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Universal bottom bracket fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/199/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '750W-1000W Bafang Mid-Drive Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '4-5 kg (motor unit)',
+      warranty: '1 Year Motor & Controller'
+    },
+    features: [
+      'Bafang genuine authorized stock, inspected prior to Australian dispatch',
+      'Universal bottom bracket fitment',
+      'Mid-Drive Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-voilamart-1500w-hub-motor-kit',
+    slug: 'allied-voilamart-1500w-hub-motor-kit',
+    name: 'Voilamart 1500W Hub Motor Kit',
+    price: 499,
+    category: 'batteries-parts-kits',
+    subcategory: 'hub-motor-conversion-kits',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Voilamart 1500W Hub Motor Kit — hub motor conversion kits. Universal wheel fitment.',
+    description: 'The Voilamart 1500W Hub Motor Kit is a genuine ALLIED-stocked hub motor conversion kits component. Universal wheel fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/424/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '1200W-1500W Hub Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '3-4 kg (motor wheel)',
+      warranty: '1 Year Motor'
+    },
+    features: [
+      'Voilamart genuine authorized stock, inspected prior to Australian dispatch',
+      'Universal wheel fitment',
+      'Hub Motor Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-ebikeling-1200w-hub-motor-kit',
+    slug: 'allied-ebikeling-1200w-hub-motor-kit',
+    name: 'EBIKELING 1200W Hub Motor Kit',
+    price: 399,
+    category: 'batteries-parts-kits',
+    subcategory: 'hub-motor-conversion-kits',
+    featured: false,
+    shortDescription: 'EBIKELING 1200W Hub Motor Kit — hub motor conversion kits. Universal wheel fitment.',
+    description: 'The EBIKELING 1200W Hub Motor Kit is a genuine ALLIED-stocked hub motor conversion kits component. Universal wheel fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/524/800/600'],
+    specs: {
+      voltage: '36V/48V System',
+      batteryType: 'N/A - sold separately',
+      range: 'Depends on battery fitted',
+      topSpeed: '25-45 km/h (regulatory dependent)',
+      payloadCapacity: 'N/A',
+      motorPower: '1200W-1500W Hub Motor',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '3-4 kg (motor wheel)',
+      warranty: '1 Year Motor'
+    },
+    features: [
+      'EBIKELING genuine authorized stock, inspected prior to Australian dispatch',
+      'Universal wheel fitment',
+      'Hub Motor Conversion Kits compatible component',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
