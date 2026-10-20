@@ -5871,7 +5871,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway-Ninebot E2 Pro KickScooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway-Ninebot E2 Pro KickScooter is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/862/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-e2-pro-kickscooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -5902,7 +5902,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot ZT3 Pro D — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway Ninebot ZT3 Pro D is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/386/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-zt3-pro-d.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -5933,7 +5933,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot F3 Pro — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway Ninebot F3 Pro is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/875/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-f3-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -5964,7 +5964,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway-Ninebot MAX G3 E — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway-Ninebot MAX G3 E is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/651/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-max-g3-e.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -5995,7 +5995,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bolzzen Atom Lite e-Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Bolzzen Atom Lite e-Scooter is part of ALLIED\'s authorized Bolzzen commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/583/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/bolzzen-atom-lite-e-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6026,7 +6026,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bolzzen Atom Pro e-Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Bolzzen Atom Pro e-Scooter is part of ALLIED\'s authorized Bolzzen commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/648/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/bolzzen-atom-pro-e-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6057,7 +6057,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Xiaomi Mi Electric Scooter 1S — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Xiaomi Mi Electric Scooter 1S is part of ALLIED\'s authorized Xiaomi commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/326/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/xiaomi-mi-electric-scooter-1s.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6088,7 +6088,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Inokim Light 2 Hero — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Inokim Light 2 Hero is part of ALLIED\'s authorized Inokim commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/445/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/inokim-light-2-hero.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6119,7 +6119,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Navee S65 Commuter Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Navee S65 Commuter Scooter is part of ALLIED\'s authorized Navee commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/981/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/navee-s65-commuter-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6150,7 +6150,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'AnyHill UM-2 City Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The AnyHill UM-2 City Scooter is part of ALLIED\'s authorized AnyHill commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/718/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/anyhill-um-2-city-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6181,7 +6181,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Max G2 Pro — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway Ninebot Max G2 Pro is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/399/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-max-g2-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6212,7 +6212,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NIU Niu KQi3 Max Heavy Commuter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Niu KQi3 Max Heavy Commuter is part of ALLIED\'s authorized NIU commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/332/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/niu-kqi3-max-heavy-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6243,7 +6243,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E-TWOW GT SE Smart Commuter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The E-TWOW GT SE Smart Commuter is part of ALLIED\'s authorized E-TWOW commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/620/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/e-twow-gt-se-smart-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6274,7 +6274,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Inokim Quick 4 Super Commuter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Inokim Quick 4 Super Commuter is part of ALLIED\'s authorized Inokim commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/531/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/inokim-quick-4-super-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6305,7 +6305,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Apollo City Pro 2026 — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Apollo City Pro 2026 is part of ALLIED\'s authorized Apollo commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/381/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/apollo-city-pro-2026.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6336,7 +6336,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Vsett 8+ Dual Motor Commuter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Vsett 8+ Dual Motor Commuter is part of ALLIED\'s authorized Vsett commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/987/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/vsett-8-dual-motor-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6366,7 +6366,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mercane WideWheel Pro V2 — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Mercane WideWheel Pro V2 is part of ALLIED\'s authorized Mercane commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/302/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/mercane-widewheel-pro-v2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6397,7 +6397,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Navee S65C Suspension Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Navee S65C Suspension Scooter is part of ALLIED\'s authorized Navee commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/770/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/navee-s65c-suspension-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6428,7 +6428,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway P65S Urban Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway P65S Urban Scooter is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/886/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-p65s-urban-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6459,7 +6459,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kaabo Mantis 8 Dual Motor — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Kaabo Mantis 8 Dual Motor is part of ALLIED\'s authorized Kaabo commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/243/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/kaabo-mantis-8-dual-motor.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6490,7 +6490,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fluid Freeride Horizon V2 — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Fluid Freeride Horizon V2 is part of ALLIED\'s authorized Fluid commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/919/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/fluid-freeride-horizon-v2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6521,7 +6521,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pure Electric Pure Air3 Pro LR Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Pure Air3 Pro LR Scooter is part of ALLIED\'s authorized Pure Electric commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/917/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/pure-air3-pro-lr-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6552,7 +6552,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'EMove Touring Portable Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The EMove Touring Portable Scooter is part of ALLIED\'s authorized EMove commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/286/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/emove-touring-portable-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6582,7 +6582,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Zero 8X Compact Dual — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Zero 8X Compact Dual is part of ALLIED\'s authorized Zero commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/198/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/zero-8x-compact-dual.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6613,7 +6613,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mukuta 8 Dual Motor Commuter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Mukuta 8 Dual Motor Commuter is part of ALLIED\'s authorized Mukuta commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/844/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/mukuta-8-dual-motor-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6643,7 +6643,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot F3 E-Scooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway Ninebot F3 E-Scooter is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/204/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-f3-e-scooter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6674,7 +6674,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot E2 Pro — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway Ninebot E2 Pro is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/145/800/600'],
+    images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-e2-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 12.5Ah Lithium-ion',
@@ -6705,7 +6705,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ausom L1 1104W Peak Scooter — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Ausom L1 1104W Peak Scooter is part of ALLIED\'s authorized Ausom long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/226/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/ausom-l1-1104w-peak-scooter.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6736,7 +6736,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ausom L2 Dual 800W Motor — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Ausom L2 Dual 800W Motor is part of ALLIED\'s authorized Ausom long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/568/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/ausom-l2-dual-800w-motor.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6767,7 +6767,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ausom DT2 Pro Dual 1100W — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Ausom DT2 Pro Dual 1100W is part of ALLIED\'s authorized Ausom long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/199/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/ausom-dt2-pro-dual-1100w.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6798,7 +6798,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dragon Raptor All Terrain Dual — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dragon Raptor All Terrain Dual is part of ALLIED\'s authorized Dragon long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/553/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dragon-raptor-all-terrain-dual.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6829,7 +6829,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dragon Lightning V2 Dual Motor — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dragon Lightning V2 Dual Motor is part of ALLIED\'s authorized Dragon long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/679/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dragon-lightning-v2-dual-motor.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6860,7 +6860,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dragon GTR V2 2400W Max — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dragon GTR V2 2400W Max is part of ALLIED\'s authorized Dragon long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/192/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dragon-gtr-v2-2400w-max.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6891,7 +6891,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dragon Cyclone Pro All Terrain — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dragon Cyclone Pro All Terrain is part of ALLIED\'s authorized Dragon long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/669/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dragon-cyclone-pro-all-terrain.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6922,7 +6922,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dualtron Eagle Pro 60V — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dualtron Eagle Pro 60V is part of ALLIED\'s authorized Dualtron long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/261/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dualtron-eagle-pro-60v.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6953,7 +6953,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dualtron Thunder 60V 35Ah — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dualtron Thunder 60V 35Ah is part of ALLIED\'s authorized Dualtron long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/208/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dualtron-thunder-60v-35ah.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -6984,7 +6984,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mukuta 10+ All Terrain Dual — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Mukuta 10+ All Terrain Dual is part of ALLIED\'s authorized Mukuta long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/709/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/mukuta-10-all-terrain-dual.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7015,7 +7015,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Nami Klima Dual 1000W — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Nami Klima Dual 1000W is part of ALLIED\'s authorized Nami long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/452/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/nami-klima-dual-1000w.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7046,7 +7046,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Inokim OXO Dual Motor — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Inokim OXO Dual Motor is part of ALLIED\'s authorized Inokim long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/695/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/inokim-oxo-dual-motor.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7077,7 +7077,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway GT2 SuperScooter — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Segway GT2 SuperScooter is part of ALLIED\'s authorized Segway Ninebot long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/770/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/segway-gt2-superscooter.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7108,7 +7108,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion RS Performance Beast — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The InMotion RS Performance Beast is part of ALLIED\'s authorized InMotion long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/602/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/inmotion-rs-performance-beast.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7139,7 +7139,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Vsett 10+ Apex Super Scooter — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Vsett 10+ Apex Super Scooter is part of ALLIED\'s authorized Vsett long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/858/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/vsett-10-apex-super-scooter.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7170,7 +7170,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kaabo Wolf King GTR Extreme — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Kaabo Wolf King GTR Extreme is part of ALLIED\'s authorized Kaabo long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/265/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/kaabo-wolf-king-gtr-extreme.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7201,7 +7201,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dualtron Thunder 3 Super Beast — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dualtron Thunder 3 Super Beast is part of ALLIED\'s authorized Dualtron long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/980/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dualtron-thunder-3-super-beast.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7232,7 +7232,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Apollo Pro 72V Hyper Scooter — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Apollo Pro 72V Hyper Scooter is part of ALLIED\'s authorized Apollo long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/295/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/apollo-pro-72v-hyper-scooter.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7262,7 +7262,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Inokim OXO Super Performance — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Inokim OXO Super Performance is part of ALLIED\'s authorized Inokim long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/162/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/inokim-oxo-super-performance.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7293,7 +7293,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Teverun Fighter Supreme 72V — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Teverun Fighter Supreme 72V is part of ALLIED\'s authorized Teverun long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/779/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/teverun-fighter-supreme-72v.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7324,7 +7324,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mukuta 10 Dual Performance — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Mukuta 10 Dual Performance is part of ALLIED\'s authorized Mukuta long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/172/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/mukuta-10-dual-performance.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7355,7 +7355,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dragon X8 Pro Dual Motor — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Dragon X8 Pro Dual Motor is part of ALLIED\'s authorized Dragon long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/697/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/dragon-x8-pro-dual-motor.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7386,7 +7386,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Apollo Phantom V4 60V — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Apollo Phantom V4 60V is part of ALLIED\'s authorized Apollo long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/355/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/apollo-phantom-v4-60v.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7417,7 +7417,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'EMove Cruiser S Long Range — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The EMove Cruiser S Long Range is part of ALLIED\'s authorized EMove long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/284/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/emove-cruiser-s-long-range.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7447,7 +7447,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway P100S Long Range — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Segway P100S Long Range is part of ALLIED\'s authorized Segway Ninebot long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/360/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/segway-p100s-long-range.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7478,7 +7478,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Nami Burn-E 2 Max Hyper — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Nami Burn-E 2 Max Hyper is part of ALLIED\'s authorized Nami long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/507/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/nami-burn-e-2-max-hyper.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7509,7 +7509,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Solar EQ Dual Motor Off-Road — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Solar EQ Dual Motor Off-Road is part of ALLIED\'s authorized Solar long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/634/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/solar-eq-dual-motor-off-road.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7540,7 +7540,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot MAX G3 E-Scooter — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Segway Ninebot MAX G3 E-Scooter is part of ALLIED\'s authorized Segway Ninebot long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/625/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/segway-ninebot-max-g3-e-scooter.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7571,7 +7571,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kaabo Mantis 10 Plus V2 Dual Motor — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Kaabo Mantis 10 Plus V2 Dual Motor is part of ALLIED\'s authorized Kaabo long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/463/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/kaabo-mantis-10-plus-v2-dual-motor.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7601,7 +7601,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kaabo Wolf Warrior X Plus (2026) — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Kaabo Wolf Warrior X Plus (2026) is part of ALLIED\'s authorized Kaabo long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/426/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/kaabo-wolf-warrior-x-plus-2026.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7632,7 +7632,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Max G2 — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Segway Ninebot Max G2 is part of ALLIED\'s authorized Segway Ninebot long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/789/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/segway-ninebot-max-g2.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7663,7 +7663,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Max G30 — long-range & performance e-scooters with 48V-72V 20-35Ah lithium power and 45-150 km range.',
     description: 'The Segway Ninebot Max G30 is part of ALLIED\'s authorized Segway Ninebot long-range & performance e-scooters range, featuring 800w-5400w dual motor, 48v-72v 20-35ah lithium-ion, and a top speed of 45-100+ km/h (private property / off-road use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/763/800/600'],
+    images: ['/images/products/electric-scooters/long-range-electric-scooters/segway-ninebot-max-g30.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-35Ah Lithium-ion',
@@ -7694,7 +7694,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Carbon GTR Street Series 2 — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Evolve Carbon GTR Street Series 2 is part of ALLIED\'s authorized Evolve Skateboards street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/184/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/evolve-carbon-gtr-street-series-2.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7725,7 +7725,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Flex Riot Street Board — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Exway Flex Riot Street Board is part of ALLIED\'s authorized Exway street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/369/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/exway-flex-riot-street-board.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7756,7 +7756,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Backfire Zealot S Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Backfire Zealot S Street is part of ALLIED\'s authorized Backfire street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/915/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/backfire-zealot-s-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7787,7 +7787,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo V5 ER Longboard — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Meepo V5 ER Longboard is part of ALLIED\'s authorized Meepo street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/391/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/meepo-v5-er-longboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7818,7 +7818,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'WowGo 3X Max Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The WowGo 3X Max Street is part of ALLIED\'s authorized WowGo street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/473/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/wowgo-3x-max-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7849,7 +7849,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Bamboo GTR Series 2 Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Evolve Bamboo GTR Series 2 Street is part of ALLIED\'s authorized Evolve Skateboards street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/238/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/evolve-bamboo-gtr-series-2-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7880,7 +7880,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo Hurricane Ultra Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Meepo Hurricane Ultra Street is part of ALLIED\'s authorized Meepo street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/438/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/meepo-hurricane-ultra-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7911,7 +7911,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Flex ER Street Belt — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Exway Flex ER Street Belt is part of ALLIED\'s authorized Exway street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/155/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/exway-flex-er-street-belt.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7942,7 +7942,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tynee Board Tynee Explorer Street Longboard — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Tynee Explorer Street Longboard is part of ALLIED\'s authorized Tynee Board street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/937/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/tynee-explorer-street-longboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -7973,7 +7973,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Backfire Zealot X Belt Longboard — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Backfire Zealot X Belt Longboard is part of ALLIED\'s authorized Backfire street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/902/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/backfire-zealot-x-belt-longboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8004,7 +8004,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'WowGo Pioneer 4 Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The WowGo Pioneer 4 Street is part of ALLIED\'s authorized WowGo street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/158/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/wowgo-pioneer-4-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8034,7 +8034,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Wave Hub Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Exway Wave Hub Street is part of ALLIED\'s authorized Exway street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/891/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/exway-wave-hub-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8065,7 +8065,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Propulsion Board Demon Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Propulsion Board Demon Street is part of ALLIED\'s authorized Propulsion Board street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/611/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/propulsion-board-demon-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8096,7 +8096,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aboard Electric Longboard Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Aboard Electric Longboard Street is part of ALLIED\'s authorized Aboard street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/715/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/aboard-electric-longboard-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8127,7 +8127,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Flex 2 Pro Electric Skateboard — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Exway Flex 2 Pro Electric Skateboard is part of ALLIED\'s authorized Exway street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/857/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/exway-flex-2-pro-electric-skateboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8157,7 +8157,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Fusion Bamboo Electric Skateboard — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Evolve Fusion Bamboo Electric Skateboard is part of ALLIED\'s authorized Evolve Skateboards street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/510/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/evolve-fusion-bamboo-electric-skateboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8188,7 +8188,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Diablo Bamboo Street — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Evolve Diablo Bamboo Street is part of ALLIED\'s authorized Evolve Skateboards street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/363/800/600'],
+    images: ['/images/products/electric-skateboards/street-electric-skateboards/evolve-diablo-bamboo-street.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 10-12Ah Lithium-ion',
@@ -8219,7 +8219,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Hadean Carbon All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Evolve Hadean Carbon All-Terrain is part of ALLIED\'s authorized Evolve Skateboards all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/506/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/evolve-hadean-carbon-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8250,7 +8250,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Atlas 4WD Carbon AT — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Exway Atlas 4WD Carbon AT is part of ALLIED\'s authorized Exway all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/106/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/exway-atlas-4wd-carbon-at.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8281,7 +8281,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Backfire Hammer S All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Backfire Hammer S All-Terrain is part of ALLIED\'s authorized Backfire all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/528/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/backfire-hammer-s-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8312,7 +8312,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tynee Board Explorer All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Tynee Board Explorer All-Terrain is part of ALLIED\'s authorized Tynee Board all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/810/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/tynee-board-explorer-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8343,7 +8343,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo Hurricane V2 Pneumatic — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Meepo Hurricane V2 Pneumatic is part of ALLIED\'s authorized Meepo all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/959/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/meepo-hurricane-v2-pneumatic.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8374,7 +8374,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Hadean Bamboo All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Evolve Hadean Bamboo All-Terrain is part of ALLIED\'s authorized Evolve Skateboards all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/257/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/evolve-hadean-bamboo-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8405,7 +8405,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo Hurricane Ultra All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Meepo Hurricane Ultra All-Terrain is part of ALLIED\'s authorized Meepo all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/167/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/meepo-hurricane-ultra-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8436,7 +8436,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tynee Board Tynee Explorer All-Terrain 7" Pneumatic — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Tynee Explorer All-Terrain 7" Pneumatic is part of ALLIED\'s authorized Tynee Board all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/896/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/tynee-explorer-all-terrain-7-pneumatic.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8466,7 +8466,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Atlas Pro 2WD Pneumatic — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Exway Atlas Pro 2WD Pneumatic is part of ALLIED\'s authorized Exway all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/194/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/exway-atlas-pro-2wd-pneumatic.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8497,7 +8497,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lacroix Nazaré Super All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Lacroix Nazaré Super All-Terrain is part of ALLIED\'s authorized Lacroix all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/112/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/lacroix-nazar-super-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8528,7 +8528,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Carbon GTR Series 2 All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Evolve Carbon GTR Series 2 All-Terrain is part of ALLIED\'s authorized Evolve Skateboards all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/526/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/evolve-carbon-gtr-series-2-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8559,7 +8559,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Propulsion Board All-Terrain Beast — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Propulsion Board All-Terrain Beast is part of ALLIED\'s authorized Propulsion Board all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/868/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/propulsion-board-all-terrain-beast.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8590,7 +8590,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Backfire Ranger X3 Pneumatic — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Backfire Ranger X3 Pneumatic is part of ALLIED\'s authorized Backfire all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/163/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/backfire-ranger-x3-pneumatic.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8620,7 +8620,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve GTR Bamboo Series 2 All-Terrain — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Evolve GTR Bamboo Series 2 All-Terrain is part of ALLIED\'s authorized Evolve Skateboards all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/496/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/evolve-gtr-bamboo-series-2-all-terrain.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8650,7 +8650,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve GTR Bamboo Series 2 Two-in-One — all-terrain / pneumatic boards with 42V-50V 12-15Ah lithium power and 25-50 km range.',
     description: 'The Evolve GTR Bamboo Series 2 Two-in-One is part of ALLIED\'s authorized Evolve Skateboards all-terrain / pneumatic boards range, featuring 3000w-6000w dual motor, 42v-50v 12-15ah lithium-ion, and a top speed of 40-50 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/629/800/600'],
+    images: ['/images/products/electric-skateboards/all-terrain-electric-skateboards/evolve-gtr-bamboo-series-2-two-in-one.webp'],
     specs: {
       voltage: '42V/50V System',
       batteryType: '42V-50V 12-15Ah Lithium-ion',
@@ -8681,7 +8681,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Wave Riot Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Exway Wave Riot Shortboard is part of ALLIED\'s authorized Exway mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/503/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/exway-wave-riot-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8712,7 +8712,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Backfire Mini V2 Cruiser — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Backfire Mini V2 Cruiser is part of ALLIED\'s authorized Backfire mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/965/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/backfire-mini-v2-cruiser.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8743,7 +8743,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo Mini 3s Deluxe — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Meepo Mini 3s Deluxe is part of ALLIED\'s authorized Meepo mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/902/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/meepo-mini-3s-deluxe.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8774,7 +8774,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'WowGo Mini 2 Pro — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The WowGo Mini 2 Pro is part of ALLIED\'s authorized WowGo mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/502/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/wowgo-mini-2-pro.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8805,7 +8805,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Stoke Series 2 Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Evolve Stoke Series 2 Shortboard is part of ALLIED\'s authorized Evolve Skateboards mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/488/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/evolve-stoke-series-2-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8836,7 +8836,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tynee Board Tynee Mini 3 Pro Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Tynee Mini 3 Pro Shortboard is part of ALLIED\'s authorized Tynee Board mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/443/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/tynee-mini-3-pro-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8867,7 +8867,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Meepo Mini 5 ER Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Meepo Mini 5 ER Shortboard is part of ALLIED\'s authorized Meepo mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/895/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/meepo-mini-5-er-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8897,7 +8897,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Wave Belt Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Exway Wave Belt Shortboard is part of ALLIED\'s authorized Exway mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/459/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/exway-wave-belt-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8928,7 +8928,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'WowGo Mini 2 Pocket Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The WowGo Mini 2 Pocket Shortboard is part of ALLIED\'s authorized WowGo mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/729/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/wowgo-mini-2-pocket-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8959,7 +8959,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Wave Riot Plus Headlight Shortboard — mini & portable shortboards with 36V 5-8Ah lithium power and 12-25 km range.',
     description: 'The Exway Wave Riot Plus Headlight Shortboard is part of ALLIED\'s authorized Exway mini & portable shortboards range, featuring 500w-1000w hub motor, 36v 5-8ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/202/800/600'],
+    images: ['/images/products/electric-skateboards/mini-electric-skateboards/exway-wave-riot-plus-headlight-shortboard.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 5-8Ah Lithium-ion',
@@ -8990,7 +8990,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Onewheel GT S-Series All-Terrain — onewheel-style boards with 48V 10-15Ah lithium power and 20-50 km range.',
     description: 'The Onewheel GT S-Series All-Terrain is part of ALLIED\'s authorized Onewheel onewheel-style boards range, featuring 750w-2000w single hub motor, 48v 10-15ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/910/800/600'],
+    images: ['/images/products/electric-skateboards/onewheel-style-boards/onewheel-gt-s-series-all-terrain.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 10-15Ah Lithium-ion',
@@ -9021,7 +9021,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Onewheel Pint X All-Terrain — onewheel-style boards with 48V 10-15Ah lithium power and 20-50 km range.',
     description: 'The Onewheel Pint X All-Terrain is part of ALLIED\'s authorized Onewheel onewheel-style boards range, featuring 750w-2000w single hub motor, 48v 10-15ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/330/800/600'],
+    images: ['/images/products/electric-skateboards/onewheel-style-boards/onewheel-pint-x-all-terrain.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 10-15Ah Lithium-ion',
@@ -9052,7 +9052,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Onewheel Pint — onewheel-style boards with 48V 10-15Ah lithium power and 20-50 km range.',
     description: 'The Onewheel Pint is part of ALLIED\'s authorized Onewheel onewheel-style boards range, featuring 750w-2000w single hub motor, 48v 10-15ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/586/800/600'],
+    images: ['/images/products/electric-skateboards/onewheel-style-boards/onewheel-pint.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 10-15Ah Lithium-ion',
@@ -9082,7 +9082,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Onewheel XR Classic — onewheel-style boards with 48V 10-15Ah lithium power and 20-50 km range.',
     description: 'The Onewheel XR Classic is part of ALLIED\'s authorized Onewheel onewheel-style boards range, featuring 750w-2000w single hub motor, 48v 10-15ah lithium-ion, and a top speed of 25-35 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/187/800/600'],
+    images: ['/images/products/electric-skateboards/onewheel-style-boards/onewheel-xr-classic.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 10-15Ah Lithium-ion',
@@ -9113,7 +9113,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'KingSong 16X High-Torque EUW — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The KingSong 16X High-Torque EUW is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/706/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/kingsong-16x-high-torque-euw.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9144,7 +9144,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Veteran Patton Suspension EUW — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Veteran Patton Suspension EUW is part of ALLIED\'s authorized Veteran electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/520/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/veteran-patton-suspension-euw.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9175,7 +9175,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Begode Master Pro V2 EUC 134V — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Begode Master Pro V2 EUC 134V is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/325/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/begode-master-pro-v2-euc-134v.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9206,7 +9206,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V14 Adventure EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The InMotion V14 Adventure EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/492/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/inmotion-v14-adventure-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9237,7 +9237,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Leaperkim Lynx 151V EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Leaperkim Lynx 151V EUC is part of ALLIED\'s authorized Leaperkim electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/335/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/leaperkim-lynx-151v-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9268,7 +9268,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Begode Extreme 134V Off-Road EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Begode Extreme 134V Off-Road EUC is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/692/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/begode-extreme-134v-off-road-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9299,7 +9299,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'KingSong Kingsong S22 Pro Eagle EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Kingsong S22 Pro Eagle EUC is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/174/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/kingsong-s22-pro-eagle-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9330,7 +9330,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V12 HT High Torque EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The InMotion V12 HT High Torque EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/215/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/inmotion-v12-ht-high-torque-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9361,7 +9361,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Begode Falcon 100V Compact EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Begode Falcon 100V Compact EUC is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/424/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/begode-falcon-100v-compact-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9391,7 +9391,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'KingSong Kingsong KS-16XS Suspension EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Kingsong KS-16XS Suspension EUC is part of ALLIED\'s authorized KingSong electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/581/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/kingsong-ks-16xs-suspension-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9422,7 +9422,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V11 Suspension EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The InMotion V11 Suspension EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/242/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/inmotion-v11-suspension-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9453,7 +9453,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Begode Commander Mini 116V — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The Begode Commander Mini 116V is part of ALLIED\'s authorized Begode electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/473/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/begode-commander-mini-116v.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9484,7 +9484,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V13 Challenger EUC — electric unicycles (euws) with 84V-134V 1000-3600Wh lithium power and 60-180 km range.',
     description: 'The InMotion V13 Challenger EUC is part of ALLIED\'s authorized InMotion electric unicycles (euws) range, featuring 1500w-3000w single hub motor, 84v-134v 1000-3600wh lithium-ion, and a top speed of 35-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/249/800/600'],
+    images: ['/images/products/self-balancing-ev/electric-unicycles/inmotion-v13-challenger-euc.webp'],
     specs: {
       voltage: '84V/100.8V/134V System',
       batteryType: '84V-134V 1000-3600Wh Lithium-ion',
@@ -9515,7 +9515,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway-Ninebot S Plus Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Segway-Ninebot S Plus Hoverboard is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/997/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/segway-ninebot-s-plus-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9546,7 +9546,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Swagtron T6 Outlaw Off-Road — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Swagtron T6 Outlaw Off-Road is part of ALLIED\'s authorized Swagtron hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/764/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/swagtron-t6-outlaw-off-road.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9577,7 +9577,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hover-1 Titan All-Terrain Board — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Hover-1 Titan All-Terrain Board is part of ALLIED\'s authorized Hover-1 hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/289/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/hover-1-titan-all-terrain-board.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9608,7 +9608,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot S-MAX Self-Balancing — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Segway Ninebot S-MAX Self-Balancing is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/474/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/segway-ninebot-s-max-self-balancing.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9639,7 +9639,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hover-1 Titan Pro All-Terrain Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Hover-1 Titan Pro All-Terrain Hoverboard is part of ALLIED\'s authorized Hover-1 hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/950/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/hover-1-titan-pro-all-terrain-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9670,7 +9670,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor Hovertrax Positech Smart Board — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Razor Hovertrax Positech Smart Board is part of ALLIED\'s authorized Razor hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/828/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/razor-hovertrax-positech-smart-board.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9701,7 +9701,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot S Kids Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Segway Ninebot S Kids Hoverboard is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/439/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/segway-ninebot-s-kids-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9732,7 +9732,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Gyroor Warrior All-Terrain Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Gyroor Warrior All-Terrain Hoverboard is part of ALLIED\'s authorized Gyroor hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/261/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/gyroor-warrior-all-terrain-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9763,7 +9763,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bullet SX-2500 6.5 Inch Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Bullet SX-2500 6.5 Inch Hoverboard is part of ALLIED\'s authorized Bullet hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/459/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/bullet-sx-2500-6-5-inch-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9793,7 +9793,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bullet Gen III SX-3000 6.5 Inch Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Bullet Gen III SX-3000 6.5 Inch Hoverboard is part of ALLIED\'s authorized Bullet hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/296/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/bullet-gen-iii-sx-3000-6-5-inch-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9824,7 +9824,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Vivid V500 6.5 Inch Street Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Vivid V500 6.5 Inch Street Hoverboard is part of ALLIED\'s authorized Vivid hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/912/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/vivid-v500-6-5-inch-street-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9855,7 +9855,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E-Glide 65B Street Hoverboard — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The E-Glide 65B Street Hoverboard is part of ALLIED\'s authorized E-Glide hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/775/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboards/e-glide-65b-street-hoverboard.webp'],
     specs: {
       voltage: '36V/42V System',
       batteryType: '36V-42V 4-4.4Ah Lithium-ion',
@@ -9885,7 +9885,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bullet KART-X Hoverboard Go-Kart Attachment — hoverboard go-kart attachments.',
     description: 'The Bullet KART-X Hoverboard Go-Kart Attachment is a genuine ALLIED-stocked Bullet hoverboard go-kart attachments item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/264/800/600'],
+    images: ['/images/products/self-balancing-ev/hoverboard-kart-attachments/bullet-kart-x-hoverboard-go-kart-attachment.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A - powered by attached hoverboard',
@@ -9916,7 +9916,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ampd Bros Lil Rippa 16" Kids — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Ampd Bros Lil Rippa 16" Kids is part of ALLIED\'s authorized Ampd Bros electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/629/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/ampd-bros-lil-rippa-16-kids.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -9947,7 +9947,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSE 12H Balance Bike — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Thumpstar TSE 12H Balance Bike is part of ALLIED\'s authorized Thumpstar electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/844/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/thumpstar-tse-12h-balance-bike.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -9978,7 +9978,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSE 12L Balance Bike — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Thumpstar TSE 12L Balance Bike is part of ALLIED\'s authorized Thumpstar electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/385/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/thumpstar-tse-12l-balance-bike.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10009,7 +10009,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSE16H Pro Balance Bike — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Thumpstar TSE16H Pro Balance Bike is part of ALLIED\'s authorized Thumpstar electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/276/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/thumpstar-tse16h-pro-balance-bike.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10040,7 +10040,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'YCF 12" Electric Kids Trainer — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The YCF 12" Electric Kids Trainer is part of ALLIED\'s authorized YCF electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/160/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/ycf-12-electric-kids-trainer.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10071,7 +10071,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'STACYC Stacyc 16eDrive Brushless Pro — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Stacyc 16eDrive Brushless Pro is part of ALLIED\'s authorized STACYC electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/173/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/stacyc-16edrive-brushless-pro.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10102,7 +10102,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'STACYC Stacyc 12eDrive Balance Bike — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Stacyc 12eDrive Balance Bike is part of ALLIED\'s authorized STACYC electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/837/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/stacyc-12edrive-balance-bike.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10133,7 +10133,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'KTM Factory Replica 16eDrive — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The KTM Factory Replica 16eDrive is part of ALLIED\'s authorized KTM electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/151/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/ktm-factory-replica-16edrive.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10164,7 +10164,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Husqvarna Factory Replica 12eDrive — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Husqvarna Factory Replica 12eDrive is part of ALLIED\'s authorized Husqvarna electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/533/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/husqvarna-factory-replica-12edrive.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10195,7 +10195,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'GASGAS Factory Replica 16eDrive — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The GASGAS Factory Replica 16eDrive is part of ALLIED\'s authorized GASGAS electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/921/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/gasgas-factory-replica-16edrive.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10226,7 +10226,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSK 12 Electric Balance — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Thumpstar TSK 12 Electric Balance is part of ALLIED\'s authorized Thumpstar electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/795/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/thumpstar-tsk-12-electric-balance.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10257,7 +10257,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mondraker Grommy 16 Kids E-Bike — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Mondraker Grommy 16 Kids E-Bike is part of ALLIED\'s authorized Mondraker electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/586/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/mondraker-grommy-16-kids-e-bike.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10287,7 +10287,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bulls Tokee Ultra E-Balance 14 — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Bulls Tokee Ultra E-Balance 14 is part of ALLIED\'s authorized Bulls electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/194/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/bulls-tokee-ultra-e-balance-14.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10318,7 +10318,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSK 16 Pro Balance — electric balance bikes with 12V-18V 4-5Ah lithium power and 45-90 minutes ride time range.',
     description: 'The Thumpstar TSK 16 Pro Balance is part of ALLIED\'s authorized Thumpstar electric balance bikes range, featuring 80w-300w hub motor, 12v-18v 4-5ah lithium-ion, and a top speed of 8-20 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/370/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-balance-bikes/thumpstar-tsk-16-pro-balance.webp'],
     specs: {
       voltage: '12V/16V/18V System',
       batteryType: '12V-18V 4-5Ah Lithium-ion',
@@ -10349,7 +10349,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Light Bee X — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Sur-Ron Light Bee X is part of ALLIED\'s authorized Sur-Ron youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/423/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/sur-ron-light-bee-x.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10380,7 +10380,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Talaria X3 — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Talaria X3 is part of ALLIED\'s authorized Talaria youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/706/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/talaria-x3.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10411,7 +10411,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E Ride Pro SS 3.0 Off Road — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The E Ride Pro SS 3.0 Off Road is part of ALLIED\'s authorized E Ride youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/266/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/e-ride-pro-ss-3-0-off-road.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10442,7 +10442,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E Ride Pro SS 2.0 Long Range — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The E Ride Pro SS 2.0 Long Range is part of ALLIED\'s authorized E Ride youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/380/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/e-ride-pro-ss-2-0-long-range.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10473,7 +10473,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E Ride Pro SR Off Road — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The E Ride Pro SR Off Road is part of ALLIED\'s authorized E Ride youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/847/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/e-ride-pro-sr-off-road.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10504,7 +10504,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Arctic Leopard XE Pro S Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Arctic Leopard XE Pro S Dirt Bike is part of ALLIED\'s authorized Arctic Leopard youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/439/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/arctic-leopard-xe-pro-s-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10535,7 +10535,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rerode R1+ 17kW Electric Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Rerode R1+ 17kW Electric Dirt Bike is part of ALLIED\'s authorized Rerode youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/109/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/rerode-r1-17kw-electric-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10566,7 +10566,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rerode R1 10kW Electric Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Rerode R1 10kW Electric Dirt Bike is part of ALLIED\'s authorized Rerode youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/109/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/rerode-r1-10kw-electric-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10597,7 +10597,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Light Bee Youth Edition — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Sur-Ron Light Bee Youth Edition is part of ALLIED\'s authorized Sur-Ron youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/447/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/sur-ron-light-bee-youth-edition.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10628,7 +10628,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Talaria XXX Youth Pit Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Talaria XXX Youth Pit Bike is part of ALLIED\'s authorized Talaria youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/223/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/talaria-xxx-youth-pit-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10659,7 +10659,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kuberg Cross Hero Youth Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Kuberg Cross Hero Youth Dirt Bike is part of ALLIED\'s authorized Kuberg youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/749/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/kuberg-cross-hero-youth-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10690,7 +10690,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Hyperbee Youth E-Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Sur-Ron Hyperbee Youth E-Dirt Bike is part of ALLIED\'s authorized Sur-Ron youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/143/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/sur-ron-hyperbee-youth-e-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10721,7 +10721,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor MX650 Dirt Rocket Pit Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Razor MX650 Dirt Rocket Pit Bike is part of ALLIED\'s authorized Razor youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/721/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/razor-mx650-dirt-rocket-pit-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10752,7 +10752,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'MotoTec 36V 1000W Demon Pit Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The MotoTec 36V 1000W Demon Pit Bike is part of ALLIED\'s authorized MotoTec youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/564/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/mototec-36v-1000w-demon-pit-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10782,7 +10782,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thumpstar TSK 70 E-Pit Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Thumpstar TSK 70 E-Pit Bike is part of ALLIED\'s authorized Thumpstar youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/653/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/thumpstar-tsk-70-e-pit-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10813,7 +10813,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Torrot Motocross ONE Electric Pit — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Torrot Motocross ONE Electric Pit is part of ALLIED\'s authorized Torrot youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/852/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/torrot-motocross-one-electric-pit.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10844,7 +10844,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kuberg Freerider Youth E-Dirt Bike — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Kuberg Freerider Youth E-Dirt Bike is part of ALLIED\'s authorized Kuberg youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/104/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/kuberg-freerider-youth-e-dirt-bike.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10875,7 +10875,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kayo e-KSD Youth Electric Motocross — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Kayo e-KSD Youth Electric Motocross is part of ALLIED\'s authorized Kayo youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/139/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/kayo-e-ksd-youth-electric-motocross.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10906,7 +10906,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Light Bee S — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Sur-Ron Light Bee S is part of ALLIED\'s authorized Sur-Ron youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/643/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/sur-ron-light-bee-s.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10937,7 +10937,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Talaria X3 Pro — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Talaria X3 Pro is part of ALLIED\'s authorized Talaria youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/261/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/talaria-x3-pro.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10968,7 +10968,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Talaria XXX — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Talaria XXX is part of ALLIED\'s authorized Talaria youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/473/800/600'],
+    images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/talaria-xxx.webp'],
     specs: {
       voltage: '48V/60V/72V System',
       batteryType: '48V-72V 20-40Ah Lithium-ion',
@@ -10999,7 +10999,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Gokart Pro 2 — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Segway Ninebot Gokart Pro 2 is part of ALLIED\'s authorized Segway Ninebot electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/554/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/segway-ninebot-gokart-pro-2.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11030,7 +11030,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor Ground Force Drifter Kart — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Razor Ground Force Drifter Kart is part of ALLIED\'s authorized Razor electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/230/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/razor-ground-force-drifter-kart.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11061,7 +11061,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Gotrax Cyberpunk Go-Kart — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Gotrax Cyberpunk Go-Kart is part of ALLIED\'s authorized Gotrax electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/502/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/gotrax-cyberpunk-go-kart.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11092,7 +11092,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor Crazy Cart XL Adult/Youth — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Razor Crazy Cart XL Adult/Youth is part of ALLIED\'s authorized Razor electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/113/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/razor-crazy-cart-xl-adult-youth.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11123,7 +11123,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Burmax 1000W Electric Go-Kart — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Burmax 1000W Electric Go-Kart is part of ALLIED\'s authorized Burmax electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/762/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/burmax-1000w-electric-go-kart.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11153,7 +11153,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot GoKart Kit Edition — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Segway Ninebot GoKart Kit Edition is part of ALLIED\'s authorized Segway Ninebot electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/100/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/segway-ninebot-gokart-kit-edition.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11184,7 +11184,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Triad Drift Trike Counter-Measure E — electric go-karts & drift trikes with 24V-36V 7-10Ah lithium power and 12-25 km range.',
     description: 'The Triad Drift Trike Counter-Measure E is part of ALLIED\'s authorized Triad electric go-karts & drift trikes range, featuring 350w-1000w motor, 24v-36v 7-10ah lithium-ion/sla, and a top speed of 12-40 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/298/800/600'],
+    images: ['/images/products/kids-off-road-ev/electric-go-karts/triad-drift-trike-counter-measure-e.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 7-10Ah Lithium-ion/SLA',
@@ -11215,7 +11215,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Afiscooter C3 Compact 3-Wheel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Afiscooter C3 Compact 3-Wheel is part of ALLIED\'s authorized Afiscooter travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/260/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/afiscooter-c3-compact-3-wheel.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11246,7 +11246,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merits Health Pacer Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Merits Health Pacer Folding Scooter is part of ALLIED\'s authorized Merits travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/550/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/merits-health-pacer-folding-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11277,7 +11277,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pride Mobility Go-Go Ultra X — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Pride Mobility Go-Go Ultra X is part of ALLIED\'s authorized Pride Mobility travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/571/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/pride-mobility-go-go-ultra-x.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11308,7 +11308,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shoprider Cordoba Luxury Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Shoprider Cordoba Luxury Scooter is part of ALLIED\'s authorized Shoprider travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/402/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/shoprider-cordoba-luxury-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11339,7 +11339,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pride Mobility Go-Go LX Travel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Pride Mobility Go-Go LX Travel is part of ALLIED\'s authorized Pride Mobility travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/565/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/pride-mobility-go-go-lx-travel.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11370,7 +11370,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Drive Medical Scout 4 Travel Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Drive Medical Scout 4 Travel Scooter is part of ALLIED\'s authorized Drive Medical travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/382/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/drive-medical-scout-4-travel-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11401,7 +11401,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Solax Transformer Auto-Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Solax Transformer Auto-Folding Scooter is part of ALLIED\'s authorized Solax travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/161/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/solax-transformer-auto-folding-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11432,7 +11432,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merits Roadster 4 Portable Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Merits Roadster 4 Portable Scooter is part of ALLIED\'s authorized Merits travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/209/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/merits-roadster-4-portable-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11463,7 +11463,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tzora Titan Hummer Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Tzora Titan Hummer Folding Scooter is part of ALLIED\'s authorized Tzora travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/854/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/tzora-titan-hummer-folding-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11494,7 +11494,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shoprider Echo 3 Portable Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Shoprider Echo 3 Portable Scooter is part of ALLIED\'s authorized Shoprider travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/854/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/shoprider-echo-3-portable-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11524,7 +11524,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Monarch Buzzaround EX Heavy Travel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Monarch Buzzaround EX Heavy Travel is part of ALLIED\'s authorized Monarch travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/402/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/monarch-buzzaround-ex-heavy-travel.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11555,7 +11555,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Solax Mobie Plus Folding Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Solax Mobie Plus Folding Scooter is part of ALLIED\'s authorized Solax travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/420/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/solax-mobie-plus-folding-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11585,7 +11585,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Equipmed SmartPacer+ Folding Mobility Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Equipmed SmartPacer+ Folding Mobility Scooter is part of ALLIED\'s authorized Equipmed travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/951/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/equipmed-smartpacer-folding-mobility-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11615,7 +11615,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Equipmed Ultra-Lightweight Folding Mobility Scooter — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Equipmed Ultra-Lightweight Folding Mobility Scooter is part of ALLIED\'s authorized Equipmed travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/413/800/600'],
+    images: ['/images/products/mobility-scooters/travel-mobility-scooters/equipmed-ultra-lightweight-folding-mobility-scooter.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 8-12Ah Lithium-ion/SLA (airline-safe)',
@@ -11646,7 +11646,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Afiscooter S3 3-Wheel All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Afiscooter S3 3-Wheel All-Terrain is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/308/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/afiscooter-s3-3-wheel-all-terrain.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11677,7 +11677,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merits Pioneer 14 Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Merits Pioneer 14 Heavy Duty is part of ALLIED\'s authorized Merits heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/664/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/merits-pioneer-14-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11708,7 +11708,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pride Mobility Pride Pursuit XL Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Pride Pursuit XL Heavy Duty is part of ALLIED\'s authorized Pride Mobility heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/883/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/pride-pursuit-xl-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11739,7 +11739,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Afiscooter S4 Heavy Duty 4-Wheel — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Afiscooter S4 Heavy Duty 4-Wheel is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/449/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/afiscooter-s4-heavy-duty-4-wheel.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11770,7 +11770,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pride Mobility Pride Wrangler All-Terrain Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Pride Wrangler All-Terrain Heavy Duty is part of ALLIED\'s authorized Pride Mobility heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/774/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/pride-wrangler-all-terrain-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11801,7 +11801,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shoprider Endeavor 889 All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Shoprider Endeavor 889 All-Terrain is part of ALLIED\'s authorized Shoprider heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/975/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/shoprider-endeavor-889-all-terrain.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11832,7 +11832,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Drive Medical Cobra GT4 Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Drive Medical Cobra GT4 Heavy Duty is part of ALLIED\'s authorized Drive Medical heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/911/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/drive-medical-cobra-gt4-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11862,7 +11862,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Invacare Comet Ultra Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Invacare Comet Ultra Heavy Duty is part of ALLIED\'s authorized Invacare heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/371/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/invacare-comet-ultra-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11893,7 +11893,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Afiscooter C4 Mid-Size All-Terrain — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Afiscooter C4 Mid-Size All-Terrain is part of ALLIED\'s authorized Afiscooter heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/628/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/afiscooter-c4-mid-size-all-terrain.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11924,7 +11924,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merits Silverado Extreme Heavy Duty — heavy-duty all-terrain mobility scooters with 24V 55-75Ah AGM/Lithium-ion lithium power and 30-60 km range.',
     description: 'The Merits Silverado Extreme Heavy Duty is part of ALLIED\'s authorized Merits heavy-duty all-terrain mobility scooters range, featuring 500w-800w dual motor, 24v 55-75ah agm/lithium-ion, and a top speed of 10-12 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/720/800/600'],
+    images: ['/images/products/mobility-scooters/heavy-duty-mobility-scooters/merits-silverado-extreme-heavy-duty.webp'],
     specs: {
       voltage: '24V System',
       batteryType: '24V 55-75Ah AGM/Lithium-ion',
@@ -11954,7 +11954,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'CFMoto CForce 110 Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
     description: 'The CFMoto CForce 110 Electric Quad is part of ALLIED\'s authorized CFMoto kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/709/800/600'],
+    images: ['/images/products/electric-quad-bikes/kids-electric-quads/cfmoto-cforce-110-electric-quad.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
@@ -11985,7 +11985,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor Dirt Quad 500 — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
     description: 'The Razor Dirt Quad 500 is part of ALLIED\'s authorized Razor kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/908/800/600'],
+    images: ['/images/products/electric-quad-bikes/kids-electric-quads/razor-dirt-quad-500.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
@@ -12015,7 +12015,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Venom 800W Kids Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
     description: 'The Venom 800W Kids Electric Quad is part of ALLIED\'s authorized Venom kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/666/800/600'],
+    images: ['/images/products/electric-quad-bikes/kids-electric-quads/venom-800w-kids-electric-quad.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
@@ -12045,7 +12045,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'MotoTec 36V Kids Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
     description: 'The MotoTec 36V Kids Electric Quad is part of ALLIED\'s authorized MotoTec kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/682/800/600'],
+    images: ['/images/products/electric-quad-bikes/kids-electric-quads/mototec-36v-kids-electric-quad.webp'],
     specs: {
       voltage: '24V/36V System',
       batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
@@ -12076,7 +12076,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway Villain SX10 Electric ATV — adult electric quad bikes & atvs with 72V-96V 40-60Ah lithium power and 40-80 km range.',
     description: 'The Segway Villain SX10 Electric ATV is part of ALLIED\'s authorized Segway Ninebot adult electric quad bikes & atvs range, featuring 10000w-60000w motor, 72v-96v 40-60ah lithium-ion, and a top speed of 60-120 km/h (off-road/private property use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/206/800/600'],
+    images: ['/images/products/electric-quad-bikes/adult-electric-quads/segway-villain-sx10-electric-atv.webp'],
     specs: {
       voltage: '72V/96V System',
       batteryType: '72V-96V 40-60Ah Lithium-ion',
@@ -12107,7 +12107,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lift Foils Lift eFoil 2 Electric Hydrofoil — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
     description: 'The Lift eFoil 2 Electric Hydrofoil is part of ALLIED\'s authorized Lift Foils electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/905/800/600'],
+    images: ['/images/products/electric-water-sports/electric-surfboards/lift-efoil-2-electric-hydrofoil.webp'],
     specs: {
       voltage: '52V/96V System',
       batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
@@ -12138,7 +12138,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fliteboard AIR Electric Hydrofoil — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
     description: 'The Fliteboard AIR Electric Hydrofoil is part of ALLIED\'s authorized Fliteboard electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/514/800/600'],
+    images: ['/images/products/electric-water-sports/electric-surfboards/fliteboard-air-electric-hydrofoil.webp'],
     specs: {
       voltage: '52V/96V System',
       batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
@@ -12169,7 +12169,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Awake RAVIK S Electric Surfboard — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
     description: 'The Awake RAVIK S Electric Surfboard is part of ALLIED\'s authorized Awake electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/124/800/600'],
+    images: ['/images/products/electric-water-sports/electric-surfboards/awake-ravik-s-electric-surfboard.webp'],
     specs: {
       voltage: '52V/96V System',
       batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
@@ -12200,7 +12200,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Radinn Freeride Electric Jetboard — electric jetboards with 96V 3-4kWh Waterproof lithium power and 30-60 minutes riding time range.',
     description: 'The Radinn Freeride Electric Jetboard is part of ALLIED\'s authorized Radinn electric jetboards range, featuring 12000w-20000w jet pump motor, 96v 3-4kwh waterproof lithium-ion, and a top speed of 45-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/519/800/600'],
+    images: ['/images/products/electric-water-sports/electric-jetboards/radinn-freeride-electric-jetboard.webp'],
     specs: {
       voltage: '96V System',
       batteryType: '96V 3-4kWh Waterproof Lithium-ion',
@@ -12231,7 +12231,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'YuJet Surfer Electric Bodyboard — electric jetboards with 96V 3-4kWh Waterproof lithium power and 30-60 minutes riding time range.',
     description: 'The YuJet Surfer Electric Bodyboard is part of ALLIED\'s authorized YuJet electric jetboards range, featuring 12000w-20000w jet pump motor, 96v 3-4kwh waterproof lithium-ion, and a top speed of 45-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/918/800/600'],
+    images: ['/images/products/electric-water-sports/electric-jetboards/yujet-surfer-electric-bodyboard.webp'],
     specs: {
       voltage: '96V System',
       batteryType: '96V 3-4kWh Waterproof Lithium-ion',
@@ -12262,7 +12262,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Taiga Orca Carbon Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
     description: 'The Taiga Orca Carbon Electric Jet Ski is part of ALLIED\'s authorized Taiga electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/322/800/600'],
+    images: ['/images/products/electric-water-sports/electric-jetskis/taiga-orca-carbon-electric-jet-ski.webp'],
     specs: {
       voltage: '120V+ System',
       batteryType: '120V+ 12-18kWh Lithium-ion',
@@ -12293,7 +12293,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sea-Doo Rise Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
     description: 'The Sea-Doo Rise Electric Jet Ski is part of ALLIED\'s authorized Sea-Doo electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/937/800/600'],
+    images: ['/images/products/electric-water-sports/electric-jetskis/sea-doo-rise-electric-jet-ski.webp'],
     specs: {
       voltage: '120V+ System',
       batteryType: '120V+ 12-18kWh Lithium-ion',
@@ -12324,7 +12324,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Narke GT45 Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
     description: 'The Narke GT45 Electric Jet Ski is part of ALLIED\'s authorized Narke electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/359/800/600'],
+    images: ['/images/products/electric-water-sports/electric-jetskis/narke-gt45-electric-jet-ski.webp'],
     specs: {
       voltage: '120V+ System',
       batteryType: '120V+ 12-18kWh Lithium-ion',
@@ -12354,7 +12354,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch PowerTube 500 Vertical Battery — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
     description: 'The Bosch PowerTube 500 Vertical Battery is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/125/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/bosch-powertube-500-vertical-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12384,7 +12384,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch PowerTube 500 Horizontal Battery (BBP3750) — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
     description: 'The Bosch PowerTube 500 Horizontal Battery (BBP3750) is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/182/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/bosch-powertube-500-horizontal-battery-bbp3750.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12414,7 +12414,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch PowerTube 625 Horizontal Battery — e-bike batteries. Trek Allant+ 8 ST and 10 more.',
     description: 'The Bosch PowerTube 625 Horizontal Battery is a genuine ALLIED-stocked e-bike batteries component. Trek Allant+ 8 ST and 10 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/495/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/bosch-powertube-625-horizontal-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12444,7 +12444,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano STEPS BT-E8035 Integrated Down Tube Battery 504Wh — e-bike batteries. Merida eBig.Nine 400 and 2 more.',
     description: 'The Shimano STEPS BT-E8035 Integrated Down Tube Battery 504Wh is a genuine ALLIED-stocked e-bike batteries component. Merida eBig.Nine 400 and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/722/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/shimano-steps-bt-e8035-integrated-down-tube-battery-504wh.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12474,7 +12474,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano STEPS BT-E8010 Down Tube Battery 504Wh — e-bike batteries. Merida eSpresso 300 SE and 2 more.',
     description: 'The Shimano STEPS BT-E8010 Down Tube Battery 504Wh is a genuine ALLIED-stocked e-bike batteries component. Merida eSpresso 300 SE and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/599/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/shimano-steps-bt-e8010-down-tube-battery-504wh.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12504,7 +12504,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized U2-710 Battery (Turbo Tero, Vado and Como Gen 2) — e-bike batteries. Specialized Turbo Tero 3.0 and 3 more.',
     description: 'The Specialized U2-710 Battery (Turbo Tero, Vado and Como Gen 2) is a genuine ALLIED-stocked e-bike batteries component. Specialized Turbo Tero 3.0 and 3 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/340/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/specialized-u2-710-battery-turbo-tero-vado-and-como-gen-2.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12534,7 +12534,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lectric XPedition 2.0 Spare Battery — e-bike batteries. Lectric XPedition Dual Battery.',
     description: 'The Lectric XPedition 2.0 Spare Battery is a genuine ALLIED-stocked e-bike batteries component. Lectric XPedition Dual Battery. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/776/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/lectric-xpedition-2-0-spare-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12564,7 +12564,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Level Replacement Battery 48V 14Ah — e-bike batteries. Aventon Level 3 Step-Through and 1 more.',
     description: 'The Aventon Level Replacement Battery 48V 14Ah is a genuine ALLIED-stocked e-bike batteries component. Aventon Level 3 Step-Through and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/494/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/aventon-level-replacement-battery-48v-14ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12594,7 +12594,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido C11 and C11 Pro Replacement Battery — e-bike batteries. Fiido C11 Step-Through and 1 more.',
     description: 'The Fiido C11 and C11 Pro Replacement Battery is a genuine ALLIED-stocked e-bike batteries component. Fiido C11 Step-Through and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/921/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/fiido-c11-and-c11-pro-replacement-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12624,7 +12624,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Brompton Electric Replacement Battery 36V 8.55Ah (Original) — e-bike batteries. Brompton Electric C Line 6-Speed.',
     description: 'The Brompton Electric Replacement Battery 36V 8.55Ah (Original) is a genuine ALLIED-stocked e-bike batteries component. Brompton Electric C Line 6-Speed. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/560/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/brompton-electric-replacement-battery-36v-8-55ah-original.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12654,7 +12654,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau Universal 48V 15Ah Secondary Battery — e-bike batteries. Eunorau G30 Max Cargo and 1 more.',
     description: 'The Eunorau Universal 48V 15Ah Secondary Battery is a genuine ALLIED-stocked e-bike batteries component. Eunorau G30 Max Cargo and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/918/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/eunorau-universal-48v-15ah-secondary-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12684,7 +12684,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mokwheel Basalt Series Battery 48V 19.6Ah — e-bike batteries. Mokwheel Basalt Step-Thru and 1 more.',
     description: 'The Mokwheel Basalt Series Battery 48V 19.6Ah is a genuine ALLIED-stocked e-bike batteries component. Mokwheel Basalt Step-Thru and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/963/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/mokwheel-basalt-series-battery-48v-19-6ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12714,7 +12714,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover G5-6 Battery 52V 20Ah — e-bike batteries. DiroDi Rover Gen 6 1000W Dual and 1 more.',
     description: 'The DiroDi Rover G5-6 Battery 52V 20Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Gen 6 1000W Dual and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/986/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/dirodi-rover-g5-6-battery-52v-20ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12744,7 +12744,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Pro/Dual Battery 52V 20Ah — e-bike batteries. DiroDi Rover Gen 6 1000W Dual.',
     description: 'The DiroDi Rover Pro/Dual Battery 52V 20Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Gen 6 1000W Dual. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/874/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/dirodi-rover-pro-dual-battery-52v-20ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12774,7 +12774,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Gen 1-4 Battery 48V 17.4Ah — e-bike batteries. DiroDi Rover Plus 750W and 1 more.',
     description: 'The DiroDi Rover Gen 1-4 Battery 48V 17.4Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Plus 750W and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/597/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/dirodi-rover-gen-1-4-battery-48v-17-4ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12804,7 +12804,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Gen 1-4 Battery 48V 15.6Ah — e-bike batteries. DiroDi Rover Plus Low-Step 48V and 1 more.',
     description: 'The DiroDi Rover Gen 1-4 Battery 48V 15.6Ah is a genuine ALLIED-stocked e-bike batteries component. DiroDi Rover Plus Low-Step 48V and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/660/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/dirodi-rover-gen-1-4-battery-48v-15-6ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12834,7 +12834,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rad Power Bikes Rad Power Safe Shield Semi-Integrated Battery 14Ah — e-bike batteries. Rad Power RadWagon 4 Pro.',
     description: 'The Rad Power Safe Shield Semi-Integrated Battery 14Ah is a genuine ALLIED-stocked e-bike batteries component. Rad Power RadWagon 4 Pro. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/204/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/rad-power-safe-shield-semi-integrated-battery-14ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12864,7 +12864,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedego Long Range Cargo Battery 48V 20Ah — e-bike batteries. Fits by size: see product page.',
     description: 'The Pedego Long Range Cargo Battery 48V 20Ah is a genuine ALLIED-stocked e-bike batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/318/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/pedego-long-range-cargo-battery-48v-20ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12894,7 +12894,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch PowerTube 750 Horizontal Battery (BBP3770) — e-bike batteries. Riese & Müller Load 4 75 and 2 more.',
     description: 'The Bosch PowerTube 750 Horizontal Battery (BBP3770) is a genuine ALLIED-stocked e-bike batteries component. Riese & Müller Load 4 75 and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/911/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/bosch-powertube-750-horizontal-battery-bbp3770.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12924,7 +12924,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant EnergyPak 500 Top Load Battery — e-bike batteries. Fits by size: see product page.',
     description: 'The Giant EnergyPak 500 Top Load Battery is a genuine ALLIED-stocked e-bike batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/683/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/giant-energypak-500-top-load-battery.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12954,7 +12954,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Engwe EP-2 Pro Battery 13Ah — e-bike batteries. Engwe EP-2 Pro Fat Folder.',
     description: 'The Engwe EP-2 Pro Battery 13Ah is a genuine ALLIED-stocked e-bike batteries component. Engwe EP-2 Pro Fat Folder. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/429/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-batteries/engwe-ep-2-pro-battery-13ah.webp'],
     specs: {
       voltage: '36V/48V/52V Pack',
       batteryType: 'Lithium-ion Cell (Panasonic/Samsung/LG)',
@@ -12985,7 +12985,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch Fast Charger 6A for System 2 Batteries — e-bike chargers. Trek Allant+ 5 and 22 more.',
     description: 'The Bosch Fast Charger 6A for System 2 Batteries is a genuine ALLIED-stocked e-bike chargers component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/104/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-chargers/bosch-fast-charger-6a-for-system-2-batteries.webp'],
     specs: {
       voltage: '36V/42V/48V Output',
       batteryType: 'N/A - charger component',
@@ -13016,7 +13016,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano STEPS 4A Fast Battery Charger — e-bike chargers. Merida eSpresso City 300 EQ and 6 more.',
     description: 'The Shimano STEPS 4A Fast Battery Charger is a genuine ALLIED-stocked e-bike chargers component. Merida eSpresso City 300 EQ and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/888/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-chargers/shimano-steps-4a-fast-battery-charger.webp'],
     specs: {
       voltage: '36V/42V/48V Output',
       batteryType: 'N/A - charger component',
@@ -13046,7 +13046,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano STEPS EC-E6002 Battery Charger — e-bike chargers. Merida eBig.Nine 400 and 6 more.',
     description: 'The Shimano STEPS EC-E6002 Battery Charger is a genuine ALLIED-stocked e-bike chargers component. Merida eBig.Nine 400 and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/734/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-chargers/shimano-steps-ec-e6002-battery-charger.webp'],
     specs: {
       voltage: '36V/42V/48V Output',
       batteryType: 'N/A - charger component',
@@ -13076,7 +13076,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch 4A Standard Charger Smart System (BPC3400) — e-bike chargers. Trek Allant+ 5 and 22 more.',
     description: 'The Bosch 4A Standard Charger Smart System (BPC3400) is a genuine ALLIED-stocked e-bike chargers component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/858/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-chargers/bosch-4a-standard-charger-smart-system-bpc3400.webp'],
     specs: {
       voltage: '36V/42V/48V Output',
       batteryType: 'N/A - charger component',
@@ -13106,7 +13106,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant EnergyPak Smart Charger — e-bike chargers. Giant Explore E+ 4 and 3 more.',
     description: 'The Giant EnergyPak Smart Charger is a genuine ALLIED-stocked e-bike chargers component. Giant Explore E+ 4 and 3 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/741/800/600'],
+    images: ['/images/products/batteries-parts-kits/ebike-chargers/giant-energypak-smart-charger.webp'],
     specs: {
       voltage: '36V/42V/48V Output',
       batteryType: 'N/A - charger component',
@@ -13136,7 +13136,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Dualtron Thunder 60V 35Ah Replacement Battery — scooter, board & mobility batteries. Dualtron Thunder 60V 35Ah.',
     description: 'The Dualtron Thunder 60V 35Ah Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Dualtron Thunder 60V 35Ah. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/805/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-batteries/dualtron-thunder-60v-35ah-replacement-battery.webp'],
     specs: {
       voltage: '12V/36V/60V Pack',
       batteryType: 'Lithium-ion / AGM Cell',
@@ -13166,7 +13166,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Standard Electric Skateboard Battery — scooter, board & mobility batteries. Evolve Bamboo GTR Series 2 Street and 6 more.',
     description: 'The Evolve Standard Electric Skateboard Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Evolve Bamboo GTR Series 2 Street and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/292/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-batteries/evolve-standard-electric-skateboard-battery.webp'],
     specs: {
       voltage: '12V/36V/60V Pack',
       batteryType: 'Lithium-ion / AGM Cell',
@@ -13196,7 +13196,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Universal Hoverboard 36V 4.4Ah 10S2P Replacement Battery — scooter, board & mobility batteries. Fits by size: see product page.',
     description: 'The Hoverboard 36V 4.4Ah 10S2P Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/278/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-batteries/hoverboard-36v-4-4ah-10s2p-replacement-battery.webp'],
     specs: {
       voltage: '12V/36V/60V Pack',
       batteryType: 'Lithium-ion / AGM Cell',
@@ -13226,7 +13226,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Universal Mobility Scooter 12V 35Ah AGM Replacement Battery — scooter, board & mobility batteries. Fits by size: see product page.',
     description: 'The Mobility Scooter 12V 35Ah AGM Replacement Battery is a genuine ALLIED-stocked scooter, board & mobility batteries component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/284/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-batteries/mobility-scooter-12v-35ah-agm-replacement-battery.webp'],
     specs: {
       voltage: '12V/36V/60V Pack',
       batteryType: 'Lithium-ion / AGM Cell',
@@ -13256,7 +13256,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Segway-Ninebot Fast Charger for MAX Scooters — scooter, skate & kids chargers. Segway Ninebot Max G2 Pro.',
     description: 'The Segway-Ninebot Fast Charger for MAX Scooters is a genuine ALLIED-stocked scooter, skate & kids chargers component. Segway Ninebot Max G2 Pro. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/209/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/segway-ninebot-fast-charger-for-max-scooters.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13286,7 +13286,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Segway Ninebot Original Ninebot by Segway Scooter Charger 42V 1.7A — scooter, skate & kids chargers. Xiaomi Mi Electric Scooter 1S.',
     description: 'The Original Ninebot by Segway Scooter Charger 42V 1.7A is a genuine ALLIED-stocked scooter, skate & kids chargers component. Xiaomi Mi Electric Scooter 1S. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/897/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/original-ninebot-by-segway-scooter-charger-42v-1-7a.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13316,7 +13316,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Universal Multi-Voltage Charger for Kaabo, Dualtron, Apollo and Vsett Scooters — scooter, skate & kids chargers. Dualtron Thunder 60V 35Ah and 20 more.',
     description: 'The Multi-Voltage Charger for Kaabo, Dualtron, Apollo and Vsett Scooters is a genuine ALLIED-stocked scooter, skate & kids chargers component. Dualtron Thunder 60V 35Ah and 20 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/377/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/multi-voltage-charger-for-kaabo-dualtron-apollo-and-vsett-scooters.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13346,7 +13346,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve 5A Charger for Hadean, Diablo and Renegade — scooter, skate & kids chargers. Evolve Hadean Carbon All-Terrain and 1 more.',
     description: 'The Evolve 5A Charger for Hadean, Diablo and Renegade is a genuine ALLIED-stocked scooter, skate & kids chargers component. Evolve Hadean Carbon All-Terrain and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/684/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/evolve-5a-charger-for-hadean-diablo-and-renegade.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13376,7 +13376,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Onewheel Pint Car Charger — scooter, skate & kids chargers. Onewheel Pint.',
     description: 'The Onewheel Pint Car Charger is a genuine ALLIED-stocked scooter, skate & kids chargers component. Onewheel Pint. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/834/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/onewheel-pint-car-charger.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13406,7 +13406,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'STACYC Stacyc 18V Smart Battery Charger — scooter, skate & kids chargers. Stacyc 12eDrive Balance Bike and 4 more.',
     description: 'The Stacyc 18V Smart Battery Charger is a genuine ALLIED-stocked scooter, skate & kids chargers component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/248/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/stacyc-18v-smart-battery-charger.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13436,7 +13436,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V12 Charger 100.8V 2.3A — scooter, skate & kids chargers. InMotion V12 HT High Torque EUC.',
     description: 'The InMotion V12 Charger 100.8V 2.3A is a genuine ALLIED-stocked scooter, skate & kids chargers component. InMotion V12 HT High Torque EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/587/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/inmotion-v12-charger-100-8v-2-3a.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13466,7 +13466,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Universal 100.8V 8A Rapid Charger for Begode EX.N, RS, Sherman and InMotion V12 — scooter, skate & kids chargers. InMotion V12 HT High Torque EUC.',
     description: 'The 100.8V 8A Rapid Charger for Begode EX.N, RS, Sherman and InMotion V12 is a genuine ALLIED-stocked scooter, skate & kids chargers component. InMotion V12 HT High Torque EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/867/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/100-8v-8a-rapid-charger-for-begode-ex-n-rs-sherman-and-inmotion-v12.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13496,7 +13496,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Universal 84.2V 5A Rapid Charger for KingSong 16X/18XL and InMotion V11/V10F — scooter, skate & kids chargers. KingSong 16X High-Torque EUW and 1 more.',
     description: 'The 84.2V 5A Rapid Charger for KingSong 16X/18XL and InMotion V11/V10F is a genuine ALLIED-stocked scooter, skate & kids chargers component. KingSong 16X High-Torque EUW and 1 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/275/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-chargers/84-2v-5a-rapid-charger-for-kingsong-16x-18xl-and-inmotion-v11-v10f.webp'],
     specs: {
       voltage: '36V-100.8V Output',
       batteryType: 'N/A - charger component',
@@ -13526,7 +13526,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Evolve Skateboards Evolve Replacement Trucks (Hadean, GT, GTR) — scooter, skate & kids parts. Evolve Hadean Carbon All-Terrain and 6 more.',
     description: 'The Evolve Replacement Trucks (Hadean, GT, GTR) is a genuine ALLIED-stocked scooter, skate & kids parts component. Evolve Hadean Carbon All-Terrain and 6 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/738/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-parts/evolve-replacement-trucks-hadean-gt-gtr.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13556,7 +13556,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Exway Riot 15mm Replacement Belt (Pair) — scooter, skate & kids parts. Exway Flex Riot Street Board and 2 more.',
     description: 'The Exway Riot 15mm Replacement Belt (Pair) is a genuine ALLIED-stocked scooter, skate & kids parts component. Exway Flex Riot Street Board and 2 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/466/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-parts/exway-riot-15mm-replacement-belt-pair.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13586,7 +13586,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'STACYC Stacyc Replacement Throttle for 12eDrive and 16eDrive — scooter, skate & kids parts. Stacyc 12eDrive Balance Bike and 4 more.',
     description: 'The Stacyc Replacement Throttle for 12eDrive and 16eDrive is a genuine ALLIED-stocked scooter, skate & kids parts component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/987/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-parts/stacyc-replacement-throttle-for-12edrive-and-16edrive.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13616,7 +13616,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Xiaomi Scooter 8.5 x 2.0 Inner Tube with Bent Valve — scooter, skate & kids parts. Xiaomi Mi Electric Scooter 1S.',
     description: 'The Xiaomi Scooter 8.5 x 2.0 Inner Tube with Bent Valve is a genuine ALLIED-stocked scooter, skate & kids parts component. Xiaomi Mi Electric Scooter 1S. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/296/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-parts/xiaomi-scooter-8-5-x-2-0-inner-tube-with-bent-valve.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13646,7 +13646,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'InMotion V11 18 x 3 CST C-1488 Tyre — scooter, skate & kids parts. InMotion V11 Suspension EUC.',
     description: 'The InMotion V11 18 x 3 CST C-1488 Tyre is a genuine ALLIED-stocked scooter, skate & kids parts component. InMotion V11 Suspension EUC. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/621/800/600'],
+    images: ['/images/products/batteries-parts-kits/scooter-skate-parts/inmotion-v11-18-x-3-cst-c-1488-tyre.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13676,7 +13676,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Razor MX650 12V 12Ah Sealed Lead Acid Battery (3-Pack) — kids & dirt bike batteries. Razor MX650 Dirt Rocket Pit Bike.',
     description: 'The Razor MX650 12V 12Ah Sealed Lead Acid Battery (3-Pack) is a genuine ALLIED-stocked kids & dirt bike batteries component. Razor MX650 Dirt Rocket Pit Bike. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/591/800/600'],
+    images: ['/images/products/batteries-parts-kits/kids-dirt-bike-batteries/razor-mx650-12v-12ah-sealed-lead-acid-battery-3-pack.webp'],
     specs: {
       voltage: '12V/18V Pack',
       batteryType: 'SLA / Lithium-ion Cell',
@@ -13706,7 +13706,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'STACYC Stacyc 18V 5Ah Battery — kids & dirt bike batteries. Stacyc 12eDrive Balance Bike and 4 more.',
     description: 'The Stacyc 18V 5Ah Battery is a genuine ALLIED-stocked kids & dirt bike batteries component. Stacyc 12eDrive Balance Bike and 4 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/158/800/600'],
+    images: ['/images/products/batteries-parts-kits/kids-dirt-bike-batteries/stacyc-18v-5ah-battery.webp'],
     specs: {
       voltage: '12V/18V Pack',
       batteryType: 'SLA / Lithium-ion Cell',
@@ -13736,7 +13736,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Schwalbe Marathon E-Plus 27.5 x 2.0 Wire Bead Tyre — tyres & tubes. Fits by size: see product page.',
     description: 'The Schwalbe Marathon E-Plus 27.5 x 2.0 Wire Bead Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/306/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/schwalbe-marathon-e-plus-27-5-x-2-0-wire-bead-tyre.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13766,7 +13766,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Schwalbe Marathon Plus 700C Wire Bead Tyre — tyres & tubes. Fits by size: see product page.',
     description: 'The Schwalbe Marathon Plus 700C Wire Bead Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/742/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/schwalbe-marathon-plus-700c-wire-bead-tyre.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13796,7 +13796,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Schwalbe Marathon Plus Tour Reflective 700C Tyre — tyres & tubes. Fits by size: see product page.',
     description: 'The Schwalbe Marathon Plus Tour Reflective 700C Tyre is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/481/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/schwalbe-marathon-plus-tour-reflective-700c-tyre.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13826,7 +13826,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Schwalbe Marathon Plus E-25 Hybrid Tyre 700 x 35c — tyres & tubes. Fits by size: see product page.',
     description: 'The Schwalbe Marathon Plus E-25 Hybrid Tyre 700 x 35c is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/223/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/schwalbe-marathon-plus-e-25-hybrid-tyre-700-x-35c.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13856,7 +13856,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Entity Inner Tube 700c — tyres & tubes. Fits by size: see product page.',
     description: 'The Entity Inner Tube 700c is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/247/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/entity-inner-tube-700c.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13886,7 +13886,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Freedom to Ride Schrader Tube 27.5 x 2.1-2.5 — tyres & tubes. Fits by size: see product page.',
     description: 'The Freedom to Ride Schrader Tube 27.5 x 2.1-2.5 is a genuine ALLIED-stocked tyres & tubes component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/414/800/600'],
+    images: ['/images/products/batteries-parts-kits/tyres-tubes/freedom-to-ride-schrader-tube-27-5-x-2-1-2-5.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13916,7 +13916,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tektro 180mm Disc Brake Rotor — brake pads & rotors. Fits by size: see product page.',
     description: 'The Tektro 180mm Disc Brake Rotor is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/579/800/600'],
+    images: ['/images/products/batteries-parts-kits/brakes-rotors-pads/tektro-180mm-disc-brake-rotor.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13946,7 +13946,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano Deore RT56 6-Bolt Disc Rotor 160mm — brake pads & rotors. Fits by size: see product page.',
     description: 'The Shimano Deore RT56 6-Bolt Disc Rotor 160mm is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/721/800/600'],
+    images: ['/images/products/batteries-parts-kits/brakes-rotors-pads/shimano-deore-rt56-6-bolt-disc-rotor-160mm.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -13976,7 +13976,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Shimano SLX RT66 Disc Rotor 180mm — brake pads & rotors. Fits by size: see product page.',
     description: 'The Shimano SLX RT66 Disc Rotor 180mm is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/340/800/600'],
+    images: ['/images/products/batteries-parts-kits/brakes-rotors-pads/shimano-slx-rt66-disc-rotor-180mm.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -14006,7 +14006,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'SwissStop Disc 27E Brake Pads (Shimano/Tektro) — brake pads & rotors. Fits by size: see product page.',
     description: 'The SwissStop Disc 27E Brake Pads (Shimano/Tektro) is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/783/800/600'],
+    images: ['/images/products/batteries-parts-kits/brakes-rotors-pads/swissstop-disc-27e-brake-pads-shimano-tektro.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -14036,7 +14036,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tektro Mechanical Disc Brake Pads — brake pads & rotors. Fits by size: see product page.',
     description: 'The Tektro Mechanical Disc Brake Pads is a genuine ALLIED-stocked brake pads & rotors component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/871/800/600'],
+    images: ['/images/products/batteries-parts-kits/brakes-rotors-pads/tektro-mechanical-disc-brake-pads.webp'],
     specs: {
       voltage: 'N/A (mechanical part)',
       batteryType: 'N/A - mechanical part',
@@ -14066,7 +14066,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bafang BBS02B 48V 750W Mid-Drive Conversion Kit — mid-drive conversion kits. Fits by size: see product page.',
     description: 'The Bafang BBS02B 48V 750W Mid-Drive Conversion Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/858/800/600'],
+    images: ['/images/products/batteries-parts-kits/mid-drive-conversion-kits/bafang-bbs02b-48v-750w-mid-drive-conversion-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14096,7 +14096,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bafang BBSHD 48V 1000W Mid-Drive Conversion Kit — mid-drive conversion kits. Fits by size: see product page.',
     description: 'The Bafang BBSHD 48V 1000W Mid-Drive Conversion Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Fits by size: see product page. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/866/800/600'],
+    images: ['/images/products/batteries-parts-kits/mid-drive-conversion-kits/bafang-bbshd-48v-1000w-mid-drive-conversion-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14127,7 +14127,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bafang BBS02B 750W Mid-Drive Kit — mid-drive conversion kits. Universal bottom bracket fitment.',
     description: 'The Bafang BBS02B 750W Mid-Drive Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Universal bottom bracket fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/651/800/600'],
+    images: ['/images/products/batteries-parts-kits/mid-drive-conversion-kits/bafang-bbs02b-750w-mid-drive-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14158,7 +14158,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bafang BBSHD 1000W Mid-Drive Kit — mid-drive conversion kits. Universal bottom bracket fitment.',
     description: 'The Bafang BBSHD 1000W Mid-Drive Kit is a genuine ALLIED-stocked mid-drive conversion kits component. Universal bottom bracket fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/199/800/600'],
+    images: ['/images/products/batteries-parts-kits/mid-drive-conversion-kits/bafang-bbshd-1000w-mid-drive-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14189,7 +14189,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Voilamart 1500W Hub Motor Kit — hub motor conversion kits. Universal wheel fitment.',
     description: 'The Voilamart 1500W Hub Motor Kit is a genuine ALLIED-stocked hub motor conversion kits component. Universal wheel fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/424/800/600'],
+    images: ['/images/products/batteries-parts-kits/hub-motor-conversion-kits/voilamart-1500w-hub-motor-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14219,7 +14219,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'EBIKELING 1200W Hub Motor Kit — hub motor conversion kits. Universal wheel fitment.',
     description: 'The EBIKELING 1200W Hub Motor Kit is a genuine ALLIED-stocked hub motor conversion kits component. Universal wheel fitment. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/524/800/600'],
+    images: ['/images/products/batteries-parts-kits/hub-motor-conversion-kits/ebikeling-1200w-hub-motor-kit.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: 'N/A - sold separately',
@@ -14250,7 +14250,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fox Racing Dropframe Pro Helmet — helmets.',
     description: 'The Fox Racing Dropframe Pro Helmet is a genuine ALLIED-stocked Fox Racing helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/307/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/fox-racing-dropframe-pro-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14281,7 +14281,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Troy Lee Designs Stage MIPS Helmet — helmets.',
     description: 'The Troy Lee Designs Stage MIPS Helmet is a genuine ALLIED-stocked Troy Lee Designs helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/791/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/troy-lee-designs-stage-mips-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14312,7 +14312,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thousand Heritage Helmet MIPS — helmets.',
     description: 'The Thousand Heritage Helmet MIPS is a genuine ALLIED-stocked Thousand helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/322/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/thousand-heritage-helmet-mips.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14343,7 +14343,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lumos Ultra Smart LED Helmet with Indicators — helmets.',
     description: 'The Lumos Ultra Smart LED Helmet with Indicators is a genuine ALLIED-stocked Lumos helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/220/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/lumos-ultra-smart-led-helmet-with-indicators.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14374,7 +14374,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giro Fixture MIPS II Mountain Helmet — helmets.',
     description: 'The Giro Fixture MIPS II Mountain Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/476/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/giro-fixture-mips-ii-mountain-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14404,7 +14404,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fox Racing Dropframe Pro Enduro Helmet — helmets.',
     description: 'The Fox Racing Dropframe Pro Enduro Helmet is a genuine ALLIED-stocked Fox Racing helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/149/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/fox-racing-dropframe-pro-enduro-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14435,7 +14435,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giro Escape MIPS Helmet — helmets.',
     description: 'The Giro Escape MIPS Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/825/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/giro-escape-mips-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14466,7 +14466,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bell Gage MIPS Road/Urban Helmet — helmets.',
     description: 'The Bell Gage MIPS Road/Urban Helmet is a genuine ALLIED-stocked Bell helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/756/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/bell-gage-mips-road-urban-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14497,7 +14497,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giro Syntax MIPS Helmet — helmets.',
     description: 'The Giro Syntax MIPS Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/774/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/giro-syntax-mips-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14527,7 +14527,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kask Valegro Road Helmet — helmets.',
     description: 'The Kask Valegro Road Helmet is a genuine ALLIED-stocked Kask helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/168/800/600'],
+    images: ['/images/products/safety-security-carry/helmets/kask-valegro-road-helmet.webp'],
     specs: {
       voltage: 'N/A (safety apparel)',
       batteryType: 'N/A',
@@ -14557,7 +14557,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Knog Blinder 600/Plus 20 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Knog Blinder 600/Plus 20 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/678/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/knog-blinder-600-plus-20-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14587,7 +14587,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Knog Blinder 700/Plus 20 USB Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Knog Blinder 700/Plus 20 USB Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/527/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/knog-blinder-700-plus-20-usb-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14617,7 +14617,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Knog Blinder 900/Mid Cobber 170 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Knog Blinder 900/Mid Cobber 170 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/120/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/knog-blinder-900-mid-cobber-170-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14647,7 +14647,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Knog Blinder Mini Square 50/30 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Knog Blinder Mini Square 50/30 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/390/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/knog-blinder-mini-square-50-30-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14677,7 +14677,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Moon Rigel Pro and Helix Sense 1000/150 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Moon Rigel Pro and Helix Sense 1000/150 Light Set is part of ALLIED\'s authorized Moon lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/344/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/moon-rigel-pro-and-helix-sense-1000-150-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14707,7 +14707,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Moon Rigel Lite 500 and Helix Lite 100 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
     description: 'The Moon Rigel Lite 500 and Helix Lite 100 Light Set is part of ALLIED\'s authorized Moon lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/647/800/600'],
+    images: ['/images/products/safety-security-carry/lights-visibility/moon-rigel-lite-500-and-helix-lite-100-light-set.webp'],
     specs: {
       voltage: 'USB Rechargeable',
       batteryType: 'Li-ion 300-900mAh',
@@ -14738,7 +14738,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Alpinestars Venture Riding Jacket — jackets & hi-vis.',
     description: 'The Alpinestars Venture Riding Jacket is a genuine ALLIED-stocked Alpinestars jackets & hi-vis item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/765/800/600'],
+    images: ['/images/products/safety-security-carry/jackets-hi-vis/alpinestars-venture-riding-jacket.webp'],
     specs: {
       voltage: 'N/A (riding apparel)',
       batteryType: 'N/A',
@@ -14769,7 +14769,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Proviz REFLECT360 High-Vis Waterproof Jacket — jackets & hi-vis.',
     description: 'The Proviz REFLECT360 High-Vis Waterproof Jacket is a genuine ALLIED-stocked Proviz jackets & hi-vis item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/852/800/600'],
+    images: ['/images/products/safety-security-carry/jackets-hi-vis/proviz-reflect360-high-vis-waterproof-jacket.webp'],
     specs: {
       voltage: 'N/A (riding apparel)',
       batteryType: 'N/A',
@@ -14800,7 +14800,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite Evolution Standard U-Lock — u-locks & d-locks.',
     description: 'The Kryptonite Evolution Standard U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/439/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/kryptonite-evolution-standard-u-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14831,7 +14831,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus Granit X-Plus 540 U-Lock — u-locks & d-locks.',
     description: 'The Abus Granit X-Plus 540 U-Lock is a genuine ALLIED-stocked Abus u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/284/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/abus-granit-x-plus-540-u-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14862,7 +14862,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok D1000 Anti-Angle Grinder U-Lock — u-locks & d-locks.',
     description: 'The Hiplok D1000 Anti-Angle Grinder U-Lock is a genuine ALLIED-stocked Hiplok u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/203/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/hiplok-d1000-anti-angle-grinder-u-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14893,7 +14893,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite Evolution Mini-7 with Cable — u-locks & d-locks.',
     description: 'The Kryptonite Evolution Mini-7 with Cable is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/102/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/kryptonite-evolution-mini-7-with-cable.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14923,7 +14923,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok DX D-Lock with 2m Cable — u-locks & d-locks.',
     description: 'The Hiplok DX D-Lock with 2m Cable is a genuine ALLIED-stocked Hiplok u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/157/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/hiplok-dx-d-lock-with-2m-cable.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14953,7 +14953,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus 402 U-Lock 230mm — u-locks & d-locks.',
     description: 'The Abus 402 U-Lock 230mm is a genuine ALLIED-stocked Abus u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/863/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/abus-402-u-lock-230mm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -14983,7 +14983,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite KryptoLok Series 2 Mini-7 U-Lock — u-locks & d-locks.',
     description: 'The Kryptonite KryptoLok Series 2 Mini-7 U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/664/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/kryptonite-kryptolok-series-2-mini-7-u-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15013,7 +15013,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite KryptoLok Combination U-Lock — u-locks & d-locks.',
     description: 'The Kryptonite KryptoLok Combination U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/941/800/600'],
+    images: ['/images/products/safety-security-carry/u-d-locks/kryptonite-kryptolok-combination-u-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15044,7 +15044,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus Bordo Granit XPlus 6500 Folding Lock — folding locks.',
     description: 'The Abus Bordo Granit XPlus 6500 Folding Lock is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/285/800/600'],
+    images: ['/images/products/safety-security-carry/folding-locks/abus-bordo-granit-xplus-6500-folding-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15074,7 +15074,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok Switch Folding Lock — folding locks.',
     description: 'The Hiplok Switch Folding Lock is a genuine ALLIED-stocked Hiplok folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/890/800/600'],
+    images: ['/images/products/safety-security-carry/folding-locks/hiplok-switch-folding-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15104,7 +15104,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus Bordo Lite 6055 Folding Lock 60cm — folding locks.',
     description: 'The Abus Bordo Lite 6055 Folding Lock 60cm is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/653/800/600'],
+    images: ['/images/products/safety-security-carry/folding-locks/abus-bordo-lite-6055-folding-lock-60cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15134,7 +15134,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite KryptoLok 685 Folding Lock 85cm — folding locks.',
     description: 'The Kryptonite KryptoLok 685 Folding Lock 85cm is a genuine ALLIED-stocked Kryptonite folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/587/800/600'],
+    images: ['/images/products/safety-security-carry/folding-locks/kryptonite-kryptolok-685-folding-lock-85cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15164,7 +15164,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus Bordo U-Grip 5700 Key Lock 80cm — folding locks.',
     description: 'The Abus Bordo U-Grip 5700 Key Lock 80cm is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/890/800/600'],
+    images: ['/images/products/safety-security-carry/folding-locks/abus-bordo-u-grip-5700-key-lock-80cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15195,7 +15195,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok Gold Chain Lock — chain locks.',
     description: 'The Hiplok Gold Chain Lock is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/795/800/600'],
+    images: ['/images/products/safety-security-carry/chain-locks/hiplok-gold-chain-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15226,7 +15226,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kryptonite New York Legend 1515 Chain Lock — chain locks.',
     description: 'The Kryptonite New York Legend 1515 Chain Lock is a genuine ALLIED-stocked Kryptonite chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/880/800/600'],
+    images: ['/images/products/safety-security-carry/chain-locks/kryptonite-new-york-legend-1515-chain-lock.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15256,7 +15256,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok Lite Wearable Chain Lock 75cm — chain locks.',
     description: 'The Hiplok Lite Wearable Chain Lock 75cm is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/222/800/600'],
+    images: ['/images/products/safety-security-carry/chain-locks/hiplok-lite-wearable-chain-lock-75cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15286,7 +15286,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Hiplok Original Chain Lock 85cm — chain locks.',
     description: 'The Hiplok Original Chain Lock 85cm is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/261/800/600'],
+    images: ['/images/products/safety-security-carry/chain-locks/hiplok-original-chain-lock-85cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15317,7 +15317,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Abus Steel-O-Chain 5805 Key Lock 75cm — chain locks.',
     description: 'The Abus Steel-O-Chain 5805 Key Lock 75cm is a genuine ALLIED-stocked Abus chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/212/800/600'],
+    images: ['/images/products/safety-security-carry/chain-locks/abus-steel-o-chain-5805-key-lock-75cm.webp'],
     specs: {
       voltage: 'N/A (mechanical security)',
       batteryType: 'N/A',
@@ -15348,7 +15348,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rixen & Kaul Front Handlebar Basket — racks & baskets.',
     description: 'The Rixen & Kaul Front Handlebar Basket is a genuine ALLIED-stocked Rixen & Kaul racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/788/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/rixen-kaul-front-handlebar-basket.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15379,7 +15379,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Blackburn Outpost Front Cargo Rack — racks & baskets.',
     description: 'The Blackburn Outpost Front Cargo Rack is a genuine ALLIED-stocked Blackburn racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/799/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/blackburn-outpost-front-cargo-rack.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15409,7 +15409,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thule Pack n Pedal Tour Pannier Rack — racks & baskets.',
     description: 'The Thule Pack n Pedal Tour Pannier Rack is a genuine ALLIED-stocked Thule racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/385/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/thule-pack-n-pedal-tour-pannier-rack.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15440,7 +15440,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Topeak Explorer Tubular Rear Rack — racks & baskets.',
     description: 'The Topeak Explorer Tubular Rear Rack is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/880/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/topeak-explorer-tubular-rear-rack.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15471,7 +15471,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Topeak Explorer 29er Pannier Rack (Non-Disc) — racks & baskets.',
     description: 'The Topeak Explorer 29er Pannier Rack (Non-Disc) is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/211/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/topeak-explorer-29er-pannier-rack-non-disc.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15502,7 +15502,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Topeak Explorer 2.0 Rack with Disc Mount — racks & baskets.',
     description: 'The Topeak Explorer 2.0 Rack with Disc Mount is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/167/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/topeak-explorer-2-0-rack-with-disc-mount.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15532,7 +15532,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Topeak Uni Supertourist 2.0 Rack with Disc Mount — racks & baskets.',
     description: 'The Topeak Uni Supertourist 2.0 Rack with Disc Mount is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/834/800/600'],
+    images: ['/images/products/safety-security-carry/racks-baskets/topeak-uni-supertourist-2-0-rack-with-disc-mount.webp'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
       batteryType: 'N/A',
@@ -15563,7 +15563,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ortlieb Back-Roller Classic Waterproof Panniers 40L — panniers & bags.',
     description: 'The Ortlieb Back-Roller Classic Waterproof Panniers 40L is a genuine ALLIED-stocked Ortlieb panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/884/800/600'],
+    images: ['/images/products/safety-security-carry/panniers-bags/ortlieb-back-roller-classic-waterproof-panniers-40l.webp'],
     specs: {
       voltage: 'N/A (carry accessory)',
       batteryType: 'N/A',
@@ -15593,7 +15593,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Topeak DryBag 20L Single Pannier — panniers & bags.',
     description: 'The Topeak DryBag 20L Single Pannier is a genuine ALLIED-stocked Topeak panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/343/800/600'],
+    images: ['/images/products/safety-security-carry/panniers-bags/topeak-drybag-20l-single-pannier.webp'],
     specs: {
       voltage: 'N/A (carry accessory)',
       batteryType: 'N/A',
@@ -15623,7 +15623,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ortlieb Back-Roller Plus QL2.1 Pannier Pair — panniers & bags.',
     description: 'The Ortlieb Back-Roller Plus QL2.1 Pannier Pair is a genuine ALLIED-stocked Ortlieb panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/224/800/600'],
+    images: ['/images/products/safety-security-carry/panniers-bags/ortlieb-back-roller-plus-ql2-1-pannier-pair.webp'],
     specs: {
       voltage: 'N/A (carry accessory)',
       batteryType: 'N/A',
@@ -15654,7 +15654,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thule Yepp Nexxt Maxi Child Seat — child seats.',
     description: 'The Thule Yepp Nexxt Maxi Child Seat is a genuine ALLIED-stocked Thule child seats item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/457/800/600'],
+    images: ['/images/products/safety-security-carry/child-seats/thule-yepp-nexxt-maxi-child-seat.webp'],
     specs: {
       voltage: 'N/A (safety accessory)',
       batteryType: 'N/A',
@@ -15685,7 +15685,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Thule Yepp Maxi Frame Mount Child Seat — child seats.',
     description: 'The Thule Yepp Maxi Frame Mount Child Seat is a genuine ALLIED-stocked Thule child seats item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/996/800/600'],
+    images: ['/images/products/safety-security-carry/child-seats/thule-yepp-maxi-frame-mount-child-seat.webp'],
     specs: {
       voltage: 'N/A (safety accessory)',
       batteryType: 'N/A',
@@ -15716,7 +15716,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Quad Lock Handlebar Mount Pro Kit — phone mounts.',
     description: 'The Quad Lock Handlebar Mount Pro Kit is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/553/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/quad-lock-handlebar-mount-pro-kit.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
@@ -15746,7 +15746,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Bosch SmartphoneGrip Smart System Mount — phone mounts. Trek Allant+ 5 and 22 more.',
     description: 'The Bosch SmartphoneGrip Smart System Mount is a genuine ALLIED-stocked phone mounts component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/199/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/bosch-smartphonegrip-smart-system-mount.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
@@ -15776,7 +15776,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Quad Lock Bike Mount Pro — phone mounts.',
     description: 'The Quad Lock Bike Mount Pro is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/269/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/quad-lock-bike-mount-pro.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
@@ -15806,7 +15806,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Quad Lock Stem/Handlebar Bike Mount — phone mounts.',
     description: 'The Quad Lock Stem/Handlebar Bike Mount is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/748/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/quad-lock-stem-handlebar-bike-mount.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
@@ -15836,7 +15836,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Quad Lock Out Front Bike Mount — phone mounts.',
     description: 'The Quad Lock Out Front Bike Mount is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/316/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/quad-lock-out-front-bike-mount.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
@@ -15866,7 +15866,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Quad Lock Out Front Mount Pro — phone mounts.',
     description: 'The Quad Lock Out Front Mount Pro is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/664/800/600'],
+    images: ['/images/products/safety-security-carry/phone-mounts/quad-lock-out-front-mount-pro.webp'],
     specs: {
       voltage: 'N/A (mounting accessory)',
       batteryType: 'N/A',
