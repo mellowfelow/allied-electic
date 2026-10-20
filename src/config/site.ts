@@ -9883,8 +9883,8 @@ export const PRODUCTS: Product[] = [
     category: 'self-balancing-ev',
     subcategory: 'hoverboard-kart-attachments',
     featured: false,
-    shortDescription: 'Bullet KART-X Hoverboard Go-Kart Attachment — hoverboard go-kart attachments with N/A - powered by attached hoverboard lithium power and Matches attached hoverboard range range.',
-    description: 'The Bullet KART-X Hoverboard Go-Kart Attachment is part of ALLIED\'s authorized Bullet hoverboard go-kart attachments range, featuring n/a - uses attached hoverboard motors, n/a - powered by attached hoverboard, and a top speed of matches attached hoverboard top speed. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Bullet KART-X Hoverboard Go-Kart Attachment — hoverboard go-kart attachments.',
+    description: 'The Bullet KART-X Hoverboard Go-Kart Attachment is a genuine ALLIED-stocked Bullet hoverboard go-kart attachments item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/264/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -9900,8 +9900,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Bullet genuine authorized stock, inspected prior to Australian dispatch',
-      'Hoverboard Go-Kart Attachments class — n/a - uses attached hoverboard motors',
-      'N/A - powered by attached hoverboard',
+      'Hoverboard Go-Kart Attachments — genuine Bullet item',
+      '1 Year Frame',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14248,8 +14248,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Fox Racing Dropframe Pro Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Fox Racing Dropframe Pro Helmet is part of ALLIED\'s authorized Fox Racing helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Fox Racing Dropframe Pro Helmet — helmets.',
+    description: 'The Fox Racing Dropframe Pro Helmet is a genuine ALLIED-stocked Fox Racing helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/307/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14265,8 +14265,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Fox Racing genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Fox Racing item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14279,8 +14279,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Premium',
     featured: false,
-    shortDescription: 'Troy Lee Designs Stage MIPS Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Troy Lee Designs Stage MIPS Helmet is part of ALLIED\'s authorized Troy Lee Designs helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Troy Lee Designs Stage MIPS Helmet — helmets.',
+    description: 'The Troy Lee Designs Stage MIPS Helmet is a genuine ALLIED-stocked Troy Lee Designs helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/791/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14296,8 +14296,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Troy Lee Designs genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Troy Lee Designs item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14310,8 +14310,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Best Seller',
     featured: false,
-    shortDescription: 'Thousand Heritage Helmet MIPS — helmets with N/A lithium power and N/A range.',
-    description: 'The Thousand Heritage Helmet MIPS is part of ALLIED\'s authorized Thousand helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Thousand Heritage Helmet MIPS — helmets.',
+    description: 'The Thousand Heritage Helmet MIPS is a genuine ALLIED-stocked Thousand helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/322/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14327,8 +14327,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Thousand genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Thousand item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14341,8 +14341,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Lumos Ultra Smart LED Helmet with Indicators — helmets with N/A lithium power and N/A range.',
-    description: 'The Lumos Ultra Smart LED Helmet with Indicators is part of ALLIED\'s authorized Lumos helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Lumos Ultra Smart LED Helmet with Indicators — helmets.',
+    description: 'The Lumos Ultra Smart LED Helmet with Indicators is a genuine ALLIED-stocked Lumos helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/220/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14358,8 +14358,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Lumos genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Lumos item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14372,8 +14372,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Giro Fixture MIPS II Mountain Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Giro Fixture MIPS II Mountain Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Giro Fixture MIPS II Mountain Helmet — helmets.',
+    description: 'The Giro Fixture MIPS II Mountain Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/476/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14389,8 +14389,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Giro genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Giro item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14402,8 +14402,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'helmets',
     featured: false,
-    shortDescription: 'Fox Racing Dropframe Pro Enduro Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Fox Racing Dropframe Pro Enduro Helmet is part of ALLIED\'s authorized Fox Racing helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Fox Racing Dropframe Pro Enduro Helmet — helmets.',
+    description: 'The Fox Racing Dropframe Pro Enduro Helmet is a genuine ALLIED-stocked Fox Racing helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/149/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14419,8 +14419,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Fox Racing genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Fox Racing item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14433,8 +14433,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Giro Escape MIPS Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Giro Escape MIPS Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Giro Escape MIPS Helmet — helmets.',
+    description: 'The Giro Escape MIPS Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/825/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14450,8 +14450,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Giro genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Giro item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14464,8 +14464,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Bell Gage MIPS Road/Urban Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Bell Gage MIPS Road/Urban Helmet is part of ALLIED\'s authorized Bell helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Bell Gage MIPS Road/Urban Helmet — helmets.',
+    description: 'The Bell Gage MIPS Road/Urban Helmet is a genuine ALLIED-stocked Bell helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/756/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14481,8 +14481,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Bell genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Bell item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14495,8 +14495,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'helmets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Giro Syntax MIPS Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Giro Syntax MIPS Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Giro Syntax MIPS Helmet — helmets.',
+    description: 'The Giro Syntax MIPS Helmet is a genuine ALLIED-stocked Giro helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/774/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14512,8 +14512,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Giro genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Giro item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14525,8 +14525,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'helmets',
     featured: false,
-    shortDescription: 'Kask Valegro Road Helmet — helmets with N/A lithium power and N/A range.',
-    description: 'The Kask Valegro Road Helmet is part of ALLIED\'s authorized Kask helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kask Valegro Road Helmet — helmets.',
+    description: 'The Kask Valegro Road Helmet is a genuine ALLIED-stocked Kask helmets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/168/800/600'],
     specs: {
       voltage: 'N/A (safety apparel)',
@@ -14542,8 +14542,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kask genuine authorized stock, inspected prior to Australian dispatch',
-      'Helmets class — n/a',
-      'N/A',
+      'Helmets — genuine Kask item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14736,8 +14736,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'jackets-hi-vis',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Alpinestars Venture Riding Jacket — jackets & hi-vis with N/A lithium power and N/A range.',
-    description: 'The Alpinestars Venture Riding Jacket is part of ALLIED\'s authorized Alpinestars jackets & hi-vis range, featuring n/a, n/a, and a top speed of waterproof/reflective rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Alpinestars Venture Riding Jacket — jackets & hi-vis.',
+    description: 'The Alpinestars Venture Riding Jacket is a genuine ALLIED-stocked Alpinestars jackets & hi-vis item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/765/800/600'],
     specs: {
       voltage: 'N/A (riding apparel)',
@@ -14753,8 +14753,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Alpinestars genuine authorized stock, inspected prior to Australian dispatch',
-      'Jackets & Hi-Vis class — n/a',
-      'N/A',
+      'Jackets & Hi-Vis — genuine Alpinestars item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14767,8 +14767,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'jackets-hi-vis',
     badge: 'New Release',
     featured: false,
-    shortDescription: 'Proviz REFLECT360 High-Vis Waterproof Jacket — jackets & hi-vis with N/A lithium power and N/A range.',
-    description: 'The Proviz REFLECT360 High-Vis Waterproof Jacket is part of ALLIED\'s authorized Proviz jackets & hi-vis range, featuring n/a, n/a, and a top speed of waterproof/reflective rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Proviz REFLECT360 High-Vis Waterproof Jacket — jackets & hi-vis.',
+    description: 'The Proviz REFLECT360 High-Vis Waterproof Jacket is a genuine ALLIED-stocked Proviz jackets & hi-vis item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/852/800/600'],
     specs: {
       voltage: 'N/A (riding apparel)',
@@ -14784,8 +14784,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Proviz genuine authorized stock, inspected prior to Australian dispatch',
-      'Jackets & Hi-Vis class — n/a',
-      'N/A',
+      'Jackets & Hi-Vis — genuine Proviz item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14798,8 +14798,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'u-d-locks',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Kryptonite Evolution Standard U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite Evolution Standard U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite Evolution Standard U-Lock — u-locks & d-locks.',
+    description: 'The Kryptonite Evolution Standard U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/439/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14815,8 +14815,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14829,8 +14829,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'u-d-locks',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Abus Granit X-Plus 540 U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Abus Granit X-Plus 540 U-Lock is part of ALLIED\'s authorized Abus u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus Granit X-Plus 540 U-Lock — u-locks & d-locks.',
+    description: 'The Abus Granit X-Plus 540 U-Lock is a genuine ALLIED-stocked Abus u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/284/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14846,8 +14846,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14860,8 +14860,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'u-d-locks',
     badge: 'Premium',
     featured: false,
-    shortDescription: 'Hiplok D1000 Anti-Angle Grinder U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok D1000 Anti-Angle Grinder U-Lock is part of ALLIED\'s authorized Hiplok u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok D1000 Anti-Angle Grinder U-Lock — u-locks & d-locks.',
+    description: 'The Hiplok D1000 Anti-Angle Grinder U-Lock is a genuine ALLIED-stocked Hiplok u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/203/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14877,8 +14877,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14891,8 +14891,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'u-d-locks',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Kryptonite Evolution Mini-7 with Cable — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite Evolution Mini-7 with Cable is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite Evolution Mini-7 with Cable — u-locks & d-locks.',
+    description: 'The Kryptonite Evolution Mini-7 with Cable is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/102/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14908,8 +14908,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14921,8 +14921,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'u-d-locks',
     featured: false,
-    shortDescription: 'Hiplok DX D-Lock with 2m Cable — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok DX D-Lock with 2m Cable is part of ALLIED\'s authorized Hiplok u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok DX D-Lock with 2m Cable — u-locks & d-locks.',
+    description: 'The Hiplok DX D-Lock with 2m Cable is a genuine ALLIED-stocked Hiplok u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/157/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14938,8 +14938,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14951,8 +14951,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'u-d-locks',
     featured: false,
-    shortDescription: 'Abus 402 U-Lock 230mm — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Abus 402 U-Lock 230mm is part of ALLIED\'s authorized Abus u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus 402 U-Lock 230mm — u-locks & d-locks.',
+    description: 'The Abus 402 U-Lock 230mm is a genuine ALLIED-stocked Abus u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/863/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14968,8 +14968,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -14981,8 +14981,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'u-d-locks',
     featured: false,
-    shortDescription: 'Kryptonite KryptoLok Series 2 Mini-7 U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite KryptoLok Series 2 Mini-7 U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite KryptoLok Series 2 Mini-7 U-Lock — u-locks & d-locks.',
+    description: 'The Kryptonite KryptoLok Series 2 Mini-7 U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/664/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -14998,8 +14998,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15011,8 +15011,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'u-d-locks',
     featured: false,
-    shortDescription: 'Kryptonite KryptoLok Combination U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite KryptoLok Combination U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite KryptoLok Combination U-Lock — u-locks & d-locks.',
+    description: 'The Kryptonite KryptoLok Combination U-Lock is a genuine ALLIED-stocked Kryptonite u-locks & d-locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/941/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15028,8 +15028,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'U-Locks & D-Locks class — n/a',
-      'N/A',
+      'U-Locks & D-Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15042,8 +15042,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'folding-locks',
     badge: 'Premium',
     featured: false,
-    shortDescription: 'Abus Bordo Granit XPlus 6500 Folding Lock — folding locks with N/A lithium power and N/A range.',
-    description: 'The Abus Bordo Granit XPlus 6500 Folding Lock is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus Bordo Granit XPlus 6500 Folding Lock — folding locks.',
+    description: 'The Abus Bordo Granit XPlus 6500 Folding Lock is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/285/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15059,8 +15059,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'Folding Locks class — n/a',
-      'N/A',
+      'Folding Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15072,8 +15072,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'folding-locks',
     featured: false,
-    shortDescription: 'Hiplok Switch Folding Lock — folding locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok Switch Folding Lock is part of ALLIED\'s authorized Hiplok folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok Switch Folding Lock — folding locks.',
+    description: 'The Hiplok Switch Folding Lock is a genuine ALLIED-stocked Hiplok folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/890/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15089,8 +15089,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'Folding Locks class — n/a',
-      'N/A',
+      'Folding Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15102,8 +15102,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'folding-locks',
     featured: false,
-    shortDescription: 'Abus Bordo Lite 6055 Folding Lock 60cm — folding locks with N/A lithium power and N/A range.',
-    description: 'The Abus Bordo Lite 6055 Folding Lock 60cm is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus Bordo Lite 6055 Folding Lock 60cm — folding locks.',
+    description: 'The Abus Bordo Lite 6055 Folding Lock 60cm is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/653/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15119,8 +15119,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'Folding Locks class — n/a',
-      'N/A',
+      'Folding Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15132,8 +15132,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'folding-locks',
     featured: false,
-    shortDescription: 'Kryptonite KryptoLok 685 Folding Lock 85cm — folding locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite KryptoLok 685 Folding Lock 85cm is part of ALLIED\'s authorized Kryptonite folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite KryptoLok 685 Folding Lock 85cm — folding locks.',
+    description: 'The Kryptonite KryptoLok 685 Folding Lock 85cm is a genuine ALLIED-stocked Kryptonite folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/587/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15149,8 +15149,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'Folding Locks class — n/a',
-      'N/A',
+      'Folding Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15162,8 +15162,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'folding-locks',
     featured: false,
-    shortDescription: 'Abus Bordo U-Grip 5700 Key Lock 80cm — folding locks with N/A lithium power and N/A range.',
-    description: 'The Abus Bordo U-Grip 5700 Key Lock 80cm is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus Bordo U-Grip 5700 Key Lock 80cm — folding locks.',
+    description: 'The Abus Bordo U-Grip 5700 Key Lock 80cm is a genuine ALLIED-stocked Abus folding locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/890/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15179,8 +15179,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'Folding Locks class — n/a',
-      'N/A',
+      'Folding Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15193,8 +15193,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'chain-locks',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Hiplok Gold Chain Lock — chain locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok Gold Chain Lock is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok Gold Chain Lock — chain locks.',
+    description: 'The Hiplok Gold Chain Lock is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/795/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15210,8 +15210,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'Chain Locks class — n/a',
-      'N/A',
+      'Chain Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15224,8 +15224,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'chain-locks',
     badge: 'Best Seller',
     featured: false,
-    shortDescription: 'Kryptonite New York Legend 1515 Chain Lock — chain locks with N/A lithium power and N/A range.',
-    description: 'The Kryptonite New York Legend 1515 Chain Lock is part of ALLIED\'s authorized Kryptonite chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Kryptonite New York Legend 1515 Chain Lock — chain locks.',
+    description: 'The Kryptonite New York Legend 1515 Chain Lock is a genuine ALLIED-stocked Kryptonite chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/880/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15241,8 +15241,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
-      'Chain Locks class — n/a',
-      'N/A',
+      'Chain Locks — genuine Kryptonite item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15254,8 +15254,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'chain-locks',
     featured: false,
-    shortDescription: 'Hiplok Lite Wearable Chain Lock 75cm — chain locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok Lite Wearable Chain Lock 75cm is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok Lite Wearable Chain Lock 75cm — chain locks.',
+    description: 'The Hiplok Lite Wearable Chain Lock 75cm is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/222/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15271,8 +15271,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'Chain Locks class — n/a',
-      'N/A',
+      'Chain Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15284,8 +15284,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'chain-locks',
     featured: false,
-    shortDescription: 'Hiplok Original Chain Lock 85cm — chain locks with N/A lithium power and N/A range.',
-    description: 'The Hiplok Original Chain Lock 85cm is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Hiplok Original Chain Lock 85cm — chain locks.',
+    description: 'The Hiplok Original Chain Lock 85cm is a genuine ALLIED-stocked Hiplok chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/261/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15301,8 +15301,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
-      'Chain Locks class — n/a',
-      'N/A',
+      'Chain Locks — genuine Hiplok item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15315,8 +15315,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'chain-locks',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Abus Steel-O-Chain 5805 Key Lock 75cm — chain locks with N/A lithium power and N/A range.',
-    description: 'The Abus Steel-O-Chain 5805 Key Lock 75cm is part of ALLIED\'s authorized Abus chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Abus Steel-O-Chain 5805 Key Lock 75cm — chain locks.',
+    description: 'The Abus Steel-O-Chain 5805 Key Lock 75cm is a genuine ALLIED-stocked Abus chain locks item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/212/800/600'],
     specs: {
       voltage: 'N/A (mechanical security)',
@@ -15332,8 +15332,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Abus genuine authorized stock, inspected prior to Australian dispatch',
-      'Chain Locks class — n/a',
-      'N/A',
+      'Chain Locks — genuine Abus item',
+      '1-2 Years / Anti-Theft Guarantee (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15346,8 +15346,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'racks-baskets',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Rixen & Kaul Front Handlebar Basket — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Rixen & Kaul Front Handlebar Basket is part of ALLIED\'s authorized Rixen & Kaul racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Rixen & Kaul Front Handlebar Basket — racks & baskets.',
+    description: 'The Rixen & Kaul Front Handlebar Basket is a genuine ALLIED-stocked Rixen & Kaul racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/788/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15363,8 +15363,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Rixen & Kaul genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Rixen & Kaul item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15377,8 +15377,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'racks-baskets',
     badge: 'New Release',
     featured: false,
-    shortDescription: 'Blackburn Outpost Front Cargo Rack — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Blackburn Outpost Front Cargo Rack is part of ALLIED\'s authorized Blackburn racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Blackburn Outpost Front Cargo Rack — racks & baskets.',
+    description: 'The Blackburn Outpost Front Cargo Rack is a genuine ALLIED-stocked Blackburn racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/799/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15394,8 +15394,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Blackburn genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Blackburn item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15407,8 +15407,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'racks-baskets',
     featured: false,
-    shortDescription: 'Thule Pack n Pedal Tour Pannier Rack — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Thule Pack n Pedal Tour Pannier Rack is part of ALLIED\'s authorized Thule racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Thule Pack n Pedal Tour Pannier Rack — racks & baskets.',
+    description: 'The Thule Pack n Pedal Tour Pannier Rack is a genuine ALLIED-stocked Thule racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/385/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15424,8 +15424,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Thule genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Thule item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15438,8 +15438,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'racks-baskets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Topeak Explorer Tubular Rear Rack — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Topeak Explorer Tubular Rear Rack is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Topeak Explorer Tubular Rear Rack — racks & baskets.',
+    description: 'The Topeak Explorer Tubular Rear Rack is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/880/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15455,8 +15455,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Topeak genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Topeak item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15469,8 +15469,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'racks-baskets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Topeak Explorer 29er Pannier Rack (Non-Disc) — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Topeak Explorer 29er Pannier Rack (Non-Disc) is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Topeak Explorer 29er Pannier Rack (Non-Disc) — racks & baskets.',
+    description: 'The Topeak Explorer 29er Pannier Rack (Non-Disc) is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/211/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15486,8 +15486,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Topeak genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Topeak item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15500,8 +15500,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'racks-baskets',
     badge: 'Sale',
     featured: false,
-    shortDescription: 'Topeak Explorer 2.0 Rack with Disc Mount — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Topeak Explorer 2.0 Rack with Disc Mount is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Topeak Explorer 2.0 Rack with Disc Mount — racks & baskets.',
+    description: 'The Topeak Explorer 2.0 Rack with Disc Mount is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/167/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15517,8 +15517,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Topeak genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Topeak item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15530,8 +15530,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'racks-baskets',
     featured: false,
-    shortDescription: 'Topeak Uni Supertourist 2.0 Rack with Disc Mount — racks & baskets with N/A lithium power and N/A range.',
-    description: 'The Topeak Uni Supertourist 2.0 Rack with Disc Mount is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Topeak Uni Supertourist 2.0 Rack with Disc Mount — racks & baskets.',
+    description: 'The Topeak Uni Supertourist 2.0 Rack with Disc Mount is a genuine ALLIED-stocked Topeak racks & baskets item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/834/800/600'],
     specs: {
       voltage: 'N/A (mechanical accessory)',
@@ -15547,8 +15547,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Topeak genuine authorized stock, inspected prior to Australian dispatch',
-      'Racks & Baskets class — n/a',
-      'N/A',
+      'Racks & Baskets — genuine Topeak item',
+      '1 Year Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15561,8 +15561,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'panniers-bags',
     badge: 'Popular',
     featured: false,
-    shortDescription: 'Ortlieb Back-Roller Classic Waterproof Panniers 40L — panniers & bags with N/A lithium power and N/A range.',
-    description: 'The Ortlieb Back-Roller Classic Waterproof Panniers 40L is part of ALLIED\'s authorized Ortlieb panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Ortlieb Back-Roller Classic Waterproof Panniers 40L — panniers & bags.',
+    description: 'The Ortlieb Back-Roller Classic Waterproof Panniers 40L is a genuine ALLIED-stocked Ortlieb panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/884/800/600'],
     specs: {
       voltage: 'N/A (carry accessory)',
@@ -15578,8 +15578,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Ortlieb genuine authorized stock, inspected prior to Australian dispatch',
-      'Panniers & Bags class — n/a',
-      'N/A',
+      'Panniers & Bags — genuine Ortlieb item',
+      '1-5 Years Manufacturing Defects (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15591,8 +15591,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'panniers-bags',
     featured: false,
-    shortDescription: 'Topeak DryBag 20L Single Pannier — panniers & bags with N/A lithium power and N/A range.',
-    description: 'The Topeak DryBag 20L Single Pannier is part of ALLIED\'s authorized Topeak panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Topeak DryBag 20L Single Pannier — panniers & bags.',
+    description: 'The Topeak DryBag 20L Single Pannier is a genuine ALLIED-stocked Topeak panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/343/800/600'],
     specs: {
       voltage: 'N/A (carry accessory)',
@@ -15608,8 +15608,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Topeak genuine authorized stock, inspected prior to Australian dispatch',
-      'Panniers & Bags class — n/a',
-      'N/A',
+      'Panniers & Bags — genuine Topeak item',
+      '1-5 Years Manufacturing Defects (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15621,8 +15621,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'panniers-bags',
     featured: false,
-    shortDescription: 'Ortlieb Back-Roller Plus QL2.1 Pannier Pair — panniers & bags with N/A lithium power and N/A range.',
-    description: 'The Ortlieb Back-Roller Plus QL2.1 Pannier Pair is part of ALLIED\'s authorized Ortlieb panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Ortlieb Back-Roller Plus QL2.1 Pannier Pair — panniers & bags.',
+    description: 'The Ortlieb Back-Roller Plus QL2.1 Pannier Pair is a genuine ALLIED-stocked Ortlieb panniers & bags item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/224/800/600'],
     specs: {
       voltage: 'N/A (carry accessory)',
@@ -15638,8 +15638,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Ortlieb genuine authorized stock, inspected prior to Australian dispatch',
-      'Panniers & Bags class — n/a',
-      'N/A',
+      'Panniers & Bags — genuine Ortlieb item',
+      '1-5 Years Manufacturing Defects (model dependent)',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15652,8 +15652,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'child-seats',
     badge: 'Best Seller',
     featured: false,
-    shortDescription: 'Thule Yepp Nexxt Maxi Child Seat — child seats with N/A lithium power and N/A range.',
-    description: 'The Thule Yepp Nexxt Maxi Child Seat is part of ALLIED\'s authorized Thule child seats range, featuring n/a, n/a, and a top speed of as/nzs 1754 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Thule Yepp Nexxt Maxi Child Seat — child seats.',
+    description: 'The Thule Yepp Nexxt Maxi Child Seat is a genuine ALLIED-stocked Thule child seats item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/457/800/600'],
     specs: {
       voltage: 'N/A (safety accessory)',
@@ -15669,8 +15669,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Thule genuine authorized stock, inspected prior to Australian dispatch',
-      'Child Seats class — n/a',
-      'N/A',
+      'Child Seats — genuine Thule item',
+      '2-5 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15683,8 +15683,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'child-seats',
     badge: 'Best Seller',
     featured: false,
-    shortDescription: 'Thule Yepp Maxi Frame Mount Child Seat — child seats with N/A lithium power and N/A range.',
-    description: 'The Thule Yepp Maxi Frame Mount Child Seat is part of ALLIED\'s authorized Thule child seats range, featuring n/a, n/a, and a top speed of as/nzs 1754 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Thule Yepp Maxi Frame Mount Child Seat — child seats.',
+    description: 'The Thule Yepp Maxi Frame Mount Child Seat is a genuine ALLIED-stocked Thule child seats item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/996/800/600'],
     specs: {
       voltage: 'N/A (safety accessory)',
@@ -15700,8 +15700,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Thule genuine authorized stock, inspected prior to Australian dispatch',
-      'Child Seats class — n/a',
-      'N/A',
+      'Child Seats — genuine Thule item',
+      '2-5 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15714,8 +15714,8 @@ export const PRODUCTS: Product[] = [
     subcategory: 'phone-mounts',
     badge: 'Best Value',
     featured: false,
-    shortDescription: 'Quad Lock Handlebar Mount Pro Kit — phone mounts with N/A lithium power and N/A range.',
-    description: 'The Quad Lock Handlebar Mount Pro Kit is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Quad Lock Handlebar Mount Pro Kit — phone mounts.',
+    description: 'The Quad Lock Handlebar Mount Pro Kit is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/553/800/600'],
     specs: {
       voltage: 'N/A (mounting accessory)',
@@ -15731,8 +15731,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
-      'Phone Mounts class — n/a',
-      'N/A',
+      'Phone Mounts — genuine Quad Lock item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15774,8 +15774,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'phone-mounts',
     featured: false,
-    shortDescription: 'Quad Lock Bike Mount Pro — phone mounts with N/A lithium power and N/A range.',
-    description: 'The Quad Lock Bike Mount Pro is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Quad Lock Bike Mount Pro — phone mounts.',
+    description: 'The Quad Lock Bike Mount Pro is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/269/800/600'],
     specs: {
       voltage: 'N/A (mounting accessory)',
@@ -15791,8 +15791,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
-      'Phone Mounts class — n/a',
-      'N/A',
+      'Phone Mounts — genuine Quad Lock item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15804,8 +15804,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'phone-mounts',
     featured: false,
-    shortDescription: 'Quad Lock Stem/Handlebar Bike Mount — phone mounts with N/A lithium power and N/A range.',
-    description: 'The Quad Lock Stem/Handlebar Bike Mount is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Quad Lock Stem/Handlebar Bike Mount — phone mounts.',
+    description: 'The Quad Lock Stem/Handlebar Bike Mount is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/748/800/600'],
     specs: {
       voltage: 'N/A (mounting accessory)',
@@ -15821,8 +15821,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
-      'Phone Mounts class — n/a',
-      'N/A',
+      'Phone Mounts — genuine Quad Lock item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15834,8 +15834,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'phone-mounts',
     featured: false,
-    shortDescription: 'Quad Lock Out Front Bike Mount — phone mounts with N/A lithium power and N/A range.',
-    description: 'The Quad Lock Out Front Bike Mount is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Quad Lock Out Front Bike Mount — phone mounts.',
+    description: 'The Quad Lock Out Front Bike Mount is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/316/800/600'],
     specs: {
       voltage: 'N/A (mounting accessory)',
@@ -15851,8 +15851,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
-      'Phone Mounts class — n/a',
-      'N/A',
+      'Phone Mounts — genuine Quad Lock item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   },
@@ -15864,8 +15864,8 @@ export const PRODUCTS: Product[] = [
     category: 'safety-security-carry',
     subcategory: 'phone-mounts',
     featured: false,
-    shortDescription: 'Quad Lock Out Front Mount Pro — phone mounts with N/A lithium power and N/A range.',
-    description: 'The Quad Lock Out Front Mount Pro is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    shortDescription: 'Quad Lock Out Front Mount Pro — phone mounts.',
+    description: 'The Quad Lock Out Front Mount Pro is a genuine ALLIED-stocked Quad Lock phone mounts item, inspected prior to Australian dispatch. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['https://picsum.photos/id/664/800/600'],
     specs: {
       voltage: 'N/A (mounting accessory)',
@@ -15881,8 +15881,8 @@ export const PRODUCTS: Product[] = [
     },
     features: [
       'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
-      'Phone Mounts class — n/a',
-      'N/A',
+      'Phone Mounts — genuine Quad Lock item',
+      '1-2 Years Manufacturing Defects',
       'Perth depot service & spare parts support'
     ]
   }
