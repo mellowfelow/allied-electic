@@ -42,7 +42,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
       title: "ALLIED Electric Bikes & Commercial Vehicles",
       subtitle: "High-performance electric city bikes, folding e-bikes, step-through commuters, and heavy utility e-vehicles built for Australian conditions.",
       cta: "Explore Catalogue",
-      bg: "/images/hero/hero-electric-bikes-vehicles-lineup.webp"
+      bg: "/images/hero/hero-electric-bikes-vehicles-lineup.webp",
+      focus: "center 80%"
     },
     {
       title: "ALLIED Byron & Noosa Electric City Bikes",
@@ -86,6 +87,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <img
             src={heroSlides[heroSlideIdx].bg}
             alt={heroSlides[heroSlideIdx].title}
+            style={{ objectPosition: (heroSlides[heroSlideIdx] as any).focus || 'center' }}
             className="w-full h-full object-cover scale-105 transition-all duration-1000"
             loading="eager"
           />
