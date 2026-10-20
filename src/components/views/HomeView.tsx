@@ -86,9 +86,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <img
             src={heroSlides[heroSlideIdx].bg}
             alt={heroSlides[heroSlideIdx].title}
-            className="w-full h-full object-cover opacity-25 scale-105 transition-all duration-1000"
+            className="w-full h-full object-cover scale-105 transition-all duration-1000"
+            loading="eager"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-950/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/20" />
         </div>
 
         {/* Hero Banner Content */}
@@ -191,11 +192,12 @@ export const HomeView: React.FC<HomeViewProps> = ({
               }}
               className="group bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/50 transition-all cursor-pointer shadow-lg flex flex-col justify-between block"
             >
-              <div className="bg-white aspect-[4/3] overflow-hidden p-4 flex items-center justify-center">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={cat.image}
                   alt={cat.name}
-                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <div className="p-5 space-y-2">
