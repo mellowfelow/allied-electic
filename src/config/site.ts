@@ -555,7 +555,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lekker Jordaan Urban 8sp — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Lekker Jordaan Urban 8sp is part of ALLIED\'s authorized Lekker step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/225/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/lekker-jordaan-urban-8sp.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -586,7 +586,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lekker Amsterdam+ — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Lekker Amsterdam+ is part of ALLIED\'s authorized Lekker step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/439/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/lekker-amsterdam.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -617,7 +617,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Level 3 Step-Through — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Aventon Level 3 Step-Through is part of ALLIED\'s authorized Aventon step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/162/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/aventon-level-3-step-through.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -648,7 +648,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Como 3.0 — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Specialized Turbo Como 3.0 is part of ALLIED\'s authorized Specialized step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/680/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-como-3-0.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -679,7 +679,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Allant+ 5 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Trek Allant+ 5 is part of ALLIED\'s authorized Trek step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/324/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/trek-allant-5.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -710,7 +710,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Plus Gen 6 Step-Thru — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The DiroDi Rover Plus Gen 6 Step-Thru is part of ALLIED\'s authorized DiroDi step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/713/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/dirodi-rover-plus-gen-6-step-thru.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -741,7 +741,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Level 3 Step-Over — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Aventon Level 3 Step-Over is part of ALLIED\'s authorized Aventon step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/563/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/aventon-level-3-step-over.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -772,7 +772,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lekker Amsterdam+ Automatic Belt — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Lekker Amsterdam+ Automatic Belt is part of ALLIED\'s authorized Lekker belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/409/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/lekker-amsterdam-automatic-belt.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -803,7 +803,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NCM T3S Step-Thru Trekking — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The NCM T3S Step-Thru Trekking is part of ALLIED\'s authorized NCM step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/102/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ncm-t3s-step-thru-trekking.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -834,7 +834,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedal Comet 3 Disc — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Pedal Comet 3 Disc is part of ALLIED\'s authorized Pedal step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/937/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/pedal-comet-3-disc.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -865,7 +865,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Reid Vintage eBike — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Reid Vintage eBike is part of ALLIED\'s authorized Reid step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/998/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/reid-vintage-ebike.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -896,7 +896,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eSpresso City 300 EQ — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Merida eSpresso City 300 EQ is part of ALLIED\'s authorized Merida step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/974/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/merida-espresso-city-300-eq.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -927,7 +927,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Touring Hybrid ONE — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cube Touring Hybrid ONE is part of ALLIED\'s authorized Cube step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/240/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cube-touring-hybrid-one.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -958,7 +958,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Soltera.2 Step-Through — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Aventon Soltera.2 Step-Through is part of ALLIED\'s authorized Aventon lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/754/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/aventon-soltera-2-step-through.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -989,7 +989,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NCM Milano Plus — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The NCM Milano Plus is part of ALLIED\'s authorized NCM step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/943/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ncm-milano-plus.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1020,7 +1020,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedego Boomerang Classic — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Pedego Boomerang Classic is part of ALLIED\'s authorized Pedego step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/995/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/pedego-boomerang-classic.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1051,7 +1051,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau META26 X2.0 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Eunorau META26 X2.0 is part of ALLIED\'s authorized Eunorau step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/682/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/eunorau-meta26-x2-0.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1082,7 +1082,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Reid Urban E-Bike Step-Through — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Reid Urban E-Bike Step-Through is part of ALLIED\'s authorized Reid step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/337/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/reid-urban-e-bike-step-through.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1113,7 +1113,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mokwheel Basalt Step-Thru — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Mokwheel Basalt Step-Thru is part of ALLIED\'s authorized Mokwheel step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/101/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/mokwheel-basalt-step-thru.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1144,7 +1144,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido C11 Step-Through — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Fiido C11 Step-Through is part of ALLIED\'s authorized Fiido step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/762/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/fiido-c11-step-through.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1175,7 +1175,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NCM Moscow Plus — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The NCM Moscow Plus is part of ALLIED\'s authorized NCM step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/644/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ncm-moscow-plus.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1206,7 +1206,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Dual Sport+ 2 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Trek Dual Sport+ 2 is part of ALLIED\'s authorized Trek step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/109/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/trek-dual-sport-2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1237,7 +1237,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Vado 4.0 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Specialized Turbo Vado 4.0 is part of ALLIED\'s authorized Specialized step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/510/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-vado-4-0.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1268,7 +1268,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant Explore E+ 4 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Giant Explore E+ 4 is part of ALLIED\'s authorized Giant step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/888/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/giant-explore-e-4.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1299,7 +1299,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eSpresso 400 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Merida eSpresso 400 is part of ALLIED\'s authorized Merida step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/884/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/merida-espresso-400.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1330,7 +1330,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Polygon Path E+ — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Polygon Path E+ is part of ALLIED\'s authorized Polygon step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/682/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/polygon-path-e.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1361,7 +1361,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Norco Scene VLT — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Norco Scene VLT is part of ALLIED\'s authorized Norco step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/351/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/norco-scene-vlt.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1392,7 +1392,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Priority Current Belt Drive — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Priority Current Belt Drive is part of ALLIED\'s authorized Priority belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/518/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/priority-current-belt-drive.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1423,7 +1423,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Soltera.2 Lightweight — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Aventon Soltera.2 Lightweight is part of ALLIED\'s authorized Aventon lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/827/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/aventon-soltera-2-lightweight.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -1454,7 +1454,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Vado SL 4.0 — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Specialized Turbo Vado SL 4.0 is part of ALLIED\'s authorized Specialized lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/188/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-vado-sl-4-0.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -1485,7 +1485,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cannondale Treadwell Neo 2 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cannondale Treadwell Neo 2 is part of ALLIED\'s authorized Cannondale step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/281/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cannondale-treadwell-neo-2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1516,7 +1516,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Orbea Gain D50 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Orbea Gain D50 is part of ALLIED\'s authorized Orbea step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/630/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/orbea-gain-d50.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1547,7 +1547,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kalkhoff Entice L Season Wave — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Kalkhoff Entice L Season Wave is part of ALLIED\'s authorized Kalkhoff step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/889/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/kalkhoff-entice-l-season-wave.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1578,7 +1578,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kalkhoff Entice L Season Gents — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Kalkhoff Entice L Season Gents is part of ALLIED\'s authorized Kalkhoff step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/749/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/kalkhoff-entice-l-season-gents.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1609,7 +1609,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Focus Aventura2 6.8 Green — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Focus Aventura2 6.8 Green is part of ALLIED\'s authorized Focus step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/655/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/focus-aventura2-6-8-green.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1640,7 +1640,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Focus Aventura2 6.8 Wave Silver — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Focus Aventura2 6.8 Wave Silver is part of ALLIED\'s authorized Focus step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/945/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/focus-aventura2-6-8-wave-silver.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1671,7 +1671,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cannondale Adventure Neo 4 — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cannondale Adventure Neo 4 is part of ALLIED\'s authorized Cannondale step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/466/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cannondale-adventure-neo-4.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1702,7 +1702,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Velectrix Adventurer Pulse ST — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Velectrix Adventurer Pulse ST is part of ALLIED\'s authorized Velectrix step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/504/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/velectrix-adventurer-pulse-st.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1733,7 +1733,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Gazelle Ultimate C380 HMB — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Gazelle Ultimate C380 HMB is part of ALLIED\'s authorized Gazelle step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/677/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/gazelle-ultimate-c380-hmb.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1764,7 +1764,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Orbea Vibe H30 EQ — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Orbea Vibe H30 EQ is part of ALLIED\'s authorized Orbea step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/762/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/orbea-vibe-h30-eq.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1795,7 +1795,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Touring Hybrid Pro 500 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cube Touring Hybrid Pro 500 is part of ALLIED\'s authorized Cube step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/911/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cube-touring-hybrid-pro-500.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1826,7 +1826,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Orbea Vibe Mid H30 — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Orbea Vibe Mid H30 is part of ALLIED\'s authorized Orbea step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/893/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/orbea-vibe-mid-h30.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1857,7 +1857,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kalkhoff Endeavour 1.B Move — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Kalkhoff Endeavour 1.B Move is part of ALLIED\'s authorized Kalkhoff step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/815/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/kalkhoff-endeavour-1-b-move.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1888,7 +1888,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Gazelle Medeo T9 HMB — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Gazelle Medeo T9 HMB is part of ALLIED\'s authorized Gazelle step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/361/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/gazelle-medeo-t9-hmb.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1918,7 +1918,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eSpresso City 200 EQ — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Merida eSpresso City 200 EQ is part of ALLIED\'s authorized Merida step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/162/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/merida-espresso-city-200-eq.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1949,7 +1949,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Focus Planet² 5.6 Wave — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Focus Planet² 5.6 Wave is part of ALLIED\'s authorized Focus step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/598/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/focus-planet-5-6-wave.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -1980,7 +1980,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Velectrix Urban Street Pulse — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Velectrix Urban Street Pulse is part of ALLIED\'s authorized Velectrix lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/435/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/velectrix-urban-street-pulse.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -2011,7 +2011,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Touring Hybrid ONE 400 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cube Touring Hybrid ONE 400 is part of ALLIED\'s authorized Cube step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/107/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cube-touring-hybrid-one-400.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2042,7 +2042,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Como SL 4.0 — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Specialized Turbo Como SL 4.0 is part of ALLIED\'s authorized Specialized lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/200/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-como-sl-4-0.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -2073,7 +2073,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Allant+ 8 ST — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Trek Allant+ 8 ST is part of ALLIED\'s authorized Trek step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/592/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/trek-allant-8-st.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2104,7 +2104,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NCM Milano Max N7 — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The NCM Milano Max N7 is part of ALLIED\'s authorized NCM step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/514/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ncm-milano-max-n7.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2135,7 +2135,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Plus Low-Step 48V — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The DiroDi Rover Plus Low-Step 48V is part of ALLIED\'s authorized DiroDi step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/980/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/dirodi-rover-plus-low-step-48v.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2166,7 +2166,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau E-Fat-Step Pro — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Eunorau E-Fat-Step Pro is part of ALLIED\'s authorized Eunorau step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/488/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/eunorau-e-fat-step-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2197,7 +2197,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mokwheel Basalt Deluxe ST — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Mokwheel Basalt Deluxe ST is part of ALLIED\'s authorized Mokwheel step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/632/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/mokwheel-basalt-deluxe-st.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2228,7 +2228,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Reid Urban eBike Step-Through Pro — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Reid Urban eBike Step-Through Pro is part of ALLIED\'s authorized Reid step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/772/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/reid-urban-ebike-step-through-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2259,7 +2259,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedal Comet 3 Pro Disc — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Pedal Comet 3 Pro Disc is part of ALLIED\'s authorized Pedal step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/363/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/pedal-comet-3-pro-disc.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2290,7 +2290,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'SmartMotion Catalyst V2 ST — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The SmartMotion Catalyst V2 ST is part of ALLIED\'s authorized SmartMotion step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/262/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/smartmotion-catalyst-v2-st.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2321,7 +2321,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Gepida Alboin 2000 CRS — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Gepida Alboin 2000 CRS is part of ALLIED\'s authorized Gepida step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/378/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/gepida-alboin-2000-crs.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2352,7 +2352,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Soltera.2 Special Edition — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Aventon Soltera.2 Special Edition is part of ALLIED\'s authorized Aventon step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/459/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/aventon-soltera-2-special-edition.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2383,7 +2383,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NCM T3S Plus Commuter — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The NCM T3S Plus Commuter is part of ALLIED\'s authorized NCM step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/107/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ncm-t3s-plus-commuter.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2414,7 +2414,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido C11 Pro Long Range — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Fiido C11 Pro Long Range is part of ALLIED\'s authorized Fiido step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/428/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/fiido-c11-pro-long-range.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2445,7 +2445,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cannondale Moterra Neo 3 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cannondale Moterra Neo 3 is part of ALLIED\'s authorized Cannondale step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/400/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cannondale-moterra-neo-3.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2476,7 +2476,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Dual Sport+ 2 Stagger — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Trek Dual Sport+ 2 Stagger is part of ALLIED\'s authorized Trek step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/299/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/trek-dual-sport-2-stagger.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2507,7 +2507,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Vado 3.0 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Specialized Turbo Vado 3.0 is part of ALLIED\'s authorized Specialized step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/954/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-vado-3-0.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2538,7 +2538,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant Explore E+ 3 Power — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Giant Explore E+ 3 Power is part of ALLIED\'s authorized Giant step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/397/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/giant-explore-e-3-power.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2568,7 +2568,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eSpresso 300 SE — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Merida eSpresso 300 SE is part of ALLIED\'s authorized Merida step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/230/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/merida-espresso-300-se.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2599,7 +2599,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Polygon Path E+ 5 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Polygon Path E+ 5 is part of ALLIED\'s authorized Polygon step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/125/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/polygon-path-e-5.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2630,7 +2630,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Norco Indie VLT 2 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Norco Indie VLT 2 is part of ALLIED\'s authorized Norco step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/831/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/norco-indie-vlt-2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2661,7 +2661,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Kathmandu Hybrid Pro 600 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Cube Kathmandu Hybrid Pro 600 is part of ALLIED\'s authorized Cube step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/556/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/cube-kathmandu-hybrid-pro-600.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2692,7 +2692,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Orbea Vector H20 — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Orbea Vector H20 is part of ALLIED\'s authorized Orbea step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/201/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/orbea-vector-h20.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2723,7 +2723,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Focus Planet² 5.7 Diamond — step-over / diamond frame with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Focus Planet² 5.7 Diamond is part of ALLIED\'s authorized Focus step-over / diamond frame range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/896/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/focus-planet-5-7-diamond.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2754,7 +2754,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tenways CGO600 Pro Belt — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Tenways CGO600 Pro Belt is part of ALLIED\'s authorized Tenways belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/343/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/tenways-cgo600-pro-belt.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2785,7 +2785,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Kalkhoff Endeavour 5.B Excite — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Kalkhoff Endeavour 5.B Excite is part of ALLIED\'s authorized Kalkhoff belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/520/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/kalkhoff-endeavour-5-b-excite.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2816,7 +2816,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Vado SL 4.0 Step-Through — lightweight urban e-bikes with 36V 10.7Ah lithium power and 55-70 km range.',
     description: 'The Specialized Turbo Vado SL 4.0 Step-Through is part of ALLIED\'s authorized Specialized lightweight urban e-bikes range, featuring 240w-250w lightweight hub/mid motor, 36v 10.7ah lithium-ion (sl), and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/567/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/specialized-turbo-vado-sl-4-0-step-through.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 10.7Ah Lithium-ion (SL)',
@@ -2847,7 +2847,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Priority Current Hub Shift — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Priority Current Hub Shift is part of ALLIED\'s authorized Priority belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/840/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/priority-current-hub-shift.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2878,7 +2878,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ampler Stout Classic Belt — belt-drive commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Ampler Stout Classic Belt is part of ALLIED\'s authorized Ampler belt-drive commuters range, featuring 250w-500w motor with gates carbon belt drive, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/768/800/600'],
+    images: ['/images/products/electric-bikes/urban-commuter-ebikes/ampler-stout-classic-belt.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -2909,7 +2909,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern GSD S10 LX — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Tern GSD S10 LX is part of ALLIED\'s authorized Tern long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/435/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/tern-gsd-s10-lx.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -2940,7 +2940,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Aventon Abound SR Cargo — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Aventon Abound SR Cargo is part of ALLIED\'s authorized Aventon long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/268/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/aventon-abound-sr-cargo.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -2971,7 +2971,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern HSD P9 — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Tern HSD P9 is part of ALLIED\'s authorized Tern compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/199/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/tern-hsd-p9.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3002,7 +3002,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Riese & Müller Load 4 75 — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Riese & Müller Load 4 75 is part of ALLIED\'s authorized Riese & Müller front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/528/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/riese-m-ller-load-4-75.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3033,7 +3033,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Riese & Müller Multicharger2 — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Riese & Müller Multicharger2 is part of ALLIED\'s authorized Riese & Müller long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/657/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/riese-m-ller-multicharger2.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3064,7 +3064,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Riese & Müller Multicharger3 Mixte — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Riese & Müller Multicharger3 Mixte is part of ALLIED\'s authorized Riese & Müller long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/803/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/riese-m-ller-multicharger3-mixte.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3095,7 +3095,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cannondale Cargowagen Neo 2 — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Cannondale Cargowagen Neo 2 is part of ALLIED\'s authorized Cannondale long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/925/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/cannondale-cargowagen-neo-2.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3126,7 +3126,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'E-Mono Atlas Urban Cargo — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The E-Mono Atlas Urban Cargo is part of ALLIED\'s authorized E-Mono compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/555/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/e-mono-atlas-urban-cargo.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3157,7 +3157,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau G30 Max Cargo — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Eunorau G30 Max Cargo is part of ALLIED\'s authorized Eunorau long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/451/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/eunorau-g30-max-cargo.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3188,7 +3188,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Lectric XPedition Dual Battery — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Lectric XPedition Dual Battery is part of ALLIED\'s authorized Lectric long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/409/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/lectric-xpedition-dual-battery.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3219,7 +3219,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern GSD S00 LX Cargo Plus — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Tern GSD S00 LX Cargo Plus is part of ALLIED\'s authorized Tern long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/570/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/tern-gsd-s00-lx-cargo-plus.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3250,7 +3250,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Benno Boost E 10D Performance — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Benno Boost E 10D Performance is part of ALLIED\'s authorized Benno long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/546/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/benno-boost-e-10d-performance.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3281,7 +3281,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Yuba Spicy Curry V3 — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Yuba Spicy Curry V3 is part of ALLIED\'s authorized Yuba long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/688/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/yuba-spicy-curry-v3.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3312,7 +3312,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rad Power Bikes Rad Power RadWagon 4 Pro — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Rad Power RadWagon 4 Pro is part of ALLIED\'s authorized Rad Power Bikes long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/808/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/rad-power-radwagon-4-pro.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3342,7 +3342,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedego Stretch Cargo — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Pedego Stretch Cargo is part of ALLIED\'s authorized Pedego long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/334/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/pedego-stretch-cargo.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3373,7 +3373,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern HSD P9 Performance — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Tern HSD P9 Performance is part of ALLIED\'s authorized Tern compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/256/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/tern-hsd-p9-performance.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3404,7 +3404,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Blix Packa Genie Dual Battery — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Blix Packa Genie Dual Battery is part of ALLIED\'s authorized Blix compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/204/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/blix-packa-genie-dual-battery.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3435,7 +3435,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Benno RemiDemi 9D — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Benno RemiDemi 9D is part of ALLIED\'s authorized Benno compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/247/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/benno-remidemi-9d.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3466,7 +3466,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Yuba Kombi E5 — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Yuba Kombi E5 is part of ALLIED\'s authorized Yuba compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/977/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/yuba-kombi-e5.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3497,7 +3497,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Haul ST — compact cargo with 36V 14Ah / 48V 14Ah lithium power and 60-90 km range.',
     description: 'The Specialized Haul ST is part of ALLIED\'s authorized Specialized compact cargo range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/713/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/specialized-haul-st.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -3528,7 +3528,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Riese & Müller Packster 70 Vario — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Riese & Müller Packster 70 Vario is part of ALLIED\'s authorized Riese & Müller front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/995/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/riese-m-ller-packster-70-vario.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3559,7 +3559,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Urban Arrow Family Cargo Active — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Urban Arrow Family Cargo Active is part of ALLIED\'s authorized Urban Arrow front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/245/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/urban-arrow-family-cargo-active.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3590,7 +3590,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Cargo Sport Dual Hybrid — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Cube Cargo Sport Dual Hybrid is part of ALLIED\'s authorized Cube front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/656/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/cube-cargo-sport-dual-hybrid.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3620,7 +3620,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Larry vs Harry Bullitt E-Steps — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Larry vs Harry Bullitt E-Steps is part of ALLIED\'s authorized Larry vs Harry front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/512/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/larry-vs-harry-bullitt-e-steps.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3651,7 +3651,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Triobike Cargo E-Drive — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Triobike Cargo E-Drive is part of ALLIED\'s authorized Triobike front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/773/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/triobike-cargo-e-drive.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3682,7 +3682,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern GSD S10 Cargo E-Bike — long-tail cargo with 36V 14Ah x2 / 48V 14Ah lithium power and 60-130 km under full payload range.',
     description: 'The Tern GSD S10 Cargo E-Bike is part of ALLIED\'s authorized Tern long-tail cargo range, featuring 250w-750w high torque motor, 36v 14ah x2 / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/180/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/tern-gsd-s10-cargo-e-bike.webp'],
     specs: {
       voltage: '36V/48V Dual Pack',
       batteryType: '36V 14Ah x2 / 48V 14Ah Lithium-ion',
@@ -3713,7 +3713,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Riese & Müller Riese & Muller Load 75 Cargo — front-loader (box) bikes with 48V 14Ah x2 lithium power and 80-150 km under full payload range.',
     description: 'The Riese & Muller Load 75 Cargo is part of ALLIED\'s authorized Riese & Müller front-loader (box) bikes range, featuring 250w-500w high torque motor, 48v 14ah x2 lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/879/800/600'],
+    images: ['/images/products/electric-bikes/cargo-family-ebikes/riese-muller-load-75-cargo.webp'],
     specs: {
       voltage: '48V Dual Pack',
       batteryType: '48V 14Ah x2 Lithium-ion',
@@ -3744,7 +3744,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eOne-Forty 400 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Merida eOne-Forty 400 is part of ALLIED\'s authorized Merida full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/169/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/merida-eone-forty-400.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3775,7 +3775,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Levo Alloy — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Specialized Turbo Levo Alloy is part of ALLIED\'s authorized Specialized full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/922/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/specialized-turbo-levo-alloy.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3806,7 +3806,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Rail 5 Gen 3 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Trek Rail 5 Gen 3 is part of ALLIED\'s authorized Trek full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/833/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/trek-rail-5-gen-3.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3837,7 +3837,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant Trance X Advanced E+ 2 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Giant Trance X Advanced E+ 2 is part of ALLIED\'s authorized Giant full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/761/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/giant-trance-x-advanced-e-2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3868,7 +3868,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Norco Sight VLT A2 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Norco Sight VLT A2 is part of ALLIED\'s authorized Norco full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/102/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/norco-sight-vlt-a2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3899,7 +3899,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Levo Expert — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Specialized Turbo Levo Expert is part of ALLIED\'s authorized Specialized full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/435/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/specialized-turbo-levo-expert.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3930,7 +3930,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Rail 9.8 GX AXS — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Trek Rail 9.8 GX AXS is part of ALLIED\'s authorized Trek full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/428/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/trek-rail-9-8-gx-axs.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3961,7 +3961,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant Reign E+ 1 Pro — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Giant Reign E+ 1 Pro is part of ALLIED\'s authorized Giant full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/208/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/giant-reign-e-1-pro.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -3991,7 +3991,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eOne-Sixty 7000 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Merida eOne-Sixty 7000 is part of ALLIED\'s authorized Merida full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/892/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/merida-eone-sixty-7000.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -4022,7 +4022,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cannondale Moterra Neo Carbon 2 — full-suspension emtb with 36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose) lithium power and 60-100 km trail range range.',
     description: 'The Cannondale Moterra Neo Carbon 2 is part of ALLIED\'s authorized Cannondale full-suspension emtb range, featuring 250w-750w mid-drive motor, 36v 14ah / 48v 17.5ah (bosch/shimano/brose), and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/900/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/cannondale-moterra-neo-carbon-2.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 17.5Ah (Bosch/Shimano/Brose)',
@@ -4053,7 +4053,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Specialized Turbo Tero 3.0 — hardtail trail emtb with 36V 14Ah / 48V 14Ah lithium power and 70-100 km trail range range.',
     description: 'The Specialized Turbo Tero 3.0 is part of ALLIED\'s authorized Specialized hardtail trail emtb range, featuring 250w-500w mid-drive motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/444/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/specialized-turbo-tero-3-0.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4084,7 +4084,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Trek Marlin+ 6 Hardtail — hardtail trail emtb with 36V 14Ah / 48V 14Ah lithium power and 70-100 km trail range range.',
     description: 'The Trek Marlin+ 6 Hardtail is part of ALLIED\'s authorized Trek hardtail trail emtb range, featuring 250w-500w mid-drive motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/697/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/trek-marlin-6-hardtail.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4115,7 +4115,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Giant Talon E+ 29er — hardtail trail emtb with 36V 14Ah / 48V 14Ah lithium power and 70-100 km trail range range.',
     description: 'The Giant Talon E+ 29er is part of ALLIED\'s authorized Giant hardtail trail emtb range, featuring 250w-500w mid-drive motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/474/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/giant-talon-e-29er.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4145,7 +4145,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Merida eBig.Nine 400 — hardtail trail emtb with 36V 14Ah / 48V 14Ah lithium power and 70-100 km trail range range.',
     description: 'The Merida eBig.Nine 400 is part of ALLIED\'s authorized Merida hardtail trail emtb range, featuring 250w-500w mid-drive motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/928/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/merida-ebig-nine-400.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4176,7 +4176,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Cube Reaction Hybrid Performance — hardtail trail emtb with 36V 14Ah / 48V 14Ah lithium power and 70-100 km trail range range.',
     description: 'The Cube Reaction Hybrid Performance is part of ALLIED\'s authorized Cube hardtail trail emtb range, featuring 250w-500w mid-drive motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (off-road capable). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/266/800/600'],
+    images: ['/images/products/electric-bikes/electric-mountain-bikes/cube-reaction-hybrid-performance.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4207,7 +4207,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Brompton Electric C Line 6-Speed — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Brompton Electric C Line 6-Speed is part of ALLIED\'s authorized Brompton compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/652/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/brompton-electric-c-line-6-speed.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4238,7 +4238,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern Vektron Q9 Folding — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Tern Vektron Q9 Folding is part of ALLIED\'s authorized Tern compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/874/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/tern-vektron-q9-folding.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4269,7 +4269,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido D11 Compact Folder — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Fiido D11 Compact Folder is part of ALLIED\'s authorized Fiido compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/275/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/fiido-d11-compact-folder.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4300,7 +4300,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'MiRiDER One GB3 — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The MiRiDER One GB3 is part of ALLIED\'s authorized MiRiDER compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/647/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/mirider-one-gb3.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4331,7 +4331,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Leitner Folding E-Bike Step-Thru — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Leitner Folding E-Bike Step-Thru is part of ALLIED\'s authorized Leitner compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/897/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/leitner-folding-e-bike-step-thru.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4362,7 +4362,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Tern Vektron S10 Gen 2 — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Tern Vektron S10 Gen 2 is part of ALLIED\'s authorized Tern compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/457/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/tern-vektron-s10-gen-2.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4393,7 +4393,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Qualisports Volador 20 — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Qualisports Volador 20 is part of ALLIED\'s authorized Qualisports compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/823/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/qualisports-volador-20.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4424,7 +4424,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DAHON Unio E20 — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The DAHON Unio E20 is part of ALLIED\'s authorized DAHON compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/145/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/dahon-unio-e20.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4454,7 +4454,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido D21 Lightweight Folder — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Fiido D21 Lightweight Folder is part of ALLIED\'s authorized Fiido compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/106/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/fiido-d21-lightweight-folder.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4485,7 +4485,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Leitner Superlite Folding 20 — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Leitner Superlite Folding 20 is part of ALLIED\'s authorized Leitner compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/117/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/leitner-superlite-folding-20.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4516,7 +4516,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Cortina Fat Tyre Folder — fat tyre folders with 36V 10Ah / 48V 13Ah lithium power and 45-65 km range.',
     description: 'The DiroDi Cortina Fat Tyre Folder is part of ALLIED\'s authorized DiroDi fat tyre folders range, featuring 250w-750w motor, 36v 10ah / 48v 13ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/431/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/dirodi-cortina-fat-tyre-folder.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 13Ah Lithium-ion',
@@ -4547,7 +4547,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Rad Power Bikes Rad Power RadExpand 5 — fat tyre folders with 36V 10Ah / 48V 13Ah lithium power and 45-65 km range.',
     description: 'The Rad Power RadExpand 5 is part of ALLIED\'s authorized Rad Power Bikes fat tyre folders range, featuring 250w-750w motor, 36v 10ah / 48v 13ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/427/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/rad-power-radexpand-5.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 13Ah Lithium-ion',
@@ -4578,7 +4578,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau E-Fat-Step 20 — fat tyre folders with 36V 10Ah / 48V 13Ah lithium power and 45-65 km range.',
     description: 'The Eunorau E-Fat-Step 20 is part of ALLIED\'s authorized Eunorau fat tyre folders range, featuring 250w-750w motor, 36v 10ah / 48v 13ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/480/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/eunorau-e-fat-step-20.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 13Ah Lithium-ion',
@@ -4609,7 +4609,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fiido M1 Pro Fat Folder — fat tyre folders with 36V 10Ah / 48V 13Ah lithium power and 45-65 km range.',
     description: 'The Fiido M1 Pro Fat Folder is part of ALLIED\'s authorized Fiido fat tyre folders range, featuring 250w-750w motor, 36v 10ah / 48v 13ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/514/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/fiido-m1-pro-fat-folder.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 13Ah Lithium-ion',
@@ -4640,7 +4640,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Engwe EP-2 Pro Fat Folder — fat tyre folders with 36V 10Ah / 48V 13Ah lithium power and 45-65 km range.',
     description: 'The Engwe EP-2 Pro Fat Folder is part of ALLIED\'s authorized Engwe fat tyre folders range, featuring 250w-750w motor, 36v 10ah / 48v 13ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/967/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/engwe-ep-2-pro-fat-folder.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 10Ah / 48V 13Ah Lithium-ion',
@@ -4671,7 +4671,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Vamos Doblez Foldable E-Bike — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Vamos Doblez Foldable E-Bike is part of ALLIED\'s authorized Vamos compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/360/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/vamos-doblez-foldable-e-bike.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4702,7 +4702,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Brompton Electric C Line Explore 12-Speed Mid — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Brompton Electric C Line Explore 12-Speed Mid is part of ALLIED\'s authorized Brompton compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/842/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/brompton-electric-c-line-explore-12-speed-mid.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4733,7 +4733,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Mamba Nomad Origins 20 Inch Folding E-Bike — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Mamba Nomad Origins 20 Inch Folding E-Bike is part of ALLIED\'s authorized Mamba compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/946/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/mamba-nomad-origins-20-inch-folding-e-bike.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4764,7 +4764,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Easybike 20 Inch Folding E-Bike 36V 8Ah — compact folding commuters with 36V 8-14Ah lithium power and 40-70 km range.',
     description: 'The Easybike 20 Inch Folding E-Bike 36V 8Ah is part of ALLIED\'s authorized Easybike compact folding commuters range, featuring 250w-350w rear hub motor, 36v 8-14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/786/800/600'],
+    images: ['/images/products/electric-bikes/foldable-electric-bikes/easybike-20-inch-folding-e-bike-36v-8ah.webp'],
     specs: {
       voltage: '36V System',
       batteryType: '36V 8-14Ah Lithium-ion',
@@ -4795,7 +4795,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 S2 Hudson Blue — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super73 S2 Hudson Blue is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/507/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super73-s2-hudson-blue.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -4826,7 +4826,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Plus 750W — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The DiroDi Rover Plus 750W is part of ALLIED\'s authorized DiroDi retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/858/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/dirodi-rover-plus-750w.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -4857,7 +4857,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Michael Blast Greaser Classic — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Michael Blast Greaser Classic is part of ALLIED\'s authorized Michael Blast classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/355/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/michael-blast-greaser-classic.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4888,7 +4888,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Murf The Alpha Cargo Cruiser — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Murf The Alpha Cargo Cruiser is part of ALLIED\'s authorized Murf classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/532/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/murf-the-alpha-cargo-cruiser.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4918,7 +4918,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Pedego Interceptor Cruiser — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Pedego Interceptor Cruiser is part of ALLIED\'s authorized Pedego classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/608/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/pedego-interceptor-cruiser.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4949,7 +4949,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Electra Townie Go! 7D — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Electra Townie Go! 7D is part of ALLIED\'s authorized Electra classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/346/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/electra-townie-go-7d.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -4980,7 +4980,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Michael Blast Outsider — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Michael Blast Outsider is part of ALLIED\'s authorized Michael Blast retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/940/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/michael-blast-outsider.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5011,7 +5011,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Reid Classic E-Bike Cruiser — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Reid Classic E-Bike Cruiser is part of ALLIED\'s authorized Reid classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/981/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/reid-classic-e-bike-cruiser.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -5042,7 +5042,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Classico Cruiser — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The DiroDi Classico Cruiser is part of ALLIED\'s authorized DiroDi classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/763/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/dirodi-classico-cruiser.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -5073,7 +5073,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 RX Mojave — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super73 RX Mojave is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/833/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super73-rx-mojave.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5104,7 +5104,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'DiroDi Rover Gen 6 1000W Dual — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The DiroDi Rover Gen 6 1000W Dual is part of ALLIED\'s authorized DiroDi retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/382/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/dirodi-rover-gen-6-1000w-dual.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5135,7 +5135,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Michael Blast Vacay — classic cruisers with 36V 14Ah / 48V 14Ah lithium power and 55-80 km range.',
     description: 'The Michael Blast Vacay is part of ALLIED\'s authorized Michael Blast classic cruisers range, featuring 250w-500w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/131/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/michael-blast-vacay.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
@@ -5165,7 +5165,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ampere X-Trail Moped — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Ampere X-Trail Moped is part of ALLIED\'s authorized Ampere retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/408/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/ampere-x-trail-moped.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5196,7 +5196,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy DNA V3 Performance E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy DNA V3 Performance E-Bike is part of ALLIED\'s authorized Fatboy all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/272/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-dna-v3-performance-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5226,7 +5226,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy Harlem V3 Ultra E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy Harlem V3 Ultra E-Bike is part of ALLIED\'s authorized Fatboy all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/820/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-harlem-v3-ultra-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5256,7 +5256,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy Bagus V3 Ultra E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy Bagus V3 Ultra E-Bike is part of ALLIED\'s authorized Fatboy all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/132/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-bagus-v3-ultra-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5287,7 +5287,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy Scrambler V2 E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy Scrambler V2 E-Bike is part of ALLIED\'s authorized Fatboy all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/961/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-scrambler-v2-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5317,7 +5317,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Ampd Bros Ace X Pro E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Ampd Bros Ace X Pro E-Bike is part of ALLIED\'s authorized Ampd Bros all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/106/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/ampd-bros-ace-x-pro-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5347,7 +5347,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Eunorau 1000W FAT-HD All-Terrain Fat Tyre E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Eunorau 1000W FAT-HD All-Terrain Fat Tyre E-Bike is part of ALLIED\'s authorized Eunorau all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/660/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/eunorau-1000w-fat-hd-all-terrain-fat-tyre-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5378,7 +5378,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatfish OG 2.0 Fat Tyre E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatfish OG 2.0 Fat Tyre E-Bike is part of ALLIED\'s authorized Fatfish all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/931/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatfish-og-2-0-fat-tyre-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5408,7 +5408,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatfish Biggie Fat Tyre E-Bike — all-terrain fat tyre with 48V 15-20Ah lithium power and 50-90 km range.',
     description: 'The Fatfish Biggie Fat Tyre E-Bike is part of ALLIED\'s authorized Fatfish all-terrain fat tyre range, featuring 500w-1000w motor, 48v 15-20ah lithium-ion, and a top speed of 25-32 km/h (off-road mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/982/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatfish-biggie-fat-tyre-e-bike.webp'],
     specs: {
       voltage: '48V System',
       batteryType: '48V 15-20Ah Lithium-ion',
@@ -5438,7 +5438,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 ZX Special Edition — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super73 ZX Special Edition is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/791/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super73-zx-special-edition.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5469,7 +5469,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 R Adventure Special Edition — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super73 R Adventure Special Edition is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/375/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super73-r-adventure-special-edition.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5500,7 +5500,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 Super 73 S2 — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super 73 S2 is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/851/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super-73-s2.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5531,7 +5531,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 Super 73 ZX — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super 73 ZX is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/260/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super-73-zx.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5562,7 +5562,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super73 Super 73 RX — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Super 73 RX is part of ALLIED\'s authorized Super73 retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/248/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/super-73-rx.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5593,7 +5593,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy Scrambler V2 — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy Scrambler V2 is part of ALLIED\'s authorized Fatboy retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/252/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-scrambler-v2.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5623,7 +5623,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Fatboy Mini BMX Electric — retro / moped-style e-bikes with 48V 15.6Ah / 52V 20Ah lithium power and 50-90 km range.',
     description: 'The Fatboy Mini BMX Electric is part of ALLIED\'s authorized Fatboy retro / moped-style e-bikes range, featuring 500w-2000w motor, 48v 15.6ah / 52v 20ah lithium-ion, and a top speed of 25-45 km/h (off-road derestricted mode). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/154/800/600'],
+    images: ['/images/products/electric-bikes/fat-tyre-lifestyle-ebikes/fatboy-mini-bmx-electric.webp'],
     specs: {
       voltage: '48V/52V System',
       batteryType: '48V 15.6Ah / 52V 20Ah Lithium-ion',
@@ -5654,7 +5654,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Ultra Bee — electric dirt & motorbikes with 60V-72V 32-40Ah LiFePO4/Lithium-ion lithium power and 60-100 km range.',
     description: 'The Sur-Ron Ultra Bee is part of ALLIED\'s authorized Sur-Ron electric dirt & motorbikes range, featuring 3000w-8000w motor, 60v-72v 32-40ah lifepo4/lithium-ion, and a top speed of 45-100 km/h (off-road/private land). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/369/800/600'],
+    images: ['/images/products/electric-bikes/electric-dirt-motorbikes/sur-ron-ultra-bee.webp'],
     specs: {
       voltage: '60V/72V System',
       batteryType: '60V-72V 32-40Ah LiFePO4/Lithium-ion',
@@ -5685,7 +5685,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Storm Bee — electric dirt & motorbikes with 60V-72V 32-40Ah LiFePO4/Lithium-ion lithium power and 60-100 km range.',
     description: 'The Sur-Ron Storm Bee is part of ALLIED\'s authorized Sur-Ron electric dirt & motorbikes range, featuring 3000w-8000w motor, 60v-72v 32-40ah lifepo4/lithium-ion, and a top speed of 45-100 km/h (off-road/private land). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/948/800/600'],
+    images: ['/images/products/electric-bikes/electric-dirt-motorbikes/sur-ron-storm-bee.webp'],
     specs: {
       voltage: '60V/72V System',
       batteryType: '60V-72V 32-40Ah LiFePO4/Lithium-ion',
@@ -5716,7 +5716,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Sur-Ron Hyper Bee — electric dirt & motorbikes with 60V-72V 32-40Ah LiFePO4/Lithium-ion lithium power and 60-100 km range.',
     description: 'The Sur-Ron Hyper Bee is part of ALLIED\'s authorized Sur-Ron electric dirt & motorbikes range, featuring 3000w-8000w motor, 60v-72v 32-40ah lifepo4/lithium-ion, and a top speed of 45-100 km/h (off-road/private land). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/261/800/600'],
+    images: ['/images/products/electric-bikes/electric-dirt-motorbikes/sur-ron-hyper-bee.webp'],
     specs: {
       voltage: '60V/72V System',
       batteryType: '60V-72V 32-40Ah LiFePO4/Lithium-ion',
@@ -5747,7 +5747,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Talaria Komodo — electric dirt & motorbikes with 60V-72V 32-40Ah LiFePO4/Lithium-ion lithium power and 60-100 km range.',
     description: 'The Talaria Komodo is part of ALLIED\'s authorized Talaria electric dirt & motorbikes range, featuring 3000w-8000w motor, 60v-72v 32-40ah lifepo4/lithium-ion, and a top speed of 45-100 km/h (off-road/private land). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/282/800/600'],
+    images: ['/images/products/electric-bikes/electric-dirt-motorbikes/talaria-komodo.webp'],
     specs: {
       voltage: '60V/72V System',
       batteryType: '60V-72V 32-40Ah LiFePO4/Lithium-ion',
@@ -5778,7 +5778,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'NIU NQi GTS Sport Electric Moped — electric mopeds with 72V 20-32Ah lithium power and 60-100 km range.',
     description: 'The NIU NQi GTS Sport Electric Moped is part of ALLIED\'s authorized NIU electric mopeds range, featuring 2000w-3000w motor, 72v 20-32ah lithium-ion, and a top speed of 45-70 km/h (registrable moped). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/861/800/600'],
+    images: ['/images/products/electric-bikes/electric-mopeds/niu-nqi-gts-sport-electric-moped.webp'],
     specs: {
       voltage: '72V System',
       batteryType: '72V 20-32Ah Lithium-ion',
@@ -5809,7 +5809,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Super SOCO CUx Electric Moped — electric mopeds with 72V 20-32Ah lithium power and 60-100 km range.',
     description: 'The Super SOCO CUx Electric Moped is part of ALLIED\'s authorized Super SOCO electric mopeds range, featuring 2000w-3000w motor, 72v 20-32ah lithium-ion, and a top speed of 45-70 km/h (registrable moped). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/678/800/600'],
+    images: ['/images/products/electric-bikes/electric-mopeds/super-soco-cux-electric-moped.webp'],
     specs: {
       voltage: '72V System',
       batteryType: '72V 20-32Ah Lithium-ion',
@@ -5840,7 +5840,7 @@ export const PRODUCTS: Product[] = [
     featured: false,
     shortDescription: 'Jorvik Electric Tricycle — electric tricycles & trikes with 36V 14Ah / 48V 14Ah lithium power and 40-60 km range.',
     description: 'The Jorvik Electric Tricycle is part of ALLIED\'s authorized Jorvik electric tricycles & trikes range, featuring 250w-350w motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
-    images: ['https://picsum.photos/id/755/800/600'],
+    images: ['/images/products/electric-bikes/electric-tricycles/jorvik-electric-tricycle.webp'],
     specs: {
       voltage: '36V/48V System',
       batteryType: '36V 14Ah / 48V 14Ah Lithium-ion',
