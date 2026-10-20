@@ -14238,6 +14238,1653 @@ export const PRODUCTS: Product[] = [
       'Hub Motor Conversion Kits compatible component',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-fox-racing-dropframe-pro-helmet',
+    slug: 'allied-fox-racing-dropframe-pro-helmet',
+    name: 'Fox Racing Dropframe Pro Helmet',
+    price: 289,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Fox Racing Dropframe Pro Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Fox Racing Dropframe Pro Helmet is part of ALLIED\'s authorized Fox Racing helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/307/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Fox Racing genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-troy-lee-designs-stage-mips-helmet',
+    slug: 'allied-troy-lee-designs-stage-mips-helmet',
+    name: 'Troy Lee Designs Stage MIPS Helmet',
+    price: 399,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Troy Lee Designs Stage MIPS Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Troy Lee Designs Stage MIPS Helmet is part of ALLIED\'s authorized Troy Lee Designs helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/791/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Troy Lee Designs genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-thousand-heritage-helmet-mips',
+    slug: 'allied-thousand-heritage-helmet-mips',
+    name: 'Thousand Heritage Helmet MIPS',
+    price: 189,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Thousand Heritage Helmet MIPS — helmets with N/A lithium power and N/A range.',
+    description: 'The Thousand Heritage Helmet MIPS is part of ALLIED\'s authorized Thousand helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/322/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Thousand genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-lumos-ultra-smart-led-helmet-with-indicators',
+    slug: 'allied-lumos-ultra-smart-led-helmet-with-indicators',
+    name: 'Lumos Ultra Smart LED Helmet with Indicators',
+    price: 249,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Lumos Ultra Smart LED Helmet with Indicators — helmets with N/A lithium power and N/A range.',
+    description: 'The Lumos Ultra Smart LED Helmet with Indicators is part of ALLIED\'s authorized Lumos helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/220/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Lumos genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-giro-fixture-mips-ii-mountain-helmet',
+    slug: 'allied-giro-fixture-mips-ii-mountain-helmet',
+    name: 'Giro Fixture MIPS II Mountain Helmet',
+    price: 129,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Giro Fixture MIPS II Mountain Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Giro Fixture MIPS II Mountain Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/476/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Giro genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-fox-racing-dropframe-pro-enduro-helmet',
+    slug: 'allied-fox-racing-dropframe-pro-enduro-helmet',
+    name: 'Fox Racing Dropframe Pro Enduro Helmet',
+    price: 329,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    featured: false,
+    shortDescription: 'Fox Racing Dropframe Pro Enduro Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Fox Racing Dropframe Pro Enduro Helmet is part of ALLIED\'s authorized Fox Racing helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/149/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Fox Racing genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-giro-escape-mips-helmet',
+    slug: 'allied-giro-escape-mips-helmet',
+    name: 'Giro Escape MIPS Helmet',
+    price: 200,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Giro Escape MIPS Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Giro Escape MIPS Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/825/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Giro genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bell-gage-mips-road-urban-helmet',
+    slug: 'allied-bell-gage-mips-road-urban-helmet',
+    name: 'Bell Gage MIPS Road/Urban Helmet',
+    price: 140,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Bell Gage MIPS Road/Urban Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Bell Gage MIPS Road/Urban Helmet is part of ALLIED\'s authorized Bell helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/756/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Bell genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-giro-syntax-mips-helmet',
+    slug: 'allied-giro-syntax-mips-helmet',
+    name: 'Giro Syntax MIPS Helmet',
+    price: 113,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Giro Syntax MIPS Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Giro Syntax MIPS Helmet is part of ALLIED\'s authorized Giro helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/774/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Giro genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kask-valegro-road-helmet',
+    slug: 'allied-kask-valegro-road-helmet',
+    name: 'Kask Valegro Road Helmet',
+    price: 224,
+    category: 'safety-security-carry',
+    subcategory: 'helmets',
+    featured: false,
+    shortDescription: 'Kask Valegro Road Helmet — helmets with N/A lithium power and N/A range.',
+    description: 'The Kask Valegro Road Helmet is part of ALLIED\'s authorized Kask helmets range, featuring n/a, n/a, and a top speed of as/nzs 2063 and/or ce en1078 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/168/800/600'],
+    specs: {
+      voltage: 'N/A (safety apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 2063 and/or CE EN1078 certified',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.25-0.45 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Kask genuine authorized stock, inspected prior to Australian dispatch',
+      'Helmets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-knog-blinder-600-plus-20-light-set',
+    slug: 'allied-knog-blinder-600-plus-20-light-set',
+    name: 'Knog Blinder 600/Plus 20 Light Set',
+    price: 109,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Knog Blinder 600/Plus 20 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Knog Blinder 600/Plus 20 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/678/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Knog genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-knog-blinder-700-plus-20-usb-light-set',
+    slug: 'allied-knog-blinder-700-plus-20-usb-light-set',
+    name: 'Knog Blinder 700/Plus 20 USB Light Set',
+    price: 145,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Knog Blinder 700/Plus 20 USB Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Knog Blinder 700/Plus 20 USB Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/527/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Knog genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-knog-blinder-900-mid-cobber-170-light-set',
+    slug: 'allied-knog-blinder-900-mid-cobber-170-light-set',
+    name: 'Knog Blinder 900/Mid Cobber 170 Light Set',
+    price: 214,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Knog Blinder 900/Mid Cobber 170 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Knog Blinder 900/Mid Cobber 170 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/120/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Knog genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-knog-blinder-mini-square-50-30-light-set',
+    slug: 'allied-knog-blinder-mini-square-50-30-light-set',
+    name: 'Knog Blinder Mini Square 50/30 Light Set',
+    price: 75,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Knog Blinder Mini Square 50/30 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Knog Blinder Mini Square 50/30 Light Set is part of ALLIED\'s authorized Knog lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/390/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Knog genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-moon-rigel-pro-and-helix-sense-1000-150-light-set',
+    slug: 'allied-moon-rigel-pro-and-helix-sense-1000-150-light-set',
+    name: 'Moon Rigel Pro and Helix Sense 1000/150 Light Set',
+    price: 155,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Moon Rigel Pro and Helix Sense 1000/150 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Moon Rigel Pro and Helix Sense 1000/150 Light Set is part of ALLIED\'s authorized Moon lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/344/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Moon genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-moon-rigel-lite-500-and-helix-lite-100-light-set',
+    slug: 'allied-moon-rigel-lite-500-and-helix-lite-100-light-set',
+    name: 'Moon Rigel Lite 500 and Helix Lite 100 Light Set',
+    price: 115,
+    category: 'safety-security-carry',
+    subcategory: 'lights-visibility',
+    featured: false,
+    shortDescription: 'Moon Rigel Lite 500 and Helix Lite 100 Light Set — lights & visibility with Li-ion 300-900mAh lithium power and N/A range.',
+    description: 'The Moon Rigel Lite 500 and Helix Lite 100 Light Set is part of ALLIED\'s authorized Moon lights & visibility range, featuring n/a, li-ion 300-900mah, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/647/800/600'],
+    specs: {
+      voltage: 'USB Rechargeable',
+      batteryType: 'Li-ion 300-900mAh',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: '1.5-3 Hours',
+      dimensions: 'Varies by model',
+      weight: '0.05-0.15 kg per light',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Moon genuine authorized stock, inspected prior to Australian dispatch',
+      'Lights & Visibility class — n/a',
+      'Li-ion 300-900mAh',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-alpinestars-venture-riding-jacket',
+    slug: 'allied-alpinestars-venture-riding-jacket',
+    name: 'Alpinestars Venture Riding Jacket',
+    price: 349,
+    category: 'safety-security-carry',
+    subcategory: 'jackets-hi-vis',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Alpinestars Venture Riding Jacket — jackets & hi-vis with N/A lithium power and N/A range.',
+    description: 'The Alpinestars Venture Riding Jacket is part of ALLIED\'s authorized Alpinestars jackets & hi-vis range, featuring n/a, n/a, and a top speed of waterproof/reflective rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/765/800/600'],
+    specs: {
+      voltage: 'N/A (riding apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Waterproof/reflective rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-0.8 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Alpinestars genuine authorized stock, inspected prior to Australian dispatch',
+      'Jackets & Hi-Vis class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-proviz-reflect360-high-vis-waterproof-jacket',
+    slug: 'allied-proviz-reflect360-high-vis-waterproof-jacket',
+    name: 'Proviz REFLECT360 High-Vis Waterproof Jacket',
+    price: 199,
+    category: 'safety-security-carry',
+    subcategory: 'jackets-hi-vis',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Proviz REFLECT360 High-Vis Waterproof Jacket — jackets & hi-vis with N/A lithium power and N/A range.',
+    description: 'The Proviz REFLECT360 High-Vis Waterproof Jacket is part of ALLIED\'s authorized Proviz jackets & hi-vis range, featuring n/a, n/a, and a top speed of waterproof/reflective rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/852/800/600'],
+    specs: {
+      voltage: 'N/A (riding apparel)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Waterproof/reflective rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-0.8 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Proviz genuine authorized stock, inspected prior to Australian dispatch',
+      'Jackets & Hi-Vis class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-evolution-standard-u-lock',
+    slug: 'allied-kryptonite-evolution-standard-u-lock',
+    name: 'Kryptonite Evolution Standard U-Lock',
+    price: 169,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Kryptonite Evolution Standard U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite Evolution Standard U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/439/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-granit-x-plus-540-u-lock',
+    slug: 'allied-abus-granit-x-plus-540-u-lock',
+    name: 'Abus Granit X-Plus 540 U-Lock',
+    price: 220,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Abus Granit X-Plus 540 U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Abus Granit X-Plus 540 U-Lock is part of ALLIED\'s authorized Abus u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/284/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-d1000-anti-angle-grinder-u-lock',
+    slug: 'allied-hiplok-d1000-anti-angle-grinder-u-lock',
+    name: 'Hiplok D1000 Anti-Angle Grinder U-Lock',
+    price: 499,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Hiplok D1000 Anti-Angle Grinder U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok D1000 Anti-Angle Grinder U-Lock is part of ALLIED\'s authorized Hiplok u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/203/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-evolution-mini-7-with-cable',
+    slug: 'allied-kryptonite-evolution-mini-7-with-cable',
+    name: 'Kryptonite Evolution Mini-7 with Cable',
+    price: 149,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Kryptonite Evolution Mini-7 with Cable — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite Evolution Mini-7 with Cable is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/102/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-dx-d-lock-with-2m-cable',
+    slug: 'allied-hiplok-dx-d-lock-with-2m-cable',
+    name: 'Hiplok DX D-Lock with 2m Cable',
+    price: 135,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    featured: false,
+    shortDescription: 'Hiplok DX D-Lock with 2m Cable — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok DX D-Lock with 2m Cable is part of ALLIED\'s authorized Hiplok u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/157/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-402-u-lock-230mm',
+    slug: 'allied-abus-402-u-lock-230mm',
+    name: 'Abus 402 U-Lock 230mm',
+    price: 75,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    featured: false,
+    shortDescription: 'Abus 402 U-Lock 230mm — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Abus 402 U-Lock 230mm is part of ALLIED\'s authorized Abus u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/863/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-kryptolok-series-2-mini-7-u-lock',
+    slug: 'allied-kryptonite-kryptolok-series-2-mini-7-u-lock',
+    name: 'Kryptonite KryptoLok Series 2 Mini-7 U-Lock',
+    price: 98,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    featured: false,
+    shortDescription: 'Kryptonite KryptoLok Series 2 Mini-7 U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite KryptoLok Series 2 Mini-7 U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/664/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-kryptolok-combination-u-lock',
+    slug: 'allied-kryptonite-kryptolok-combination-u-lock',
+    name: 'Kryptonite KryptoLok Combination U-Lock',
+    price: 89,
+    category: 'safety-security-carry',
+    subcategory: 'u-d-locks',
+    featured: false,
+    shortDescription: 'Kryptonite KryptoLok Combination U-Lock — u-locks & d-locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite KryptoLok Combination U-Lock is part of ALLIED\'s authorized Kryptonite u-locks & d-locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/941/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.7-1.8 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'U-Locks & D-Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-bordo-granit-xplus-6500-folding-lock',
+    slug: 'allied-abus-bordo-granit-xplus-6500-folding-lock',
+    name: 'Abus Bordo Granit XPlus 6500 Folding Lock',
+    price: 249,
+    category: 'safety-security-carry',
+    subcategory: 'folding-locks',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Abus Bordo Granit XPlus 6500 Folding Lock — folding locks with N/A lithium power and N/A range.',
+    description: 'The Abus Bordo Granit XPlus 6500 Folding Lock is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/285/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.6-1.1 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'Folding Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-switch-folding-lock',
+    slug: 'allied-hiplok-switch-folding-lock',
+    name: 'Hiplok Switch Folding Lock',
+    price: 115,
+    category: 'safety-security-carry',
+    subcategory: 'folding-locks',
+    featured: false,
+    shortDescription: 'Hiplok Switch Folding Lock — folding locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok Switch Folding Lock is part of ALLIED\'s authorized Hiplok folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/890/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.6-1.1 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'Folding Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-bordo-lite-6055-folding-lock-60cm',
+    slug: 'allied-abus-bordo-lite-6055-folding-lock-60cm',
+    name: 'Abus Bordo Lite 6055 Folding Lock 60cm',
+    price: 89,
+    category: 'safety-security-carry',
+    subcategory: 'folding-locks',
+    featured: false,
+    shortDescription: 'Abus Bordo Lite 6055 Folding Lock 60cm — folding locks with N/A lithium power and N/A range.',
+    description: 'The Abus Bordo Lite 6055 Folding Lock 60cm is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/653/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.6-1.1 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'Folding Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-kryptolok-685-folding-lock-85cm',
+    slug: 'allied-kryptonite-kryptolok-685-folding-lock-85cm',
+    name: 'Kryptonite KryptoLok 685 Folding Lock 85cm',
+    price: 115,
+    category: 'safety-security-carry',
+    subcategory: 'folding-locks',
+    featured: false,
+    shortDescription: 'Kryptonite KryptoLok 685 Folding Lock 85cm — folding locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite KryptoLok 685 Folding Lock 85cm is part of ALLIED\'s authorized Kryptonite folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/587/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.6-1.1 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'Folding Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-bordo-u-grip-5700-key-lock-80cm',
+    slug: 'allied-abus-bordo-u-grip-5700-key-lock-80cm',
+    name: 'Abus Bordo U-Grip 5700 Key Lock 80cm',
+    price: 115,
+    category: 'safety-security-carry',
+    subcategory: 'folding-locks',
+    featured: false,
+    shortDescription: 'Abus Bordo U-Grip 5700 Key Lock 80cm — folding locks with N/A lithium power and N/A range.',
+    description: 'The Abus Bordo U-Grip 5700 Key Lock 80cm is part of ALLIED\'s authorized Abus folding locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/890/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.6-1.1 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'Folding Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-gold-chain-lock',
+    slug: 'allied-hiplok-gold-chain-lock',
+    name: 'Hiplok Gold Chain Lock',
+    price: 199,
+    category: 'safety-security-carry',
+    subcategory: 'chain-locks',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Hiplok Gold Chain Lock — chain locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok Gold Chain Lock is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/795/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '1-2.5 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'Chain Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-kryptonite-new-york-legend-1515-chain-lock',
+    slug: 'allied-kryptonite-new-york-legend-1515-chain-lock',
+    name: 'Kryptonite New York Legend 1515 Chain Lock',
+    price: 299,
+    category: 'safety-security-carry',
+    subcategory: 'chain-locks',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Kryptonite New York Legend 1515 Chain Lock — chain locks with N/A lithium power and N/A range.',
+    description: 'The Kryptonite New York Legend 1515 Chain Lock is part of ALLIED\'s authorized Kryptonite chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/880/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '1-2.5 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Kryptonite genuine authorized stock, inspected prior to Australian dispatch',
+      'Chain Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-lite-wearable-chain-lock-75cm',
+    slug: 'allied-hiplok-lite-wearable-chain-lock-75cm',
+    name: 'Hiplok Lite Wearable Chain Lock 75cm',
+    price: 100,
+    category: 'safety-security-carry',
+    subcategory: 'chain-locks',
+    featured: false,
+    shortDescription: 'Hiplok Lite Wearable Chain Lock 75cm — chain locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok Lite Wearable Chain Lock 75cm is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/222/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '1-2.5 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'Chain Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-hiplok-original-chain-lock-85cm',
+    slug: 'allied-hiplok-original-chain-lock-85cm',
+    name: 'Hiplok Original Chain Lock 85cm',
+    price: 140,
+    category: 'safety-security-carry',
+    subcategory: 'chain-locks',
+    featured: false,
+    shortDescription: 'Hiplok Original Chain Lock 85cm — chain locks with N/A lithium power and N/A range.',
+    description: 'The Hiplok Original Chain Lock 85cm is part of ALLIED\'s authorized Hiplok chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/261/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '1-2.5 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Hiplok genuine authorized stock, inspected prior to Australian dispatch',
+      'Chain Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-abus-steel-o-chain-5805-key-lock-75cm',
+    slug: 'allied-abus-steel-o-chain-5805-key-lock-75cm',
+    name: 'Abus Steel-O-Chain 5805 Key Lock 75cm',
+    price: 55,
+    category: 'safety-security-carry',
+    subcategory: 'chain-locks',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Abus Steel-O-Chain 5805 Key Lock 75cm — chain locks with N/A lithium power and N/A range.',
+    description: 'The Abus Steel-O-Chain 5805 Key Lock 75cm is part of ALLIED\'s authorized Abus chain locks range, featuring n/a, n/a, and a top speed of sold secure / art security rated. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/212/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical security)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Sold Secure / ART security rated',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '1-2.5 kg',
+      warranty: '1-2 Years / Anti-Theft Guarantee (model dependent)'
+    },
+    features: [
+      'Abus genuine authorized stock, inspected prior to Australian dispatch',
+      'Chain Locks class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-rixen-kaul-front-handlebar-basket',
+    slug: 'allied-rixen-kaul-front-handlebar-basket',
+    name: 'Rixen & Kaul Front Handlebar Basket',
+    price: 149,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Rixen & Kaul Front Handlebar Basket — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Rixen & Kaul Front Handlebar Basket is part of ALLIED\'s authorized Rixen & Kaul racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/788/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Rixen & Kaul genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-blackburn-outpost-front-cargo-rack',
+    slug: 'allied-blackburn-outpost-front-cargo-rack',
+    name: 'Blackburn Outpost Front Cargo Rack',
+    price: 159,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Blackburn Outpost Front Cargo Rack — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Blackburn Outpost Front Cargo Rack is part of ALLIED\'s authorized Blackburn racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/799/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Blackburn genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-thule-pack-n-pedal-tour-pannier-rack',
+    slug: 'allied-thule-pack-n-pedal-tour-pannier-rack',
+    name: 'Thule Pack n Pedal Tour Pannier Rack',
+    price: 199,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    featured: false,
+    shortDescription: 'Thule Pack n Pedal Tour Pannier Rack — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Thule Pack n Pedal Tour Pannier Rack is part of ALLIED\'s authorized Thule racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/385/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Thule genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-topeak-explorer-tubular-rear-rack',
+    slug: 'allied-topeak-explorer-tubular-rear-rack',
+    name: 'Topeak Explorer Tubular Rear Rack',
+    price: 50,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Topeak Explorer Tubular Rear Rack — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Topeak Explorer Tubular Rear Rack is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/880/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Topeak genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-topeak-explorer-29er-pannier-rack-non-disc',
+    slug: 'allied-topeak-explorer-29er-pannier-rack-non-disc',
+    name: 'Topeak Explorer 29er Pannier Rack (Non-Disc)',
+    price: 75,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Topeak Explorer 29er Pannier Rack (Non-Disc) — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Topeak Explorer 29er Pannier Rack (Non-Disc) is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/211/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Topeak genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-topeak-explorer-2-0-rack-with-disc-mount',
+    slug: 'allied-topeak-explorer-2-0-rack-with-disc-mount',
+    name: 'Topeak Explorer 2.0 Rack with Disc Mount',
+    price: 80,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    badge: 'Sale',
+    featured: false,
+    shortDescription: 'Topeak Explorer 2.0 Rack with Disc Mount — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Topeak Explorer 2.0 Rack with Disc Mount is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/167/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Topeak genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-topeak-uni-supertourist-2-0-rack-with-disc-mount',
+    slug: 'allied-topeak-uni-supertourist-2-0-rack-with-disc-mount',
+    name: 'Topeak Uni Supertourist 2.0 Rack with Disc Mount',
+    price: 89,
+    category: 'safety-security-carry',
+    subcategory: 'racks-baskets',
+    featured: false,
+    shortDescription: 'Topeak Uni Supertourist 2.0 Rack with Disc Mount — racks & baskets with N/A lithium power and N/A range.',
+    description: 'The Topeak Uni Supertourist 2.0 Rack with Disc Mount is part of ALLIED\'s authorized Topeak racks & baskets range, featuring n/a, n/a, and a top speed of n/a. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/834/800/600'],
+    specs: {
+      voltage: 'N/A (mechanical accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'N/A',
+      payloadCapacity: '9-25 kg max rack/basket load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.4-1.2 kg',
+      warranty: '1 Year Manufacturing Defects'
+    },
+    features: [
+      'Topeak genuine authorized stock, inspected prior to Australian dispatch',
+      'Racks & Baskets class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-ortlieb-back-roller-classic-waterproof-panniers-40l',
+    slug: 'allied-ortlieb-back-roller-classic-waterproof-panniers-40l',
+    name: 'Ortlieb Back-Roller Classic Waterproof Panniers 40L',
+    price: 199,
+    category: 'safety-security-carry',
+    subcategory: 'panniers-bags',
+    badge: 'Popular',
+    featured: false,
+    shortDescription: 'Ortlieb Back-Roller Classic Waterproof Panniers 40L — panniers & bags with N/A lithium power and N/A range.',
+    description: 'The Ortlieb Back-Roller Classic Waterproof Panniers 40L is part of ALLIED\'s authorized Ortlieb panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/884/800/600'],
+    specs: {
+      voltage: 'N/A (carry accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Waterproof rated (model dependent)',
+      payloadCapacity: '15-25 L / up to 12 kg load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.5 kg',
+      warranty: '1-5 Years Manufacturing Defects (model dependent)'
+    },
+    features: [
+      'Ortlieb genuine authorized stock, inspected prior to Australian dispatch',
+      'Panniers & Bags class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-topeak-drybag-20l-single-pannier',
+    slug: 'allied-topeak-drybag-20l-single-pannier',
+    name: 'Topeak DryBag 20L Single Pannier',
+    price: 119,
+    category: 'safety-security-carry',
+    subcategory: 'panniers-bags',
+    featured: false,
+    shortDescription: 'Topeak DryBag 20L Single Pannier — panniers & bags with N/A lithium power and N/A range.',
+    description: 'The Topeak DryBag 20L Single Pannier is part of ALLIED\'s authorized Topeak panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/343/800/600'],
+    specs: {
+      voltage: 'N/A (carry accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Waterproof rated (model dependent)',
+      payloadCapacity: '15-25 L / up to 12 kg load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.5 kg',
+      warranty: '1-5 Years Manufacturing Defects (model dependent)'
+    },
+    features: [
+      'Topeak genuine authorized stock, inspected prior to Australian dispatch',
+      'Panniers & Bags class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-ortlieb-back-roller-plus-ql2-1-pannier-pair',
+    slug: 'allied-ortlieb-back-roller-plus-ql2-1-pannier-pair',
+    name: 'Ortlieb Back-Roller Plus QL2.1 Pannier Pair',
+    price: 230,
+    category: 'safety-security-carry',
+    subcategory: 'panniers-bags',
+    featured: false,
+    shortDescription: 'Ortlieb Back-Roller Plus QL2.1 Pannier Pair — panniers & bags with N/A lithium power and N/A range.',
+    description: 'The Ortlieb Back-Roller Plus QL2.1 Pannier Pair is part of ALLIED\'s authorized Ortlieb panniers & bags range, featuring n/a, n/a, and a top speed of waterproof rated (model dependent). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/224/800/600'],
+    specs: {
+      voltage: 'N/A (carry accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Waterproof rated (model dependent)',
+      payloadCapacity: '15-25 L / up to 12 kg load',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.5-1.5 kg',
+      warranty: '1-5 Years Manufacturing Defects (model dependent)'
+    },
+    features: [
+      'Ortlieb genuine authorized stock, inspected prior to Australian dispatch',
+      'Panniers & Bags class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-thule-yepp-nexxt-maxi-child-seat',
+    slug: 'allied-thule-yepp-nexxt-maxi-child-seat',
+    name: 'Thule Yepp Nexxt Maxi Child Seat',
+    price: 279,
+    category: 'safety-security-carry',
+    subcategory: 'child-seats',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Thule Yepp Nexxt Maxi Child Seat — child seats with N/A lithium power and N/A range.',
+    description: 'The Thule Yepp Nexxt Maxi Child Seat is part of ALLIED\'s authorized Thule child seats range, featuring n/a, n/a, and a top speed of as/nzs 1754 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/457/800/600'],
+    specs: {
+      voltage: 'N/A (safety accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 1754 certified',
+      payloadCapacity: '22 kg max child weight',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '2-5 Years Manufacturing Defects'
+    },
+    features: [
+      'Thule genuine authorized stock, inspected prior to Australian dispatch',
+      'Child Seats class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-thule-yepp-maxi-frame-mount-child-seat',
+    slug: 'allied-thule-yepp-maxi-frame-mount-child-seat',
+    name: 'Thule Yepp Maxi Frame Mount Child Seat',
+    price: 349,
+    category: 'safety-security-carry',
+    subcategory: 'child-seats',
+    badge: 'Best Seller',
+    featured: false,
+    shortDescription: 'Thule Yepp Maxi Frame Mount Child Seat — child seats with N/A lithium power and N/A range.',
+    description: 'The Thule Yepp Maxi Frame Mount Child Seat is part of ALLIED\'s authorized Thule child seats range, featuring n/a, n/a, and a top speed of as/nzs 1754 certified. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/996/800/600'],
+    specs: {
+      voltage: 'N/A (safety accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'AS/NZS 1754 certified',
+      payloadCapacity: '22 kg max child weight',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '2.5-4 kg',
+      warranty: '2-5 Years Manufacturing Defects'
+    },
+    features: [
+      'Thule genuine authorized stock, inspected prior to Australian dispatch',
+      'Child Seats class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-quad-lock-handlebar-mount-pro-kit',
+    slug: 'allied-quad-lock-handlebar-mount-pro-kit',
+    name: 'Quad Lock Handlebar Mount Pro Kit',
+    price: 89,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Quad Lock Handlebar Mount Pro Kit — phone mounts with N/A lithium power and N/A range.',
+    description: 'The Quad Lock Handlebar Mount Pro Kit is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/553/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
+      'Phone Mounts class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-bosch-smartphonegrip-smart-system-mount',
+    slug: 'allied-bosch-smartphonegrip-smart-system-mount',
+    name: 'Bosch SmartphoneGrip Smart System Mount',
+    price: 119,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    featured: false,
+    shortDescription: 'Bosch SmartphoneGrip Smart System Mount — phone mounts. Trek Allant+ 5 and 22 more.',
+    description: 'The Bosch SmartphoneGrip Smart System Mount is a genuine ALLIED-stocked phone mounts component. Trek Allant+ 5 and 22 more. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/199/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Bosch genuine authorized stock, inspected prior to Australian dispatch',
+      'Trek Allant+ 5 and 22 more',
+      'Phone Mounts compatible component',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-quad-lock-bike-mount-pro',
+    slug: 'allied-quad-lock-bike-mount-pro',
+    name: 'Quad Lock Bike Mount Pro',
+    price: 35,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    featured: false,
+    shortDescription: 'Quad Lock Bike Mount Pro — phone mounts with N/A lithium power and N/A range.',
+    description: 'The Quad Lock Bike Mount Pro is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/269/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
+      'Phone Mounts class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-quad-lock-stem-handlebar-bike-mount',
+    slug: 'allied-quad-lock-stem-handlebar-bike-mount',
+    name: 'Quad Lock Stem/Handlebar Bike Mount',
+    price: 35,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    featured: false,
+    shortDescription: 'Quad Lock Stem/Handlebar Bike Mount — phone mounts with N/A lithium power and N/A range.',
+    description: 'The Quad Lock Stem/Handlebar Bike Mount is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/748/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
+      'Phone Mounts class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-quad-lock-out-front-bike-mount',
+    slug: 'allied-quad-lock-out-front-bike-mount',
+    name: 'Quad Lock Out Front Bike Mount',
+    price: 50,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    featured: false,
+    shortDescription: 'Quad Lock Out Front Bike Mount — phone mounts with N/A lithium power and N/A range.',
+    description: 'The Quad Lock Out Front Bike Mount is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/316/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
+      'Phone Mounts class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-quad-lock-out-front-mount-pro',
+    slug: 'allied-quad-lock-out-front-mount-pro',
+    name: 'Quad Lock Out Front Mount Pro',
+    price: 75,
+    category: 'safety-security-carry',
+    subcategory: 'phone-mounts',
+    featured: false,
+    shortDescription: 'Quad Lock Out Front Mount Pro — phone mounts with N/A lithium power and N/A range.',
+    description: 'The Quad Lock Out Front Mount Pro is part of ALLIED\'s authorized Quad Lock phone mounts range, featuring n/a, n/a, and a top speed of vibration-dampened mount. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/664/800/600'],
+    specs: {
+      voltage: 'N/A (mounting accessory)',
+      batteryType: 'N/A',
+      range: 'N/A',
+      topSpeed: 'Vibration-dampened mount',
+      payloadCapacity: 'N/A',
+      motorPower: 'N/A',
+      chargeTime: 'N/A',
+      dimensions: 'Varies by model',
+      weight: '0.03-0.15 kg',
+      warranty: '1-2 Years Manufacturing Defects'
+    },
+    features: [
+      'Quad Lock genuine authorized stock, inspected prior to Australian dispatch',
+      'Phone Mounts class — n/a',
+      'N/A',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
