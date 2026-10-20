@@ -11943,6 +11943,158 @@ export const PRODUCTS: Product[] = [
       '24V 55-75Ah AGM/Lithium-ion',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-cfmoto-cforce-110-electric-quad',
+    slug: 'allied-cfmoto-cforce-110-electric-quad',
+    name: 'CFMoto CForce 110 Electric Quad',
+    price: 2499,
+    category: 'electric-quad-bikes',
+    subcategory: 'kids-electric-quads',
+    featured: false,
+    shortDescription: 'CFMoto CForce 110 Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
+    description: 'The CFMoto CForce 110 Electric Quad is part of ALLIED\'s authorized CFMoto kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/709/800/600'],
+    specs: {
+      voltage: '24V/36V System',
+      batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
+      range: '10-20 km per charge',
+      topSpeed: '8-25 km/h (adjustable speed limiter)',
+      payloadCapacity: '55-75 kg max rider weight',
+      motorPower: '350W-800W Motor',
+      chargeTime: '6-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '35-55 kg',
+      warranty: '1 Year Frame & Motor'
+    },
+    features: [
+      'CFMoto genuine authorized stock, inspected prior to Australian dispatch',
+      'Kids Electric Quad Bikes class — 350w-800w motor',
+      '24V-36V 12-20Ah SLA/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-razor-dirt-quad-500',
+    slug: 'allied-razor-dirt-quad-500',
+    name: 'Razor Dirt Quad 500',
+    price: 799,
+    category: 'electric-quad-bikes',
+    subcategory: 'kids-electric-quads',
+    badge: 'Best Value',
+    featured: false,
+    shortDescription: 'Razor Dirt Quad 500 — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
+    description: 'The Razor Dirt Quad 500 is part of ALLIED\'s authorized Razor kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/908/800/600'],
+    specs: {
+      voltage: '24V/36V System',
+      batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
+      range: '10-20 km per charge',
+      topSpeed: '8-25 km/h (adjustable speed limiter)',
+      payloadCapacity: '55-75 kg max rider weight',
+      motorPower: '350W-800W Motor',
+      chargeTime: '6-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '35-55 kg',
+      warranty: '1 Year Frame & Motor'
+    },
+    features: [
+      'Razor genuine authorized stock, inspected prior to Australian dispatch',
+      'Kids Electric Quad Bikes class — 350w-800w motor',
+      '24V-36V 12-20Ah SLA/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-venom-800w-kids-electric-quad',
+    slug: 'allied-venom-800w-kids-electric-quad',
+    name: 'Venom 800W Kids Electric Quad',
+    price: 599,
+    category: 'electric-quad-bikes',
+    subcategory: 'kids-electric-quads',
+    featured: false,
+    shortDescription: 'Venom 800W Kids Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
+    description: 'The Venom 800W Kids Electric Quad is part of ALLIED\'s authorized Venom kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/666/800/600'],
+    specs: {
+      voltage: '24V/36V System',
+      batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
+      range: '10-20 km per charge',
+      topSpeed: '8-25 km/h (adjustable speed limiter)',
+      payloadCapacity: '55-75 kg max rider weight',
+      motorPower: '350W-800W Motor',
+      chargeTime: '6-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '35-55 kg',
+      warranty: '1 Year Frame & Motor'
+    },
+    features: [
+      'Venom genuine authorized stock, inspected prior to Australian dispatch',
+      'Kids Electric Quad Bikes class — 350w-800w motor',
+      '24V-36V 12-20Ah SLA/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-mototec-36v-kids-electric-quad',
+    slug: 'allied-mototec-36v-kids-electric-quad',
+    name: 'MotoTec 36V Kids Electric Quad',
+    price: 449,
+    category: 'electric-quad-bikes',
+    subcategory: 'kids-electric-quads',
+    featured: false,
+    shortDescription: 'MotoTec 36V Kids Electric Quad — kids electric quad bikes with 24V-36V 12-20Ah SLA/Lithium-ion lithium power and 10-20 km range.',
+    description: 'The MotoTec 36V Kids Electric Quad is part of ALLIED\'s authorized MotoTec kids electric quad bikes range, featuring 350w-800w motor, 24v-36v 12-20ah sla/lithium-ion, and a top speed of 8-25 km/h (adjustable speed limiter). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/682/800/600'],
+    specs: {
+      voltage: '24V/36V System',
+      batteryType: '24V-36V 12-20Ah SLA/Lithium-ion',
+      range: '10-20 km per charge',
+      topSpeed: '8-25 km/h (adjustable speed limiter)',
+      payloadCapacity: '55-75 kg max rider weight',
+      motorPower: '350W-800W Motor',
+      chargeTime: '6-8 Hours',
+      dimensions: 'Varies by model',
+      weight: '35-55 kg',
+      warranty: '1 Year Frame & Motor'
+    },
+    features: [
+      'MotoTec genuine authorized stock, inspected prior to Australian dispatch',
+      'Kids Electric Quad Bikes class — 350w-800w motor',
+      '24V-36V 12-20Ah SLA/Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-segway-villain-sx10-electric-atv',
+    slug: 'allied-segway-villain-sx10-electric-atv',
+    name: 'Segway Villain SX10 Electric ATV',
+    price: 12999,
+    category: 'electric-quad-bikes',
+    subcategory: 'adult-electric-quads',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Segway Ninebot Segway Villain SX10 Electric ATV — adult electric quad bikes & atvs with 72V-96V 40-60Ah lithium power and 40-80 km range.',
+    description: 'The Segway Villain SX10 Electric ATV is part of ALLIED\'s authorized Segway Ninebot adult electric quad bikes & atvs range, featuring 10000w-60000w motor, 72v-96v 40-60ah lithium-ion, and a top speed of 60-120 km/h (off-road/private property use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/206/800/600'],
+    specs: {
+      voltage: '72V/96V System',
+      batteryType: '72V-96V 40-60Ah Lithium-ion',
+      range: '40-80 km per charge',
+      topSpeed: '60-120 km/h (off-road/private property use)',
+      payloadCapacity: '150 kg max rider weight',
+      motorPower: '10000W-60000W Motor',
+      chargeTime: '4-6 Hours',
+      dimensions: 'Varies by model',
+      weight: '250-320 kg',
+      warranty: '1-2 Years Frame & Motor'
+    },
+    features: [
+      'Segway Ninebot genuine authorized stock, inspected prior to Australian dispatch',
+      'Adult Electric Quad Bikes & ATVs class — 10000w-60000w motor',
+      '72V-96V 40-60Ah Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
