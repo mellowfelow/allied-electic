@@ -95,7 +95,7 @@ export const CompareView: React.FC<CompareViewProps> = ({
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search any model e.g. Byron, Torquay, Battery, Charger, Apex..."
+                placeholder="Search any model e.g. Segway, Trek, Battery, Charger, Helmet..."
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white font-mono text-xs focus:outline-none focus:border-sky-500"
               />
             </div>

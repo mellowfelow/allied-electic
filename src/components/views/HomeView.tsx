@@ -46,20 +46,20 @@ export const HomeView: React.FC<HomeViewProps> = ({
       focus: "center 80%"
     },
     {
-      title: "ALLIED Byron & Noosa Electric City Bikes",
-      subtitle: "27.5\" puncture-resistant tyres, 350W high-torque motor, 36V 15.6Ah LG lithium battery, and Shimano 7-speed gearing.",
+      title: "Step-Through & Commuter Electric City Bikes",
+      subtitle: "27.5\" puncture-resistant tyres, high-torque motors, 36V-48V LG/Samsung lithium batteries, and multi-speed gearing.",
       cta: "View City E-Bikes",
       bg: "/images/hero/hero-byron-noosa-city-ebikes.webp"
     },
     {
-      title: "ALLIED Torquay Electric Folding Bikes",
-      subtitle: "Compact 3-step folding mechanism with 70km range. Folds down in under 15 seconds to fit into car boots or motorhomes.",
+      title: "Compact Folding Electric Bikes",
+      subtitle: "Compact 3-step folding mechanisms with up to 70km range. Folds down in under 15 seconds to fit into car boots or motorhomes.",
       cta: "View Folding Bikes",
       bg: "/images/hero/hero-torquay-folding-ebike.webp"
     },
     {
-      title: "ALLIED Ripper Off-Road Mountain E-Bikes",
-      subtitle: "29\" trail tyres, 48V 500W Bafang motor, 48V 17.5Ah LG battery, and air suspension fork for off-road trails.",
+      title: "Off-Road Mountain & Trail E-Bikes",
+      subtitle: "29\" trail tyres, high-torque mid-drive and hub motors, large-capacity LG/Samsung batteries, and air suspension forks for off-road trails.",
       cta: "View Off-Road MTB",
       bg: "/images/hero/hero-ripper-offroad-mtb-ebike.webp"
     }

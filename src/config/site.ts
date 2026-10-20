@@ -264,286 +264,7 @@ export const CATEGORIES: Category[] = [
 ];
 
 export const PRODUCTS: Product[] = [
-  {
-    id: 'allied-byron-city',
-    slug: 'allied-byron-electric-city-bike',
-    name: 'ALLIED Byron Electric City Bike',
-    price: 2290,
-    category: 'electric-bikes',
-    subcategory: 'urban-commuter-ebikes',
-    badge: 'Best Seller',
-    featured: true,
-    shortDescription: 'Everyday urban commuter e-bike with 350W brushless motor, 36V 15.6Ah LG lithium battery and 27.5" puncture-resistant tyres.',
-    description: 'The ALLIED Byron Electric City Bike is engineered for effortless daily commuting. Powered by a high-torque 350W rear brushless hub motor and an ultra-capacity 36V 15.6Ah LG lithium battery providing up to 70km range per charge. Equipped with Tektro disc brakes, Suntour front suspension fork, digital LCD screen with 5 pedal-assist levels, and Shimano Altus 7-speed gearing.',
-    images: ['https://picsum.photos/id/1071/800/600', 'https://picsum.photos/id/1069/800/600'],
-    specs: {
-      voltage: '36V System',
-      batteryType: '36V 15.6Ah LG Lithium-ion',
-      range: '70 km per charge',
-      topSpeed: '25 km/h (Street Legal AU)',
-      payloadCapacity: '120 kg max load',
-      motorPower: '350W Brushless Rear Hub Motor',
-      chargeTime: '4.5 Hours',
-      dimensions: '1,820 x 640 x 1,050 mm',
-      weight: '23.5 kg',
-      warranty: '2 Years Frame & Motor / 1 Year Battery'
-    },
-    features: [
-      '36V 15.6Ah high density LG cell lithium removable battery pack',
-      'Tektro mechanical disc brakes with electronic motor cut-off sensors',
-      'Shimano Altus 7-speed gear system with optical gear display',
-      'Suntour NEX front suspension fork with lockout',
-      '27.5" Kenda puncture-resistant urban commuter tyres'
-    ]
-  },
-  {
-    id: 'allied-noosa-stepthrough',
-    slug: 'allied-noosa-step-through-electric-city-bike',
-    name: 'ALLIED Noosa Step-Through Electric City Bike',
-    price: 2390,
-    category: 'electric-bikes',
-    subcategory: 'urban-commuter-ebikes',
-    badge: 'Step Through',
-    featured: true,
-    shortDescription: 'Comfort-focused low step-frame e-bike with Tektro hydraulic disc brakes, 36V 15.6Ah battery and 70km range.',
-    description: 'The ALLIED Noosa Step-Through combines elegant low-entry frame geometry with high-performance electric power. Features Tektro hydraulic disc brakes for effortless stopping power in all weather conditions, a plush spring-padded saddle, swept-back ergonomic handlebars, integrated front LED headlight, and rear pannier rack.',
-    images: ['https://picsum.photos/id/1072/800/600', 'https://picsum.photos/id/1070/800/600'],
-    specs: {
-      voltage: '36V System',
-      batteryType: '36V 15.6Ah Removable LG Lithium',
-      range: '70 km per charge',
-      topSpeed: '25 km/h',
-      payloadCapacity: '120 kg max load',
-      motorPower: '250W / 350W Brushless Motor',
-      chargeTime: '4.5 Hours',
-      dimensions: '1,800 x 650 x 1,080 mm',
-      weight: '24 kg',
-      warranty: '2 Years Frame & Motor / 1 Year Battery'
-    },
-    features: [
-      'Low step-through aluminium alloy frame for easy mounting',
-      'Tektro hydraulic disc brakes with 180mm rotors',
-      'Backlit digital LCD display with speed, odometer & battery level',
-      'Integrated heavy-duty rear alloy luggage rack',
-      'Front and rear integrated LED lights powered by main battery'
-    ]
-  },
-  {
-    id: 'allied-torquay-folding',
-    slug: 'allied-torquay-electric-folding-bike',
-    name: 'ALLIED Torquay Electric Folding Bike',
-    price: 2150,
-    category: 'electric-bikes',
-    subcategory: 'foldable-electric-bikes',
-    badge: 'Folding',
-    featured: true,
-    shortDescription: 'Compact folding e-bike with 20" stability tyres, 36V 15.6Ah lithium battery and 3-step fold frame (70x60x45cm).',
-    description: 'Designed for ultimate portability without sacrificing battery range. The ALLIED Torquay folds down in under 15 seconds to fit into car boots, motorhomes, caravans, or office closets. Powered by a 36V 15.6Ah battery delivering an impressive 70km range per charge.',
-    images: ['https://picsum.photos/id/1076/800/600', 'https://picsum.photos/id/1077/800/600'],
-    specs: {
-      voltage: '36V System',
-      batteryType: '36V 15.6Ah Frame-Integrated Lithium',
-      range: '70 km per charge',
-      topSpeed: '25 km/h',
-      payloadCapacity: '120 kg max load',
-      motorPower: '250W Rear Brushless Motor',
-      chargeTime: '4 Hours',
-      dimensions: 'Folded: 700 x 600 x 450 mm',
-      weight: '22 kg',
-      warranty: '2 Years Frame & Motor / 1 Year Battery'
-    },
-    features: [
-      'Quick 3-step heavy-duty safety latch folding mechanism',
-      '20" x 2.125" puncture-resistant wide stability tyres',
-      'Tektro disc brakes and Shimano Altus 7-speed gearing',
-      'Telescopic height adjustable handlebars & seat post',
-      'Includes front & rear mudguards and kickstand'
-    ]
-  },
-  {
-    id: 'allied-metro-commuter',
-    slug: 'allied-metro-commuter-ebike',
-    name: 'ALLIED Metro High-Range Commuter E-Bike',
-    price: 2690,
-    category: 'electric-bikes',
-    subcategory: 'urban-commuter-ebikes',
-    badge: 'Popular',
-    featured: false,
-    shortDescription: '48V high-torque urban commuter with 500W rear hub motor, 48V 14Ah Samsung cells and hydraulic brakes.',
-    description: 'The ALLIED Metro is built for demanding urban ascents and long commutes. Equipped with a 48V 500W rear hub motor and 48V 14Ah Samsung cell battery pack, providing punchy hill-climbing acceleration and up to 80km range.',
-    images: ['https://picsum.photos/id/1074/800/600'],
-    specs: {
-      voltage: '48V System',
-      batteryType: '48V 14Ah Samsung Lithium-ion',
-      range: '80 km per charge',
-      topSpeed: '32 km/h (Off-road mode)',
-      payloadCapacity: '130 kg max load',
-      motorPower: '500W High Torque Motor',
-      chargeTime: '4.5 Hours',
-      dimensions: '1,850 x 660 x 1,060 mm',
-      weight: '25 kg',
-      warranty: '2 Years Frame & Motor'
-    },
-    features: [
-      '48V 500W motor with 65Nm torque output',
-      'Tektro hydraulic disc brakes with 180mm rotors',
-      'Suntour XCM suspension fork with lockout',
-      'Color LCD display with USB phone charging port'
-    ]
-  },
-  {
-    id: 'allied-ripper-mtb',
-    slug: 'allied-ripper-offroad-mtb-ebike',
-    name: 'ALLIED Ripper Hardtail Off-Road MTB E-Bike',
-    price: 2990,
-    category: 'electric-bikes',
-    subcategory: 'electric-mountain-bikes',
-    badge: 'New Release',
-    featured: true,
-    shortDescription: '29" hardtail trail e-bike with 48V 500W Bafang motor, 48V 17.5Ah LG battery and air suspension fork.',
-    description: 'Conquer singletracks and off-road trails with the ALLIED Ripper MTB. Powered by a high-torque 48V 500W Bafang motor paired with a massive 48V 17.5Ah (840Wh) LG lithium battery pack. Features 29" Maxxis Rekon trail tyres and 120mm air suspension fork.',
-    images: ['https://picsum.photos/id/1073/800/600', 'https://picsum.photos/id/1075/800/600'],
-    specs: {
-      voltage: '48V System',
-      batteryType: '48V 17.5Ah (840Wh) LG Cell Lithium',
-      range: '90 km trail range',
-      topSpeed: '35 km/h (Off-road mode)',
-      payloadCapacity: '135 kg max load',
-      motorPower: '500W Bafang High Torque Motor',
-      chargeTime: '5 Hours',
-      dimensions: '1,880 x 720 x 1,080 mm',
-      weight: '24.5 kg',
-      warranty: '2 Years Frame & Drive System'
-    },
-    features: [
-      '29" x 2.40" Maxxis Rekon EXO puncture protected trail tyres',
-      '120mm travel air suspension fork with rebound adjustment',
-      'Shimano Deore 9-speed drivetrain with shadow rear derailleur',
-      'Tektro 4-piston hydraulic disc brakes'
-    ]
-  },
-  {
-    id: 'allied-apex-fullsusp',
-    slug: 'allied-apex-full-suspension-trail-ebike',
-    name: 'ALLIED Apex Full-Suspension Enduro Trail E-Bike',
-    price: 4250,
-    category: 'electric-bikes',
-    subcategory: 'electric-mountain-bikes',
-    badge: 'Heavy Duty',
-    featured: true,
-    shortDescription: '750W Bafang mid-drive full suspension enduro e-bike with 150mm RockShox air fork and 48V 17.5Ah battery.',
-    description: 'The flagship off-road machine in the ALLIED lineup. The Apex features a center-weighted Bafang M600 750W mid-drive motor delivering 120Nm of mountain-climbing torque. Paired with RockShox 150mm front air fork and rear air shock.',
-    images: ['https://picsum.photos/id/1080/800/600'],
-    specs: {
-      voltage: '48V System',
-      batteryType: '48V 17.5Ah LG Cell Downtube Lithium',
-      range: '75 km rugged mountain range',
-      topSpeed: '45 km/h (Off-road mode)',
-      payloadCapacity: '140 kg max load',
-      motorPower: '750W Bafang M600 Mid-Drive (120Nm)',
-      chargeTime: '4.5 Hours',
-      dimensions: '1,900 x 740 x 1,100 mm',
-      weight: '26 kg',
-      warranty: '2 Years Frame & Mid-Drive Motor'
-    },
-    features: [
-      'Bafang M600 mid-drive motor with torque sensing technology',
-      'RockShox 150mm travel air suspension front & rear',
-      'SRAM GX 11-speed drivetrain system',
-      'Dropper seat post with handlebar remote lever'
-    ]
-  },
-  {
-    id: 'allied-hauler-cargo',
-    slug: 'allied-hauler-commercial-cargo-ebike',
-    name: 'ALLIED Hauler Heavy Duty Utility Cargo E-Bike',
-    price: 3490,
-    category: 'electric-bikes',
-    subcategory: 'cargo-family-ebikes',
-    badge: 'Heavy Duty',
-    featured: true,
-    shortDescription: 'Heavy-duty 200kg load capacity cargo e-bike with dual 36V 15.6Ah batteries and front/rear platform racks.',
-    description: 'Engineered for commercial delivery couriers, maintenance technicians, and heavy load carrying. The ALLIED Hauler features dual battery docks holding two 36V 15.6Ah packs for over 120km range under full payload.',
-    images: ['https://picsum.photos/id/1079/800/600'],
-    specs: {
-      voltage: '36V Dual Pack',
-      batteryType: '36V 15.6Ah x 2 (31.2Ah Total LG Lithium)',
-      range: '120 km under full payload',
-      topSpeed: '25 km/h',
-      payloadCapacity: '200 kg total system load',
-      motorPower: '500W High Torque Hub Motor',
-      chargeTime: '5 Hours per pack',
-      dimensions: '2,050 x 700 x 1,120 mm',
-      weight: '34 kg',
-      warranty: '2 Years Frame & Motor'
-    },
-    features: [
-      'Heavy-duty alloy front tray and reinforced rear cargo deck',
-      'Dual battery automatic switchover module',
-      'Dual-leg center kickstand for stable loading/unloading',
-      'Tektro 4-piston hydraulic disc brakes'
-    ]
-  },
-  {
-    id: 'aev-titan-1500',
-    slug: 'allied-titan-1500-heavy-cargo-truck',
-    name: 'ALLIED Titan 1500 Heavy Electric Cargo Truck',
-    price: 24950,
-    category: 'electric-quad-bikes',
-    subcategory: 'farm-utility-quads',
-    badge: 'Heavy Duty',
-    featured: true,
-    shortDescription: '1,500kg payload capacity electric flatbed truck with hydraulic drop-side tipping bed and 72V LiFePO4 battery.',
-    description: 'The Allied Titan 1500 is engineered specifically for harsh Australian industrial conditions. Featuring a reinforced high-tensile steel frame, heavy-duty leaf spring suspension, hydraulic drop-side tipping bed, and an advanced 72V 160Ah LiFePO4 lithium battery system.',
-    images: ['https://picsum.photos/id/1071/800/600', 'https://picsum.photos/id/1070/800/600'],
-    specs: {
-      voltage: '72V System',
-      batteryType: 'LiFePO4 Lithium (160Ah)',
-      range: '100 km per charge',
-      topSpeed: '40 km/h (governed)',
-      payloadCapacity: '1,500 kg',
-      motorPower: '10 kW AC Brushless Motor',
-      chargeTime: '2.5 Hours (Fast 80A Charger)',
-      dimensions: '3,800 x 1,450 x 1,850 mm',
-      weight: '1,120 kg',
-      warranty: '3 Years Vehicle / 5 Years Battery'
-    },
-    features: [
-      'Hydraulic power tipper bed with drop-down steel sides',
-      'IP67 water and dust resistant sealed motor & drive controller',
-      'Dual circuit hydraulic disc brakes with electromagnetic park brake'
-    ]
-  },
-  {
-    id: 'allied-bat-36v156',
-    slug: 'allied-36v-156ah-lg-lithium-battery-pack',
-    name: 'ALLIED 36V 15.6Ah LG Cell Replacement Battery Pack',
-    price: 690,
-    category: 'batteries-parts-kits',
-    subcategory: 'ebike-batteries',
-    badge: 'Popular',
-    featured: false,
-    shortDescription: 'Genuine high-density 36V 15.6Ah LG cell lithium-ion battery pack for Allied Byron, Noosa & Torquay e-bikes.',
-    description: 'Upgrade or carry a spare battery for extended touring. Genuine ALLIED 36V 15.6Ah LG cell battery pack with lockable key latch, LED charge capacity indicator, and built-in Smart BMS protection.',
-    images: ['https://picsum.photos/id/1072/800/600'],
-    specs: {
-      voltage: '36V System',
-      batteryType: '36V 15.6Ah (561Wh) LG Lithium-ion',
-      range: '70 km per charge',
-      topSpeed: 'N/A',
-      payloadCapacity: 'N/A',
-      motorPower: 'N/A',
-      chargeTime: '4.5 Hours',
-      dimensions: '380 x 90 x 90 mm',
-      weight: '3.6 kg',
-      warranty: '1 Year Full Battery Warranty'
-    },
-    features: [
-      'High-grade premium LG 18650 lithium-ion cells',
-      'Integrated Smart BMS preventing overcharge, over-discharge & short circuit',
-      'Key lock security mechanism with 2 keys included'
-    ]
-  },
+
   {
     id: 'allied-lekker-jordaan-urban-8sp',
     slug: 'allied-lekker-jordaan-urban-8sp',
@@ -552,7 +273,7 @@ export const PRODUCTS: Product[] = [
     category: 'electric-bikes',
     subcategory: 'urban-commuter-ebikes',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Lekker Jordaan Urban 8sp — step-through commuters with 36V 14Ah / 48V 14Ah lithium power and 70-90 km range.',
     description: 'The Lekker Jordaan Urban 8sp is part of ALLIED\'s authorized Lekker step-through commuters range, featuring 250w-350w rear hub motor, 36v 14ah / 48v 14ah lithium-ion, and a top speed of 25 km/h (street legal au). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/electric-bikes/urban-commuter-ebikes/lekker-jordaan-urban-8sp.webp'],
@@ -5868,7 +5589,7 @@ export const PRODUCTS: Product[] = [
     category: 'electric-scooters',
     subcategory: 'commuter-electric-scooters',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Segway Ninebot Segway-Ninebot E2 Pro KickScooter — commuter e-scooters with 36V 10Ah / 48V 12.5Ah lithium power and 25-45 km range.',
     description: 'The Segway-Ninebot E2 Pro KickScooter is part of ALLIED\'s authorized Segway Ninebot commuter e-scooters range, featuring 250w-500w single motor, 36v 10ah / 48v 12.5ah lithium-ion, and a top speed of 25 km/h (street legal au where registered). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/electric-scooters/commuter-electric-scooters/segway-ninebot-e2-pro-kickscooter.webp'],
@@ -7691,7 +7412,7 @@ export const PRODUCTS: Product[] = [
     category: 'electric-skateboards',
     subcategory: 'street-electric-skateboards',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Evolve Skateboards Evolve Carbon GTR Street Series 2 — street electric longboards with 36V-42V 10-12Ah lithium power and 25-45 km range.',
     description: 'The Evolve Carbon GTR Street Series 2 is part of ALLIED\'s authorized Evolve Skateboards street electric longboards range, featuring 1000w-3000w dual hub/belt motor, 36v-42v 10-12ah lithium-ion, and a top speed of 35-45 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/electric-skateboards/street-electric-skateboards/evolve-carbon-gtr-street-series-2.webp'],
@@ -9605,7 +9326,7 @@ export const PRODUCTS: Product[] = [
     category: 'self-balancing-ev',
     subcategory: 'hoverboards',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Segway Ninebot S-MAX Self-Balancing — hoverboards & self-balancing boards with 36V-42V 4-4.4Ah lithium power and 10-18 km range.',
     description: 'The Segway Ninebot S-MAX Self-Balancing is part of ALLIED\'s authorized Segway Ninebot hoverboards & self-balancing boards range, featuring 300w-400w dual hub motor, 36v-42v 4-4.4ah lithium-ion, and a top speed of 10-18 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/self-balancing-ev/hoverboards/segway-ninebot-s-max-self-balancing.webp'],
@@ -10346,7 +10067,7 @@ export const PRODUCTS: Product[] = [
     category: 'kids-off-road-ev',
     subcategory: 'youth-electric-dirt-bikes',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Sur-Ron Light Bee X — youth electric dirt & pit bikes with 48V-72V 20-40Ah lithium power and 40-100 km range.',
     description: 'The Sur-Ron Light Bee X is part of ALLIED\'s authorized Sur-Ron youth electric dirt & pit bikes range, featuring 1000w-8000w motor, 48v-72v 20-40ah lithium-ion, and a top speed of 25-90 km/h (off-road/private land use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/kids-off-road-ev/youth-electric-dirt-bikes/sur-ron-light-bee-x.webp'],
@@ -11212,7 +10933,7 @@ export const PRODUCTS: Product[] = [
     category: 'mobility-scooters',
     subcategory: 'travel-mobility-scooters',
     badge: 'Best Seller',
-    featured: false,
+    featured: true,
     shortDescription: 'Afiscooter C3 Compact 3-Wheel — travel & folding mobility scooters with 24V 8-12Ah lithium power and 15-30 km range.',
     description: 'The Afiscooter C3 Compact 3-Wheel is part of ALLIED\'s authorized Afiscooter travel & folding mobility scooters range, featuring 250w-350w motor, 24v 8-12ah lithium-ion/sla (airline-safe), and a top speed of 6-10 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/mobility-scooters/travel-mobility-scooters/afiscooter-c3-compact-3-wheel.webp'],
@@ -12073,7 +11794,7 @@ export const PRODUCTS: Product[] = [
     category: 'electric-quad-bikes',
     subcategory: 'adult-electric-quads',
     badge: 'Premium',
-    featured: false,
+    featured: true,
     shortDescription: 'Segway Ninebot Segway Villain SX10 Electric ATV — adult electric quad bikes & atvs with 72V-96V 40-60Ah lithium power and 40-80 km range.',
     description: 'The Segway Villain SX10 Electric ATV is part of ALLIED\'s authorized Segway Ninebot adult electric quad bikes & atvs range, featuring 10000w-60000w motor, 72v-96v 40-60ah lithium-ion, and a top speed of 60-120 km/h (off-road/private property use). Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/electric-quad-bikes/adult-electric-quads/segway-villain-sx10-electric-atv.webp'],
@@ -12259,7 +11980,7 @@ export const PRODUCTS: Product[] = [
     category: 'electric-water-sports',
     subcategory: 'electric-jetskis',
     badge: 'Premium',
-    featured: false,
+    featured: true,
     shortDescription: 'Taiga Orca Carbon Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
     description: 'The Taiga Orca Carbon Electric Jet Ski is part of ALLIED\'s authorized Taiga electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
     images: ['/images/products/electric-water-sports/electric-jetskis/taiga-orca-carbon-electric-jet-ski.webp'],
@@ -15891,7 +15612,7 @@ export const PRODUCTS: Product[] = [
 export const POSTS = [
   {
     slug: 'electric-city-bike-buying-guide-australia',
-    title: 'Australian Electric Bike Buying Guide: Byron vs Noosa vs Torquay Comparison',
+    title: 'Australian Electric Bike Buying Guide: Step-Through vs Commuter vs Folding',
     excerpt: 'Detailed comparison of step-through, commuter and folding e-bikes to help you choose the right model for urban Australian commuting.',
     category: 'E-Bike Guides',
     date: '2026-09-15',
@@ -15925,11 +15646,11 @@ export const FAQ = [
   },
   {
     question: 'What is the range per charge on ALLIED e-bikes?',
-    answer: 'Our ALLIED Byron, Noosa, and Torquay models feature high-capacity 36V 15.6Ah LG lithium battery packs delivering up to 70km of pedal-assist range per charge. High-capacity 48V models provide up to 90km.'
+    answer: 'Our 36V and 48V LG/Samsung lithium battery packs deliver up to 70-90km of pedal-assist range per charge, depending on the model, terrain and assist level used.'
   },
   {
-    question: 'How does the folding mechanism work on the ALLIED Torquay Folding Bike?',
-    answer: 'The Torquay features a heavy-duty 3-step safety latch folding mechanism. The main frame, seat post, and handlebar stem fold down in under 15 seconds into a compact 70cm x 60cm x 45cm package that easily fits in car boots or caravan lockers.'
+    question: 'How does the folding mechanism work on ALLIED folding e-bikes?',
+    answer: 'Our folding e-bike models use a heavy-duty 3-step safety latch folding mechanism. The main frame, seat post, and handlebar stem fold down in under 15 seconds into a compact package that easily fits in car boots or caravan lockers.'
   },
   {
     question: 'What is the minimum order value and Australian freight delivery time?',

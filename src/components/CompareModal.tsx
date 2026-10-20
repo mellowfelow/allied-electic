@@ -95,7 +95,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
               type="text"
               value={pickerSearch}
               onChange={(e) => setPickerSearch(e.target.value)}
-              placeholder="Search by name e.g. Byron, Torquay, Battery, Charger..."
+              placeholder="Search by name e.g. Segway, Trek, Battery, Helmet..."
               className="w-full px-3.5 py-2 rounded-lg bg-slate-900 border border-slate-800 text-white font-mono text-xs focus:outline-none focus:border-sky-500"
             />
 
