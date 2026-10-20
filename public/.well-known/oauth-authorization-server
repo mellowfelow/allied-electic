@@ -1,0 +1,25 @@
+{
+  "issuer": "https://alliedelectricvehicles.com.au",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "ALLIED ELECTRIC VEHICLES has no protected APIs. All resources publicly accessible.",
+  "public_resources": [
+    "https://alliedelectricvehicles.com.au/shop/",
+    "https://alliedelectricvehicles.com.au/faq/",
+    "https://alliedelectricvehicles.com.au/wholesale/",
+    "https://alliedelectricvehicles.com.au/llms.txt",
+    "https://alliedelectricvehicles.com.au/.well-known/api-catalog",
+    "https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json",
+    "https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": ["none"],
+    "credential_types_supported": ["none"],
+    "notes": "No registration required. All content publicly accessible to agents."
+  }
+}

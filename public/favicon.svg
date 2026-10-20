@@ -1,0 +1,18 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alliedGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#090D16" />
+  <path d="M32 6L54 17V39L32 57L10 39V17L32 6Z" fill="#090D16" stroke="url(#alliedGlow)" stroke-width="3.5" stroke-linejoin="round" />
+  <path d="M32 12L46 41H39L32 25L25 41H18L32 12Z" fill="url(#alliedGlow)" opacity="0.95" />
+  <path d="M34 18L24 34H33L28 48L40 30H31L34 18Z" fill="url(#amberAccent)" />
+  <circle cx="32" cy="12" r="2.5" fill="#00F0FF" />
+</svg>

@@ -1,0 +1,34 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://alliedelectricvehicles.com.au/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        { "href": "https://alliedelectricvehicles.com.au/faq/" }
+      ],
+      "title": "ALLIED ELECTRIC VEHICLES — Australia's Premier Industrial EVs"
+    },
+    {
+      "anchor": "https://alliedelectricvehicles.com.au/shop/",
+      "type": "text/html",
+      "title": "ALLIED Product & Forklift Catalog"
+    },
+    {
+      "anchor": "https://alliedelectricvehicles.com.au/wholesale/",
+      "type": "text/html",
+      "title": "ALLIED Corporate & Mining Fleet Tenders"
+    },
+    {
+      "anchor": "https://alliedelectricvehicles.com.au/api/products",
+      "type": "application/json",
+      "title": "ALLIED Products API"
+    },
+    {
+      "anchor": "https://alliedelectricvehicles.com.au/api/mcp",
+      "type": "application/json",
+      "https://www.iana.org/assignments/link-relations/service-desc": [
+        { "href": "https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json" }
+      ],
+      "title": "ALLIED MCP Server"
+    }
+  ]
+}

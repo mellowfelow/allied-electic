@@ -1,0 +1,95 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "ALLIED ELECTRIC VEHICLES",
+    "version": "1.0.0",
+    "description": "Commercial electric utility vehicles, lithium forklifts, site shuttles and heavy cargo e-bikes. ABN 66 060 256 377.",
+    "homepage": "https://alliedelectricvehicles.com.au",
+    "contact": {
+      "email": "sales@alliedelectricvehicles.com.au",
+      "whatsapp": "+61892488555"
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://alliedelectricvehicles.com.au/api/mcp"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search ALLIED products by keyword, category, max_price",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string" },
+            "category": { "type": "string" },
+            "max_price": { "type": "number" }
+          }
+        }
+      },
+      {
+        "name": "get_product",
+        "description": "Get full technical specs for a vehicle by slug",
+        "inputSchema": {
+          "type": "object",
+          "required": ["slug"],
+          "properties": {
+            "slug": { "type": "string" }
+          }
+        }
+      },
+      {
+        "name": "list_categories",
+        "description": "List all commercial vehicle categories",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_policies",
+        "description": "Get freight delivery, warranty, and payment discount policies",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "create_order_draft",
+        "description": "Create prefilled WhatsApp/Email order URL. Human completes remittance.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "items": { "type": "array" },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full commercial vehicle catalog",
+        "uri": "https://alliedelectricvehicles.com.au/shop/"
+      },
+      {
+        "name": "fleet-tenders",
+        "description": "Corporate & mining fleet quotes",
+        "uri": "https://alliedelectricvehicles.com.au/wholesale/"
+      }
+    ],
+    "commerce": {
+      "ordering": "human-assisted-whatsapp-or-form",
+      "payment": ["bank-transfer", "crypto-pay", "commercial-lease"],
+      "currency": "AUD",
+      "minimumOrder": "300",
+      "freeShipping": "none"
+    }
+  },
+  "legal": {
+    "ageRestriction": "none",
+    "productType": "commercial-electric-vehicles",
+    "compliance": "ABN 66 060 256 377 GST Registered"
+  }
+}

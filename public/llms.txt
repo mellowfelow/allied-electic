@@ -1,0 +1,25 @@
+# ALLIED ELECTRIC VEHICLES
+> Australia's premier commercial & industrial electric vehicles, utility carts, forklifts & personnel shuttles. ABN 66 060 256 377.
+
+ALLIED ELECTRIC VEHICLES (a division of ALLIED FORKLIFTS PTY LTD, ABN 66 060 256 377) is an Australian authorized reseller, fleet supplier & distributor based in Perth, Western Australia (WA 6090). We do not manufacture bikes; we source, inspect, stock, sell, and service genuine top-tier electric bikes, lithium replacement batteries, zero-emission commercial utility trucks, and 80V LiFePO4 lithium forklifts for personal, commercial, and fleet customers across Australia.
+
+## Key Fleet Specifications
+- Minimum Commercial Order: $300 AUD (Inc GST)
+- Payment Methods: Direct Bank Wire (EFT/Osko), Cryptocurrency (USDT/BTC) with 10% Discount, Commercial Equipment Leasing
+- National Warranty: 3-Year Vehicle Warranty / 8-Year LiFePO4 Lithium Battery Warranty
+- Perth HQ: 12 Industrial Way, Malaga, Perth, WA 6090, Australia
+- Phone Contact: +61 8 9248 8555
+- WhatsApp Advisory: https://wa.me/61892488555
+
+## Commercial Vehicle Categories
+- [Commercial Utility Vehicles](https://alliedelectricvehicles.com.au/shop/commercial-utility-vehicles/): Heavy cargo flatbeds, hydraulic tipper trucks & maintenance carts with up to 1,500kg payload.
+- [Industrial Electric Forklifts](https://alliedelectricvehicles.com.au/shop/industrial-electric-forklifts/): High-voltage 80V LiFePO4 counterbalance forklifts (1.8T to 5.0T), reach trucks & walkie stackers.
+- [Passenger & Personnel Transport](https://alliedelectricvehicles.com.au/shop/passenger-shuttle-buggies/): VIP resort buggies, 8-14 passenger site shuttles & all-weather enclosed personnel movers.
+- [Heavy Duty E-Bikes & Mobility](https://alliedelectricvehicles.com.au/shop/heavy-duty-ebikes-mobility/): Industrial cargo bikes with 200kg capacity & silent 4x4 electric quads.
+
+## Optional Machine Readable Endpoints
+- [API Catalog](https://alliedelectricvehicles.com.au/.well-known/api-catalog): RFC 9727 compliant linkset
+- [Agent Skills Index](https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json): Autonomous procurement skill definitions
+- [MCP Server Card](https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json): Model Context Protocol server capabilities
+- [Auth Documentation](https://alliedelectricvehicles.com.au/auth.md): Open access agent authentication policy
+- [UCP Specification](https://alliedelectricvehicles.com.au/.well-known/ucp): Universal Commerce Protocol v1.0 manifest

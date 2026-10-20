@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "ALLIED ELECTRIC VEHICLES",
+  "url": "https://alliedelectricvehicles.com.au",
+  "description": "Australia's premier commercial & industrial electric vehicles, utility carts, forklifts & personnel shuttles. ABN 66 060 256 377.",
+  "skills": [
+    {
+      "name": "search-products",
+      "type": "commerce",
+      "description": "Search commercial EVs, forklifts and e-bikes by category, voltage or payload",
+      "url": "https://alliedelectricvehicles.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "browse-catalog",
+      "type": "navigation",
+      "description": "Browse full commercial vehicle and material handling catalogue",
+      "url": "https://alliedelectricvehicles.com.au/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "order-draft",
+      "type": "commerce",
+      "description": "Create prefilled vehicle order draft. Human completes remittance.",
+      "url": "https://alliedelectricvehicles.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "fleet-inquiry",
+      "type": "commerce",
+      "description": "Corporate mining tender and volume fleet inquiries",
+      "url": "https://alliedelectricvehicles.com.au/wholesale/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

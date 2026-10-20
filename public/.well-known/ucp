@@ -1,0 +1,53 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://alliedelectricvehicles.com.au",
+  "name": "ALLIED ELECTRIC VEHICLES",
+  "description": "Australia's premier commercial & industrial electric vehicles, utility carts & forklifts. ABN 66 060 256 377.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://alliedelectricvehicles.com.au/shop/",
+      "description": "Full commercial electric vehicle catalog"
+    },
+    {
+      "id": "mcp-server",
+      "type": "mcp",
+      "url": "https://alliedelectricvehicles.com.au/api/mcp",
+      "description": "MCP Streamable HTTP server"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://wa.me/61892488555",
+      "description": "Place orders via WhatsApp"
+    },
+    {
+      "id": "wholesale",
+      "type": "b2b",
+      "url": "https://alliedelectricvehicles.com.au/wholesale/",
+      "description": "Corporate & mining fleet quotes"
+    }
+  ],
+  "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"],
+  "endpoints": {
+    "mcp": "https://alliedelectricvehicles.com.au/api/mcp",
+    "catalog": "https://alliedelectricvehicles.com.au/shop/",
+    "contact": "https://alliedelectricvehicles.com.au/contact/",
+    "agent_skills": "https://alliedelectricvehicles.com.au/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://alliedelectricvehicles.com.au/.well-known/mcp/server-card.json",
+    "api_catalog": "https://alliedelectricvehicles.com.au/.well-known/api-catalog",
+    "llms_txt": "https://alliedelectricvehicles.com.au/llms.txt"
+  },
+  "currency": "AUD",
+  "minimum_order_usd": "200",
+  "payment_methods": ["bank-transfer", "crypto-pay", "commercial-lease"],
+  "legal": {
+    "age_restriction": "none",
+    "product_type": "commercial-electric-vehicles",
+    "compliance": "ABN 66 060 256 377 GST Registered"
+  }
+}

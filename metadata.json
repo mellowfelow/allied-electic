@@ -1,0 +1,6 @@
+{
+  "name": "ALLIED ELECTRIC VEHICLES",
+  "description": "Australia's Premier Commercial & Industrial Electric Vehicles, Utility Carts & Personal Mobility. ABN 66 060 256 377.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
