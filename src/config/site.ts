@@ -12095,6 +12095,254 @@ export const PRODUCTS: Product[] = [
       '72V-96V 40-60Ah Lithium-ion',
       'Perth depot service & spare parts support'
     ]
+  },
+  {
+    id: 'allied-lift-efoil-2-electric-hydrofoil',
+    slug: 'allied-lift-efoil-2-electric-hydrofoil',
+    name: 'Lift eFoil 2 Electric Hydrofoil',
+    price: 17999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-surfboards',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Lift Foils Lift eFoil 2 Electric Hydrofoil — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
+    description: 'The Lift eFoil 2 Electric Hydrofoil is part of ALLIED\'s authorized Lift Foils electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/905/800/600'],
+    specs: {
+      voltage: '52V/96V System',
+      batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
+      range: '45-120 minutes riding time',
+      topSpeed: '30-58 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '6000W-15000W Waterproof Motor',
+      chargeTime: '1.5-2.5 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-28 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Lift Foils genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Surfboards & Hydrofoils class — 6000w-15000w waterproof motor',
+      '52V-96V 2-3kWh Waterproof Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-fliteboard-air-electric-hydrofoil',
+    slug: 'allied-fliteboard-air-electric-hydrofoil',
+    name: 'Fliteboard AIR Electric Hydrofoil',
+    price: 14999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-surfboards',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Fliteboard AIR Electric Hydrofoil — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
+    description: 'The Fliteboard AIR Electric Hydrofoil is part of ALLIED\'s authorized Fliteboard electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/514/800/600'],
+    specs: {
+      voltage: '52V/96V System',
+      batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
+      range: '45-120 minutes riding time',
+      topSpeed: '30-58 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '6000W-15000W Waterproof Motor',
+      chargeTime: '1.5-2.5 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-28 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Fliteboard genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Surfboards & Hydrofoils class — 6000w-15000w waterproof motor',
+      '52V-96V 2-3kWh Waterproof Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-awake-ravik-s-electric-surfboard',
+    slug: 'allied-awake-ravik-s-electric-surfboard',
+    name: 'Awake RAVIK S Electric Surfboard',
+    price: 18999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-surfboards',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Awake RAVIK S Electric Surfboard — electric surfboards & hydrofoils with 52V-96V 2-3kWh Waterproof lithium power and 45-120 minutes riding time range.',
+    description: 'The Awake RAVIK S Electric Surfboard is part of ALLIED\'s authorized Awake electric surfboards & hydrofoils range, featuring 6000w-15000w waterproof motor, 52v-96v 2-3kwh waterproof lithium-ion, and a top speed of 30-58 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/124/800/600'],
+    specs: {
+      voltage: '52V/96V System',
+      batteryType: '52V-96V 2-3kWh Waterproof Lithium-ion',
+      range: '45-120 minutes riding time',
+      topSpeed: '30-58 km/h',
+      payloadCapacity: '120 kg max rider weight',
+      motorPower: '6000W-15000W Waterproof Motor',
+      chargeTime: '1.5-2.5 Hours',
+      dimensions: 'Varies by model',
+      weight: '18-28 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Awake genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Surfboards & Hydrofoils class — 6000w-15000w waterproof motor',
+      '52V-96V 2-3kWh Waterproof Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-radinn-freeride-electric-jetboard',
+    slug: 'allied-radinn-freeride-electric-jetboard',
+    name: 'Radinn Freeride Electric Jetboard',
+    price: 12999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-jetboards',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Radinn Freeride Electric Jetboard — electric jetboards with 96V 3-4kWh Waterproof lithium power and 30-60 minutes riding time range.',
+    description: 'The Radinn Freeride Electric Jetboard is part of ALLIED\'s authorized Radinn electric jetboards range, featuring 12000w-20000w jet pump motor, 96v 3-4kwh waterproof lithium-ion, and a top speed of 45-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/519/800/600'],
+    specs: {
+      voltage: '96V System',
+      batteryType: '96V 3-4kWh Waterproof Lithium-ion',
+      range: '30-60 minutes riding time',
+      topSpeed: '45-70 km/h',
+      payloadCapacity: '110 kg max rider weight',
+      motorPower: '12000W-20000W Jet Pump Motor',
+      chargeTime: '1.5-2 Hours',
+      dimensions: 'Varies by model',
+      weight: '25-35 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'Radinn genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Jetboards class — 12000w-20000w jet pump motor',
+      '96V 3-4kWh Waterproof Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-yujet-surfer-electric-bodyboard',
+    slug: 'allied-yujet-surfer-electric-bodyboard',
+    name: 'YuJet Surfer Electric Bodyboard',
+    price: 6999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-jetboards',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'YuJet Surfer Electric Bodyboard — electric jetboards with 96V 3-4kWh Waterproof lithium power and 30-60 minutes riding time range.',
+    description: 'The YuJet Surfer Electric Bodyboard is part of ALLIED\'s authorized YuJet electric jetboards range, featuring 12000w-20000w jet pump motor, 96v 3-4kwh waterproof lithium-ion, and a top speed of 45-70 km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/918/800/600'],
+    specs: {
+      voltage: '96V System',
+      batteryType: '96V 3-4kWh Waterproof Lithium-ion',
+      range: '30-60 minutes riding time',
+      topSpeed: '45-70 km/h',
+      payloadCapacity: '110 kg max rider weight',
+      motorPower: '12000W-20000W Jet Pump Motor',
+      chargeTime: '1.5-2 Hours',
+      dimensions: 'Varies by model',
+      weight: '25-35 kg',
+      warranty: '1-2 Years Board & Motor'
+    },
+    features: [
+      'YuJet genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Jetboards class — 12000w-20000w jet pump motor',
+      '96V 3-4kWh Waterproof Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-taiga-orca-carbon-electric-jet-ski',
+    slug: 'allied-taiga-orca-carbon-electric-jet-ski',
+    name: 'Taiga Orca Carbon Electric Jet Ski',
+    price: 24999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-jetskis',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Taiga Orca Carbon Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
+    description: 'The Taiga Orca Carbon Electric Jet Ski is part of ALLIED\'s authorized Taiga electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/322/800/600'],
+    specs: {
+      voltage: '120V+ System',
+      batteryType: '120V+ 12-18kWh Lithium-ion',
+      range: '1.5-2.5 Hours mixed riding',
+      topSpeed: '80-100+ km/h',
+      payloadCapacity: '150 kg max rider weight',
+      motorPower: '80000W-180000W Twin Motor',
+      chargeTime: '2-4 Hours (DC Fast Charge)',
+      dimensions: 'Varies by model',
+      weight: '280-350 kg',
+      warranty: '2 Years Hull & Drivetrain'
+    },
+    features: [
+      'Taiga genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Jet Skis & Personal Watercraft class — 80000w-180000w twin motor',
+      '120V+ 12-18kWh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-sea-doo-rise-electric-jet-ski',
+    slug: 'allied-sea-doo-rise-electric-jet-ski',
+    name: 'Sea-Doo Rise Electric Jet Ski',
+    price: 19999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-jetskis',
+    badge: 'New Release',
+    featured: false,
+    shortDescription: 'Sea-Doo Rise Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
+    description: 'The Sea-Doo Rise Electric Jet Ski is part of ALLIED\'s authorized Sea-Doo electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/937/800/600'],
+    specs: {
+      voltage: '120V+ System',
+      batteryType: '120V+ 12-18kWh Lithium-ion',
+      range: '1.5-2.5 Hours mixed riding',
+      topSpeed: '80-100+ km/h',
+      payloadCapacity: '150 kg max rider weight',
+      motorPower: '80000W-180000W Twin Motor',
+      chargeTime: '2-4 Hours (DC Fast Charge)',
+      dimensions: 'Varies by model',
+      weight: '280-350 kg',
+      warranty: '2 Years Hull & Drivetrain'
+    },
+    features: [
+      'Sea-Doo genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Jet Skis & Personal Watercraft class — 80000w-180000w twin motor',
+      '120V+ 12-18kWh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
+  },
+  {
+    id: 'allied-narke-gt45-electric-jet-ski',
+    slug: 'allied-narke-gt45-electric-jet-ski',
+    name: 'Narke GT45 Electric Jet Ski',
+    price: 39999,
+    category: 'electric-water-sports',
+    subcategory: 'electric-jetskis',
+    badge: 'Premium',
+    featured: false,
+    shortDescription: 'Narke GT45 Electric Jet Ski — electric jet skis & personal watercraft with 120V+ 12-18kWh lithium power and 1.5-2.5 Hours mixed riding range.',
+    description: 'The Narke GT45 Electric Jet Ski is part of ALLIED\'s authorized Narke electric jet skis & personal watercraft range, featuring 80000w-180000w twin motor, 120v+ 12-18kwh lithium-ion, and a top speed of 80-100+ km/h. Backed by ALLIED\'s Perth service depot and spare parts warehouse.',
+    images: ['https://picsum.photos/id/359/800/600'],
+    specs: {
+      voltage: '120V+ System',
+      batteryType: '120V+ 12-18kWh Lithium-ion',
+      range: '1.5-2.5 Hours mixed riding',
+      topSpeed: '80-100+ km/h',
+      payloadCapacity: '150 kg max rider weight',
+      motorPower: '80000W-180000W Twin Motor',
+      chargeTime: '2-4 Hours (DC Fast Charge)',
+      dimensions: 'Varies by model',
+      weight: '280-350 kg',
+      warranty: '2 Years Hull & Drivetrain'
+    },
+    features: [
+      'Narke genuine authorized stock, inspected prior to Australian dispatch',
+      'Electric Jet Skis & Personal Watercraft class — 80000w-180000w twin motor',
+      '120V+ 12-18kWh Lithium-ion',
+      'Perth depot service & spare parts support'
+    ]
   }
 ];
 
