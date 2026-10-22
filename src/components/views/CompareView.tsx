@@ -56,15 +56,13 @@ export const CompareView: React.FC<CompareViewProps> = ({
           </div>
 
           <div className="flex items-center gap-3">
-            {comparedProducts.length < 4 && (
-              <button
-                onClick={() => setPickerOpen(!pickerOpen)}
-                className="px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-teal-500 hover:from-sky-400 hover:to-teal-400 text-slate-950 font-extrabold text-xs font-mono flex items-center gap-2 shadow-lg transition-all"
-              >
-                <Plus className="w-4 h-4" />
-                <span>Add Item to Compare ({comparedProducts.length}/4)</span>
-              </button>
-            )}
+            <button
+              onClick={() => setPickerOpen(!pickerOpen)}
+              className="px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-teal-500 hover:from-sky-400 hover:to-teal-400 text-slate-950 font-extrabold text-xs font-mono flex items-center gap-2 shadow-lg transition-all"
+            >
+              <Plus className="w-4 h-4" />
+              <span>Add Item to Compare ({comparedProducts.length})</span>
+            </button>
           </div>
         </div>
       </div>
@@ -118,10 +116,7 @@ export const CompareView: React.FC<CompareViewProps> = ({
             {filteredAvailable.map(p => (
               <div
                 key={p.id}
-                onClick={() => {
-                  onToggleCompare(p);
-                  if (comparedProducts.length + 1 >= 4) setPickerOpen(false);
-                }}
+                onClick={() => onToggleCompare(p)}
                 className="p-3 rounded-2xl bg-slate-950 hover:bg-slate-800/80 border border-slate-800 hover:border-sky-500/50 cursor-pointer flex items-center gap-3 transition-all group"
               >
                 <div className="w-14 h-14 bg-white rounded-xl p-1 shrink-0 flex items-center justify-center border border-slate-800">
@@ -177,7 +172,7 @@ export const CompareView: React.FC<CompareViewProps> = ({
                         <div>
                           <p className="font-bold text-white text-sm font-sans line-clamp-2">{p.name}</p>
                           <p className="text-sky-400 font-black text-base mt-1">{money(p.price)}</p>
-                          <p className="text-[10px] text-slate-400 mt-0.5">{p.category}</p>
+                          <p className="text-[10px] text-slate-400 mt-0.5 capitalize">{p.category.replace(/-/g, ' ')}</p>
                         </div>
 
                         <div className="flex items-center justify-center gap-2 pt-1">

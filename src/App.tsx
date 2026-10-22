@@ -203,10 +203,8 @@ export default function App() {
       if (prev.includes(product.id)) {
         return prev.filter(id => id !== product.id);
       }
-      if (prev.length >= 4) {
-        alert('You can compare up to 4 vehicles simultaneously.');
-        return prev;
-      }
+      // No cap — every product in the catalogue can be added to the comparison
+      // table, which scrolls horizontally (overflow-x-auto) to fit any count.
       return [...prev, product.id];
     });
   };

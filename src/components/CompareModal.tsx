@@ -56,16 +56,14 @@ export const CompareModal: React.FC<CompareModalProps> = ({
           </div>
 
           <div className="flex items-center gap-3">
-            {products.length < 4 && (
-              <button
-                type="button"
-                onClick={() => setShowPicker(!showPicker)}
-                className="px-3.5 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition-colors shadow-md"
-              >
-                <Plus className="w-4 h-4" />
-                <span>Add Product ({products.length}/4)</span>
-              </button>
-            )}
+            <button
+              type="button"
+              onClick={() => setShowPicker(!showPicker)}
+              className="px-3.5 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs font-mono flex items-center gap-1.5 transition-colors shadow-md"
+            >
+              <Plus className="w-4 h-4" />
+              <span>Add Product ({products.length})</span>
+            </button>
 
             <button
               onClick={onClose}
@@ -104,10 +102,7 @@ export const CompareModal: React.FC<CompareModalProps> = ({
               {filteredPickerProducts.map((p) => (
                 <div
                   key={p.id}
-                  onClick={() => {
-                    onAddCompare(p);
-                    if (products.length + 1 >= 4) setShowPicker(false);
-                  }}
+                  onClick={() => onAddCompare(p)}
                   className="p-2 rounded-lg bg-slate-900 hover:bg-slate-800/80 border border-slate-800/80 cursor-pointer flex items-center gap-2 transition-colors group"
                 >
                   <div className="w-9 h-9 bg-white rounded p-1 shrink-0 flex items-center justify-center">
