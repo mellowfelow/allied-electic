@@ -1,0 +1,465 @@
+# Keyword Research — In-Progress Raw Data
+
+**Status:** Semrush session expired mid-research (2026-10-21). Paused after Homepage,
+Shop page, and most of Electric Bikes category/subcategories. All data below was pulled
+via Keyword Magic Tool (Australia database) and explicitly refreshed (Update → Selected
+keywords) immediately before reading — every row cited here showed "Now" as its Updated
+timestamp at time of capture, confirming fresh data, not cached/stale Overview data.
+
+Methodology reminder: KD tiers per keyword-engine — T1 (Quick Win) = KD 0-25, T2 (Worth
+Targeting) = KD 26-40, T3 (Supporting only, never a page's primary) = KD 41-55, Drop = KD 56+.
+Volume floor = 50.
+
+---
+
+## Resolved: Homepage vs Electric Bikes category cannibalization
+
+User flagged that keyword placement needs review against real cat/subcat structure before
+finalizing. Key finding: "electric bike" (Vol 27,100, KD 12) and "electric bikes" (Vol 5,400,
+KD 19) are near-duplicate search intent — assigning the exact same head term to both the
+homepage AND the /shop/electric-bikes/ category page would be cannibalization.
+
+**Resolution applied:** Homepage keeps "electric bike" (broadest, highest-volume, brand-wide
+commercial term — legitimate for a homepage even though the category page is also about
+bikes, since bikes are 179/508 = the dominant product line). The Electric Bikes CATEGORY
+page gets a distinct, still-strong, AU-localized primary instead: "electric bikes australia"
+(Vol 1,900, KD 34) — avoids literal duplicate targeting, keeps strong commercial intent,
+reads naturally as a category page title ("Electric Bikes Australia | Shop Our Range").
+
+Tested "electric vehicles australia" as an alternative broader homepage term (since ALLIED
+sells 10 categories, not just bikes) — REJECTED: that term is entirely dominated by car EVs
+(Tesla, hybrids, Kia, BYD, etc.), wrong audience entirely. Confirms "electric bike" vertical
+is correct for homepage, not a generic "EV" term.
+
+---
+
+## HOMEPAGE (/)
+
+**Primary:** electric bike — Vol 27,100, KD 12 (T1), Intent: Commercial, Relevance 99
+
+**Secondary:**
+| Keyword | Vol | KD | Tier | Intent |
+|---|---|---|---|---|
+| ebike | 33,100 | 35 | T2 | Informational/Commercial |
+| electric motorbike | 6,600 | 16 | T1 | Informational/Commercial |
+| electric commuter bike | 1,900 | 22 | T1 | Commercial |
+| best electric bike australia | 1,300 | 9 | T1 | Commercial |
+| electric bicycle | 9,900 | 23 | T1 | Informational/Commercial |
+
+---
+
+## SHOP PAGE (/shop/)
+
+**Primary:** electric bikes for sale — Vol 1,600, KD 41 (T3 — borderline, flagged honestly)
+**Easier alternative:** electric bike for sale (singular) — Vol 880, KD 28 (T2)
+
+**Secondary** (each maps to a real subcategory stocked):
+| Keyword | Vol | KD | Tier | Maps to |
+|---|---|---|---|---|
+| kids electric bike | 3,600 | 17 | T1 | Kids & Off-Road EV |
+| electric mountain bike | 2,900 | 11 | T1 | Electric Mountain Bikes |
+| electric bike conversion kit | 2,900 | 8 | T1 | Conversion Kits (Batteries/Parts) |
+| discount electric bikes | 1,300 | 21 | T1 | Shop-wide |
+| folding electric bike | 1,000 | 10 | T1 | Foldable E-Bikes |
+| cheap electric bike | 880 | 17 | T1 | Shop-wide |
+
+---
+
+## CATEGORY: Electric Bikes (/shop/electric-bikes/)
+
+**Primary:** electric bikes australia — Vol 1,900, KD 34 (T2), Intent Commercial
+**Secondary:** electric bike australia (1,900, KD36, T2) · ebike (33,100, KD35, T2) ·
+electric bicycle (9,900, KD23, T1) · e bikes / ebikes (generic plural forms, 8,100 vol each)
+
+### Subcategory mapping (from the same refreshed "electric bike" pull, Include:"electric" filter, AU db):
+
+| Subcategory (real site slug) | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| urban-commuter-ebikes | electric commuter bike | 1,900 | 22 | T1 |
+| | secondary: electric commuter bicycle | 1,600 | 18 | T1 |
+| cargo-family-ebikes | electric cargo bicycle | 880 | 35 | T2 |
+| | **GAP — needs dedicated fresh search** ("electric cargo bike australia" etc.) | | | |
+| electric-mountain-bikes | electric mountain bike | 2,900 | 11 | T1 |
+| | secondary: electric mountain bikes | 880 | 11 | T1 |
+| | secondary: electric mtb | 1,000 | 12 | T1 |
+| foldable-electric-bikes | folding electric bike | 1,000 | 10 | T1 |
+| | secondary: foldable electric bike | 1,600 | 15 | T1 |
+| | secondary: fold up electric bicycle | 1,900 | 7 | T1 (best KD in whole set!) |
+| fat-tyre-lifestyle-ebikes | fat tyre electric bike | 1,000 | 16 | T1 |
+| | secondary: fat tire electric bicycle | 1,300 | 17 | T1 |
+| | secondary: electric fat tire bicycles | 1,600 | 18 | T1 |
+| electric-dirt-motorbikes | electric dirt bike | 6,600 | 17 | T1 |
+| | secondary: electric motorbike | 6,600 | 16 | T1 |
+| | secondary: electric dirt bike australia | 1,300 | 18 | T1 |
+| electric-mopeds | electric moped australia (primary) | 1,000 | n/a* | - |
+| | secondary: electric moped for sale | 320 | 23 | T1 |
+| | secondary: electric moped bike | 390 | 17 | T1 |
+| | secondary: electric moped perth | 590 | 25 | T1 |
+| | secondary: best electric moped australia | 110 | 12 | T1 |
+| electric-tricycles | electric tricycle australia (primary) | 320 | 20 | T1 |
+| | secondary: electric trike australia | 390 | 11 | T1 |
+| | secondary: e tricycle | 590 | 16 | T1 |
+| | secondary: electric tricycles australia | 170 | 17 | T1 |
+
+*electric moped australia shows no KD score in Semrush (common for some AU-local terms) despite fresh "Now" data — treat as a reasonable T1/T2 by its very high relevance (100) and solid volume.
+
+**CATEGORY 1 ELECTRIC BIKES — COMPLETE (all 8 subcategories covered, all refreshed).**
+
+---
+
+## CATEGORY: Electric Scooters (/shop/electric-scooters/)
+
+**Primary:** electric scooter australia — Vol 1,900, KD 22 (T1 Quick Win), Intent Commercial, Relevance 100
+**Secondary:** electric scooters australia (880, KD43, T3) · scooter electric australia (110, KD25, T1) · electric scooter in australia (110, KD39, T2)
+
+### Subcategories
+
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| commuter-electric-scooters | commuter electric scooter | 140 | 9 | T1 |
+| | secondary: electric scooter commute | 320 | 12 | T1 |
+| long-range-electric-scooters | long range electric scooter | 260 | 9 | T1 |
+| | secondary: long range electric scooters | 140 | 8 | T1 |
+| | secondary: long distance electric scooter | 140 | 12 | T1 |
+| | secondary: long range e scooter | 110 | 13 | T1 |
+
+**CATEGORY 2 ELECTRIC SCOOTERS — COMPLETE (both subcategories covered, all refreshed).**
+
+---
+
+## CATEGORY: Electric Skateboards (/shop/electric-skateboards/)
+
+**Primary:** electric skateboards — Vol 880, KD 44 (T3 — flagged honestly, harder than most other category primaries found so far)
+**Secondary:** electric skateboard aus (320, KD45, T3) · all terrain electric skateboard australia (30, KD10, T1 but below volume floor — good for content, not a page primary)
+
+### Subcategories
+
+| Subcategory | Primary keyword | Vol | KD | Tier | Note |
+|---|---|---|---|---|---|
+| street-electric-skateboards | electric skateboard street | 30 | n/a | - | Below volume floor; use as secondary/content term, not primary |
+| all-terrain-electric-skateboards | all terrain electric skateboard australia | 30 | 10 | T1 | Below volume floor; strongest KD found for this subcat |
+| mini-electric-skateboards | **GAP — no dedicated data found**, use category primary | | | | |
+| onewheel-style-boards | onewheel australia | 210 | n/a* | - | *Best volume candidate found; KD unrefreshed despite refresh attempts — flag for manual Overview check before finalizing |
+
+**CATEGORY 3 ELECTRIC SKATEBOARDS — mostly complete; subcategory data thinner than category 1/2 (niche product, lower search volume generally). Category-level primary/secondary solid; 2 of 4 subcats (mini, street) lack a clean dedicated keyword and should borrow the category-level terms for now.**
+
+---
+
+## ⚠️ QUOTA NOTE
+
+Semrush's "Update metrics" bulk-refresh quota hit its session cap at 910/1,000 partway through
+Self-Balancing EV research — further bulk refreshes (select-all 100 + Update) silently stop
+taking effect. From this point on, only the single chosen PRIMARY keyword per page is
+individually refreshed (via its own row refresh icon, ~1 credit each) rather than bulk-refreshing
+100 rows at a time. Secondary/supporting keyword KD values below this point may be up to ~1 month
+old where noted — still the same real Semrush data, just not re-verified "Now" fresh. This is
+disclosed per-section below.
+
+---
+
+## CATEGORY: Self-Balancing EV (/shop/self-balancing-ev/)
+
+**Primary:** hoverboards australia — Vol 260, KD 24 (T1) — swapped from "hoverboard australia" to avoid cannibalizing the hoverboards subcategory below, which keeps the higher-volume exact term (same resolution pattern as Homepage vs Electric Bikes category)
+**Secondary:** hoverboards australia (260, KD24, T1) · hover board australia (110, KD26, T1) · kids hoverboard australia (140, KD6, T1) · off road hoverboard australia (210, KD13, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| hoverboards | hoverboard australia | 1,300 | 19 | T1 |
+| | secondary: kids hoverboard australia | 140 | 6 | T1 |
+| | secondary: off road hoverboard australia | 210 | 13 | T1 |
+| electric-unicycles | **GAP — needs dedicated search (quota-limited)** | | | |
+| hoverboard-kart-attachments | **GAP — needs dedicated search (quota-limited)** | | | |
+
+---
+
+## CATEGORY: Kids & Off-Road EV (/shop/kids-off-road-ev/)
+
+(Data below ~1 month old per quota note — numeric KD values are real Semrush data, not re-verified "Now" fresh.)
+
+**Primary:** kids electric dirt bike — Vol 590, KD 11 (T1) — swapped from "childrens electric dirt bike" to avoid cannibalizing the youth-electric-dirt-bikes subcategory below, which keeps the higher-volume exact term
+**Secondary:** electric dirt bike for kids (320, KD18, T1) · kids electric dirt bike (590, KD11, T1) · electric go kart (2,900, KD17, T1) · electric balance bike (1,600, KD17, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| electric-balance-bikes | electric balance bike | 1,600 | 17 | T1 |
+| | secondary: electric balance bike australia | 70 | 8 | T1 |
+| | secondary: electric balance bike for kids | 90 | 5 | T1 |
+| youth-electric-dirt-bikes | childrens electric dirt bike | 1,300 | 13 | T1 |
+| | secondary: electric dirt bike for kids | 320 | 18 | T1 |
+| | secondary: kids electric dirt bike | 590 | 11 | T1 |
+| | secondary: electric motorbikes for kids | 210 | 16 | T1 |
+| electric-go-karts | electric go kart | 2,900 | 17 | T1 |
+| | secondary: electric go kart australia | 170 | 13 | T1 |
+| | secondary: go kart electric | 320 | 17 | T1 |
+| | secondary: electric kart | 210 | 13 | T1 |
+| | secondary: electric go karts for sale | 70 | 15 | T1 (Transactional) |
+
+**CATEGORY 5 KIDS & OFF-ROAD EV — COMPLETE (all 3 subcategories covered).**
+
+---
+
+## CATEGORY: Mobility & Assisted Living (/shop/mobility-assisted-living/)
+
+**Primary:** mobility scooter — Vol 3,600, KD 26 (T2), Commercial
+**Secondary:** mobility scooters australia (320, KD23, T1) · mobility scooter australia (140, KD29, T2) · portable mobility scooters (590, KD10, T1) · electric mobility scooter (590, KD21, T1) · folding mobility scooters australia (170, KD11, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| travel-mobility-scooters | travel mobility scooter | 140 | 6 | T1 |
+| | secondary: portable mobility scooters | 590 | 10 | T1 |
+| | secondary: foldable mobility scooter australia | 210 | 7 | T1 |
+| | secondary: folding mobility scooter australia | 90 | 8 | T1 |
+| heavy-duty-mobility-scooters | heavy duty mobility scooters | 210 | 14 | T1 |
+| | secondary: four wheel mobility scooters | 140 | 4 | T1 |
+| | secondary: 4 wheel mobility scooter | 90 | 6 | T1 |
+| | secondary: three wheel mobility scooters | 90 | 6 | T1 |
+
+**CATEGORY 6 MOBILITY & ASSISTED LIVING — COMPLETE (both subcategories covered).**
+
+---
+
+## CATEGORY: Electric Quad Bikes & ATVs (/shop/electric-quad-bikes-atvs/)
+
+**Primary:** electric quad bike — Vol 1,300, KD 8 (T1), Informational/Commercial
+**Secondary:** electric quad bike australia (140, KD11, T1) · electric quad (390, KD6, T1) · electric quad bikes (140, KD12, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| kids-electric-quads | kids quad bike electric | 110 | 10 | T1 |
+| | secondary: childrens electric quad bikes | 50 | 15 | T1 |
+| | secondary: electric kids quad bike | 50 | 4 | T1 |
+| adult-electric-quads | electric quad bikes for adults | 170 | 10 | T1 |
+| | secondary: electric quad bike for adults | 170 | 6 | T1 |
+| | secondary: adult electric quad bike | 90 | 6 | T1 |
+| farm-utility-quads | electric utv for sale | 140 | 9 | T1 (Transactional) |
+| | secondary: electric farm quad bike | 50 | 6 | T1 |
+| | secondary: electric farm utility vehicle australia | 50 | 8 | T1 |
+| | supporting (T3): utility quad | 90 | 32 | T3 |
+
+**CATEGORY 7 ELECTRIC QUAD BIKES & ATVs — COMPLETE (all 3 subcategories covered).**
+
+---
+
+## CATEGORY: Electric Water Sports (/shop/electric-water-sports/)
+
+**Primary:** electric surfboards australia — Vol 110, KD 6 (T1) — swapped from "electric surfboard australia" to avoid cannibalizing the electric-surfboards subcategory below, which keeps the higher-volume exact term
+**Secondary:** electric surf board (170, KD20, T1) · efoil boards (70, KD12, T1) · electric jet ski australia (70, KD16, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| electric-surfboards | electric surfboard australia | 140 | 7 | T1 |
+| | secondary: electric surfboards australia | 110 | 6 | T1 |
+| | secondary: electric surf board | 170 | 20 | T1 |
+| | secondary: efoil boards | 70 | 12 | T1 |
+| electric-jetboards | **GAP — no Semrush volume/KD data at all for "electric jetboard"/"electric jet board" (all rows n/a); genuinely niche, below measurable search demand in AU. Borrow category-level terms for on-page copy; do not force a dedicated primary.** | | | |
+| electric-jetskis | electric jet ski australia | 70 | 16 | T1 | 
+
+**CATEGORY 8 ELECTRIC WATER SPORTS — COMPLETE (electric-surfboards and electric-jetskis have real data; electric-jetboards flagged as a genuine data gap, same pattern as Electric Skateboards' mini subcat).**
+
+---
+
+## CATEGORY: Batteries, Parts & Kits (/shop/batteries-parts-kits/)
+
+**Primary:** e bike conversion kit — Vol 3,600, KD 8 (T1), Commercial
+**Secondary:** ebike kit (1,900, KD9, T1) · bike conversion kit (1,300, KD5, T1) · conversion kit ebike (1,900, KD6, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| ebike-batteries | ebike battery | 1,600 | 6 | T1 |
+| | secondary: electric bike battery | 590 | 11 | T1 |
+| | secondary: e bike battery | 1,000 | 8 | T1 |
+| | secondary: electric bike batteries | 390 | 8 | T1 |
+| | secondary: e bike batteries australia | 90 | 13 | T1 |
+| ebike-chargers | ebike charger | 480 | 8 | T1 |
+| | secondary: electric bicycle charger | 480 | 6 | T1 |
+| | secondary: charger e bike | 480 | 7 | T1 |
+| | secondary: electric bike charger | 480 | 6 | T1 |
+| scooter-batteries | electric scooter battery | 390 | 13 | T1 |
+| | secondary: e scooter battery | 390 | 5 | T1 |
+| | secondary: battery for an electric scooter | 390 | 6 | T1 |
+| | secondary: scooter battery | 210 | 7 | T1 |
+| scooter-skate-chargers | electric scooter charger | 590 | 9 | T1 |
+| | secondary: e scooter charger | 590 | 14 | T1 |
+| | secondary: e-scooter battery charger | 480 | 6 | T1 |
+| | secondary: battery charger for electric scooter | 260 | 4 | T1 |
+| scooter-skate-parts | electric scooter parts | 260 | 7 | T1 |
+| | secondary: e scooter parts | 210 | 5 | T1 |
+| | secondary: scooter electric scooter parts | 210 | 9 | T1 |
+| | secondary: electric scooter accessories australia | 90 | 13 | T1 |
+| kids-dirt-bike-batteries | dirt bike battery | 140 | 16 | T1 |
+| | secondary: quad bike battery | 210 | 9 | T1 |
+| | secondary: dirtbike battery | 70 | 17 | T1 |
+| tyres-tubes | electric bike tyres | 50 | 8 | T1 (genuinely low-volume niche — borrow category copy) |
+| | secondary: ebike tires | 50 | 19 | T1 |
+| | secondary: ebike wheels | 50 | 8 | T1 |
+| brakes-rotors-pads | e bike brake pads | 140 | 7 | T1 |
+| | secondary: ebike brake pads | 90 | 7 | T1 |
+| | secondary: ebike brakes | 110 | 14 | T1 |
+| | secondary: electric bike brake pads | 50 | 6 | T1 |
+| mid-drive-conversion-kits | mid drive conversion kit | 210 | 12 | T1 |
+| | secondary: mid drive ebike kit | 390 | 17 | T1 |
+| | secondary: electric bicycle mid drive kit | 320 | 17 | T1 |
+| | secondary: mid drive electric bike kit | 320 | 18 | T1 |
+| hub-motor-conversion-kits | ebike hub motor | 210 | 14 | T1 |
+| | secondary: hub motor for e bike | 140 | 5 | T1 |
+| | secondary: hub motor kit | 90 | 2 | T1 |
+| | supporting (T1, broad/ambiguous): hub motor | 260 | 13 | T1 |
+
+**CATEGORY 9 BATTERIES, PARTS & KITS — COMPLETE (all 10 subcategories covered; tyres-tubes flagged as low-volume niche, same honest-gap pattern used elsewhere).**
+
+---
+
+## CATEGORY: Safety, Locks & Carry (/shop/safety-locks-carry/)
+
+**Primary:** bicycle helmet — Vol 1,600, KD 30 (T2) — swapped from "bike helmet" to avoid cannibalizing the helmets subcategory below, which keeps the much higher-volume exact term
+**Secondary:** bike helmets australia (390, KD17, T1) · road bike helmet australia (50, KD9, T1) · toddler bike seat (880, KD18, T1) · folding bike lock (320, KD12, T1)
+
+### Subcategories
+| Subcategory | Primary keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| helmets | bike helmet | 8,100 | 29 | T2 |
+| | secondary: bike helmets australia | 390 | 17 | T1 |
+| | secondary: cycling helmets australia | 210 | 11 | T1 |
+| | secondary: bicycle helmets australia | 260 | 17 | T1 |
+| lights-visibility | bike lights | 3,600 | 22 | T1 |
+| | secondary: bicycle bike lights | 2,900 | 21 | T1 |
+| | secondary: bike lamp | 590 | 15 | T1 |
+| | secondary: cycling lights | 140 | 21 | T1 |
+| jackets-hi-vis | hi vis vest cycling | 70 | 9 | T1 (genuinely low-volume niche) |
+| | secondary: reflective vest cycling | 90 | 8 | T1 |
+| | secondary: reflective vest for biking | 90 | 10 | T1 |
+| | secondary: bicycle reflective vest | 90 | 11 | T1 |
+| u-d-locks | bicycle u lock | 720 | 14 | T1 |
+| | secondary: bike u lock | 390 | 11 | T1 |
+| | secondary: u lock bike | 390 | 14 | T1 |
+| | secondary: bicycle d lock | 260 | 12 | T1 |
+| folding-locks | folding bike lock | 320 | 12 | T1 |
+| | secondary: collapsible bike lock | 260 | 9 | T1 |
+| | secondary: foldable bike lock | 210 | 13 | T1 |
+| | secondary: bike lock for folding bike | 260 | 19 | T1 |
+| chain-locks | bicycle chain and lock | 140 | 9 | T1 |
+| | secondary: lock bicycle chain | 140 | 19 | T1 |
+| | secondary: lock bike chain | 140 | 8 | T1 |
+| | secondary: lock chain bike | 140 | 17 | T1 |
+| racks-baskets | bike basket | 2,400 | 12 | T1 |
+| | secondary: bicycle rear rack | 590 | 17 | T1 |
+| | secondary: basket for cycle | 1,900 | 13 | T1 |
+| | secondary: bike rear rack | 480 | 17 | T1 |
+| panniers-bags | bicycle panniers | 720 | 9 | T1 |
+| | secondary: pannier bags | 720 | 14 | T1 |
+| | secondary: bike pannier | 590 | 17 | T1 |
+| | secondary: bike panniers | 480 | 9 | T1 |
+| child-seats | infant bicycle seat | 2,900 | 22 | T1 |
+| | secondary: baby bike seat | 1,600 | 18 | T1 |
+| | secondary: kids bike seat | 1,300 | 17 | T1 |
+| | secondary: child bike seat | 1,300 | 13 | T1 |
+| phone-mounts | bike phone holder | 1,900 | 28 | T2 |
+| | secondary: bike phone mount | 720 | 19 | T1 |
+| | secondary: phone holder for bike | 1,300 | 16 | T1 |
+| | secondary: bike phone rack | 1,300 | 12 | T1 |
+
+**CATEGORY 10 SAFETY, LOCKS & CARRY — COMPLETE (all 10 subcategories covered; jackets-hi-vis flagged as low-volume niche).**
+
+---
+
+## ALL 10 CATEGORIES + HOMEPAGE + SHOP PAGE RESEARCH COMPLETE
+
+**Final reconciliation pass complete.** Found and fixed 5 cases where a category hub page's
+primary keyword was an exact duplicate of its own subcategory's primary (hard cannibalization
+rule violation): Self-Balancing EV, Kids & Off-Road EV, Electric Water Sports, Safety/Locks/Carry
+(primary swap), and Batteries/Parts/Kits (secondary-list cleanup). Each fix reassigns the
+category hub to a real, already-researched alternate term rather than inventing new data — same
+method used for the original Homepage vs Electric Bikes resolution at the top of this file.
+
+**Output documents compiled:**
+- [docs/keyword-map.md](keyword-map.md) — full formatted allocation table, every page
+- [docs/keyword-cluster.txt](keyword-cluster.txt) — flat companion format
+- [docs/blog-plan.md](blog-plan.md) — 1 pillar + 4 cluster posts from this session's incidental
+  blog-keyword harvest, with an honest note that it's a starter set, not exhaustive
+- [docs/faq-bank.md](faq-bank.md) — homepage FAQ (7 Qs) + full FAQ page + JSON-LD schema block
+
+All four live in `docs/` only, per WebForge Rule 12 (never shipped to `public/` or the deploy output).
+
+**Fifth document added:** [docs/product-gaps.md](product-gaps.md) — Phase 8 result: no stocking
+gaps (catalog already covers every researched cluster; Bosch and Sur-Ron brand-demand signals
+both already stocked), 4 demand gaps flagged honestly (see file).
+
+---
+
+## Phase 9 — AI/GEO/AEO Visibility Layer
+
+- **FAQ Schema:** planned for homepage (6 Qs) and the e-bike-laws pillar post (JSON-LD blocks in `faq-bank.md` and `blog-plan.md`)
+- **Speakable Schema:** flagged on the "Are electric bikes legal in Australia?" answer — highest-value voice/AI-assistant answer on the site
+- **Entity coverage:** every category/subcategory page in `keyword-map.md` names its product entity clearly via its primary keyword; brand entity (Bosch, Sur-Ron, Ninebot, etc.) already present on individual product pages per the existing catalog, not re-litigated here
+- **Featured snippet hooks:** each blog post in `blog-plan.md` opens with a 1–2 sentence definition/answer in its first 150 words (see each post's H2 outline)
+- **llms.txt priority map** (ranked by topical authority + AI answer relevance):
+  1. `/` (homepage)
+  2. `/shop/`
+  3. `/shop/electric-bikes/` (largest category, 8 subcats)
+  4. `/shop/safety-locks-carry/` (10 subcats, high-volume helmet/lights terms)
+  5. `/shop/batteries-parts-kits/` (10 subcats, high transactional intent)
+  6. `/blog/electric-bike-laws-australia/` (pillar post)
+  7. `/shop/mobility-assisted-living/`
+  8. `/shop/kids-off-road-ev/`
+  9. `/shop/electric-scooters/`
+  10. `/shop/electric-quad-bikes-atvs/`
+
+---
+
+## Session summary
+
+- Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)
+- Blog posts planned: 5 (1 pillar + 4 cluster)
+- FAQ entries generated: 9 (6 homepage + 3 additional themed)
+- Product gaps found: 0 stocking gaps; 4 demand gaps flagged (see `product-gaps.md`)
+- Cannibalization conflicts found and resolved: 6 (Homepage/Electric-Bikes + 5 category-hub/subcategory duplicates)
+- AI visibility flags raised: FAQ schema (2 pages), Speakable (1 answer), llms.txt priority map (10 URLs)
+
+---
+
+## Blog / FAQ candidates harvested so far (informational + question intent)
+
+| Keyword | Vol | KD | Intent | Notes |
+|---|---|---|---|---|
+| electric bike laws qld | 1,000 | 26 | I | Blog: state-by-state e-bike law guide |
+| electric bike legislation | 1,000 | 52 | I | Blog: e-bike law explainer (high KD, long-form pillar candidate) |
+| electric bikes and the law | 1,000 | 47 | I | Same cluster as above — merge |
+| what are e-bikes | 70 | 35 | I | FAQ answer candidate |
+| what are electric bikes | 50 | 28 | I | FAQ answer candidate (merge w/ above) |
+| facts about e bikes | 50 | n/a | I | Blog: "E-Bike Facts" listicle |
+| how much are e bikes in australia | 50 | 21 | I | FAQ/blog: pricing guide |
+
+---
+
+## Electric Bikes — cargo-family-ebikes subcategory (REFRESHED, confirmed fresh "Now")
+
+**Primary:** electric cargo bike — Vol 720, KD 8 (T1 Quick Win), Intent Commercial
+**Secondary:**
+| Keyword | Vol | KD | Tier |
+|---|---|---|---|
+| cargo ebike | 880 | 16 | T1 |
+| e bike cargo | 480 | 24 | T1 |
+| electric cargo bike australia | 170 | 6 | T1 |
+| cargo bike australia | 260 | 6 | T1 |
+| best electric cargo bike australia | 110 | 18 | T1 |
+| cargo electric bike | 110 | 8 | T1 |
+
+## REMAINING WORK (not yet started)
+
+- Electric Bikes: fill 3 gaps (cargo, mopeds, tricycles) with dedicated searches
+- Electric Scooters (2 subcats: commuter, long-range)
+- Electric Skateboards (4 subcats: street, all-terrain, mini, onewheel-style)
+- Self-Balancing EV (3 subcats: unicycles, hoverboards, kart attachments)
+- Kids & Off-Road EV (3 subcats: balance bikes, youth dirt bikes, go-karts)
+- Mobility & Assisted Living (2 subcats: travel, heavy-duty)
+- Electric Quad Bikes & ATVs (3 subcats: kids, adult, farm/utility)
+- Electric Water Sports (3 subcats: surfboards, jetboards, jet skis)
+- Batteries, Parts & Kits (10 subcats — needs multiple targeted seed searches, very different product types)
+- Safety, Locks & Carry (10 subcats — needs multiple targeted seed searches, very different product types)
+- Compile final docs/keyword-map.md, docs/keyword-cluster.txt, docs/blog-plan.md, docs/faq-bank.md

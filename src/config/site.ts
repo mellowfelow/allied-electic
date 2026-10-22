@@ -116,12 +116,14 @@ export interface Product {
 export interface Subcategory {
   slug: string;
   name: string;
+  h1?: string; // keyword-rich on-page H1 / <title>; falls back to `name` (nav/breadcrumb label) when absent
   description: string;
 }
 
 export interface Category {
   slug: string;
   name: string;
+  h1?: string; // keyword-rich on-page H1 / <title>; falls back to `name` (nav/breadcrumb label) when absent
   description: string;
   image: string;
   subcategories: Subcategory[];
@@ -136,129 +138,139 @@ export const CATEGORIES: Category[] = [
   {
     slug: 'electric-bikes',
     name: 'Electric Bikes',
-    description: 'Urban commuter, cargo, mountain, folding and fat-tyre electric bikes for Australian conditions.',
+    h1: 'Electric Bikes Australia',
+    description: 'Shop electric bikes Australia-wide — urban commuters, electric bicycles, folding and fat-tyre e-bikes, all backed by ALLIED\'s Perth service depot.',
     image: '/images/categories/category-electric-bikes.webp',
     subcategories: [
-      { slug: 'urban-commuter-ebikes', name: 'Urban & Commuter E-Bikes', description: 'Everyday city commuter e-bikes for daily riding.' },
-      { slug: 'cargo-family-ebikes', name: 'Cargo & Family E-Bikes', description: 'Heavy-duty cargo e-bikes for deliveries and family hauling.' },
-      { slug: 'electric-mountain-bikes', name: 'Electric Mountain Bikes (eMTB)', description: 'Hardtail and full-suspension trail e-bikes for off-road riding.' },
-      { slug: 'foldable-electric-bikes', name: 'Foldable E-Bikes', description: 'Compact folding e-bikes for cars, boats, caravans and small storage.' },
-      { slug: 'fat-tyre-lifestyle-ebikes', name: 'Fat Tyre & Lifestyle E-Bikes', description: 'Wide-tyre cruisers for sand, gravel and relaxed lifestyle riding.' },
-      { slug: 'electric-dirt-motorbikes', name: 'Electric Dirt & Motorbikes', description: 'Off-road electric dirt bikes and motorbike-style EVs.' },
-      { slug: 'electric-mopeds', name: 'Electric Mopeds', description: 'Moped-style electric two-wheelers for urban riding.' },
-      { slug: 'electric-tricycles', name: 'Electric Tricycles & Trikes', description: 'Stable three-wheel e-bikes for cargo and accessible riding.' }
+      { slug: 'urban-commuter-ebikes', name: 'Urban & Commuter E-Bikes', h1: 'Electric Commuter Bikes', description: 'Shop electric commuter bikes and electric commuter bicycles built for daily Australian city riding, with real-world range and Perth-backed support.' },
+      { slug: 'cargo-family-ebikes', name: 'Cargo & Family E-Bikes', h1: 'Electric Cargo Bikes', description: 'Electric cargo bikes and cargo ebikes for deliveries, school runs and family hauling — heavy payload capacity, Perth-stocked and dispatched Australia-wide.' },
+      { slug: 'electric-mountain-bikes', name: 'Electric Mountain Bikes (eMTB)', h1: 'Electric Mountain Bikes (eMTB)', description: 'Electric mountain bikes and eMTBs for Australian trails — hardtail and full-suspension models with genuine off-road power and range.' },
+      { slug: 'foldable-electric-bikes', name: 'Foldable E-Bikes', h1: 'Folding Electric Bikes', description: 'Folding electric bikes and foldable electric bikes that pack down for cars, boats, caravans and small apartments — without sacrificing range.' },
+      { slug: 'fat-tyre-lifestyle-ebikes', name: 'Fat Tyre & Lifestyle E-Bikes', h1: 'Fat Tyre Electric Bikes', description: 'Fat tyre electric bikes and fat tire electric bicycles built for sand, gravel and relaxed lifestyle riding across Australian conditions.' },
+      { slug: 'electric-dirt-motorbikes', name: 'Electric Dirt & Motorbikes', h1: 'Electric Dirt Bikes & Motorbikes', description: 'Electric dirt bikes and electric motorbikes for off-road Australian riding — genuine trail power with ALLIED\'s Perth parts and service backup.' },
+      { slug: 'electric-mopeds', name: 'Electric Mopeds', h1: 'Electric Mopeds Australia', description: 'Electric mopeds for sale across Australia — urban two-wheelers with real range, Perth-stocked and ready to ride.' },
+      { slug: 'electric-tricycles', name: 'Electric Tricycles & Trikes', h1: 'Electric Tricycles Australia', description: 'Electric tricycles and electric trikes for stable, accessible riding across Australia — cargo-ready three-wheel e-bikes in stock now.' }
     ]
   },
   {
     slug: 'electric-scooters',
     name: 'Electric Scooters',
-    description: 'Commuter and long-range performance electric scooters.',
+    h1: 'Electric Scooters Australia',
+    description: 'Shop electric scooters Australia-wide — commuter and long-range performance models, all dispatched from ALLIED\'s Perth depot.',
     image: '/images/categories/category-electric-scooters.webp',
     subcategories: [
-      { slug: 'commuter-electric-scooters', name: 'Commuter E-Scooters', description: 'Lightweight, portable scooters for daily commuting.' },
-      { slug: 'long-range-electric-scooters', name: 'Long-Range & Performance E-Scooters', description: 'High-capacity battery and motor scooters for distance and speed.' }
+      { slug: 'commuter-electric-scooters', name: 'Commuter E-Scooters', h1: 'Commuter Electric Scooters', description: 'Commuter electric scooters built for daily Australian riding — lightweight, portable and ready for the school or office run.' },
+      { slug: 'long-range-electric-scooters', name: 'Long-Range & Performance E-Scooters', h1: 'Long-Range Electric Scooters', description: 'Long range electric scooters with high-capacity batteries for distance and speed — Australia\'s toughest performance e-scooters.' }
     ]
   },
   {
     slug: 'electric-skateboards',
     name: 'Electric Skateboards',
-    description: 'Street, all-terrain, portable and self-balancing electric skateboards.',
+    h1: 'Electric Skateboards',
+    description: 'Shop electric skateboards Australia-wide — street, all-terrain, mini and Onewheel-style self-balancing boards.',
     image: '/images/categories/category-electric-skateboards.webp',
     subcategories: [
-      { slug: 'street-electric-skateboards', name: 'Street Electric Longboards', description: 'Smooth-surface longboards for street and campus riding.' },
-      { slug: 'all-terrain-electric-skateboards', name: 'All-Terrain / Pneumatic Boards', description: 'Air-tyre boards built for rough surfaces and trails.' },
-      { slug: 'mini-electric-skateboards', name: 'Mini & Portable Shortboards', description: 'Compact boards for easy carrying and storage.' },
-      { slug: 'onewheel-style-boards', name: 'Onewheel-Style Boards', description: 'Single-wheel self-balancing electric boards.' }
+      { slug: 'street-electric-skateboards', name: 'Street Electric Longboards', h1: 'Street Electric Skateboards', description: 'Smooth-surface electric skateboards for street and campus riding — fast, portable longboard builds for everyday use.' },
+      { slug: 'all-terrain-electric-skateboards', name: 'All-Terrain / Pneumatic Boards', h1: 'All-Terrain Electric Skateboards', description: 'All-terrain electric skateboards built for rough Australian surfaces and trails — air-tyre boards with real off-road grip.' },
+      { slug: 'mini-electric-skateboards', name: 'Mini & Portable Shortboards', h1: 'Mini Electric Skateboards', description: 'Compact, portable mini electric skateboards for easy carrying and storage — perfect for commuting and campus riding.' },
+      { slug: 'onewheel-style-boards', name: 'Onewheel-Style Boards', h1: 'Onewheel-Style Electric Boards', description: 'Onewheel Australia stock — single-wheel self-balancing electric boards for an entirely different ride.' }
     ]
   },
   {
     slug: 'self-balancing-ev',
     name: 'Self-Balancing EV',
-    description: 'Electric unicycles, hoverboards and self-balancing accessories.',
+    h1: 'Self-Balancing EVs — Hoverboards Australia',
+    description: 'Shop hoverboards Australia-wide plus electric unicycles and hoverboard kart attachments — self-balancing EVs for every age.',
     image: '/images/categories/category-self-balancing-ev.webp',
     subcategories: [
-      { slug: 'electric-unicycles', name: 'Electric Unicycles (EUWs)', description: 'Single-wheel self-balancing electric unicycles.' },
-      { slug: 'hoverboards', name: 'Hoverboards & Self-Balancing Boards', description: 'Two-wheel self-balancing boards for all ages.' },
-      { slug: 'hoverboard-kart-attachments', name: 'Hoverboard Go-Kart Attachments', description: 'Kart conversion attachments for hoverboards.' }
+      { slug: 'electric-unicycles', name: 'Electric Unicycles (EUWs)', h1: 'Electric Unicycles', description: 'Electric unicycles (EUCs) for experienced self-balancing riders — compact, portable and genuinely fast.' },
+      { slug: 'hoverboards', name: 'Hoverboards & Self-Balancing Boards', h1: 'Hoverboards Australia', description: 'Hoverboards Australia-wide for kids and adults, including off-road hoverboard models — self-balancing boards built for real use.' },
+      { slug: 'hoverboard-kart-attachments', name: 'Hoverboard Go-Kart Attachments', h1: 'Hoverboard Go-Kart Attachments', description: 'Turn your hoverboard into a go-kart — kart conversion attachments compatible with most standard hoverboard models.' }
     ]
   },
   {
     slug: 'kids-off-road-ev',
     name: 'Kids & Off-Road EV',
-    description: 'Electric balance bikes, youth dirt bikes and electric go-karts.',
+    h1: 'Kids & Off-Road Electric Vehicles',
+    description: 'Shop kids electric dirt bikes, electric balance bikes and electric go-karts — off-road EVs built for younger riders.',
     image: '/images/categories/category-kids-off-road-ev.webp',
     subcategories: [
-      { slug: 'electric-balance-bikes', name: 'Electric Balance Bikes', description: 'Entry-level electric bikes for young riders.' },
-      { slug: 'youth-electric-dirt-bikes', name: 'Youth Electric Dirt & Pit Bikes', description: 'Off-road electric dirt bikes sized for younger riders.' },
-      { slug: 'electric-go-karts', name: 'Electric Go-Karts & Drift Trikes', description: 'Electric go-karts and drift trikes for recreational riding.' }
+      { slug: 'electric-balance-bikes', name: 'Electric Balance Bikes', h1: 'Electric Balance Bikes', description: 'Electric balance bikes for young riders learning to ride — safe, low-power entry-level e-bikes with real battery range.' },
+      { slug: 'youth-electric-dirt-bikes', name: 'Youth Electric Dirt & Pit Bikes', h1: 'Childrens Electric Dirt Bikes', description: 'Childrens electric dirt bikes and electric motorbikes for kids — genuine off-road youth EVs, sized and powered for younger riders.' },
+      { slug: 'electric-go-karts', name: 'Electric Go-Karts & Drift Trikes', h1: 'Electric Go-Karts', description: 'Electric go karts and drift trikes for recreational riding — real power, real speed, built for backyard and track use.' }
     ]
   },
   {
     slug: 'mobility-scooters',
     name: 'Mobility & Assisted Living',
-    description: 'Travel, folding and heavy-duty mobility scooters for assisted living.',
+    h1: 'Mobility Scooters Australia',
+    description: 'Shop mobility scooters Australia-wide — travel, folding and heavy-duty all-terrain models for assisted living.',
     image: '/images/categories/category-mobility-scooters.webp',
     subcategories: [
-      { slug: 'travel-mobility-scooters', name: 'Travel & Folding Mobility Scooters', description: 'Lightweight, foldable mobility scooters for travel.' },
-      { slug: 'heavy-duty-mobility-scooters', name: 'Heavy-Duty All-Terrain Mobility Scooters', description: 'Robust all-terrain mobility scooters for daily use.' }
+      { slug: 'travel-mobility-scooters', name: 'Travel & Folding Mobility Scooters', h1: 'Travel Mobility Scooters', description: 'Travel mobility scooters and portable mobility scooters that fold down for cars, planes and easy storage.' },
+      { slug: 'heavy-duty-mobility-scooters', name: 'Heavy-Duty All-Terrain Mobility Scooters', h1: 'Heavy-Duty Mobility Scooters', description: 'Heavy duty mobility scooters and four wheel mobility scooters built for daily, all-terrain use across Australia.' }
     ]
   },
   {
     slug: 'electric-quad-bikes',
     name: 'Electric Quad Bikes & ATVs',
-    description: 'Kids, adult and farm/utility electric quad bikes.',
+    h1: 'Electric Quad Bikes Australia',
+    description: 'Shop electric quad bikes for kids, adults and farm use — genuine ATV power across Australia.',
     image: '/images/categories/category-electric-quad-bikes.webp',
     subcategories: [
-      { slug: 'kids-electric-quads', name: 'Kids Electric Quad Bikes', description: 'Electric quad bikes sized for younger riders.' },
-      { slug: 'adult-electric-quads', name: 'Adult Electric Quad Bikes & ATVs', description: 'Full-size electric ATVs for adult riders.' },
-      { slug: 'farm-utility-quads', name: 'Farm & Utility Electric Quads', description: 'Utility-rated electric quads for farm and site work.' }
+      { slug: 'kids-electric-quads', name: 'Kids Electric Quad Bikes', h1: 'Kids Electric Quad Bikes', description: 'Kids electric quad bikes sized and powered for younger riders — safe, genuine off-road fun.' },
+      { slug: 'adult-electric-quads', name: 'Adult Electric Quad Bikes & ATVs', h1: 'Adult Electric Quad Bikes & ATVs', description: 'Electric quad bikes for adults and full-size electric ATVs — genuine trail and farm power for adult riders.' },
+      { slug: 'farm-utility-quads', name: 'Farm & Utility Electric Quads', h1: 'Farm & Utility Electric Quads', description: 'Electric UTVs for sale plus utility-rated electric quads for farm and site work across Australia.' }
     ]
   },
   {
     slug: 'electric-water-sports',
     name: 'Electric Water Sports',
-    description: 'Electric surfboards, jetboards and personal watercraft.',
+    h1: 'Electric Water Sports — Electric Surfboards Australia',
+    description: 'Shop electric surfboards Australia-wide, plus electric jetboards and electric jet skis — zero-emission water sports EVs.',
     image: '/images/categories/category-electric-water-sports.webp',
     subcategories: [
-      { slug: 'electric-surfboards', name: 'Electric Surfboards & Hydrofoils', description: 'Motorised surfboards and hydrofoil boards.' },
-      { slug: 'electric-jetboards', name: 'Electric Jetboards', description: 'Stand-up electric jetboards.' },
-      { slug: 'electric-jetskis', name: 'Electric Jet Skis & Personal Watercraft', description: 'Zero-emission personal watercraft.' }
+      { slug: 'electric-surfboards', name: 'Electric Surfboards & Hydrofoils', h1: 'Electric Surfboards Australia', description: 'Electric surfboards Australia-wide — motorised boards and hydrofoils for genuine powered water riding.' },
+      { slug: 'electric-jetboards', name: 'Electric Jetboards', h1: 'Electric Jetboards', description: 'Stand-up electric jetboards for powered water riding — compact, fast and genuinely fun.' },
+      { slug: 'electric-jetskis', name: 'Electric Jet Skis & Personal Watercraft', h1: 'Electric Jet Skis Australia', description: 'Electric jet skis Australia-wide — zero-emission personal watercraft with real power on the water.' }
     ]
   },
   {
     slug: 'batteries-parts-kits',
     name: 'Batteries, Parts & Kits',
-    description: 'Replacement batteries, chargers, tyres, brakes and conversion kits for every category above.',
+    h1: 'E-Bike Conversion Kits & Parts',
+    description: 'Shop e bike conversion kits, replacement batteries, chargers, tyres and brakes for every ALLIED category.',
     image: '/images/categories/category-batteries-parts-kits.webp',
     subcategories: [
-      { slug: 'ebike-batteries', name: 'E-Bike Batteries', description: 'Replacement lithium battery packs for electric bikes.' },
-      { slug: 'ebike-chargers', name: 'E-Bike Chargers', description: 'Smart chargers for e-bike battery packs.' },
-      { slug: 'scooter-batteries', name: 'Scooter, Board & Mobility Batteries', description: 'Replacement batteries for scooters, boards and mobility scooters.' },
-      { slug: 'scooter-skate-chargers', name: 'Scooter, Skate & Kids Chargers', description: 'Chargers for scooters, skateboards and kids EVs.' },
-      { slug: 'scooter-skate-parts', name: 'Scooter, Skate & Kids Parts', description: 'Spare parts for scooters, skateboards and kids EVs.' },
-      { slug: 'kids-dirt-bike-batteries', name: 'Kids & Dirt Bike Batteries', description: 'Replacement batteries for youth and dirt bike EVs.' },
-      { slug: 'tyres-tubes', name: 'Tyres & Tubes', description: 'Replacement tyres and inner tubes.' },
-      { slug: 'brakes-rotors-pads', name: 'Brake Pads & Rotors', description: 'Replacement brake pads and rotors.' },
-      { slug: 'mid-drive-conversion-kits', name: 'Mid-Drive Conversion Kits', description: 'Mid-drive motor kits to convert a standard bike.' },
-      { slug: 'hub-motor-conversion-kits', name: 'Hub Motor Conversion Kits', description: 'Hub motor kits to convert a standard bike.' }
+      { slug: 'ebike-batteries', name: 'E-Bike Batteries', h1: 'E-Bike Batteries', description: 'Genuine ebike battery and electric bike battery replacement packs — lithium-ion power for every ALLIED e-bike model.' },
+      { slug: 'ebike-chargers', name: 'E-Bike Chargers', h1: 'E-Bike Chargers', description: 'Ebike chargers and electric bicycle chargers for fast, safe battery charging — matched to your e-bike\'s battery pack.' },
+      { slug: 'scooter-batteries', name: 'Scooter, Board & Mobility Batteries', h1: 'Scooter & Mobility Batteries', description: 'Electric scooter battery and mobility scooter battery replacements — genuine power packs for scooters, boards and mobility scooters.' },
+      { slug: 'scooter-skate-chargers', name: 'Scooter, Skate & Kids Chargers', h1: 'Scooter & Skate Chargers', description: 'Electric scooter chargers for scooters, skateboards and kids\' EVs — fast, safe charging matched to your battery pack.' },
+      { slug: 'scooter-skate-parts', name: 'Scooter, Skate & Kids Parts', h1: 'Scooter & Skate Parts', description: 'Electric scooter parts and spares for scooters, skateboards and kids\' EVs — genuine replacement components.' },
+      { slug: 'kids-dirt-bike-batteries', name: 'Kids & Dirt Bike Batteries', h1: 'Kids & Dirt Bike Batteries', description: 'Dirt bike battery and quad bike battery replacements for youth and dirt bike EVs — genuine power packs in stock.' },
+      { slug: 'tyres-tubes', name: 'Tyres & Tubes', h1: 'E-Bike Tyres & Tubes', description: 'Electric bike tyres and replacement inner tubes for e-bikes — genuine fitment, Perth-stocked and dispatched Australia-wide.' },
+      { slug: 'brakes-rotors-pads', name: 'Brake Pads & Rotors', h1: 'E-Bike Brake Pads & Rotors', description: 'E bike brake pads and replacement rotors for safe, confident stopping power on every ALLIED e-bike model.' },
+      { slug: 'mid-drive-conversion-kits', name: 'Mid-Drive Conversion Kits', h1: 'Mid-Drive Conversion Kits', description: 'Mid drive conversion kits to turn a standard bike into a genuine e-bike — strong hill-climbing power, Perth-stocked.' },
+      { slug: 'hub-motor-conversion-kits', name: 'Hub Motor Conversion Kits', h1: 'Hub Motor Conversion Kits', description: 'Ebike hub motor conversion kits to electrify a standard bike — simple fitment, genuine power, Perth-stocked and dispatched Australia-wide.' }
     ]
   },
   {
     slug: 'safety-security-carry',
     name: 'Safety, Locks & Carry',
-    description: 'Helmets, lights, locks, racks and carry accessories for every category above.',
+    h1: 'Bike Helmets, Lights & Locks Australia',
+    description: 'Shop bicycle helmets, bike lights, locks, racks and carry accessories for every ALLIED category.',
     image: '/images/categories/category-safety-security-carry.webp',
     subcategories: [
-      { slug: 'helmets', name: 'Helmets', description: 'Safety helmets for riders of all ages.' },
-      { slug: 'lights-visibility', name: 'Lights & Visibility', description: 'Front and rear lights for visibility and safety.' },
-      { slug: 'jackets-hi-vis', name: 'Jackets & Hi-Vis', description: 'Protective and high-visibility riding apparel.' },
-      { slug: 'u-d-locks', name: 'U-Locks & D-Locks', description: 'High-security U-locks and D-locks.' },
-      { slug: 'folding-locks', name: 'Folding Locks', description: 'Compact folding security locks.' },
-      { slug: 'chain-locks', name: 'Chain Locks', description: 'Heavy-duty chain security locks.' },
-      { slug: 'racks-baskets', name: 'Racks & Baskets', description: 'Front and rear racks and baskets.' },
-      { slug: 'panniers-bags', name: 'Panniers & Bags', description: 'Pannier bags and carry storage.' },
-      { slug: 'child-seats', name: 'Child Seats', description: 'Child seats for family e-bike riding.' },
-      { slug: 'phone-mounts', name: 'Phone Mounts', description: 'Handlebar phone mounts.' }
+      { slug: 'helmets', name: 'Helmets', h1: 'Bike Helmets', description: 'Bike helmets and bicycle helmets for riders of all ages — genuine safety certified protection, Perth-stocked.' },
+      { slug: 'lights-visibility', name: 'Lights & Visibility', h1: 'Bike Lights', description: 'Bike lights and bicycle lights for front and rear visibility — genuine safety gear for every ride, day or night.' },
+      { slug: 'jackets-hi-vis', name: 'Jackets & Hi-Vis', h1: 'Hi-Vis Jackets & Vests', description: 'Hi vis cycling vests and reflective jackets for safe, visible riding — protective apparel for every ALLIED rider.' },
+      { slug: 'u-d-locks', name: 'U-Locks & D-Locks', h1: 'U-Locks & D-Locks', description: 'Bicycle u locks and d locks for high-security bike protection — genuine theft deterrence, Perth-stocked.' },
+      { slug: 'folding-locks', name: 'Folding Locks', h1: 'Folding Bike Locks', description: 'Folding bike locks and collapsible bike locks for compact, portable security — genuine protection that fits in your pocket.' },
+      { slug: 'chain-locks', name: 'Chain Locks', h1: 'Chain Locks', description: 'Bicycle chain and lock sets for heavy-duty bike security — genuine theft deterrence for every ALLIED model.' },
+      { slug: 'racks-baskets', name: 'Racks & Baskets', h1: 'Racks & Baskets', description: 'Bike baskets and bicycle rear racks for everyday carrying — genuine fitment accessories for every ALLIED e-bike.' },
+      { slug: 'panniers-bags', name: 'Panniers & Bags', h1: 'Panniers & Bags', description: 'Bicycle panniers and pannier bags for touring and everyday carrying — genuine storage accessories, Perth-stocked.' },
+      { slug: 'child-seats', name: 'Child Seats', h1: 'Child Seats', description: 'Infant bicycle seats and baby bike seats for safe family e-bike riding — genuine fitment, Perth-stocked and dispatched Australia-wide.' },
+      { slug: 'phone-mounts', name: 'Phone Mounts', h1: 'Phone Mounts', description: 'Bike phone holders and bike phone mounts for secure, hands-free navigation on every ride.' }
     ]
   }
 ];

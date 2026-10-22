@@ -98,7 +98,7 @@ export const ShopView: React.FC<ShopViewProps> = ({
         </div>
 
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white">
-          {currentSubcatObj?.name || currentCategoryObj?.name || 'Shop Electric Bikes & Vehicles'}
+          {currentSubcatObj?.h1 || currentSubcatObj?.name || currentCategoryObj?.h1 || currentCategoryObj?.name || 'Electric Bikes for Sale Australia'}
         </h1>
 
         <p className="text-xs text-slate-400 max-w-2xl leading-relaxed">

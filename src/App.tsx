@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
-import { SITE, BRAND, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
+import { SITE, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
 import { Header } from './components/Header';
@@ -207,8 +207,8 @@ export default function App() {
 
   const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[]; image?: string; noindex?: boolean }> = {
     home: {
-      title: 'Electric Bikes & Commercial Electric Vehicles Australia',
-      description: BRAND.description.slice(0, 155),
+      title: 'Electric Bikes Australia | Scooters, Mobility & Electric Vehicles',
+      description: 'Shop electric bikes Australia-wide — plus electric scooters, hoverboards and mobility EVs. Genuine stock, Perth-based service and nationwide delivery.',
       path: '',
       jsonLd: [{
         '@context': 'https://schema.org',
@@ -221,8 +221,8 @@ export default function App() {
       }]
     },
     shop: {
-      title: activeSubcatObj?.name || activeCategoryObj?.name || 'Shop Electric Bikes & Vehicles',
-      description: activeSubcatObj?.description || activeCategoryObj?.description || 'Browse ALLIED\'s full electric bike, scooter, skateboard, self-balancing EV, mobility and off-road vehicle catalogue.',
+      title: activeSubcatObj?.h1 || activeSubcatObj?.name || activeCategoryObj?.h1 || activeCategoryObj?.name || 'Electric Bikes for Sale Australia',
+      description: activeSubcatObj?.description || activeCategoryObj?.description || 'Shop electric bikes for sale Australia-wide, plus kids electric bikes, electric mountain bikes, conversion kits and more — ALLIED\'s full EV catalogue.',
       path: selectedCategory ? `shop/${selectedCategory}${selectedSubcategory ? `/${selectedSubcategory}` : ''}` : 'shop',
       image: activeCategoryObj?.image,
       jsonLd: [{

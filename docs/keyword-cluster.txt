@@ -1,0 +1,76 @@
+ALLIED ELECTRIC VEHICLES — KEYWORD CLUSTERS (flat format)
+Source: Semrush Keyword Magic Tool, AU database. See keyword-map.md for the formatted table
+and docs/keyword-research-progress.md for the full research trail.
+Format: URL | PRIMARY (vol/kd) | SECONDARY1 (vol/kd) | SECONDARY2 (vol/kd) | ...
+
+/ | electric bike (27100/12) | ebike (33100/35) | electric bicycle (9900/23) | electric motorbike (6600/16) | electric commuter bike (1900/22) | best electric bike australia (1300/9)
+
+/shop/ | electric bike for sale (880/28) | electric bikes for sale (1600/41) | kids electric bike (3600/17) | electric mountain bike (2900/11) | electric bike conversion kit (2900/8) | discount electric bikes (1300/21) | folding electric bike (1000/10) | cheap electric bike (880/17)
+
+/shop/electric-bikes/ | electric bikes australia (1900/34) | electric bike australia (1900/36) | ebike (33100/35) | electric bicycle (9900/23)
+/shop/electric-bikes/urban-commuter-ebikes/ | electric commuter bike (1900/22) | electric commuter bicycle (1600/18)
+/shop/electric-bikes/cargo-family-ebikes/ | electric cargo bike (720/8) | cargo ebike (880/16) | e bike cargo (480/24) | electric cargo bike australia (170/6) | cargo bike australia (260/6) | best electric cargo bike australia (110/18)
+/shop/electric-bikes/electric-mountain-bikes/ | electric mountain bike (2900/11) | electric mountain bikes (880/11) | electric mtb (1000/12)
+/shop/electric-bikes/foldable-electric-bikes/ | folding electric bike (1000/10) | foldable electric bike (1600/15) | fold up electric bicycle (1900/7)
+/shop/electric-bikes/fat-tyre-lifestyle-ebikes/ | fat tyre electric bike (1000/16) | fat tire electric bicycle (1300/17) | electric fat tire bicycles (1600/18)
+/shop/electric-bikes/electric-dirt-motorbikes/ | electric dirt bike (6600/17) | electric motorbike (6600/16) | electric dirt bike australia (1300/18)
+/shop/electric-bikes/electric-mopeds/ | electric moped australia (1000/na) | electric moped for sale (320/23) | electric moped bike (390/17) | electric moped perth (590/25) | best electric moped australia (110/12)
+/shop/electric-bikes/electric-tricycles/ | electric tricycle australia (320/20) | electric trike australia (390/11) | e tricycle (590/16) | electric tricycles australia (170/17)
+
+/shop/electric-scooters/ | electric scooter australia (1900/22) | electric scooters australia (880/43) | scooter electric australia (110/25)
+/shop/electric-scooters/commuter-electric-scooters/ | commuter electric scooter (140/9) | electric scooter commute (320/12)
+/shop/electric-scooters/long-range-electric-scooters/ | long range electric scooter (260/9) | long range electric scooters (140/8) | long distance electric scooter (140/12) | long range e scooter (110/13)
+
+/shop/electric-skateboards/ | electric skateboards (880/44) | electric skateboard aus (320/45)
+/shop/electric-skateboards/street-electric-skateboards/ | electric skateboard street (30/na) [below volume floor]
+/shop/electric-skateboards/all-terrain-electric-skateboards/ | all terrain electric skateboard australia (30/10) [below volume floor]
+/shop/electric-skateboards/mini-electric-skateboards/ | GAP — borrow category primary
+/shop/electric-skateboards/onewheel-style-boards/ | onewheel australia (210/na-unverified)
+
+/shop/self-balancing-ev/ | hoverboards australia (260/24) | hover board australia (110/26) | kids hoverboard australia (140/6) | off road hoverboard australia (210/13)
+/shop/self-balancing-ev/hoverboards/ | hoverboard australia (1300/19) | kids hoverboard australia (140/6) | off road hoverboard australia (210/13)
+/shop/self-balancing-ev/electric-unicycles/ | GAP — needs dedicated search
+/shop/self-balancing-ev/hoverboard-kart-attachments/ | GAP — needs dedicated search
+
+/shop/kids-off-road-ev/ | kids electric dirt bike (590/11) | electric dirt bike for kids (320/18) | electric go kart (2900/17) | electric balance bike (1600/17)
+/shop/kids-off-road-ev/electric-balance-bikes/ | electric balance bike (1600/17) | electric balance bike australia (70/8) | electric balance bike for kids (90/5)
+/shop/kids-off-road-ev/youth-electric-dirt-bikes/ | childrens electric dirt bike (1300/13) | electric dirt bike for kids (320/18) | kids electric dirt bike (590/11) | electric motorbikes for kids (210/16)
+/shop/kids-off-road-ev/electric-go-karts/ | electric go kart (2900/17) | electric go kart australia (170/13) | go kart electric (320/17) | electric kart (210/13) | electric go karts for sale (70/15)
+
+/shop/mobility-scooters/ | mobility scooter (3600/26) | mobility scooters australia (320/23) | mobility scooter australia (140/29) | portable mobility scooters (590/10) | electric mobility scooter (590/21) | folding mobility scooters australia (170/11)
+/shop/mobility-scooters/travel-mobility-scooters/ | travel mobility scooter (140/6) | portable mobility scooters (590/10) | foldable mobility scooter australia (210/7) | folding mobility scooter australia (90/8)
+/shop/mobility-scooters/heavy-duty-mobility-scooters/ | heavy duty mobility scooters (210/14) | four wheel mobility scooters (140/4) | 4 wheel mobility scooter (90/6) | three wheel mobility scooters (90/6)
+
+/shop/electric-quad-bikes/ | electric quad bike (1300/8) | electric quad bike australia (140/11) | electric quad (390/6) | electric quad bikes (140/12)
+/shop/electric-quad-bikes/kids-electric-quads/ | kids quad bike electric (110/10) | childrens electric quad bikes (50/15) | electric kids quad bike (50/4)
+/shop/electric-quad-bikes/adult-electric-quads/ | electric quad bikes for adults (170/10) | electric quad bike for adults (170/6) | adult electric quad bike (90/6)
+/shop/electric-quad-bikes/farm-utility-quads/ | electric utv for sale (140/9) | electric farm quad bike (50/6) | electric farm utility vehicle australia (50/8) | utility quad (90/32, T3 supporting)
+
+/shop/electric-water-sports/ | electric surfboards australia (110/6) | electric surf board (170/20) | efoil boards (70/12) | electric jet ski australia (70/16)
+/shop/electric-water-sports/electric-surfboards/ | electric surfboard australia (140/7) | electric surfboards australia (110/6) | electric surf board (170/20) | efoil boards (70/12)
+/shop/electric-water-sports/electric-jetboards/ | GAP — no measurable AU search data
+/shop/electric-water-sports/electric-jetskis/ | electric jet ski australia (70/16)
+
+/shop/batteries-parts-kits/ | e bike conversion kit (3600/8) | ebike kit (1900/9) | bike conversion kit (1300/5) | conversion kit ebike (1900/6)
+/shop/batteries-parts-kits/ebike-batteries/ | ebike battery (1600/6) | electric bike battery (590/11) | e bike battery (1000/8) | electric bike batteries (390/8) | e bike batteries australia (90/13)
+/shop/batteries-parts-kits/ebike-chargers/ | ebike charger (480/8) | electric bicycle charger (480/6) | charger e bike (480/7) | electric bike charger (480/6)
+/shop/batteries-parts-kits/scooter-batteries/ | electric scooter battery (390/13) | e scooter battery (390/5) | battery for an electric scooter (390/6) | scooter battery (210/7)
+/shop/batteries-parts-kits/scooter-skate-chargers/ | electric scooter charger (590/9) | e scooter charger (590/14) | e-scooter battery charger (480/6) | battery charger for electric scooter (260/4)
+/shop/batteries-parts-kits/scooter-skate-parts/ | electric scooter parts (260/7) | e scooter parts (210/5) | scooter electric scooter parts (210/9) | electric scooter accessories australia (90/13)
+/shop/batteries-parts-kits/kids-dirt-bike-batteries/ | dirt bike battery (140/16) | quad bike battery (210/9) | dirtbike battery (70/17)
+/shop/batteries-parts-kits/tyres-tubes/ | electric bike tyres (50/8) | ebike tires (50/19) | ebike wheels (50/8) [low-volume niche]
+/shop/batteries-parts-kits/brakes-rotors-pads/ | e bike brake pads (140/7) | ebike brake pads (90/7) | ebike brakes (110/14) | electric bike brake pads (50/6)
+/shop/batteries-parts-kits/mid-drive-conversion-kits/ | mid drive conversion kit (210/12) | mid drive ebike kit (390/17) | electric bicycle mid drive kit (320/17) | mid drive electric bike kit (320/18)
+/shop/batteries-parts-kits/hub-motor-conversion-kits/ | ebike hub motor (210/14) | hub motor for e bike (140/5) | hub motor kit (90/2) | hub motor (260/13, broad/ambiguous T1)
+
+/shop/safety-security-carry/ | bicycle helmet (1600/30) | bike helmets australia (390/17) | road bike helmet australia (50/9) | toddler bike seat (880/18) | folding bike lock (320/12)
+/shop/safety-security-carry/helmets/ | bike helmet (8100/29) | bike helmets australia (390/17) | cycling helmets australia (210/11) | bicycle helmets australia (260/17)
+/shop/safety-security-carry/lights-visibility/ | bike lights (3600/22) | bicycle bike lights (2900/21) | bike lamp (590/15) | cycling lights (140/21)
+/shop/safety-security-carry/jackets-hi-vis/ | hi vis vest cycling (70/9) | reflective vest cycling (90/8) | reflective vest for biking (90/10) | bicycle reflective vest (90/11) [low-volume niche]
+/shop/safety-security-carry/u-d-locks/ | bicycle u lock (720/14) | bike u lock (390/11) | u lock bike (390/14) | bicycle d lock (260/12)
+/shop/safety-security-carry/folding-locks/ | folding bike lock (320/12) | collapsible bike lock (260/9) | foldable bike lock (210/13) | bike lock for folding bike (260/19)
+/shop/safety-security-carry/chain-locks/ | bicycle chain and lock (140/9) | lock bicycle chain (140/19) | lock bike chain (140/8) | lock chain bike (140/17)
+/shop/safety-security-carry/racks-baskets/ | bike basket (2400/12) | bicycle rear rack (590/17) | basket for cycle (1900/13) | bike rear rack (480/17)
+/shop/safety-security-carry/panniers-bags/ | bicycle panniers (720/9) | pannier bags (720/14) | bike pannier (590/17) | bike panniers (480/9)
+/shop/safety-security-carry/child-seats/ | infant bicycle seat (2900/22) | baby bike seat (1600/18) | kids bike seat (1300/17) | child bike seat (1300/13)
+/shop/safety-security-carry/phone-mounts/ | bike phone holder (1900/28) | bike phone mount (720/19) | phone holder for bike (1300/16) | bike phone rack (1300/12)

@@ -39,7 +39,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
 
   const heroSlides = [
     {
-      title: "ALLIED Electric Bikes & Commercial Vehicles",
+      title: "Electric Bikes Australia — ALLIED Electric Vehicles",
       subtitle: "High-performance electric city bikes, folding e-bikes, step-through commuters, and heavy utility e-vehicles built for Australian conditions.",
       cta: "Explore Catalogue",
       bg: "/images/hero/hero-electric-bikes-vehicles-lineup.webp",
