@@ -586,6 +586,37 @@ later rounds' edits.
 
 ---
 
+## Round 6 (2026-10-22): Compare/Search fixes + 100-post blog calendar
+
+**Compare page:** found and fixed a real hard cap — Compare could only hold 4 products at once
+(blocked with an alert past that) across all three compare surfaces (CompareView, CompareModal,
+and the shared `handleToggleCompare` in App.tsx). Removed the cap entirely so any number of
+products can be compared; the table already scrolls horizontally. Verified live with 5+ products:
+images render correctly in both the picker and the table (all `naturalWidth: 800`, `complete:
+true`), search and category filters both work correctly (confirmed the category filter against
+Electric Skateboards returns only skateboard-brand products). Also fixed CompareView showing the
+raw category slug ("electric-bikes") instead of a humanized label.
+
+**Search:** audited and found already correct — 3-letter queries ("sur") returned 12 full
+results with images rendering cleanly, no artificial cap or minimum-length gate. No fix needed.
+
+**Double-analyze (re-verification):** re-ran the H1-uniqueness check (78 total across
+categories/subcategories/brands, zero duplicates) and regenerated `sitemap.xml` (still 607 URLs,
+no drift) after the Compare/popup changes — confirmed clean, nothing regressed.
+
+**100-post blog calendar:** extended `blog-plan.md` from 5 to 100 posts. Posts 1–5 keep their
+real Semrush-verified keywords from Round 1's incidental harvest. Posts 6–100 are distributed
+2-per-subcategory across all 44 subcategories with real keyword demand (Guide/Compare/How-To/
+Legal angles, chosen to avoid cannibalizing each subcategory's own commercial keyword per
+keyword-engine Phase 6), 1-per-subcategory for the 4 genuine demand-gap subcategories
+(`electric-unicycles`, `hoverboard-kart-attachments`, `mini-electric-skateboards`,
+`electric-jetboards`), plus 3 site-wide bonus posts — landing on exactly 100. **Titles 6–100 are
+derived, not individually Semrush-verified** — disclosed explicitly in `blog-plan.md`'s status
+note, with a recommendation to verify each one's real keyword in Semrush immediately before
+writing it, not in bulk in advance.
+
+---
+
 ## Session summary
 
 - Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)
