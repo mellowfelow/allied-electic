@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
-import { SITE, CATEGORIES, PRODUCTS, FAQ, Product, getProductKeywordPhrase, BRANDS } from './config/site';
+import { SITE, CATEGORIES, PRODUCTS, FAQ, Product, getProductKeywordPhrase, getProductBrandName, BRANDS } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
 import { Header } from './components/Header';
@@ -311,28 +311,45 @@ export default function App() {
     }
   };
 
+  const productCategoryObj = quickViewProduct ? CATEGORIES.find(c => c.slug === quickViewProduct.category) : undefined;
+  const productSubcatObj = productCategoryObj?.subcategories.find(s => s.slug === quickViewProduct?.subcategory);
+
   const productSeo = quickViewProduct ? {
     title: `${quickViewProduct.name} | ${getProductKeywordPhrase(quickViewProduct)}`,
     description: quickViewProduct.shortDescription.slice(0, 155),
     path: `product/${quickViewProduct.slug}`,
     image: quickViewProduct.images[0],
-    jsonLd: [{
-      '@context': 'https://schema.org',
-      '@type': 'Product',
-      name: quickViewProduct.name,
-      description: quickViewProduct.shortDescription,
-      image: quickViewProduct.images,
-      sku: quickViewProduct.id,
-      brand: { '@type': 'Brand', name: SITE.name },
-      offers: {
-        '@type': 'Offer',
-        url: `https://${SITE.domain}/product/${quickViewProduct.slug}/`,
-        priceCurrency: 'AUD',
-        price: quickViewProduct.price,
-        availability: 'https://schema.org/InStock',
-        seller: { '@id': `https://${SITE.domain}/#organization` }
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: quickViewProduct.name,
+        description: quickViewProduct.shortDescription,
+        image: quickViewProduct.images,
+        sku: quickViewProduct.id,
+        category: getProductKeywordPhrase(quickViewProduct),
+        brand: { '@type': 'Brand', name: getProductBrandName(quickViewProduct) },
+        offers: {
+          '@type': 'Offer',
+          url: `https://${SITE.domain}/product/${quickViewProduct.slug}/`,
+          priceCurrency: 'AUD',
+          price: quickViewProduct.price,
+          availability: 'https://schema.org/InStock',
+          seller: { '@id': `https://${SITE.domain}/#organization` }
+        }
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
+          { '@type': 'ListItem', position: 2, name: 'Shop', item: `https://${SITE.domain}/shop/` },
+          ...(productCategoryObj ? [{ '@type': 'ListItem', position: 3, name: productCategoryObj.name, item: `https://${SITE.domain}/shop/${productCategoryObj.slug}/` }] : []),
+          ...(productCategoryObj && productSubcatObj ? [{ '@type': 'ListItem', position: 4, name: productSubcatObj.name, item: `https://${SITE.domain}/shop/${productCategoryObj.slug}/${productSubcatObj.slug}/` }] : []),
+          { '@type': 'ListItem', position: (productCategoryObj ? (productSubcatObj ? 5 : 4) : 3), name: quickViewProduct.name, item: `https://${SITE.domain}/product/${quickViewProduct.slug}/` }
+        ]
       }
-    }]
+    ]
   } : null;
 
   useSEO(productSeo || seoByTab[activeTab] || seoByTab.home);

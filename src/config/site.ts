@@ -15817,6 +15817,21 @@ export function getProductsForBrand(brandSlug: string): Product[] {
   return PRODUCTS.filter(p => patterns.some(re => re.test(p.name)));
 }
 
+// Real manufacturer brand for a product's schema.org Product.brand (e.g. "Sur-Ron",
+// "Trek"), derived from the same BRANDS matchTerms used for /brands/ pages — not
+// ALLIED itself, which is the authorized reseller (schema.org `seller`), not the
+// manufacturer. Falls back to SITE.name only for generic/unbranded parts that don't
+// match any known brand.
+export function getProductBrandName(product: Pick<Product, 'name'>): string {
+  for (const brand of BRANDS) {
+    const patterns = brand.matchTerms.map(
+      t => new RegExp(`\\b${t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i')
+    );
+    if (patterns.some(re => re.test(product.name))) return brand.name;
+  }
+  return SITE.name;
+}
+
 export const POSTS = [
   {
     slug: 'electric-city-bike-buying-guide-australia',

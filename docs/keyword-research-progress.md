@@ -527,6 +527,37 @@ Full secondary keyword lists for every brand are in `keyword-map.md`.
 
 ---
 
+## Round 4 (2026-10-22): Image performance + product page schema
+
+**Image performance (not keyword work, but requested before product SEO):** all 499 product
+images were already well-optimized webp (15MB total, 12-64KB each, no oversized outliers) — the
+real gap was loading *strategy*, not file size. Fixed: `ProductCard` previously lazy-loaded
+every image unconditionally, including the first visible row on every grid — lazy-loading an
+above-the-fold image delays its fetch instead of speeding it up. Added a `priority` prop (first
+4 cards per grid get `loading="eager"` + `fetchPriority="high"` + `decoding="sync"`, rest stay
+lazy), explicit width/height on product images (prevents layout shift), a `<link rel="preload">`
+for the homepage hero image, and a 1-year immutable `Cache-Control` header for `/images/` in
+`vercel.json` (repeat visits skip the network entirely).
+
+**Product page schema fix:** found and fixed a real structured-data bug — every product's
+`schema.org Product.brand` was hardcoded to `"ALLIED ELECTRIC VEHICLES"` (the reseller), never
+the actual manufacturer. ALLIED is explicitly an *authorized reseller*, not a manufacturer (per
+the site's own copy), so this was factually wrong for every branded product and would mislead
+Google's rich results / AI answer engines about who makes each item. Fixed via a new
+`getProductBrandName()` helper that reuses the same `BRANDS` word-boundary matching already
+built for `/brands/` pages — a Lekker product now correctly reports `brand: "Lekker"`, with
+`ALLIED ELECTRIC VEHICLES` as `seller` (already correct) and as a `brand` fallback only for
+generic/unbranded parts that don't match any of the 20 researched brands. Also added `category`
+(the product's subcategory keyword phrase) and a full `BreadcrumbList` JSON-LD block (Home →
+Shop → Category → Subcategory → Product) to every product page — previously only shop/category
+pages had breadcrumbs.
+
+No new keyword research was needed for this round — product titles/alt text already derive from
+subcategory keywords (`getProductKeywordPhrase()`, built in Round 3), and this round's fixes are
+schema/structured-data correctness, not keyword targeting.
+
+---
+
 ## Session summary
 
 - Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)
