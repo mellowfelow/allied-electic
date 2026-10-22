@@ -489,12 +489,41 @@ Bosch, Specialized, Shimano, Trek, Giant, Onewheel (component/established mainst
 lower priority since they're parts suppliers or already well-covered by category-level terms),
 Fiido, Rad Power, Bafang, Stacyc, Kaabo, Begode, Brompton, Xiaomi, Pride, Invacare, Lekker.
 
-**Brand pages: BUILT.** `/brands/[slug]/` is a new page type (previously didn't exist). Products
-are matched to brands via case-insensitive substring match against `product.name` (zero false
-positives verified against the live 499-product catalog) rather than a new `brand` field, since
-that avoided a 499-row data migration. Live: `/brands/`, `/brands/sur-ron/` (28 products),
-`/brands/ninebot-segway/`, `/brands/evolve/`, `/brands/dualtron/`, `/brands/aventon/`. Linked
-from the Footer on every page. Each page's H1/title/meta uses its researched primary keyword.
+**Brand pages: BUILT, 20 total.** `/brands/[slug]/` is a new page type (previously didn't exist).
+Products are matched to brands via word-boundary regex against `product.name` (not plain
+substring — a plain-substring bug was caught and fixed during this round: "pride" as a bare
+substring matched "Shoprider", and "trek" matched "Trekking" in an NCM product name; word-boundary
+regex fixes this entire class of false positive, verified zero false positives across all 20
+brands against the live 499-product catalog). No new `brand` data field was added — this avoided
+a 499-row data migration. Linked from the Footer on every page. Each page's H1/title/meta uses
+its researched primary keyword.
+
+### Round 3 continued (2026-10-22): remaining 17 brands researched
+
+12 of the remaining 17 stocked brands cleared the demand bar and got pages; 2 did not; 3 were
+already covered in Round 3's first pass (Sur-Ron, Ninebot/Segway, Evolve, Dualtron, Aventon).
+
+| Brand | Primary keyword | Vol | KD | Tier | Verdict |
+|---|---|---|---|---|---|
+| Pride Mobility | pride mobility scooter | 1,000 | 9 | T1 | **Strong — built** |
+| Trek | trek e bike | 1,300 | 27 | T2 | **Strong — built** |
+| Giant | giant electric bicycles | 1,300 | 25 | T1 | **Strong — built** |
+| Xiaomi | xiaomi electric scooter | 720 | 31 | T2 | **Strong — built** |
+| Stacyc | stacyc bike | 720 | 7 | T1 | **Strong — built** |
+| Kaabo | kaabo scooter | 590 | 16 | T1 | **Strong — built** |
+| Specialized | specialized electric bikes | 210 | 14 | T1 | Built |
+| Invacare | invacare mobility scooters | 260 | 16 | T1 | Built |
+| Lekker | lekker bikes australia | 320 | 17 | T1 | Built |
+| Fiido | fiido ebike | 140 | 26 | T1 | Built |
+| Shimano | shimano electric bike | 170 | 23 | T1 | Built (modest, component supplier) |
+| Bosch | bosch electric bicycle | 170 | 6 | T1 | Built (modest, component supplier) |
+| Bafang | bafang motor | 140 | 13 | T1 | Built (modest, component supplier) |
+| Brompton | brompton electric | 110 | 15 | T1 | Built (modest) |
+| Onewheel | onewheel australia | 210 | 8 | T1 | Built — also resolves the earlier Category 3 (Electric Skateboards) onewheel-style-boards subcat gap, which had unverified KD |
+| Rad Power | rad power bikes | 170 | **64** | — | **No qualifying primary — KD above the 56 drop ceiling.** Dominated by Seattle/US-local search intent, not genuine AU demand. No page. |
+| Begode | — | — | — | — | **Zero Semrush AU data at all.** No page. |
+
+Full secondary keyword lists for every brand are in `keyword-map.md`.
 
 ---
 

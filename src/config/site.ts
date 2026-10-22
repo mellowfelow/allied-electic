@@ -15683,17 +15683,138 @@ export const BRANDS: Brand[] = [
     description: 'Shop genuine Aventon electric bikes — Level, Abound, Soltera and more, authorized stock with Perth-based service and spare parts.',
     image: '/images/categories/category-electric-bikes.webp',
     matchTerms: ['aventon']
+  },
+  {
+    slug: 'bosch',
+    name: 'Bosch',
+    h1: 'Bosch Electric Bicycle',
+    description: 'Shop genuine Bosch electric bike motors and batteries — Performance Line, Active Line and PowerTube packs, Perth-stocked with spare parts.',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    matchTerms: ['bosch']
+  },
+  {
+    slug: 'specialized',
+    name: 'Specialized',
+    h1: 'Specialized Electric Bikes Australia',
+    description: 'Shop genuine Specialized electric bikes — Turbo Levo, Turbo Vado and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['specialized']
+  },
+  {
+    slug: 'shimano',
+    name: 'Shimano',
+    h1: 'Shimano Electric Bike',
+    description: 'Shop genuine Shimano STEPS e-bike drive systems, batteries and chargers — Perth-stocked with spare parts for every ALLIED e-bike.',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    matchTerms: ['shimano']
+  },
+  {
+    slug: 'trek',
+    name: 'Trek',
+    h1: 'Trek E Bike Australia',
+    description: 'Shop genuine Trek electric bikes — Allant+, Rail and Dual Sport+ models, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['trek']
+  },
+  {
+    slug: 'giant',
+    name: 'Giant',
+    h1: 'Giant Electric Bicycles Australia',
+    description: 'Shop genuine Giant electric bikes — Explore E+, Trance X Advanced E+ and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['giant']
+  },
+  {
+    slug: 'onewheel',
+    name: 'Onewheel',
+    h1: 'Onewheel Australia',
+    description: 'Shop genuine Onewheel self-balancing electric boards — authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-skateboards.webp',
+    matchTerms: ['onewheel']
+  },
+  {
+    slug: 'fiido',
+    name: 'Fiido',
+    h1: 'Fiido Ebike Australia',
+    description: 'Shop genuine Fiido electric bikes — compact, folding and commuter models, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['fiido']
+  },
+  {
+    slug: 'bafang',
+    name: 'Bafang',
+    h1: 'Bafang Motor Australia',
+    description: 'Shop genuine Bafang mid-drive and hub motor conversion kits — Perth-stocked with spare parts for every ALLIED e-bike.',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    matchTerms: ['bafang']
+  },
+  {
+    slug: 'stacyc',
+    name: 'Stacyc',
+    h1: 'Stacyc Bike Australia',
+    description: 'Shop genuine Stacyc electric balance bikes for young riders — authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    matchTerms: ['stacyc']
+  },
+  {
+    slug: 'kaabo',
+    name: 'Kaabo',
+    h1: 'Kaabo Scooter Australia',
+    description: 'Shop genuine Kaabo performance electric scooters — Wolf Warrior, Wolf King and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-scooters.webp',
+    matchTerms: ['kaabo']
+  },
+  {
+    slug: 'brompton',
+    name: 'Brompton',
+    h1: 'Brompton Electric Australia',
+    description: 'Shop genuine Brompton Electric folding bikes — authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['brompton']
+  },
+  {
+    slug: 'xiaomi',
+    name: 'Xiaomi',
+    h1: 'Xiaomi Electric Scooter Australia',
+    description: 'Shop genuine Xiaomi electric scooters — authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-scooters.webp',
+    matchTerms: ['xiaomi']
+  },
+  {
+    slug: 'pride-mobility',
+    name: 'Pride Mobility',
+    h1: 'Pride Mobility Scooter Australia',
+    description: 'Shop genuine Pride Mobility scooters — Go-Go, Pursuit and Wrangler models, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-mobility-scooters.webp',
+    matchTerms: ['pride mobility', 'pride pursuit', 'pride wrangler', 'pride go-go']
+  },
+  {
+    slug: 'invacare',
+    name: 'Invacare',
+    h1: 'Invacare Mobility Scooters Australia',
+    description: 'Shop genuine Invacare mobility scooters — authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-mobility-scooters.webp',
+    matchTerms: ['invacare']
+  },
+  {
+    slug: 'lekker',
+    name: 'Lekker',
+    h1: 'Lekker Bikes Australia',
+    description: 'Shop genuine Lekker Dutch-style electric bikes — Jordaan, Amsterdam and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['lekker']
   }
 ];
 
 export function getProductsForBrand(brandSlug: string): Product[] {
   const brand = BRANDS.find(b => b.slug === brandSlug);
   if (!brand) return [];
-  const terms = brand.matchTerms.map(t => t.toLowerCase());
-  return PRODUCTS.filter(p => {
-    const hay = p.name.toLowerCase();
-    return terms.some(t => hay.includes(t));
-  });
+  // Word-boundary regex, not plain substring — "pride" as a bare substring would
+  // wrongly match "Shoprider", and "trek" would wrongly match "Trekking".
+  const patterns = brand.matchTerms.map(
+    t => new RegExp(`\\b${t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i')
+  );
+  return PRODUCTS.filter(p => patterns.some(re => re.test(p.name)));
 }
 
 export const POSTS = [

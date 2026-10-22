@@ -130,8 +130,120 @@ Vol 50 floor comfortably and are recommended for dedicated brand pages.
 | Secondary | aventon bikes | 260 | 28 | 🥈 T2 |
 | Secondary | aventon australia | 170 | 17 | 🥇 T1 |
 
-**Not yet researched:** Bosch, Specialized, Shimano, Trek, Giant, Onewheel, Fiido, Rad Power,
-Bafang, Stacyc, Kaabo, Begode, Brompton, Xiaomi, Pride, Invacare, Lekker.
+### Pride Mobility — `/brands/pride-mobility/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | pride mobility scooter | 1,000 | 9 | 🥇 T1 |
+| Secondary | pride mobility scooters | 880 | 18 | 🥇 T1 |
+| Secondary | pride mobility | 720 | 19 | 🥇 T1 |
+| Secondary | pride scooters | 210 | 17 | 🥇 T1 |
+
+### Trek — `/brands/trek/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | trek e bike | 1,300 | 27 | 🥈 T2 |
+| Secondary | trek ebike | 1,000 | 40 | 🥈 T2 |
+| Secondary | trek ebikes australia | 70 | 24 | 🥇 T1 |
+| Secondary | trek e bike australia | 50 | 17 | 🥇 T1 |
+
+### Giant — `/brands/giant/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | giant electric bicycles | 1,300 | 25 | 🥇 T1 |
+| Secondary | giant electric bike | 720 | 24 | 🥇 T1 |
+| Secondary | giant ebike | 880 | 21 | 🥇 T1 |
+| Secondary | giant e bike australia | 50 | 25 | 🥇 T1 |
+
+### Xiaomi — `/brands/xiaomi/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | xiaomi electric scooter | 720 | 31 | 🥈 T2 |
+| Secondary | xiaomi scooter | 720 | 35 | 🥈 T2 |
+| Secondary | xiaomi e scooter | 390 | 28 | 🥈 T2 |
+
+### Stacyc — `/brands/stacyc/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | stacyc bike | 720 | 7 | 🥇 T1 |
+| Secondary | stacyc | 720 | 16 | 🥇 T1 |
+| Secondary | stacyc electric balance bike | 170 | 7 | 🥇 T1 |
+
+### Kaabo — `/brands/kaabo/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | kaabo scooter | 590 | 16 | 🥇 T1 |
+| Secondary | kaabo | 590 | 15 | 🥇 T1 |
+| Secondary | kaabo wolf warrior | 480 | 10 | 🥇 T1 |
+| Secondary | kaabo electric scooter | 260 | 12 | 🥇 T1 |
+
+### Specialized — `/brands/specialized/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | specialized electric bikes | 210 | 14 | 🥇 T1 |
+| Secondary | specialized ebike | 590 | 39 | 🟡 T3 |
+| Secondary | specialized electric bike | 260 | 37 | 🥈 T2 |
+| Secondary | specialized e bikes | 210 | 24 | 🥇 T1 |
+
+### Invacare — `/brands/invacare/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | invacare mobility scooters | 260 | 16 | 🥇 T1 |
+
+### Lekker — `/brands/lekker/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | lekker bikes australia | 320 | 17 | 🥇 T1 |
+| Secondary | lekker bike | 390 | 18 | 🥇 T1 |
+| Secondary | lekker ebike | 320 | 23 | 🥇 T1 |
+| Secondary | lekker electric bike | 210 | 20 | 🥇 T1 |
+
+### Fiido — `/brands/fiido/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | fiido ebike | 140 | 26 | 🥇 T1 |
+| Secondary | fiido electric bike | 110 | 27 | 🥈 T2 |
+| Secondary | fiido | 110 | 33 | 🥈 T2 |
+
+### Shimano — `/brands/shimano/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | shimano electric bike | 170 | 23 | 🥇 T1 |
+| Secondary | shimano e bike | 140 | 20 | 🥇 T1 |
+
+### Bosch — `/brands/bosch/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | bosch electric bicycle | 170 | 6 | 🥇 T1 |
+| Secondary | bike electric bosch | 210 | 11 | 🥇 T1 |
+| Secondary | bosch electric cycle | 210 | 17 | 🥇 T1 |
+| Secondary | bosch electric bike | 140 | 6 | 🥇 T1 |
+
+### Bafang — `/brands/bafang/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | bafang motor | 140 | 13 | 🥇 T1 |
+| Secondary | motor bafang | 140 | 10 | 🥇 T1 |
+
+### Brompton — `/brands/brompton/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | brompton electric | 110 | 15 | 🥇 T1 |
+| Secondary | brompton electric bike | 90 | 19 | 🥇 T1 |
+| Secondary | brompton ebike | 50 | 14 | 🥇 T1 |
+
+### Onewheel — `/brands/onewheel/`
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | onewheel australia | 210 | 8 | 🥇 T1 |
+| Secondary | onewheel | 1,300 | 38 | 🥈 T2 |
+
+*Also resolves the Electric Skateboards → onewheel-style-boards subcategory gap from Round 1
+(previously unverified KD) — see that category's table above.*
+
+**Not built — no qualifying primary keyword:**
+- **Rad Power** — "rad power bikes" (170/KD64) is above the KD 56 drop ceiling; dominated by
+  Seattle/US-local search intent, not genuine AU demand.
+- **Begode** — zero Semrush AU data at all, no usable alternative found.
 
 ---
 
