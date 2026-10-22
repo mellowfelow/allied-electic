@@ -48,6 +48,37 @@ On-page: title/H1 should lead with "Electric Bike for Sale" (the T2 alt) rather 
 
 ---
 
+## About Page — `/about/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | electric bikes perth | 1,900 | 24 | 🥇 T1 |
+| Secondary | electric bicycle perth | 720 | 28 | 🥈 T2 |
+| Secondary | perth electric bikes | 390 | 17 | 🥇 T1 |
+| Secondary | electric bikes perth australia | 390 | 18 | 🥇 T1 |
+| Secondary | ebike perth | 480 | 22 | 🥇 T1 |
+
+On-page: lean on the local-entity angle — Perth HQ, 25+ years, authorized reseller status —
+since this is exactly what distinguishes the About page from the Homepage's national-level
+"electric bike" targeting.
+
+## Contact Page — `/contact/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | electric bike shop perth | 110 | 21 | 🥇 T1 |
+| Secondary | buy electric bike perth | 70 | 20 | 🥇 T1 (Transactional) |
+| Secondary | perth electric bike centre | 260 | 27 | 🥈 T2 |
+
+## Blog Hub, FAQ Page, Compare Page — no dedicated keyword
+
+All three searched this session with zero Semrush AU volume and no relevant suggested
+alternatives. This is expected and not a gap: Blog and FAQ inherit their SEO value from the
+individual posts (`blog-plan.md`) and questions (`faq-bank.md`) already planned; Compare is a
+utility/spec-comparison tool page with no organic search demand of its own.
+
+---
+
 ## Category: Electric Bikes — `/shop/electric-bikes/`
 
 **Primary:** electric bikes australia (1,900 / KD34 / 🥈 T2)

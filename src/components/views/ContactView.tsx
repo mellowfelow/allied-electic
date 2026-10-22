@@ -38,7 +38,7 @@ export const ContactView: React.FC = () => {
       <div className="text-center space-y-3">
         <span className="text-xs font-mono font-bold text-sky-400 uppercase tracking-wider">Perth Logistics & Technical Hub</span>
         <h1 className="text-3xl sm:text-5xl font-black text-white">
-          Contact ALLIED ELECTRIC VEHICLES
+          Electric Bike Shop Perth — Contact ALLIED
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
           Contact our Perth engineering & sales team for technical vehicle specifications, spare parts, or mobile service bookings.

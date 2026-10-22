@@ -241,8 +241,8 @@ export default function App() {
       path: 'blog'
     },
     about: {
-      title: 'About ALLIED ELECTRIC VEHICLES',
-      description: 'ALLIED FORKLIFTS PTY LTD (ABN 66 060 256 377) — 25+ years supplying electric bikes, scooters, mobility and off-road EVs across Australia from Perth, WA.',
+      title: 'Electric Bikes Perth | About Us',
+      description: 'ALLIED is Perth\'s electric bike specialist — 25+ years supplying electric bikes, scooters, mobility and off-road EVs across Australia from our Perth, WA depot.',
       path: 'about',
       jsonLd: [{
         '@context': 'https://schema.org',
@@ -251,8 +251,8 @@ export default function App() {
       }]
     },
     contact: {
-      title: 'Contact ALLIED ELECTRIC VEHICLES — Perth HQ',
-      description: 'Contact ALLIED Electric Vehicles Perth headquarters for technical specifications, spare parts, or mobile service bookings.',
+      title: 'Electric Bike Shop Perth | Contact Us',
+      description: 'Contact ALLIED, your electric bike shop in Perth, WA — technical specifications, spare parts, or mobile service bookings.',
       path: 'contact'
     },
     faq: {

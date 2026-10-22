@@ -7,6 +7,12 @@ Format: URL | PRIMARY (vol/kd) | SECONDARY1 (vol/kd) | SECONDARY2 (vol/kd) | ...
 
 /shop/ | electric bike for sale (880/28) | electric bikes for sale (1600/41) | kids electric bike (3600/17) | electric mountain bike (2900/11) | electric bike conversion kit (2900/8) | discount electric bikes (1300/21) | folding electric bike (1000/10) | cheap electric bike (880/17)
 
+/about/ | electric bikes perth (1900/24) | electric bicycle perth (720/28) | perth electric bikes (390/17) | electric bikes perth australia (390/18) | ebike perth (480/22)
+/contact/ | electric bike shop perth (110/21) | buy electric bike perth (70/20) | perth electric bike centre (260/27)
+/blog/ | no dedicated keyword — inherits from individual posts in blog-plan.md
+/faq/ | no dedicated keyword — inherits from faq-bank.md question keywords
+/compare/ | no dedicated keyword — utility tool page, no organic search demand
+
 /shop/electric-bikes/ | electric bikes australia (1900/34) | electric bike australia (1900/36) | ebike (33100/35) | electric bicycle (9900/23)
 /shop/electric-bikes/urban-commuter-ebikes/ | electric commuter bike (1900/22) | electric commuter bicycle (1600/18)
 /shop/electric-bikes/cargo-family-ebikes/ | electric cargo bike (720/8) | cargo ebike (880/16) | e bike cargo (480/24) | electric cargo bike australia (170/6) | cargo bike australia (260/6) | best electric cargo bike australia (110/18)

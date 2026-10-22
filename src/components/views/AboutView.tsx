@@ -13,7 +13,7 @@ export const AboutView: React.FC = () => {
           <span>ESTABLISHED 2000 · PERTH WESTERN AUSTRALIA</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white">
-          About ALLIED ELECTRIC VEHICLES
+          Electric Bikes Perth — About ALLIED
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">
           A specialized commercial EV & heavy industrial equipment division of <strong>ALLIED FORKLIFTS PTY LTD</strong> (ABN 66 060 256 377).

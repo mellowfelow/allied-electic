@@ -412,6 +412,52 @@ both already stocked), 4 demand gaps flagged honestly (see file).
 
 ---
 
+---
+
+## Round 2 (2026-10-22): About, Contact, FAQ, Blog, Compare pages
+
+Quota reset fresh this session (1/1,000 at start). Same methodology: Keyword Magic Tool,
+Australia database, via the user's Chrome session.
+
+### About page (`/about/`) — REAL keyword opportunity found
+
+ALLIED is a Perth-based authorized reseller, so local-entity terms fit the About page
+naturally (it's the page that explains who they are and where they're based).
+
+**Primary:** electric bikes perth — Vol 1,900, KD 24 (T1), Commercial
+**Secondary:** electric bicycle perth (720/28, T2) · perth electric bikes (390/17, T1) ·
+electric bikes perth australia (390/18, T1) · ebike perth (480/22, T1)
+
+(Full pull also surfaced a large "second-hand/used e-bike" keyword cluster — e.g. "used
+electric bike for sale" 70/21, "second hand ebikes for sale" 90/12 — not relevant to ALLIED's
+new-stock-only model, excluded per Phase 1 niche relevance check.)
+
+### Contact page (`/contact/`) — REAL keyword opportunity found
+
+**Primary:** electric bike shop perth — Vol 110, KD 21 (T1), Commercial
+**Secondary:** buy electric bike perth (70/20, T1, Transactional) · perth electric bike centre (260/27, T2)
+
+### Blog hub (`/blog/`) — no dedicated keyword
+
+Searched "electric bike blog" — zero Semrush data, no relevant suggested alternatives. This is
+expected: a blog index page doesn't carry its own search demand; it inherits value from its
+individual posts, already planned in `blog-plan.md`. No change needed.
+
+### FAQ page (`/faq/`) — no dedicated keyword
+
+Searched "electric bike questions" and "electric bike faq" (checked via Questions filter on
+prior pulls) — zero Semrush data. Expected, same reasoning as Blog hub: the FAQ page's SEO
+value comes from the question-intent keywords already harvested into `faq-bank.md`, not from
+a standalone "FAQ page" head term. No change needed.
+
+### Compare page (`/compare/`) — no dedicated keyword
+
+Searched "compare electric bikes" — zero Semrush data; suggested alternatives were all
+off-topic (electric car comparison tools). This is a utility/spec-comparison tool page, not a
+page with organic search demand of its own. No change needed.
+
+---
+
 ## Session summary
 
 - Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)
