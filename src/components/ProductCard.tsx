@@ -1,5 +1,5 @@
 import React from 'react';
-import { Product } from '../config/site';
+import { Product, getProductKeywordPhrase } from '../config/site';
 import { money } from '../lib/order';
 import { Zap, SlidersHorizontal, Plus, Eye, Coins, BatteryCharging } from 'lucide-react';
 
@@ -52,7 +52,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* Product Image */}
         <img
           src={product.images[0]}
-          alt={product.name}
+          alt={`${product.name} — ${getProductKeywordPhrase(product)}`}
           className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
         />

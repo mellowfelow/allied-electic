@@ -275,6 +275,15 @@ export const CATEGORIES: Category[] = [
   }
 ];
 
+// Derives each product's SEO keyword phrase from its subcategory's researched `h1`
+// (falling back up to the category, then a generic default) instead of hand-writing
+// a keyword into all 499 product entries — see docs/keyword-map.md for the source data.
+export function getProductKeywordPhrase(product: Pick<Product, 'category' | 'subcategory'>): string {
+  const cat = CATEGORIES.find(c => c.slug === product.category);
+  const sub = cat?.subcategories.find(s => s.slug === product.subcategory);
+  return sub?.h1 || sub?.name || cat?.h1 || cat?.name || 'Electric Vehicles Australia';
+}
+
 export const PRODUCTS: Product[] = [
 
   {
@@ -15620,6 +15629,72 @@ export const PRODUCTS: Product[] = [
     ]
   }
 ];
+
+export interface Brand {
+  slug: string;
+  name: string;
+  h1: string;
+  description: string;
+  image: string;
+  // Case-insensitive substrings matched against each product's `name` to build this
+  // brand's product list — see docs/keyword-map.md for the researched keyword behind
+  // each entry. No per-product data migration needed; verified against the live
+  // catalog (zero false positives) before shipping.
+  matchTerms: string[];
+}
+
+export const BRANDS: Brand[] = [
+  {
+    slug: 'sur-ron',
+    name: 'Sur-Ron',
+    h1: 'Sur-Ron Australia',
+    description: 'Shop genuine Sur-Ron electric dirt bikes — Light Bee X, Ultra Bee and Storm Bee models, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['sur-ron', 'sur ron', 'surron']
+  },
+  {
+    slug: 'ninebot-segway',
+    name: 'Ninebot / Segway',
+    h1: 'Ninebot Scooters Australia',
+    description: 'Shop genuine Segway-Ninebot electric scooters — Max, E2, F-Series and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-scooters.webp',
+    matchTerms: ['ninebot', 'segway']
+  },
+  {
+    slug: 'evolve',
+    name: 'Evolve',
+    h1: 'Evolve Skateboards Australia',
+    description: 'Shop genuine Evolve electric skateboards — GT, GTR, Hadean and Stoke models, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-skateboards.webp',
+    matchTerms: ['evolve']
+  },
+  {
+    slug: 'dualtron',
+    name: 'Dualtron',
+    h1: 'Dualtron Electric Scooters',
+    description: 'Shop genuine Dualtron performance electric scooters — Thunder, Eagle Pro and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-scooters.webp',
+    matchTerms: ['dualtron']
+  },
+  {
+    slug: 'aventon',
+    name: 'Aventon',
+    h1: 'Aventon Electric Bikes Australia',
+    description: 'Shop genuine Aventon electric bikes — Level, Abound, Soltera and more, authorized stock with Perth-based service and spare parts.',
+    image: '/images/categories/category-electric-bikes.webp',
+    matchTerms: ['aventon']
+  }
+];
+
+export function getProductsForBrand(brandSlug: string): Product[] {
+  const brand = BRANDS.find(b => b.slug === brandSlug);
+  if (!brand) return [];
+  const terms = brand.matchTerms.map(t => t.toLowerCase());
+  return PRODUCTS.filter(p => {
+    const hay = p.name.toLowerCase();
+    return terms.some(t => hay.includes(t));
+  });
+}
 
 export const POSTS = [
   {

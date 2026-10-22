@@ -13,6 +13,12 @@ Format: URL | PRIMARY (vol/kd) | SECONDARY1 (vol/kd) | SECONDARY2 (vol/kd) | ...
 /faq/ | no dedicated keyword — inherits from faq-bank.md question keywords
 /compare/ | no dedicated keyword — utility tool page, no organic search demand
 
+/brands/sur-ron/ | surron australia (1300/20) | sur ron (1000/37) | surron aus (260/23) | sur-ron electric dirt bikes (140/19) | surron light bee x ebike (170/17)
+/brands/ninebot-segway/ | ninebot scooter (5400/17) | ninebot (5400/23) | ninebot electric scooter (1600/18) | segway ninebot (2900/34) | ninebot e scooter (1600/28)
+/brands/evolve/ | evolve skateboards (1900/22) | evolve skateboard (590/10) | evolve skate store (720/17) | evolve skateboards australia (320/27) | evolve electric skateboard (210/12)
+/brands/dualtron/ | dualtron (590/23) | dualtron e scooter (140/16)
+/brands/aventon/ | aventon (590/33) | aventon bikes (260/28) | aventon australia (170/17)
+
 /shop/electric-bikes/ | electric bikes australia (1900/34) | electric bike australia (1900/36) | ebike (33100/35) | electric bicycle (9900/23)
 /shop/electric-bikes/urban-commuter-ebikes/ | electric commuter bike (1900/22) | electric commuter bicycle (1600/18)
 /shop/electric-bikes/cargo-family-ebikes/ | electric cargo bike (720/8) | cargo ebike (880/16) | e bike cargo (480/24) | electric cargo bike australia (170/6) | cargo bike australia (260/6) | best electric cargo bike australia (110/18)

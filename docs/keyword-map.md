@@ -79,6 +79,62 @@ utility/spec-comparison tool page with no organic search demand of its own.
 
 ---
 
+## Brand Pages — `/brands/[slug]/` (new page type — not yet built)
+
+Researched the 5 stocked brands most likely to carry standalone AU search demand (see
+`keyword-research-progress.md` for the full catalog brand-count context). All 5 clear the
+Vol 50 floor comfortably and are recommended for dedicated brand pages.
+
+### Sur-Ron — `/brands/sur-ron/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | surron australia | 1,300 | 20 | 🥇 T1 |
+| Secondary | sur ron | 1,000 | 37 | 🥈 T2 |
+| Secondary | surron aus | 260 | 23 | 🥇 T1 |
+| Secondary | sur-ron electric dirt bikes | 140 | 19 | 🥇 T1 |
+| Secondary | surron light bee x ebike | 170 | 17 | 🥇 T1 |
+
+### Ninebot / Segway — `/brands/ninebot-segway/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | ninebot scooter | 5,400 | 17 | 🥇 T1 |
+| Secondary | ninebot | 5,400 | 23 | 🥇 T1 |
+| Secondary | ninebot electric scooter | 1,600 | 18 | 🥇 T1 |
+| Secondary | segway ninebot | 2,900 | 34 | 🥈 T2 |
+| Secondary | ninebot e scooter | 1,600 | 28 | 🥈 T2 |
+
+### Evolve — `/brands/evolve/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | evolve skateboards | 1,900 | 22 | 🥇 T1 |
+| Secondary | evolve skateboard | 590 | 10 | 🥇 T1 |
+| Secondary | evolve skate store | 720 | 17 | 🥇 T1 |
+| Secondary | evolve skateboards australia | 320 | 27 | 🥈 T2 |
+| Secondary | evolve electric skateboard | 210 | 12 | 🥇 T1 |
+
+### Dualtron — `/brands/dualtron/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | dualtron | 590 | 23 | 🥇 T1 |
+| Secondary | dualtron e scooter | 140 | 16 | 🥇 T1 |
+
+### Aventon — `/brands/aventon/`
+
+| Role | Keyword | Vol | KD | Tier |
+|---|---|---|---|---|
+| **Primary** | aventon | 590 | 33 | 🥈 T2 |
+| Secondary | aventon bikes | 260 | 28 | 🥈 T2 |
+| Secondary | aventon australia | 170 | 17 | 🥇 T1 |
+
+**Not yet researched:** Bosch, Specialized, Shimano, Trek, Giant, Onewheel, Fiido, Rad Power,
+Bafang, Stacyc, Kaabo, Begode, Brompton, Xiaomi, Pride, Invacare, Lekker.
+
+---
+
 ## Category: Electric Bikes — `/shop/electric-bikes/`
 
 **Primary:** electric bikes australia (1,900 / KD34 / 🥈 T2)

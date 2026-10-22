@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Product, SITE, CONTACT } from '../config/site';
+import { Product, SITE, CONTACT, getProductKeywordPhrase } from '../config/site';
 import { money } from '../lib/order';
 import { waLink } from '../lib/whatsapp';
 import { X, Check, ShieldCheck, Zap, Truck, Phone, MessageSquare, ShoppingCart, SlidersHorizontal, Download, Coins } from 'lucide-react';
@@ -61,7 +61,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <div className="bg-white aspect-[4/3] rounded-xl overflow-hidden flex items-center justify-center p-4 border border-slate-800">
                 <img
                   src={product.images[activeImageIdx] || product.images[0]}
-                  alt={product.name}
+                  alt={`${product.name} — ${getProductKeywordPhrase(product)}`}
                   className="max-h-full max-w-full object-contain"
                 />
               </div>

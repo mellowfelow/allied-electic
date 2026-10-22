@@ -458,6 +458,46 @@ page with organic search demand of its own. No change needed.
 
 ---
 
+---
+
+## Round 3 (2026-10-22): Products + Brands strategy
+
+**Track 1 — Products (499): COMPLETE, implemented on-page.** No new Semrush research needed —
+each product's SEO title and image alt text now derive automatically from its subcategory's
+already-researched `h1` keyword via a new `getProductKeywordPhrase()` helper in `site.ts`,
+wired into `App.tsx` (product `<title>`), `ProductCard.tsx` and `ProductDetailModal.tsx`
+(image alt text). Verified live: `/product/allied-lekker-jordaan-urban-8sp/` now renders
+title "Lekker Jordaan Urban 8sp | Electric Commuter Bikes" and matching alt text, with zero
+edits to the 499 product entries themselves.
+
+**Track 2 — Brands: research complete for 5 stocked brands, via fresh link (4.semrush.com.in).**
+Catalog brand presence counted first (occurrences in `site.ts`): Segway/Ninebot (218), Evolve
+(84), Bosch/Specialized/Shimano/Trek (56-58 each), Aventon/Giant/Sur-Ron/Onewheel/Razor/Fiido
+(32-37), Dualtron/Stacyc/Kaabo/Begode/Pride/Rad Power/Bafang (20-28), Brompton/Xiaomi/Lekker
+(15-17), Invacare (5). Researched the 5 most likely to carry standalone demand:
+
+| Brand | Primary keyword | Vol | KD | Tier | Verdict |
+|---|---|---|---|---|---|
+| Sur-Ron | surron australia | 1,300 | 20 | T1 | **Strong — build brand page** |
+| Ninebot/Segway | ninebot scooter | 5,400 | 17 | T1 | **Strongest — build brand page** |
+| Evolve | evolve skateboards | 1,900 | 22 | T1 | **Strong — build brand page** |
+| Dualtron | dualtron | 590 | 23 | T1 | Moderate — build page, lower priority |
+| Aventon | aventon | 590 | 33 | T2 | Moderate — build page, lower priority |
+
+Full secondary keyword lists for each brand are in `keyword-map.md`. Not yet researched:
+Bosch, Specialized, Shimano, Trek, Giant, Onewheel (component/established mainstream brands —
+lower priority since they're parts suppliers or already well-covered by category-level terms),
+Fiido, Rad Power, Bafang, Stacyc, Kaabo, Begode, Brompton, Xiaomi, Pride, Invacare, Lekker.
+
+**Brand pages: BUILT.** `/brands/[slug]/` is a new page type (previously didn't exist). Products
+are matched to brands via case-insensitive substring match against `product.name` (zero false
+positives verified against the live 499-product catalog) rather than a new `brand` field, since
+that avoided a 499-row data migration. Live: `/brands/`, `/brands/sur-ron/` (28 products),
+`/brands/ninebot-segway/`, `/brands/evolve/`, `/brands/dualtron/`, `/brands/aventon/`. Linked
+from the Footer on every page. Each page's H1/title/meta uses its researched primary keyword.
+
+---
+
 ## Session summary
 
 - Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)

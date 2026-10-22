@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
-import { SITE, CATEGORIES, PRODUCTS, FAQ, Product } from './config/site';
+import { SITE, CATEGORIES, PRODUCTS, FAQ, Product, getProductKeywordPhrase, BRANDS } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
 import { Header } from './components/Header';
@@ -18,6 +18,7 @@ const AdminReplyPortal = lazy(() => import('./components/admin/AdminReplyPortal'
 // Views
 import { HomeView } from './components/views/HomeView';
 import { ShopView } from './components/views/ShopView';
+import { BrandView } from './components/views/BrandView';
 import { BlogView } from './components/views/BlogView';
 import { AboutView } from './components/views/AboutView';
 import { ContactView } from './components/views/ContactView';
@@ -30,6 +31,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
   const [selectedSubSubcategory, setSelectedSubSubcategory] = useState<string | null>(null);
+  const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
   
   // Cart State
   const [cartItems, setCartItems] = useState<OrderItem[]>(() => {
@@ -87,6 +89,10 @@ export default function App() {
         setQuickViewProduct(null);
         setActiveTab('not-found');
       }
+    } else if (route === 'brands') {
+      setActiveTab('brands');
+      setSelectedBrand(parts[1] ? decodeURIComponent(parts[1]) : null);
+      setQuickViewProduct(null);
     } else if (route === 'blog') {
       setActiveTab('blog');
       setQuickViewProduct(null);
@@ -139,13 +145,20 @@ export default function App() {
       path = selectedCategory
         ? `/shop/${selectedCategory}${selectedSubcategory ? `/${selectedSubcategory}` : ''}/`
         : '/shop/';
+    } else if (activeTab === 'brands') {
+      path = selectedBrand ? `/brands/${selectedBrand}/` : '/brands/';
     } else if (activeTab !== 'home') {
       path = `/${activeTab}/`;
     }
     if (window.location.pathname !== path) {
       window.history.pushState(null, '', path);
     }
-  }, [activeTab, selectedCategory, selectedSubcategory, quickViewProduct]);
+  }, [activeTab, selectedCategory, selectedSubcategory, selectedBrand, quickViewProduct]);
+
+  const handleNavigateBrand = (slug: string | null) => {
+    setActiveTab('brands');
+    setSelectedBrand(slug);
+  };
 
   const handleSelectCategory = (cat: string | null, subcat?: string | null, subSubcat?: string | null) => {
     setSelectedCategory(cat);
@@ -204,6 +217,7 @@ export default function App() {
   // Per-route SEO: title/meta/canonical/JSON-LD for this hash-routed SPA.
   const activeCategoryObj = CATEGORIES.find(c => c.slug === selectedCategory);
   const activeSubcatObj = activeCategoryObj?.subcategories.find(s => s.slug === selectedSubcategory);
+  const activeBrandObj = BRANDS.find(b => b.slug === selectedBrand);
 
   const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[]; image?: string; noindex?: boolean }> = {
     home: {
@@ -232,6 +246,21 @@ export default function App() {
           { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
           { '@type': 'ListItem', position: 2, name: 'Shop', item: `https://${SITE.domain}/shop/` },
           ...(activeCategoryObj ? [{ '@type': 'ListItem', position: 3, name: activeCategoryObj.name, item: `https://${SITE.domain}/shop/${activeCategoryObj.slug}/` }] : [])
+        ]
+      }]
+    },
+    brands: {
+      title: activeBrandObj?.h1 || (activeBrandObj ? `${activeBrandObj.name} Australia` : 'Shop by Brand'),
+      description: activeBrandObj?.description || 'Genuine, authorized stock from the electric vehicle brands ALLIED carries — Perth-based service and spare parts for every model.',
+      path: selectedBrand ? `brands/${selectedBrand}` : 'brands',
+      image: activeBrandObj?.image,
+      jsonLd: [{
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
+          { '@type': 'ListItem', position: 2, name: 'Shop by Brand', item: `https://${SITE.domain}/brands/` },
+          ...(activeBrandObj ? [{ '@type': 'ListItem', position: 3, name: activeBrandObj.name, item: `https://${SITE.domain}/brands/${activeBrandObj.slug}/` }] : [])
         ]
       }]
     },
@@ -283,7 +312,7 @@ export default function App() {
   };
 
   const productSeo = quickViewProduct ? {
-    title: quickViewProduct.name,
+    title: `${quickViewProduct.name} | ${getProductKeywordPhrase(quickViewProduct)}`,
     description: quickViewProduct.shortDescription.slice(0, 155),
     path: `product/${quickViewProduct.slug}`,
     image: quickViewProduct.images[0],
@@ -354,6 +383,17 @@ export default function App() {
           />
         )}
 
+        {activeTab === 'brands' && (
+          <BrandView
+            selectedBrand={selectedBrand}
+            onNavigateBrand={handleNavigateBrand}
+            onAddToCart={handleAddToCart}
+            onQuickView={(p) => setQuickViewProduct(p)}
+            onToggleCompare={handleToggleCompare}
+            comparedIds={comparedIds}
+          />
+        )}
+
         {activeTab === 'blog' && <BlogView />}
 
         {activeTab === 'about' && <AboutView />}
@@ -392,6 +432,7 @@ export default function App() {
       <Footer
         setActiveTab={setActiveTab}
         setSelectedCategory={(cat) => handleSelectCategory(cat)}
+        setSelectedBrand={handleNavigateBrand}
       />
 
       {/* Drawers and Modals */}

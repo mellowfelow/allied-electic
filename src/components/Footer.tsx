@@ -1,14 +1,15 @@
 import React from 'react';
-import { SITE, CONTACT, BRAND, CATEGORIES } from '../config/site';
+import { SITE, CONTACT, BRAND, CATEGORIES, BRANDS } from '../config/site';
 import { BrandLogo } from './BrandLogo';
 import { Zap, ShieldCheck, Truck, Phone } from 'lucide-react';
 
 interface FooterProps {
   setActiveTab: (tab: string) => void;
   setSelectedCategory: (cat: string | null) => void;
+  setSelectedBrand: (slug: string | null) => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategory }) => {
+export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategory, setSelectedBrand }) => {
   return (
     <footer className="bg-slate-950 border-t border-slate-800 text-slate-400 text-sm">
       
@@ -139,6 +140,31 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, setSelectedCategor
           </ul>
         </div>
 
+      </div>
+
+      {/* Shop by Brand */}
+      <div className="border-t border-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-3">
+          <h4 className="font-semibold text-white text-sm uppercase tracking-wider font-mono">Shop by Brand</h4>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 text-xs">
+            {BRANDS.map((b) => (
+              <a
+                key={b.slug}
+                href={`/brands/${b.slug}/`}
+                onClick={(e) => {
+                  if (!e.ctrlKey && !e.metaKey && e.button === 0) {
+                    e.preventDefault();
+                    setActiveTab('brands');
+                    setSelectedBrand(b.slug);
+                  }
+                }}
+                className="hover:text-sky-400 transition-colors"
+              >
+                {b.name}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* Bottom Legal Copyright */}
