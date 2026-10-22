@@ -48,7 +48,7 @@ export const CompareView: React.FC<CompareViewProps> = ({
               <span>SPECIFICATION COMPARATOR</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold text-white">
-              Compare Products & Vehicles
+              Compare Electric Bikes & Vehicles
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 max-w-2xl">
               Compare technical specs, battery capacities, ranges, motor outputs, and prices side-by-side across all E-Bikes, Utility Vehicles, Batteries, Chargers, and Spare Parts.

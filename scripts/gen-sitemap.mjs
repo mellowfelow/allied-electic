@@ -32,6 +32,10 @@ const categories = categoryBlocks.map(block => {
   return { slug, subSlugs };
 });
 
+// --- brands ---
+const brandsSrc = section('export const BRANDS', 'export function getProductsForBrand');
+const brandSlugs = [...brandsSrc.matchAll(/slug: '([^']+)',/g)].map(m => m[1]);
+
 // --- products ---
 const productsSrc = section('export const PRODUCTS', '\nexport const POSTS');
 const productSlugs = [...productsSrc.matchAll(/    slug: '([^']+)',/g)].map(m => m[1]);
@@ -54,6 +58,10 @@ for (const cat of categories) {
   for (const sub of cat.subSlugs) {
     add(`shop/${cat.slug}/${sub}/`, '0.7');
   }
+}
+add('brands/', '0.7');
+for (const slug of brandSlugs) {
+  add(`brands/${slug}/`, '0.6');
 }
 add('blog/', '0.6');
 for (const slug of postSlugs) {

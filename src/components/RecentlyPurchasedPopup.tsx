@@ -26,7 +26,7 @@ export const RecentlyPurchasedPopup: React.FC<RecentlyPurchasedPopupProps> = ({ 
   } | null>(null);
 
   const DISPLAY_DURATION_MS = 6000; // Visible for 6 seconds
-  const INTERVAL_MS = 40500;        // Pops up every 40.5 seconds as requested!
+  const INTERVAL_MS = 85500;        // Pops up every 85.5 seconds (40.5s + 45s, as requested)
 
   const triggerNextPopup = () => {
     // Select random product and buyer
@@ -99,13 +99,16 @@ export const RecentlyPurchasedPopup: React.FC<RecentlyPurchasedPopupProps> = ({ 
           {/* Product Thumbnail Frame */}
           <div
             onClick={() => onQuickView && onQuickView(product)}
-            className="w-16 h-16 rounded-xl bg-slate-950 border border-slate-800 p-1 shrink-0 cursor-pointer overflow-hidden group-hover:border-cyan-500/50 transition-colors relative"
+            className="w-16 h-16 rounded-xl bg-white border border-slate-800 p-1 shrink-0 cursor-pointer overflow-hidden group-hover:border-cyan-500/50 transition-colors relative"
           >
             <img
               src={product.images[0]}
               alt={product.name}
+              width={64}
+              height={64}
               className="w-full h-full object-contain"
-              loading="lazy"
+              loading="eager"
+              decoding="sync"
             />
             <div className="absolute inset-0 bg-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
               <ExternalLink className="w-4 h-4 text-cyan-400" />

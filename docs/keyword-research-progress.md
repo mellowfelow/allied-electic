@@ -558,6 +558,34 @@ schema/structured-data correctness, not keyword targeting.
 
 ---
 
+## Round 5 (2026-10-22): Full-site coverage audit + popup fix
+
+**Popup fix (not keyword work, requested alongside the audit):** `RecentlyPurchasedPopup`
+(bottom-left toast) had its product thumbnail set to `loading="lazy"` with a dark background —
+switched to eager loading + a white background matching the rest of the site's product-photo
+convention, and bumped the recurrence interval from 40.5s to 85.5s (+45s, as requested).
+
+**Full-site audit — real gaps found and fixed:**
+1. **Sitemap generator never knew about `/brands/`** — `scripts/gen-sitemap.mjs` only read
+   `CATEGORIES`/`PRODUCTS`/`POSTS`; all 21 brand URLs (index + 20 brand pages) were silently
+   missing from `sitemap.xml`. Fixed — sitemap now has 607 URLs (was 586), verified 519 unique
+   products + 59 shop pages + 21 brand URLs + the rest.
+2. **`llms.txt` had no brand section** — added a "Shop by Brand" block listing all 20 brand
+   pages with one-line descriptions, matching the existing category-section format.
+3. **Live `FAQ` array (feeds both `/faq/` and the homepage FAQPage schema) predated the keyword
+   research** — only had 5 generic Q&As, missing the real researched question-intent terms from
+   `faq-bank.md` (pricing, mobility scooter licensing, parts availability). Updated to 8 entries,
+   keeping the genuine ALLIED-specific facts (warranty, freight, folding mechanism) and adding
+   the 3 missing researched questions.
+4. **Compare page H1/title mismatch** — H1 said "Compare Products & Vehicles", title tag said
+   "Compare Electric Bikes & Vehicles". Aligned to the title tag wording.
+
+**Verified clean:** all 58 category/subcategory H1s + all 20 brand H1s are unique (78 total, zero
+duplicates) — re-ran the same check from Rounds 1 and 3 to confirm nothing regressed across the
+later rounds' edits.
+
+---
+
 ## Session summary
 
 - Pages mapped: 60 (homepage, shop, 10 category hubs, 48 subcategories)

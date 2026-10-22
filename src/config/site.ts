@@ -15864,16 +15864,28 @@ export const POSTS = [
 
 export const FAQ = [
   {
-    question: 'Are ALLIED Electric Bikes street legal in Australia?',
-    answer: 'Yes! All ALLIED Electric Bikes adhere strictly to Australian EN15194 standards for pedal-assist electric bicycles (Pedelec 250W/350W capped at 25km/h motor assistance), making them 100% road legal without requiring a driver licence or vehicle registration.'
+    question: 'Are electric bikes legal in Australia?',
+    answer: 'Yes — as long as they meet the national power-assisted pedal cycle standard (EN15194): a continuous motor rating of 250W-350W and pedal-assist that cuts out at 25km/h. Every ALLIED electric bike meets this standard, so no licence or registration is required.'
+  },
+  {
+    question: 'How much does an electric bike cost in Australia?',
+    answer: 'Our range spans entry-level commuter e-bikes through to premium cargo, mountain and fat-tyre models — browse the full catalogue for current pricing, or use the 10% direct bank wire / cryptocurrency discount to reduce the total.'
   },
   {
     question: 'What is the range per charge on ALLIED e-bikes?',
     answer: 'Our 36V and 48V LG/Samsung lithium battery packs deliver up to 70-90km of pedal-assist range per charge, depending on the model, terrain and assist level used.'
   },
   {
+    question: 'Do I need a licence to ride a mobility scooter in Australia?',
+    answer: 'No licence is required for a standard mobility scooter in most states, but speed and footpath-use rules vary — check your state transport authority before buying a heavy-duty or all-terrain model.'
+  },
+  {
     question: 'How does the folding mechanism work on ALLIED folding e-bikes?',
     answer: 'Our folding e-bike models use a heavy-duty 3-step safety latch folding mechanism. The main frame, seat post, and handlebar stem fold down in under 15 seconds into a compact package that easily fits in car boots or caravan lockers.'
+  },
+  {
+    question: 'Can I buy replacement parts and batteries separately?',
+    answer: 'Yes — our Batteries, Parts & Kits range covers batteries, chargers, tyres, brake pads and conversion kits for e-bikes, scooters, skateboards, mobility scooters and kids\' EVs, all dispatched from our Perth depot.'
   },
   {
     question: 'What is the minimum order value and Australian freight delivery time?',
