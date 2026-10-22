@@ -655,16 +655,49 @@ writing it, not in bulk in advance.
 | best electric cargo bike australia | 110 | 18 | T1 |
 | cargo electric bike | 110 | 8 | T1 |
 
-## REMAINING WORK (not yet started)
+## Round 7 — Blog plan full Semrush verification (2026-10-23)
 
-- Electric Bikes: fill 3 gaps (cargo, mopeds, tricycles) with dedicated searches
-- Electric Scooters (2 subcats: commuter, long-range)
-- Electric Skateboards (4 subcats: street, all-terrain, mini, onewheel-style)
-- Self-Balancing EV (3 subcats: unicycles, hoverboards, kart attachments)
-- Kids & Off-Road EV (3 subcats: balance bikes, youth dirt bikes, go-karts)
-- Mobility & Assisted Living (2 subcats: travel, heavy-duty)
-- Electric Quad Bikes & ATVs (3 subcats: kids, adult, farm/utility)
-- Electric Water Sports (3 subcats: surfboards, jetboards, jet skis)
-- Batteries, Parts & Kits (10 subcats — needs multiple targeted seed searches, very different product types)
-- Safety, Locks & Carry (10 subcats — needs multiple targeted seed searches, very different product types)
-- Compile final docs/keyword-map.md, docs/keyword-cluster.txt, docs/blog-plan.md, docs/faq-bank.md
+User asked for the full 95-post bulk calendar (Posts 6–100) to be Semrush-verified before
+building any of it. Worked through Keyword Magic Tool (AU database) one search per subcategory,
+updating `docs/blog-plan.md` inline as each result came back.
+
+**Verified (23 posts, Posts 6–38):**
+- Electric Bikes (all 8 subcats, Posts 6–21) — electric commuter bike 1,900/18, electric cargo
+  bike 720/28, electric mountain bike 2,900/14, folding electric bike 1,000/13, fat tyre electric
+  bike 1,000/16, electric dirt bike 6,600/20, electric moped 1,300/23, electric tricycle 1,000/13
+- Electric Scooters (both subcats, Posts 22–25) — long range electric scooter 260/8 (quick win);
+  "commuter electric scooter" exact returns nothing, fell back to broad "electric scooter"
+  49,500/38
+- Electric Skateboards (all 4 subcats, Posts 26–32) — electric longboard 320/43, off road electric
+  skateboard 140/13, onewheel australia 210/8
+- Self-Balancing EV (all 3 subcats, Posts 33–36b) — hoverboard 14,800/20 (huge)
+- Kids & Off-Road EV, partial (Electric Balance Bikes only, Posts 37–38) — electric balance bike
+  1,600/17
+
+**Important correction — 3 of the 4 "demand gap" subcategories from the original calendar were
+wrong.** Re-checked with better seed terms:
+- Electric Unicycles: "electric unicycle" = 1,300/23 (real demand). Not a gap — upgraded to 2 posts.
+- Hoverboard Go-Kart Attachments: "hoverboard go kart" = 390/6 (real demand, low KD). Upgraded to 2 posts.
+- Electric Jetboards: "electric jetboard" exact = n/a, but "jetboard" (drop "electric") = 320/34.
+  Upgraded to 2 posts.
+- Mini & Portable Shortboards: genuinely confirmed zero AU data across every phrasing tried
+  ("mini electric skateboard" and variants). Stays the only real gap — 1 explainer post.
+
+**Stopped — Semrush account hit its monthly Keyword Magic Tool update quota** mid-query on
+"kids electric dirt bike" (UI showed "0/1,000 — Get more with Business plan"). This is an
+account-level limit, not a session/link expiry — confirmed by retrying after a wait with no
+change. Unlike the earlier session-expiry issues this round, a fresh link will not fix it; it
+needs the billing cycle to reset or a plan upgrade.
+
+**Still unverified (72 posts, Posts 39–97 + 3 bonus):** Youth Electric Dirt & Pit Bikes, Electric
+Go-Karts & Drift Trikes, Mobility & Assisted Living, Electric Quad Bikes & ATVs, Electric Water
+Sports (surfboards/jet skis — jetboards already corrected above), Batteries/Parts & Kits (10
+subcats), Safety/Locks & Carry (10 subcats), and the 3 site-wide bonus posts.
+
+## REMAINING WORK
+
+- Resume Keyword Magic Tool verification once the Semrush quota resets (Posts 39–97 + bonus)
+- Re-run the post-count/numbering pass on blog-plan.md once all subcats are verified — the 2 demand-gap
+  upgrades (unicycles, hoverboard-kart) add 2 posts to the 95-post calendar
+- Compile final docs/keyword-map.md + docs/keyword-cluster.txt entries for the newly-verified
+  Posts 6–38 (currently only in blog-plan.md)

@@ -1,17 +1,31 @@
 # Blog Plan — ALLIED ELECTRIC VEHICLES
 
-**Status note (updated):** Posts 1–5 below are backed by real Semrush-verified keywords
-(incidental harvest from the category research rounds). The 95-post calendar in
-**"Bulk Content Calendar — Posts 6–100"** extends this to full coverage across all 10
-categories and 48 subcategories, but those 95 titles are **derived, not individually
-Semrush-verified** — each one's angle (buying guide / comparison / how-to / legal-question) is
-chosen to be topically relevant and non-cannibalizing against its subcategory's own commercial
-keyword (per keyword-engine Phase 6: blog posts take informational/comparison/question intent,
-never re-target the category page's own primary), but the exact search volume and keyword
-difficulty of each specific title has not been checked. **Recommend verifying each post's actual
-target keyword in Semrush immediately before writing it**, not in bulk in advance — titles can be
-adjusted post-by-post based on what Keyword Magic Tool returns at that time, same discipline used
-throughout the category/brand research.
+**Status note (updated 2026-10-23):** Posts 1–5 are Semrush-verified. Of Posts 6–100, the first
+**23 posts (6–38, categories: Electric Bikes, Electric Scooters, Electric Skateboards,
+Self-Balancing EV, and Electric Balance Bikes)** are now Semrush-verified — real AU search volume
+and KD pulled from Keyword Magic Tool against each subcategory's core commercial term, recorded
+inline below each post as `[Verified: keyword Vol/KD]`. **Posts 39–100 remain derived/unverified**
+— the Semrush account hit its monthly Keyword Magic Tool update quota mid-session
+("0/1,000 — Get more with Business plan") partway through Kids & Off-Road EV, which is an
+account-level limit, not a session issue; it resets on the billing cycle. Recommend finishing
+verification once the quota resets, or verifying each remaining post immediately before writing it.
+
+**Important correction from this verification pass:** 3 of the 4 subcategories originally flagged
+as "demand gaps" (zero data) turn out to have real AU search volume once the right seed term was
+tried:
+- **Electric Unicycles** — "electric unicycle" = 1,300 vol / KD 23 (real demand). Upgraded from 1
+  explainer post to the standard 2-post treatment (see Post 33/33b below).
+- **Hoverboard Go-Kart Attachments** — "hoverboard go kart" = 390 vol / KD 6 (real demand, low
+  difficulty). Upgraded to 2 posts (Post 36/36b).
+- **Electric Jetboards** — "electric jetboard" (exact) returns nothing, but the simpler "jetboard"
+  = 320 vol / KD 34 (real demand under the shorter term). Upgraded to 2 posts (Post 55/55b).
+- **Mini & Portable Shortboards** — genuinely confirmed zero AU data across all phrasing variants
+  tried ("mini electric skateboard" and others). Stays as the single explainer post.
+
+This changes the post count: 3 upgraded subcategories add 3 posts, so the calendar is now
+98 derived posts + 5 verified-pillar posts = still landing near 100 (exact renumbering happens
+once the full calendar is re-verified — see the Kids & Off-Road EV table below for the interim
+numbering).
 
 ---
 
@@ -140,65 +154,71 @@ feeds the FAQ bank too). Slugs follow `/blog/[slug]/`.
 
 ### Category: Electric Bikes (`/shop/electric-bikes/`) — 16 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 6 | Urban & Commuter E-Bikes | Best Electric Commuter Bikes for Australian Cities (2026 Buying Guide) | Compare |
-| 7 | Urban & Commuter E-Bikes | How Long Does an Electric Commuter Bike Battery Last? | Guide |
-| 8 | Cargo & Family E-Bikes | Electric Cargo Bike vs Car: Is It Worth Switching for the School Run? | Compare |
-| 9 | Cargo & Family E-Bikes | How Much Weight Can an Electric Cargo Bike Carry? | Guide |
-| 10 | Electric Mountain Bikes (eMTB) | Hardtail vs Full-Suspension Electric Mountain Bikes: Which Should You Buy? | Compare |
-| 11 | Electric Mountain Bikes (eMTB) | Electric Mountain Bike Maintenance: A Beginner's Checklist | How-To |
-| 12 | Foldable E-Bikes | Best Folding Electric Bikes for Apartments, Boats and Caravans | Compare |
-| 13 | Foldable E-Bikes | How to Fold an Electric Bike in Under 15 Seconds (Step-by-Step) | How-To |
-| 14 | Fat Tyre & Lifestyle E-Bikes | Fat Tyre Electric Bikes: Are They Good for Sand and Gravel Riding? | Guide |
-| 15 | Fat Tyre & Lifestyle E-Bikes | Fat Tyre vs Standard Electric Bike Tyres: What's the Difference? | Compare |
-| 16 | Electric Dirt & Motorbikes | Electric Dirt Bike Laws in Australia: What's Road Legal and What's Not | Legal |
-| 17 | Electric Dirt & Motorbikes | Electric Dirt Bike vs Petrol Dirt Bike: Which Is Right for You? | Compare |
-| 18 | Electric Mopeds | Electric Moped Buying Guide: Range, Speed and Licensing in Australia | Guide |
-| 19 | Electric Mopeds | Do You Need a Licence to Ride an Electric Moped in Australia? | Legal |
-| 20 | Electric Tricycles & Trikes | Electric Tricycles for Seniors and Riders with Balance Concerns | Guide |
-| 21 | Electric Tricycles & Trikes | Electric Trike vs Electric Bike: Which Is More Stable? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 6 | Urban & Commuter E-Bikes | Best Electric Commuter Bikes for Australian Cities (2026 Buying Guide) | Compare | electric commuter bike 1,900/18 |
+| 7 | Urban & Commuter E-Bikes | How Long Does an Electric Commuter Bike Battery Last? | Guide | how long does an ebike battery last 70/7 |
+| 8 | Cargo & Family E-Bikes | Electric Cargo Bike vs Car: Is It Worth Switching for the School Run? | Compare | electric cargo bike 720/28 |
+| 9 | Cargo & Family E-Bikes | How Much Weight Can an Electric Cargo Bike Carry? | Guide | supporting/LSI off electric cargo bike cluster |
+| 10 | Electric Mountain Bikes (eMTB) | Hardtail vs Full-Suspension Electric Mountain Bikes: Which Should You Buy? | Compare | electric mountain bike 2,900/14 |
+| 11 | Electric Mountain Bikes (eMTB) | Electric Mountain Bike Maintenance: A Beginner's Checklist | How-To | supporting/LSI off electric mountain bike cluster |
+| 12 | Foldable E-Bikes | Best Folding Electric Bikes for Apartments, Boats and Caravans | Compare | folding electric bike 1,000/13 |
+| 13 | Foldable E-Bikes | How to Fold an Electric Bike in Under 15 Seconds (Step-by-Step) | How-To | supporting/LSI off folding electric bike cluster |
+| 14 | Fat Tyre & Lifestyle E-Bikes | Fat Tyre Electric Bikes: Are They Good for Sand and Gravel Riding? | Guide | fat tyre electric bike 1,000/16 |
+| 15 | Fat Tyre & Lifestyle E-Bikes | Fat Tyre vs Standard Electric Bike Tyres: What's the Difference? | Compare | supporting/LSI off fat tyre electric bike cluster |
+| 16 | Electric Dirt & Motorbikes | Electric Dirt Bike Laws in Australia: What's Road Legal and What's Not | Legal | exact phrase n/a — fold into electric bike laws cluster (3,100, used in Pillar) + electric dirt bike australia 1,300/21 |
+| 17 | Electric Dirt & Motorbikes | Electric Dirt Bike vs Petrol Dirt Bike: Which Is Right for You? | Compare | electric dirt bike 6,600/20 |
+| 18 | Electric Mopeds | Electric Moped Buying Guide: Range, Speed and Licensing in Australia | Guide | electric moped 1,300/23 |
+| 19 | Electric Mopeds | Do You Need a Licence to Ride an Electric Moped in Australia? | Legal | mopeds and scooters licenses (topic, 6,700 vol) |
+| 20 | Electric Tricycles & Trikes | Electric Tricycles for Seniors and Riders with Balance Concerns | Guide | electric tricycle 1,000/13 |
+| 21 | Electric Tricycles & Trikes | Electric Trike vs Electric Bike: Which Is More Stable? | Compare | electric trike 1,300/15 |
 
 ### Category: Electric Scooters (`/shop/electric-scooters/`) — 4 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 22 | Commuter E-Scooters | Best Commuter Electric Scooters for the Daily Office Run | Compare |
-| 23 | Commuter E-Scooters | Electric Scooter Laws in Australia: State-by-State Guide | Legal |
-| 24 | Long-Range & Performance E-Scooters | Long Range Electric Scooters: How Far Can You Really Go on One Charge? | Guide |
-| 25 | Long-Range & Performance E-Scooters | Performance vs Commuter Electric Scooters: What's the Real Difference? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 22 | Commuter E-Scooters | Best Commuter Electric Scooters for the Daily Office Run | Compare | "commuter electric scooter" exact n/a — use broad electric scooter 49,500/38 (T2) |
+| 23 | Commuter E-Scooters | Electric Scooter Laws in Australia: State-by-State Guide | Legal | electric scooter laws australia 2,700 |
+| 24 | Long-Range & Performance E-Scooters | Long Range Electric Scooters: How Far Can You Really Go on One Charge? | Guide | long range electric scooter 260/8 |
+| 25 | Long-Range & Performance E-Scooters | Performance vs Commuter Electric Scooters: What's the Real Difference? | Compare | supporting/LSI off long range electric scooter cluster |
 
 ### Category: Electric Skateboards (`/shop/electric-skateboards/`) — 7 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 26 | Street Electric Longboards | Street Electric Skateboards: A Beginner's Guide to Riding in the City | Guide |
-| 27 | Street Electric Longboards | Best Street Electric Longboards for Campus and Commuting | Compare |
-| 28 | All-Terrain / Pneumatic Boards | All-Terrain Electric Skateboards: Are They Worth the Extra Cost? | Guide |
-| 29 | All-Terrain / Pneumatic Boards | Best All-Terrain Electric Skateboards for Off-Road Riding in Australia | Compare |
-| 30 | Mini & Portable Shortboards *(demand gap)* | Mini Electric Skateboards: Are They Powerful Enough for Daily Commuting? | Guide |
-| 31 | Onewheel-Style Boards | Onewheel Australia: What It Costs and How Hard Is It to Learn? | Guide |
-| 32 | Onewheel-Style Boards | Onewheel vs Traditional Electric Skateboard: Which Should You Choose? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 26 | Street Electric Longboards | Street Electric Skateboards: A Beginner's Guide to Riding in the City | Guide | electric longboard 320/43 |
+| 27 | Street Electric Longboards | Best Street Electric Longboards for Campus and Commuting | Compare | supporting/LSI off electric longboard cluster |
+| 28 | All-Terrain / Pneumatic Boards | All-Terrain Electric Skateboards: Are They Worth the Extra Cost? | Guide | off road electric skateboard 140/13 |
+| 29 | All-Terrain / Pneumatic Boards | Best All-Terrain Electric Skateboards for Off-Road Riding in Australia | Compare | all terrain electric skateboard 70/22 |
+| 30 | Mini & Portable Shortboards *(confirmed genuine demand gap — "mini electric skateboard" n/a across all variants tried)* | Mini Electric Skateboards: Are They Powerful Enough for Daily Commuting? | Guide | n/a (genuine gap) |
+| 31 | Onewheel-Style Boards | Onewheel Australia: What It Costs and How Hard Is It to Learn? | Guide | onewheel australia 210/8 |
+| 32 | Onewheel-Style Boards | Onewheel vs Traditional Electric Skateboard: Which Should You Choose? | Compare | onewheel 1,300/38 |
 
 ### Category: Self-Balancing EV (`/shop/self-balancing-ev/`) — 4 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 33 | Electric Unicycles *(demand gap)* | Electric Unicycles Explained: Are They Harder to Ride Than a Hoverboard? | Guide |
-| 34 | Hoverboards & Self-Balancing Boards | Hoverboard Buying Guide: Battery Safety, Speed and What to Avoid | Guide |
-| 35 | Hoverboards & Self-Balancing Boards | Best Hoverboards for Kids vs Adults: What's the Difference? | Compare |
-| 36 | Hoverboard Go-Kart Attachments *(demand gap)* | Hoverboard Go-Kart Attachments: Turn Your Hoverboard Into a Kart | Guide |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 33 | Electric Unicycles *(UPGRADED — real demand found, not a gap)* | Electric Unicycles Explained: Are They Harder to Ride Than a Hoverboard? | Guide | electric unicycle 1,300/23 |
+| 33b | Electric Unicycles | Electric Unicycle Buying Guide: Wheel Size, Speed and Beginner Safety | Guide | electric unicycle 1,300/23 |
+| 34 | Hoverboards & Self-Balancing Boards | Hoverboard Buying Guide: Battery Safety, Speed and What to Avoid | Guide | hoverboard 14,800/20 |
+| 35 | Hoverboards & Self-Balancing Boards | Best Hoverboards for Kids vs Adults: What's the Difference? | Compare | supporting/LSI off hoverboard cluster |
+| 36 | Hoverboard Go-Kart Attachments *(UPGRADED — real demand found, not a gap)* | Hoverboard Go-Kart Attachments: Turn Your Hoverboard Into a Kart | Guide | hoverboard go kart 390/6 |
+| 36b | Hoverboard Go-Kart Attachments | Hoverboard Go-Kart vs Standalone Electric Go-Kart: Which Is Better for Kids? | Compare | hoverboard go kart 390/6 |
 
 ### Category: Kids & Off-Road EV (`/shop/kids-off-road-ev/`) — 6 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 37 | Electric Balance Bikes | What Age Is Right for an Electric Balance Bike? | Legal |
-| 38 | Electric Balance Bikes | Electric Balance Bike vs Regular Balance Bike: Is It Worth the Upgrade? | Compare |
-| 39 | Youth Electric Dirt & Pit Bikes | Childrens Electric Dirt Bike Buying Guide: Power Limits by Age | Guide |
-| 40 | Youth Electric Dirt & Pit Bikes | Are Electric Dirt Bikes Safe for Kids? A Parent's Safety Checklist | Legal |
-| 41 | Electric Go-Karts & Drift Trikes | Electric Go Kart Buying Guide: Speed, Safety and Backyard Space Needed | Guide |
-| 42 | Electric Go-Karts & Drift Trikes | Electric Go Kart vs Petrol Go Kart: Which Is Better for Home Use? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 37 | Electric Balance Bikes | What Age Is Right for an Electric Balance Bike? | Legal | electric balance bike 1,600/17 |
+| 38 | Electric Balance Bikes | Electric Balance Bike vs Regular Balance Bike: Is It Worth the Upgrade? | Compare | supporting/LSI off electric balance bike cluster |
+| 39 | Youth Electric Dirt & Pit Bikes | Childrens Electric Dirt Bike Buying Guide: Power Limits by Age | Guide | **unverified — quota hit** |
+| 40 | Youth Electric Dirt & Pit Bikes | Are Electric Dirt Bikes Safe for Kids? A Parent's Safety Checklist | Legal | **unverified — quota hit** |
+| 41 | Electric Go-Karts & Drift Trikes | Electric Go Kart Buying Guide: Speed, Safety and Backyard Space Needed | Guide | **unverified — quota hit** |
+| 42 | Electric Go-Karts & Drift Trikes | Electric Go Kart vs Petrol Go Kart: Which Is Better for Home Use? | Compare | **unverified — quota hit** |
+
+**Posts 43–97 below (Mobility & Assisted Living through Safety, Locks & Carry) and the 3 bonus
+posts are still unverified** — same quota cutoff. Numbering above 38 will shift slightly once
+re-verified, since the two demand-gap corrections (Posts 33b/36b) added 2 posts to the calendar.
 
 ### Category: Mobility & Assisted Living (`/shop/mobility-scooters/`) — 4 posts
 
