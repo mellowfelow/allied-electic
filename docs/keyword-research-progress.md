@@ -694,10 +694,34 @@ Go-Karts & Drift Trikes, Mobility & Assisted Living, Electric Quad Bikes & ATVs,
 Sports (surfboards/jet skis — jetboards already corrected above), Batteries/Parts & Kits (10
 subcats), Safety/Locks & Carry (10 subcats), and the 3 site-wide bonus posts.
 
+## Round 7 continued — full verification completed (2026-10-23, same day)
+
+The quota issue resolved itself on a fresh Semrush link (turned out to be a transient glitch, not
+a real monthly cap — resumed immediately with no change needed). Finished verifying all remaining
+posts in one continuous pass: Posts 39–97, the 3 upgraded demand-gap companion posts (33b, 36b,
+55b), and the 3 site-wide bonus posts (98–100). Every post in `docs/blog-plan.md` now has a
+Semrush-verified keyword (or an explicit, honest "no AU data" note where the exact phrase returned
+nothing — e.g. farm/utility quad, kids dirt bike batteries, e-bike tyres as a low-volume niche).
+
+**Final calendar size: 103 posts** (5 pillar/cluster posts + 98 bulk-calendar posts — the bulk
+count grew from 95 to 98 because the 3 demand-gap corrections each added a companion post).
+
+**Notable findings from the full pass:**
+- Several "Compare"/"How-To" companion posts in the same subcategory don't get their own separate
+  keyword — they ride the primary post's keyword cluster (marked "supporting/LSI" in blog-plan.md),
+  consistent with keyword-engine's T3 rule against building a page for a near-duplicate-intent term.
+- A few planned long-tails returned zero AU data under their exact phrasing even though the
+  subcategory itself has real demand: "electric dirt bike laws australia", "electric dirt bike
+  battery", "electric utility quad"/"electric farm quad", "electric scooter spare parts",
+  "hub motor conversion kit", "hi vis cycling jacket" (dominated by industrial workwear searches,
+  not relevant). Each is documented honestly in blog-plan.md with what the post folds into instead.
+- Posts 98 and 100 (site-wide bonus/hub posts) don't have dedicated commercial keywords by design —
+  they're cross-category navigation and ALLIED-specific informational content, not built to rank
+  for a single search term.
+
 ## REMAINING WORK
 
-- Resume Keyword Magic Tool verification once the Semrush quota resets (Posts 39–97 + bonus)
-- Re-run the post-count/numbering pass on blog-plan.md once all subcats are verified — the 2 demand-gap
-  upgrades (unicycles, hoverboard-kart) add 2 posts to the 95-post calendar
-- Compile final docs/keyword-map.md + docs/keyword-cluster.txt entries for the newly-verified
-  Posts 6–38 (currently only in blog-plan.md)
+- `docs/blog-plan.md` is now the single source of truth for all 103 posts' verified keywords —
+  compile `docs/keyword-map.md` + `docs/keyword-cluster.txt` entries from it before Mode 2 (Site
+  Update) blog-post builds start pulling from those files
+- Ready for user approval to begin writing/building the actual blog post content (Posts 1 onward)

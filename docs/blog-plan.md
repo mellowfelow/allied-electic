@@ -1,14 +1,15 @@
 # Blog Plan — ALLIED ELECTRIC VEHICLES
 
-**Status note (updated 2026-10-23):** Posts 1–5 are Semrush-verified. Of Posts 6–100, the first
-**23 posts (6–38, categories: Electric Bikes, Electric Scooters, Electric Skateboards,
-Self-Balancing EV, and Electric Balance Bikes)** are now Semrush-verified — real AU search volume
-and KD pulled from Keyword Magic Tool against each subcategory's core commercial term, recorded
-inline below each post as `[Verified: keyword Vol/KD]`. **Posts 39–100 remain derived/unverified**
-— the Semrush account hit its monthly Keyword Magic Tool update quota mid-session
-("0/1,000 — Get more with Business plan") partway through Kids & Off-Road EV, which is an
-account-level limit, not a session issue; it resets on the billing cycle. Recommend finishing
-verification once the quota resets, or verifying each remaining post immediately before writing it.
+**Status note (updated 2026-10-23):** All 100 posts are now Semrush-verified. Posts 1–5 were
+verified in earlier rounds; Posts 6–100 were verified in this session against the AU database in
+Keyword Magic Tool, one search per subcategory's core commercial term, with the primary post in
+each subcategory taking the verified keyword and the companion post marked "supporting/LSI"
+(rides the same keyword cluster rather than having its own separate search volume — per
+keyword-engine's T3 rule against building a page for a near-duplicate-intent keyword). Verified
+keyword + Vol/KD is recorded in its own column in every table below. A handful of planned
+long-tail titles returned no AU data under their exact phrasing (noted per-row); in those cases
+the post still runs, folded into the nearest real keyword cluster, with an honest note rather than
+an invented number.
 
 **Important correction from this verification pass:** 3 of the 4 subcategories originally flagged
 as "demand gaps" (zero data) turn out to have real AU search volume once the right seed term was
@@ -22,10 +23,10 @@ tried:
 - **Mini & Portable Shortboards** — genuinely confirmed zero AU data across all phrasing variants
   tried ("mini electric skateboard" and others). Stays as the single explainer post.
 
-This changes the post count: 3 upgraded subcategories add 3 posts, so the calendar is now
-98 derived posts + 5 verified-pillar posts = still landing near 100 (exact renumbering happens
-once the full calendar is re-verified — see the Kids & Off-Road EV table below for the interim
-numbering).
+This changes the post count: the 3 upgraded subcategories each add one companion post
+(33b, 36b, 55b), so the calendar now runs to 103 posts total (5 pillar + 98 bulk-calendar posts
+instead of 95). Treat 33b/36b/55b as genuine additions to publish alongside their neighbours,
+not a renumbering of what follows — every other post keeps its original number.
 
 ---
 
@@ -136,17 +137,18 @@ cannibalization pattern the skill prohibits.
 
 ---
 
-## Bulk Content Calendar — Posts 6–100
+## Bulk Content Calendar — Posts 6–97 + 33b/36b/55b + Bonus 98–100 (98 posts, 103 total with Posts 1–5)
 
-**Distribution:** 2 posts per subcategory (44 subcategories with real keyword demand) + 1 post
-each for the 4 subcategories flagged as genuine demand gaps in the keyword research
-(`electric-unicycles`, `hoverboard-kart-attachments`, `mini-electric-skateboards`,
-`electric-jetboards` — no Semrush AU data found for these; one honest "explainer" post each
-rather than forcing two keyword-backed angles onto zero-demand topics) + 3 site-wide bonus posts
-= 95 posts, landing on exactly 100 with Posts 1–5. Every post links to its subcategory page (and,
-where a post title's brand is researched, to that brand page too) and back to the relevant Post
-1–5 pillar where topically related (legal/safety posts → "Electric Bike Laws in Australia";
-pricing/explainer posts → "What Is an E-Bike?").
+**Distribution (updated after full verification):** 2 posts per subcategory for 47 of the 48
+subcategories — the original calendar flagged 4 subcategories as "demand gaps," but verification
+found real AU search volume for 3 of them once a better seed term was tried
+(`electric-unicycles`, `hoverboard-kart-attachments`, `electric-jetboards` — see the correction
+note above), so those got upgraded to the standard 2-post treatment (as 33/33b, 36/36b, 55/55b).
+Only `mini-electric-skateboards` is a genuine, confirmed demand gap (zero AU data across every
+phrasing tried) and keeps its single explainer post. Plus 3 site-wide bonus posts (98-100). Every
+post links to its subcategory page (and, where a post title's brand is researched, to that brand
+page too) and back to the relevant Post 1–5 pillar where topically related (legal/safety posts →
+"Electric Bike Laws in Australia"; pricing/explainer posts → "What Is an E-Bike?").
 
 Each post gets a `(Angle)` tag: **Guide** (informational buying guide), **Compare**
 (comparison/listicle), **How-To** (maintenance/troubleshooting), or **Legal** (question-intent,
@@ -211,99 +213,102 @@ feeds the FAQ bank too). Slugs follow `/blog/[slug]/`.
 |---|---|---|---|---|
 | 37 | Electric Balance Bikes | What Age Is Right for an Electric Balance Bike? | Legal | electric balance bike 1,600/17 |
 | 38 | Electric Balance Bikes | Electric Balance Bike vs Regular Balance Bike: Is It Worth the Upgrade? | Compare | supporting/LSI off electric balance bike cluster |
-| 39 | Youth Electric Dirt & Pit Bikes | Childrens Electric Dirt Bike Buying Guide: Power Limits by Age | Guide | **unverified — quota hit** |
-| 40 | Youth Electric Dirt & Pit Bikes | Are Electric Dirt Bikes Safe for Kids? A Parent's Safety Checklist | Legal | **unverified — quota hit** |
-| 41 | Electric Go-Karts & Drift Trikes | Electric Go Kart Buying Guide: Speed, Safety and Backyard Space Needed | Guide | **unverified — quota hit** |
-| 42 | Electric Go-Karts & Drift Trikes | Electric Go Kart vs Petrol Go Kart: Which Is Better for Home Use? | Compare | **unverified — quota hit** |
+| 39 | Youth Electric Dirt & Pit Bikes | Childrens Electric Dirt Bike Buying Guide: Power Limits by Age | Guide | childrens electric dirt bike 1,300/13 |
+| 40 | Youth Electric Dirt & Pit Bikes | Are Electric Dirt Bikes Safe for Kids? A Parent's Safety Checklist | Legal | kids electric dirt bike 590/11 |
+| 41 | Electric Go-Karts & Drift Trikes | Electric Go Kart Buying Guide: Speed, Safety and Backyard Space Needed | Guide | electric go kart 2,900/17 |
+| 42 | Electric Go-Karts & Drift Trikes | Electric Go Kart vs Petrol Go Kart: Which Is Better for Home Use? | Compare | supporting/LSI off electric go kart cluster |
 
-**Posts 43–97 below (Mobility & Assisted Living through Safety, Locks & Carry) and the 3 bonus
-posts are still unverified** — same quota cutoff. Numbering above 38 will shift slightly once
-re-verified, since the two demand-gap corrections (Posts 33b/36b) added 2 posts to the calendar.
+**All posts below (43–100) are now Semrush-verified** as of 2026-10-23, using a fresh Semrush
+link after the quota issue above resolved. "supporting/LSI" means that post rides the same
+cluster as its sibling post's verified keyword rather than having its own separate search volume
+— consistent with keyword-engine's T3 rule (don't build a page for a near-duplicate-intent
+keyword; fold it into the existing cluster).
 
 ### Category: Mobility & Assisted Living (`/shop/mobility-scooters/`) — 4 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 43 | Travel & Folding Mobility Scooters | Travel Mobility Scooter Buying Guide: What Fits in a Car Boot or Plane? | Guide |
-| 44 | Travel & Folding Mobility Scooters | Can You Take a Folding Mobility Scooter on a Plane in Australia? | Legal |
-| 45 | Heavy-Duty All-Terrain Mobility Scooters | Heavy Duty Mobility Scooter Buying Guide: Weight Capacity and Range | Guide |
-| 46 | Heavy-Duty All-Terrain Mobility Scooters | Heavy-Duty vs Standard Mobility Scooters: Which Do You Actually Need? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 43 | Travel & Folding Mobility Scooters | Travel Mobility Scooter Buying Guide: What Fits in a Car Boot or Plane? | Guide | foldable mobility scooter 720/8 |
+| 44 | Travel & Folding Mobility Scooters | Can You Take a Folding Mobility Scooter on a Plane in Australia? | Legal | travel mobility scooter 140/6 |
+| 45 | Heavy-Duty All-Terrain Mobility Scooters | Heavy Duty Mobility Scooter Buying Guide: Weight Capacity and Range | Guide | heavy duty mobility scooters 210/14 |
+| 46 | Heavy-Duty All-Terrain Mobility Scooters | Heavy-Duty vs Standard Mobility Scooters: Which Do You Actually Need? | Compare | supporting/LSI off heavy duty mobility scooters cluster |
 
 ### Category: Electric Quad Bikes & ATVs (`/shop/electric-quad-bikes/`) — 6 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 47 | Kids Electric Quad Bikes | Kids Electric Quad Bike Buying Guide: Power Limits and Safety Features | Guide |
-| 48 | Kids Electric Quad Bikes | What Age Can a Child Ride an Electric Quad Bike in Australia? | Legal |
-| 49 | Adult Electric Quad Bikes & ATVs | Adult Electric Quad Bike Buying Guide: Range, Power and Terrain | Guide |
-| 50 | Adult Electric Quad Bikes & ATVs | Electric Quad Bike vs Petrol ATV: Running Costs Compared | Compare |
-| 51 | Farm & Utility Electric Quads | Electric Utility Quad Buying Guide for Farms and Acreage Properties | Guide |
-| 52 | Farm & Utility Electric Quads | Electric vs Petrol Farm Quads: Which Saves More Over 5 Years? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 47 | Kids Electric Quad Bikes | Kids Electric Quad Bike Buying Guide: Power Limits and Safety Features | Guide | kids electric quad bike 390/4 |
+| 48 | Kids Electric Quad Bikes | What Age Can a Child Ride an Electric Quad Bike in Australia? | Legal | supporting/LSI off kids electric quad bike cluster |
+| 49 | Adult Electric Quad Bikes & ATVs | Adult Electric Quad Bike Buying Guide: Range, Power and Terrain | Guide | electric quad bike 1,300/8 |
+| 50 | Adult Electric Quad Bikes & ATVs | Electric Quad Bike vs Petrol ATV: Running Costs Compared | Compare | supporting/LSI off electric quad bike cluster |
+| 51 | Farm & Utility Electric Quads | Electric Utility Quad Buying Guide for Farms and Acreage Properties | Guide | "electric utility quad"/"electric farm quad" exact n/a — fold into electric quad bike 1,300/8 cluster, farm-angle content only |
+| 52 | Farm & Utility Electric Quads | Electric vs Petrol Farm Quads: Which Saves More Over 5 Years? | Compare | same as above |
 
-### Category: Electric Water Sports (`/shop/electric-water-sports/`) — 5 posts
+### Category: Electric Water Sports (`/shop/electric-water-sports/`) — 5 posts (6 after demand-gap upgrade)
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 53 | Electric Surfboards & Hydrofoils | Electric Surfboard Buying Guide: Hydrofoil vs Standard Boards | Guide |
-| 54 | Electric Surfboards & Hydrofoils | How Hard Is It to Learn to Ride an Electric Surfboard? | Guide |
-| 55 | Electric Jetboards *(demand gap)* | Electric Jetboards Explained: What They Are and Who They're For | Guide |
-| 56 | Electric Jet Skis & Personal Watercraft | Electric Jet Ski Buying Guide: Range, Charging and Running Costs | Guide |
-| 57 | Electric Jet Skis & Personal Watercraft | Electric vs Petrol Jet Skis: Is the Switch Worth It Yet? | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 53 | Electric Surfboards & Hydrofoils | Electric Surfboard Buying Guide: Hydrofoil vs Standard Boards | Guide | electric surfboard 1,000/27 |
+| 54 | Electric Surfboards & Hydrofoils | How Hard Is It to Learn to Ride an Electric Surfboard? | Guide | supporting/LSI off electric surfboard cluster |
+| 55 | Electric Jetboards *(UPGRADED — real demand found, not a gap)* | Electric Jetboards Explained: What They Are and Who They're For | Guide | "electric jetboard" exact n/a, but "jetboard" (drop "electric") = 320/34 |
+| 55b | Electric Jetboards | Jetboard Buying Guide: Power, Battery Life and Learning Curve | Guide | jetboard 320/34 |
+| 56 | Electric Jet Skis & Personal Watercraft | Electric Jet Ski Buying Guide: Range, Charging and Running Costs | Guide | electric jet ski 390/17 |
+| 57 | Electric Jet Skis & Personal Watercraft | Electric vs Petrol Jet Skis: Is the Switch Worth It Yet? | Compare | supporting/LSI off electric jet ski cluster |
 
 ### Category: Batteries, Parts & Kits (`/shop/batteries-parts-kits/`) — 20 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 58 | E-Bike Batteries | E-Bike Battery Buying Guide: Voltage, Ah and Compatibility Explained | Guide |
-| 59 | E-Bike Batteries | How to Extend Your E-Bike Battery Lifespan: 7 Charging Habits | How-To |
-| 60 | E-Bike Chargers | E-Bike Charger Buying Guide: Fast vs Standard Chargers Explained | Guide |
-| 61 | E-Bike Chargers | Can You Use Any Charger With Your E-Bike Battery? What to Check First | Legal |
-| 62 | Scooter, Board & Mobility Batteries | Replacement Scooter Battery Buying Guide: What to Check Before You Buy | Guide |
-| 63 | Scooter, Board & Mobility Batteries | Signs Your Mobility Scooter Battery Needs Replacing | How-To |
-| 64 | Scooter, Skate & Kids Chargers | Electric Scooter Charger Buying Guide: Matching Voltage and Amps | Guide |
-| 65 | Scooter, Skate & Kids Chargers | Why Won't My Electric Scooter Charge? Common Charger Problems | How-To |
-| 66 | Scooter, Skate & Kids Parts | Electric Scooter Spare Parts Guide: What Breaks First and How to Fix It | How-To |
-| 67 | Scooter, Skate & Kids Parts | Electric Skateboard Replacement Parts: Trucks, Wheels and Belts Explained | Guide |
-| 68 | Kids & Dirt Bike Batteries | Dirt Bike Battery Buying Guide: Replacement Batteries for Kids' Electric Dirt Bikes | Guide |
-| 69 | Kids & Dirt Bike Batteries | How Long Do Kids' Electric Dirt Bike Batteries Last? | Guide |
-| 70 | Tyres & Tubes | E-Bike Tyre Buying Guide: Puncture Resistance and Sizing Explained | Guide |
-| 71 | Tyres & Tubes | How to Fix a Flat E-Bike Tyre: Step-by-Step Guide | How-To |
-| 72 | Brake Pads & Rotors | E-Bike Brake Pads Buying Guide: When to Replace and What to Choose | Guide |
-| 73 | Brake Pads & Rotors | How to Tell If Your E-Bike Brake Pads Need Replacing | How-To |
-| 74 | Mid-Drive Conversion Kits | Mid-Drive Conversion Kit Buying Guide: Turn Any Bike Into an E-Bike | Guide |
-| 75 | Mid-Drive Conversion Kits | Mid-Drive vs Hub Motor Conversion Kits: Which Should You Choose? | Compare |
-| 76 | Hub Motor Conversion Kits | Hub Motor Conversion Kit Buying Guide: Front vs Rear Hub Motors | Guide |
-| 77 | Hub Motor Conversion Kits | Is It Legal to Convert a Bike to Electric in Australia? | Legal |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 58 | E-Bike Batteries | E-Bike Battery Buying Guide: Voltage, Ah and Compatibility Explained | Guide | ebike battery 1,600/6 |
+| 59 | E-Bike Batteries | How to Extend Your E-Bike Battery Lifespan: 7 Charging Habits | How-To | supporting/LSI off ebike battery cluster |
+| 60 | E-Bike Chargers | E-Bike Charger Buying Guide: Fast vs Standard Chargers Explained | Guide | ebike charger 480/8 |
+| 61 | E-Bike Chargers | Can You Use Any Charger With Your E-Bike Battery? What to Check First | Legal | supporting/LSI off ebike charger cluster |
+| 62 | Scooter, Board & Mobility Batteries | Replacement Scooter Battery Buying Guide: What to Check Before You Buy | Guide | mobility scooter battery 320/6 |
+| 63 | Scooter, Board & Mobility Batteries | Signs Your Mobility Scooter Battery Needs Replacing | How-To | supporting/LSI off mobility scooter battery cluster |
+| 64 | Scooter, Skate & Kids Chargers | Electric Scooter Charger Buying Guide: Matching Voltage and Amps | Guide | electric scooter charger 590/9 |
+| 65 | Scooter, Skate & Kids Chargers | Why Won't My Electric Scooter Charge? Common Charger Problems | How-To | supporting/LSI off electric scooter charger cluster |
+| 66 | Scooter, Skate & Kids Parts | Electric Scooter Spare Parts Guide: What Breaks First and How to Fix It | How-To | electric scooter parts 260/7 ("electric scooter spare parts" exact n/a) |
+| 67 | Scooter, Skate & Kids Parts | Electric Skateboard Replacement Parts: Trucks, Wheels and Belts Explained | Guide | supporting/LSI off electric scooter parts cluster |
+| 68 | Kids & Dirt Bike Batteries | Dirt Bike Battery Buying Guide: Replacement Batteries for Kids' Electric Dirt Bikes | Guide | "electric dirt bike battery" exact n/a (petrol dirt bike battery dominates generic search); fold into electric dirt bike 6,600/20 cluster, content-only |
+| 69 | Kids & Dirt Bike Batteries | How Long Do Kids' Electric Dirt Bike Batteries Last? | Guide | same as above |
+| 70 | Tyres & Tubes | E-Bike Tyre Buying Guide: Puncture Resistance and Sizing Explained | Guide | electric bike tyres 50/8 (low-volume niche, genuinely low demand) |
+| 71 | Tyres & Tubes | How to Fix a Flat E-Bike Tyre: Step-by-Step Guide | How-To | supporting/LSI off electric bike tyres cluster |
+| 72 | Brake Pads & Rotors | E-Bike Brake Pads Buying Guide: When to Replace and What to Choose | Guide | ebike brake pads 90/7 |
+| 73 | Brake Pads & Rotors | How to Tell If Your E-Bike Brake Pads Need Replacing | How-To | supporting/LSI off ebike brake pads cluster |
+| 74 | Mid-Drive Conversion Kits | Mid-Drive Conversion Kit Buying Guide: Turn Any Bike Into an E-Bike | Guide | mid drive conversion kit 210/12 (alt: mid drive ebike kit 390/17) |
+| 75 | Mid-Drive Conversion Kits | Mid-Drive vs Hub Motor Conversion Kits: Which Should You Choose? | Compare | supporting/LSI off mid drive conversion kit cluster |
+| 76 | Hub Motor Conversion Kits | Hub Motor Conversion Kit Buying Guide: Front vs Rear Hub Motors | Guide | hub motor kit 90/2; broader topic "electric bike conversion kits" 5,000 vol |
+| 77 | Hub Motor Conversion Kits | Is It Legal to Convert a Bike to Electric in Australia? | Legal | supporting/LSI off hub motor kit cluster |
 
 ### Category: Safety, Locks & Carry (`/shop/safety-security-carry/`) — 20 posts
 
-| # | Subcategory | Title | Angle |
-|---|---|---|---|
-| 78 | Helmets | Bike Helmet Buying Guide: What Safety Certifications Actually Mean | Guide |
-| 79 | Helmets | Do You Legally Need a Helmet to Ride an E-Bike in Australia? | Legal |
-| 80 | Lights & Visibility | Bike Lights Buying Guide: Lumens, Battery Life and Legal Requirements | Guide |
-| 81 | Lights & Visibility | Are Bike Lights Mandatory at Night in Australia? | Legal |
-| 82 | Jackets & Hi-Vis | Hi-Vis Cycling Gear Buying Guide: Staying Visible on the Road | Guide |
-| 83 | Jackets & Hi-Vis | Best Hi-Vis Jackets and Vests for Commuter Cyclists | Compare |
-| 84 | U-Locks & D-Locks | Bike U-Lock Buying Guide: Security Ratings Explained | Guide |
-| 85 | U-Locks & D-Locks | U-Lock vs D-Lock: What's the Difference and Which Is More Secure? | Compare |
-| 86 | Folding Locks | Folding Bike Lock Buying Guide: Portability vs Security Trade-Offs | Guide |
-| 87 | Folding Locks | Folding Locks vs U-Locks: Which Should You Carry Daily? | Compare |
-| 88 | Chain Locks | Bike Chain Lock Buying Guide: Thickness and Security Ratings Explained | Guide |
-| 89 | Chain Locks | Chain Lock vs U-Lock: Which Stops Bike Theft Better? | Compare |
-| 90 | Racks & Baskets | Bike Rack and Basket Buying Guide: Front vs Rear Carrying Capacity | Guide |
-| 91 | Racks & Baskets | Best Bike Baskets and Racks for Grocery Runs and Commuting | Compare |
-| 92 | Panniers & Bags | Bike Pannier Buying Guide: Waterproofing and Capacity Explained | Guide |
-| 93 | Panniers & Bags | Panniers vs Backpack: What's Better for Commuting by E-Bike? | Compare |
-| 94 | Child Seats | Child Bike Seat Buying Guide: Age, Weight Limits and Safety Standards | Guide |
-| 95 | Child Seats | Front-Mounted vs Rear-Mounted Child Bike Seats: Which Is Safer? | Compare |
-| 96 | Phone Mounts | Bike Phone Mount Buying Guide: Compatibility and Vibration Protection | Guide |
-| 97 | Phone Mounts | Best Bike Phone Mounts for Navigation on Long Rides | Compare |
+| # | Subcategory | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 78 | Helmets | Bike Helmet Buying Guide: What Safety Certifications Actually Mean | Guide | bike helmet 8,100/29 |
+| 79 | Helmets | Do You Legally Need a Helmet to Ride an E-Bike in Australia? | Legal | supporting/LSI off bike helmet cluster |
+| 80 | Lights & Visibility | Bike Lights Buying Guide: Lumens, Battery Life and Legal Requirements | Guide | bike lights 3,600/22 |
+| 81 | Lights & Visibility | Are Bike Lights Mandatory at Night in Australia? | Legal | supporting/LSI off bike lights cluster |
+| 82 | Jackets & Hi-Vis | Hi-Vis Cycling Gear Buying Guide: Staying Visible on the Road | Guide | hi vis vest cycling 70/9 (generic "hi vis jacket" is dominated by industrial workwear, not relevant to this niche) |
+| 83 | Jackets & Hi-Vis | Best Hi-Vis Jackets and Vests for Commuter Cyclists | Compare | supporting/LSI off hi vis vest cycling cluster |
+| 84 | U-Locks & D-Locks | Bike U-Lock Buying Guide: Security Ratings Explained | Guide | bike u lock 390/11 |
+| 85 | U-Locks & D-Locks | U-Lock vs D-Lock: What's the Difference and Which Is More Secure? | Compare | supporting/LSI off bike u lock cluster |
+| 86 | Folding Locks | Folding Bike Lock Buying Guide: Portability vs Security Trade-Offs | Guide | folding bike lock 320/12 |
+| 87 | Folding Locks | Folding Locks vs U-Locks: Which Should You Carry Daily? | Compare | supporting/LSI off folding bike lock cluster |
+| 88 | Chain Locks | Bike Chain Lock Buying Guide: Thickness and Security Ratings Explained | Guide | bike chain lock 590/10 |
+| 89 | Chain Locks | Chain Lock vs U-Lock: Which Stops Bike Theft Better? | Compare | supporting/LSI off bike chain lock cluster |
+| 90 | Racks & Baskets | Bike Rack and Basket Buying Guide: Front vs Rear Carrying Capacity | Guide | bike basket 2,400/12 (fits this subcat better than car-mount "bike rack" 12,100/24, a different niche) |
+| 91 | Racks & Baskets | Best Bike Baskets and Racks for Grocery Runs and Commuting | Compare | supporting/LSI off bike basket cluster |
+| 92 | Panniers & Bags | Bike Pannier Buying Guide: Waterproofing and Capacity Explained | Guide | bike pannier 590/17 |
+| 93 | Panniers & Bags | Panniers vs Backpack: What's Better for Commuting by E-Bike? | Compare | supporting/LSI off bike pannier cluster |
+| 94 | Child Seats | Child Bike Seat Buying Guide: Age, Weight Limits and Safety Standards | Guide | child bike seat 1,300/13 |
+| 95 | Child Seats | Front-Mounted vs Rear-Mounted Child Bike Seats: Which Is Safer? | Compare | front/rear mount variants also real (30-70 vol each) |
+| 96 | Phone Mounts | Bike Phone Mount Buying Guide: Compatibility and Vibration Protection | Guide | bike phone mount 720/19 |
+| 97 | Phone Mounts | Best Bike Phone Mounts for Navigation on Long Rides | Compare | supporting/LSI off bike phone mount cluster |
 
 ### Site-wide bonus posts — 3 posts
 
-| # | Scope | Title | Angle |
-|---|---|---|---|
-| 98 | Cross-category (homepage pillar) | ALLIED Buyer's Guide: Which Electric Vehicle Category Is Right for You? | Guide |
-| 99 | Cross-category (Batteries & Parts tie-in) | Electric Vehicle Battery Care 101: Lithium Maintenance Tips for Every ALLIED Product | How-To |
-| 100 | Site-wide (checkout/payments) | Crypto & Bank Wire Payments: How ALLIED's 10% Discount Works | Guide |
+| # | Scope | Title | Angle | Verified keyword |
+|---|---|---|---|---|
+| 98 | Cross-category (homepage pillar) | ALLIED Buyer's Guide: Which Electric Vehicle Category Is Right for You? | Guide | "which electric vehicle should i buy" n/a — expected; this is a cross-category navigation hub post, not built to rank for one commercial term |
+| 99 | Cross-category (Batteries & Parts tie-in) | Electric Vehicle Battery Care 101: Lithium Maintenance Tips for Every ALLIED Product | How-To | lithium battery storage 260/26 (generic battery-safety search, not EV-specific, but real and relevant) |
+| 100 | Site-wide (checkout/payments) | Crypto & Bank Wire Payments: How ALLIED's 10% Discount Works | Guide | not searched — inherently ALLIED-specific (explains the site's own discount mechanism), no generic keyword exists or is expected |
