@@ -9,6 +9,10 @@ interface ProductCardProps {
   onQuickView: (product: Product) => void;
   onToggleCompare: (product: Product) => void;
   isCompared: boolean;
+  // Set for the first visible row of cards in a grid so their image starts
+  // fetching immediately instead of waiting on an intersection-observer check —
+  // lazy-loading above-the-fold images delays LCP instead of improving it.
+  priority?: boolean;
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({
@@ -16,7 +20,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   onAddToCart,
   onQuickView,
   onToggleCompare,
-  isCompared
+  isCompared,
+  priority = false
 }) => {
   const cryptoPrice = product.price * 0.9;
 
@@ -53,8 +58,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <img
           src={product.images[0]}
           alt={`${product.name} — ${getProductKeywordPhrase(product)}`}
+          width={400}
+          height={300}
           className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-          loading="lazy"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          decoding={priority ? 'sync' : 'async'}
         />
 
         {/* Quick View Overlay Button */}

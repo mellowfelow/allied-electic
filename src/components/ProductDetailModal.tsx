@@ -62,6 +62,10 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 <img
                   src={product.images[activeImageIdx] || product.images[0]}
                   alt={`${product.name} — ${getProductKeywordPhrase(product)}`}
+                  width={600}
+                  height={450}
+                  fetchPriority="high"
+                  decoding="sync"
                   className="max-h-full max-w-full object-contain"
                 />
               </div>

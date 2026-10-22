@@ -251,7 +251,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filteredProducts.map((product) => (
+          {filteredProducts.map((product, index) => (
             <ProductCard
               key={product.id}
               product={product}
@@ -259,6 +259,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
               onQuickView={onQuickView}
               onToggleCompare={onToggleCompare}
               isCompared={comparedIds.includes(product.id)}
+              priority={index < 4}
             />
           ))}
         </div>

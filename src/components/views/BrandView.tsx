@@ -106,7 +106,7 @@ export const BrandView: React.FC<BrandViewProps> = ({
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filtered.map(product => (
+          {filtered.map((product, index) => (
             <ProductCard
               key={product.id}
               product={product}
@@ -114,6 +114,7 @@ export const BrandView: React.FC<BrandViewProps> = ({
               onQuickView={onQuickView}
               onToggleCompare={onToggleCompare}
               isCompared={comparedIds.includes(product.id)}
+              priority={index < 4}
             />
           ))}
         </div>
