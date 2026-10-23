@@ -4,13 +4,14 @@ import {
   Order,
   getOrders,
   updateOrderStatus,
+  sendPaymentDetailsEmail,
   markPaymentConfirmed,
   deleteOrder
 } from '../../lib/orderStore';
 import {
   Enquiry,
   getEnquiries,
-  markEnquiryReplied,
+  sendEnquiryReply,
   deleteEnquiry
 } from '../../lib/enquiryStore';
 import { parsePaymentDetail, money, paymentTermsLines, ParsedPaymentField } from '../../lib/order';
@@ -71,10 +72,12 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
   );
   const [parsedFields, setParsedFields] = useState<ParsedPaymentField[]>([]);
   const [emailSentSuccess, setEmailSentSuccess] = useState(false);
+  const [paymentEmailSent, setPaymentEmailSent] = useState(false);
 
   // Enquiry reply state
   const [enquiryReplyText, setEnquiryReplyText] = useState('');
   const [enquiryRepliedSuccess, setEnquiryRepliedSuccess] = useState(false);
+  const [enquiryEmailSent, setEnquiryEmailSent] = useState(false);
 
   // Enquiry filter & search state
   const [enquiryFilter, setEnquiryFilter] = useState<'all' | 'new' | 'replied' | 'wholesale'>('all');
@@ -97,9 +100,9 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
     );
   });
 
-  // Load orders & enquiries from the shared Cloudflare KV store (via /api/orders
+  // Load orders & enquiries from the shared Upstash Redis store (via /api/orders
   // and /api/enquiries), falling back to this browser's localStorage if the API
-  // isn't reachable (e.g. local `vite dev` without `wrangler pages dev`).
+  // isn't reachable (e.g. local `vite dev` without `vercel dev`).
   const refreshData = async () => {
     const [ordersRes, enquiriesRes] = await Promise.all([
       getOrders(passcode),
@@ -120,9 +123,9 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
     setParsedFields(parsePaymentDetail(rawPaymentText));
   }, [rawPaymentText]);
 
-  // Security: the passcode is verified server-side by the /api/orders Cloudflare
-  // Function against ADMIN_PASSCODE (a Pages env var, never shipped to the
-  // browser) — not compared against anything hardcoded or bundled in this file.
+  // Security: the passcode is verified server-side by the /api/orders Vercel
+  // serverless function against ADMIN_PASSCODE (a Vercel env var, never shipped
+  // to the browser) — not compared against anything hardcoded or bundled here.
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setAuthLoading(true);
@@ -132,12 +135,12 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
       if (res.ok) {
         setIsAuthenticated(true);
       } else if (res.status === 503) {
-        setAuthError('Admin portal is not configured. Set ADMIN_PASSCODE in Cloudflare Pages → Settings → Environment Variables.');
+        setAuthError('Admin portal is not configured. Set ADMIN_PASSCODE in Vercel → Project Settings → Environment Variables.');
       } else {
         setAuthError('Incorrect passcode.');
       }
     } catch (err) {
-      setAuthError('Could not reach the admin API. If you are running `vite dev` locally, use `wrangler pages dev` instead to test the Reply Portal.');
+      setAuthError('Could not reach the admin API. Run `vercel dev` locally to test the Reply Portal with live functions — plain `vite dev` does not run /api/*.');
     } finally {
       setAuthLoading(false);
     }
@@ -170,7 +173,7 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                     ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400'
                     : 'bg-amber-500/10 border-amber-500/30 text-amber-400'
                 }`}
-                title={dataSource === 'shared' ? 'Connected to the shared Cloudflare KV store' : 'API unreachable — showing this browser\'s local data only'}
+                title={dataSource === 'shared' ? 'Connected to the shared Upstash Redis store' : 'API unreachable — showing this browser\'s local data only'}
               >
                 {dataSource === 'shared' ? 'Live Shared Inbox' : 'Local-Only (API Unreachable)'}
               </span>
@@ -733,7 +736,7 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                                 <label className="block text-[11px] font-mono font-bold text-cyan-400 uppercase">
                                   Compose Response to {enq.name} ({enq.email})
                                 </label>
-                                <span className="text-[10px] font-mono text-slate-500">Auto-saves status to 'Replied'</span>
+                                <span className="text-[10px] font-mono text-slate-500">Sends via email &amp; marks 'Replied'</span>
                               </div>
                               <textarea
                                 rows={4}
@@ -745,14 +748,17 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                                 <button
                                   type="button"
                                   onClick={async () => {
-                                    await markEnquiryReplied(enq.id, enquiryReplyText, passcode);
+                                    const result = await sendEnquiryReply(enq, enquiryReplyText, passcode);
                                     setSelectedEnquiry(null);
+                                    setEnquiryRepliedSuccess(true);
+                                    setEnquiryEmailSent(result.sent);
+                                    setTimeout(() => setEnquiryRepliedSuccess(false), 4000);
                                     refreshData();
                                   }}
                                   className="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold rounded-xl text-xs flex items-center gap-1.5 shadow-lg shadow-emerald-500/20 transition-all"
                                 >
                                   <CheckCircle2 className="w-3.5 h-3.5" />
-                                  <span>Save & Mark Replied</span>
+                                  <span>Send Reply &amp; Mark Replied</span>
                                 </button>
                               </div>
                             </div>
@@ -861,19 +867,33 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
                           <div className="pt-2 flex flex-col gap-2">
                             <button
                               type="button"
+                              disabled={!selectedOrder || parsedFields.length === 0}
                               onClick={async () => {
                                 if (selectedOrder) {
-                                  await updateOrderStatus(selectedOrder.id, 'payment_details_sent', passcode, parsedFields);
+                                  const result = await sendPaymentDetailsEmail(
+                                    selectedOrder,
+                                    parsedFields,
+                                    paymentTermsLines(selectedOrder.id),
+                                    passcode
+                                  );
+                                  setPaymentEmailSent(result.sent);
                                   refreshData();
                                 }
                                 setEmailSentSuccess(true);
                                 setTimeout(() => setEmailSentSuccess(false), 3500);
                               }}
-                              className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20"
+                              className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition-colors flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20 disabled:opacity-50"
                             >
                               <Mail className="w-4 h-4" />
-                              <span>Mark "Payment Details Sent" (then email/WhatsApp manually)</span>
+                              <span>Send Payment Details Email &amp; Mark Sent</span>
                             </button>
+                            {emailSentSuccess && (
+                              <p className={`text-[11px] font-mono text-center ${paymentEmailSent ? 'text-emerald-400' : 'text-amber-400'}`}>
+                                {paymentEmailSent
+                                  ? '✓ Email sent to customer.'
+                                  : 'Status updated — email not sent (SMTP not configured). Use WhatsApp below instead.'}
+                              </p>
+                            )}
 
                             <a
                               href={waLinkTo(

@@ -33,8 +33,8 @@ export interface Order {
 
 const STORAGE_KEY = 'allied_ev_orders_v1';
 
-// --- localStorage fallback (used when the /api/orders Cloudflare Function isn't
-// reachable — e.g. running `vite dev` locally without `wrangler pages dev`, or a
+// --- localStorage fallback (used when the /api/orders Vercel function isn't
+// reachable — e.g. running `vite dev` locally without `vercel dev`, or a
 // network hiccup). This keeps the UI usable everywhere, but only the API path
 // gives a shared, cross-device order inbox. ---
 
@@ -124,6 +124,33 @@ export async function updateOrderStatus(
   Object.assign(order, patch);
   localSaveOrder(order);
   return order;
+}
+
+/** Actually sends the payment-details email via SMTP (through
+ * /api/send-payment-email), then mirrors the resulting status locally. Falls
+ * back to a status-only update (no email) if the send endpoint is unreachable. */
+export async function sendPaymentDetailsEmail(
+  order: Order,
+  fields: { label: string; value: string }[],
+  termsLines: string[],
+  passcode: string
+): Promise<{ sent: boolean; order?: Order }> {
+  try {
+    const res = await apiFetch('/api/send-payment-email', {
+      method: 'POST',
+      headers: { 'X-Admin-Passcode': passcode },
+      body: JSON.stringify({ orderId: order.id, fields, termsLines, order, customerEmail: order.email })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const updated = await updateOrderStatus(order.id, 'payment_details_sent', passcode, fields);
+      return { sent: Boolean(data.email?.sent), order: updated };
+    }
+  } catch (e) {
+    console.warn('Send-payment-email API unreachable:', e);
+  }
+  const updated = await updateOrderStatus(order.id, 'payment_details_sent', passcode, fields);
+  return { sent: false, order: updated };
 }
 
 export async function markPaymentConfirmed(id: string, passcode: string, note?: string, fileName?: string): Promise<Order | undefined> {

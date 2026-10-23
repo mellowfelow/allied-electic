@@ -20,6 +20,7 @@ import { HomeView } from './components/views/HomeView';
 import { ShopView } from './components/views/ShopView';
 import { BrandView } from './components/views/BrandView';
 import { BlogView } from './components/views/BlogView';
+import { OrderPaymentDetailsView } from './components/views/OrderPaymentDetailsView';
 import { AboutView } from './components/views/AboutView';
 import { ContactView } from './components/views/ContactView';
 import { FaqView } from './components/views/FaqView';
@@ -110,6 +111,9 @@ export default function App() {
     } else if (route === 'compare') {
       setActiveTab('compare');
       setQuickViewProduct(null);
+    } else if (route === 'order' && parts[1] === 'payment-details') {
+      setActiveTab('order-payment-details');
+      setQuickViewProduct(null);
     } else {
       setActiveTab('not-found');
       setQuickViewProduct(null);
@@ -151,6 +155,8 @@ export default function App() {
       path = selectedBrand ? `/brands/${selectedBrand}/` : '/brands/';
     } else if (activeTab === 'blog') {
       path = selectedPostSlug ? `/blog/${selectedPostSlug}/` : '/blog/';
+    } else if (activeTab === 'order-payment-details') {
+      path = `/order/payment-details/${window.location.search}`;
     } else if (activeTab !== 'home') {
       path = `/${activeTab}/`;
     }
@@ -346,6 +352,12 @@ export default function App() {
       description: 'The page you requested could not be found.',
       path: 'not-found',
       noindex: true
+    },
+    'order-payment-details': {
+      title: 'Your Payment Details',
+      description: 'View and copy your order payment details.',
+      path: 'order/payment-details',
+      noindex: true
     }
   };
 
@@ -465,6 +477,8 @@ export default function App() {
         {activeTab === 'contact' && <ContactView />}
 
         {activeTab === 'faq' && <FaqView />}
+
+        {activeTab === 'order-payment-details' && <OrderPaymentDetailsView />}
 
         {activeTab === 'compare' && (
           <CompareView

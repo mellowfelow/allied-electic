@@ -72,6 +72,33 @@ export async function getEnquiries(passcode: string): Promise<{ enquiries: Enqui
   return { enquiries: localGetEnquiries(), shared: false };
 }
 
+/** Actually sends the reply email via SMTP (through /api/reply-enquiry), then
+ * mirrors the resulting status locally. Falls back to a status-only update
+ * (no email) if the send endpoint is unreachable, same graceful-degradation
+ * pattern as the rest of this store. */
+export async function sendEnquiryReply(
+  enquiry: Enquiry,
+  replyText: string,
+  passcode: string
+): Promise<{ sent: boolean; enquiry?: Enquiry }> {
+  try {
+    const res = await apiFetch('/api/reply-enquiry', {
+      method: 'POST',
+      headers: { 'X-Admin-Passcode': passcode },
+      body: JSON.stringify({ enquiryId: enquiry.id, replyText, enquiry })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const updated = await markEnquiryReplied(enquiry.id, replyText, passcode);
+      return { sent: Boolean(data.email?.sent), enquiry: updated };
+    }
+  } catch (e) {
+    console.warn('Reply-enquiry API unreachable:', e);
+  }
+  const updated = await markEnquiryReplied(enquiry.id, replyText, passcode);
+  return { sent: false, enquiry: updated };
+}
+
 export async function markEnquiryReplied(id: string, replyText: string, passcode: string): Promise<Enquiry | undefined> {
   const patch: Partial<Enquiry> = { status: 'replied', replyMessage: replyText, repliedAt: new Date().toISOString() };
   try {
