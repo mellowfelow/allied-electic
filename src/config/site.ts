@@ -17225,6 +17225,480 @@ Petrol karts generally offer more sustained power for genuine track-style use an
 ## The home-use verdict
 
 For typical backyard and home use — shorter sessions, noise-sensitive neighbours, occasional rather than constant use — an electric go-kart is generally the more practical choice. Petrol retains its edge specifically for sustained, track-style use where refuelling speed and extended power delivery matter most.`
+  },
+  {
+    slug: 'travel-mobility-scooter-buying-guide',
+    title: 'Travel Mobility Scooter Buying Guide: What Fits in a Car Boot or Plane?',
+    metaDescription: 'What to check before buying a travel mobility scooter — folded size, weight and plane transport rules.',
+    excerpt: 'Matching a travel mobility scooter to your actual car boot and travel needs.',
+    category: 'Mobility Guides',
+    categorySlug: 'mobility-scooters',
+    date: '2026-12-17',
+    readTime: '5 min read',
+    image: '/images/categories/category-mobility-scooters.webp',
+    ctaText: 'Shop travel mobility scooters',
+    body: `A travel or folding mobility scooter is only genuinely useful if it actually fits your car boot and matches how you intend to transport it — checking real dimensions and weight before buying avoids a frustrating mismatch.
+
+## Folded dimensions vs your actual car boot
+
+Measure your car boot's usable space (not just the listed cargo capacity, which doesn't account for awkward shapes) and compare it directly against the scooter's folded length, width and height. A scooter that "fits most cars" in marketing language might not fit yours — always check the actual numbers.
+
+## Weight: can you lift it yourself?
+
+Many folding mobility scooters are designed to be lifted into a car boot by the user or a companion without a hoist. Check the total folded weight (and whether the battery needs to be removed separately to reduce lifting weight, which is common on some models) against what you or a travel companion can realistically and safely lift.
+
+## Disassembly vs single-fold convenience
+
+Some travel scooters fold as a single unit with one or two steps; others disassemble into several pieces (seat, base, battery) that are individually lighter but require more steps to pack and unpack. If convenience matters more than absolute lightest weight, a simpler single-fold mechanism is usually the better everyday choice.
+
+## Battery capacity for travel use
+
+Travel scooters often use smaller batteries than heavy-duty models to keep weight down, which generally means less range. If you're using the scooter for extended days out or travel where charging access is uncertain, check the realistic range against your planned usage, not just the folded size.`
+  },
+  {
+    slug: 'folding-mobility-scooter-plane-australia',
+    title: 'Can You Take a Folding Mobility Scooter on a Plane in Australia?',
+    metaDescription: 'Whether you can take a folding mobility scooter on a plane in Australia, and what to check with the airline.',
+    excerpt: 'What determines whether a folding mobility scooter is accepted for air travel.',
+    category: 'Mobility Guides',
+    categorySlug: 'mobility-scooters',
+    date: '2026-12-24',
+    readTime: '4 min read',
+    image: '/images/categories/category-mobility-scooters.webp',
+    ctaText: 'Shop travel mobility scooters',
+    body: `Folding mobility scooters can generally be taken on flights within Australia, but acceptance depends on the airline's specific policies around battery type and size — not a single blanket national rule.
+
+## Why the battery type matters most
+
+Airlines regulate lithium battery transport closely, and a mobility scooter's battery — specifically its watt-hour (Wh) rating — determines whether it can travel in the cargo hold, needs to be carried separately, or requires prior airline approval. Batteries above certain Wh thresholds often need special handling or aren't accepted on some carriers at all.
+
+## Always confirm directly with your specific airline
+
+Policies differ between airlines and can change, so the only reliable approach is contacting your specific airline directly before booking, with your scooter's exact battery specifications (type, voltage, Wh rating) on hand. Don't assume a policy that applied on one airline or one previous trip still applies elsewhere or at a later date.
+
+## What to have ready when you ask
+
+The scooter's make and model, battery chemistry (most modern scooters use lithium-ion), watt-hour rating (often printed on the battery itself or in the scooter's documentation), and folded dimensions and weight. Airlines typically need all of this to confirm whether your specific scooter is accepted and what handling process applies.
+
+## Booking ahead matters
+
+Many airlines require advance notice for mobility device transport, sometimes 48 hours or more before the flight, particularly for scooters requiring special battery handling. Confirm this requirement and book well ahead rather than assuming it can be arranged at check-in.`,
+    faqs: [
+      { q: 'Can you take a folding mobility scooter on a plane in Australia?', a: 'Generally yes, but it depends on the airline\'s specific battery transport policy — the scooter\'s watt-hour (Wh) battery rating determines whether it can travel in the cargo hold or needs special handling. Always confirm directly with your airline using your scooter\'s exact battery specifications before booking.' }
+    ]
+  },
+  {
+    slug: 'heavy-duty-mobility-scooter-buying-guide',
+    title: 'Heavy Duty Mobility Scooter Buying Guide: Weight Capacity and Range',
+    metaDescription: 'What to check when buying a heavy duty mobility scooter — weight capacity, range and terrain capability.',
+    excerpt: 'The key specs that matter when choosing a heavy-duty, all-terrain mobility scooter.',
+    category: 'Mobility Guides',
+    categorySlug: 'mobility-scooters',
+    date: '2026-12-31',
+    readTime: '5 min read',
+    image: '/images/categories/category-mobility-scooters.webp',
+    ctaText: 'Shop heavy-duty mobility scooters',
+    body: `Heavy-duty mobility scooters prioritise weight capacity, stability and terrain capability over the portability that travel scooters focus on — the right choice if daily, all-terrain use matters more than fitting in a car boot.
+
+## Weight capacity: check it covers the rider comfortably, with margin
+
+Every heavy-duty scooter has a maximum rider weight rating — choosing a model rated comfortably above the actual rider's weight (rather than right at the limit) generally gives better stability, battery life and component longevity than running close to the maximum rating day after day.
+
+## Range for genuine daily use
+
+Heavy-duty scooters typically use larger batteries than travel models, giving more real-world range — important if the scooter is being used for regular daily errands, longer outings, or covering more ground than a travel scooter's smaller battery comfortably supports.
+
+## Terrain capability: tyres and ground clearance
+
+Pneumatic (air-filled) tyres generally handle uneven ground, gravel and grass better than solid tyres, and higher ground clearance helps with kerbs and uneven surfaces. If daily use includes anything beyond smooth, flat footpaths, these details matter more than they do for a travel scooter used mainly indoors or on smooth paths.
+
+## Stability features
+
+Wider wheelbase and lower centre of gravity both improve stability, particularly important for heavier, faster all-terrain models. Check the scooter's specified maximum safe incline too, if regular use includes sloped driveways or hilly footpaths.`
+  },
+  {
+    slug: 'heavy-duty-vs-standard-mobility-scooters',
+    title: 'Heavy-Duty vs Standard Mobility Scooters: Which Do You Actually Need?',
+    metaDescription: 'Whether you need a heavy-duty mobility scooter or a standard model suits your needs better.',
+    excerpt: 'An honest assessment of when heavy-duty capability is actually necessary.',
+    category: 'Mobility Guides',
+    categorySlug: 'mobility-scooters',
+    date: '2027-01-07',
+    readTime: '4 min read',
+    image: '/images/categories/category-mobility-scooters.webp',
+    ctaText: 'Shop heavy-duty mobility scooters',
+    body: `Heavy-duty mobility scooters cost more and weigh more than standard models — worth it if your use case genuinely needs the extra capability, unnecessary if it doesn't.
+
+## When heavy-duty is genuinely necessary
+
+If the rider's weight is near or above a standard scooter's typical weight rating, if daily routes regularly include rough terrain, gravel, grass or inclines, or if the scooter needs to cover longer distances than a standard model's battery comfortably supports, heavy-duty capability addresses real, practical needs rather than just providing unused headroom.
+
+## When a standard scooter is the better fit
+
+For riders primarily using smooth footpaths and indoor spaces, shorter regular trips, and a rider weight comfortably within a standard model's rating, a standard scooter is typically lighter, more manoeuvrable in tight spaces, and more affordable — without sacrificing anything you'd actually use from a heavy-duty model.
+
+## The trade-offs of buying heavy-duty you don't need
+
+A heavier, larger heavy-duty scooter is harder to manoeuvre in tight indoor spaces (narrow hallways, small bathrooms, tight shop aisles), generally costs more to buy, and can be more cumbersome for a rider who doesn't need the extra weight capacity or terrain capability day to day.
+
+## A practical way to decide
+
+Write down your actual typical use — where you ride, how often, what terrain, and the rider's weight — then match that honestly against standard vs heavy-duty specifications rather than defaulting to "more capability is always better." The right scooter is the one that matches real use, not the one with the highest spec sheet.`
+  },
+  {
+    slug: 'kids-electric-quad-bike-buying-guide',
+    title: 'Kids Electric Quad Bike Buying Guide: Power Limits and Safety Features',
+    metaDescription: 'What to check before buying a kids electric quad bike — power limits, safety features and sizing.',
+    excerpt: 'Matching power output and safety features to your child when buying a kids\' electric quad bike.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-01-14',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop kids electric quad bikes',
+    body: `Kids' electric quad bikes, like kids' electric dirt bikes, are typically sold across multiple power tiers specifically designed for different ages and skill levels — getting this match right matters more for safety than any other single spec.
+
+## Power tiers and why they exist
+
+A quad bike's four-wheel stability makes it feel more approachable to new riders than a two-wheeled dirt bike, but it still involves genuine speed, weight and handling considerations on uneven ground. Lower power tiers are specifically built for younger or first-time riders, with higher tiers reserved for more experienced or older kids.
+
+## Safety features that matter most
+
+Adjustable speed limiters (letting a parent cap the bike's maximum speed below its full capability during the learning phase), a reliable, easy-to-reach brake, and a stable, appropriately sized wheelbase for the child's size are the features that matter most — more than raw power output.
+
+## Sizing matters as much as power
+
+A quad bike that's too large for a child makes it harder to reach the controls comfortably and confidently, which affects safety as much as an overly powerful motor would. Check the manufacturer's height and weight guidance for the specific model, not just the general age range.
+
+## Protective gear and riding area
+
+Full protective gear (helmet, goggles if riding on dusty ground, closed footwear) and a genuinely safe riding area — flat, open, free of obstacles and other hazards — are essential for safe use, the same as with any kids' off-road EV.`
+  },
+  {
+    slug: 'electric-quad-bike-age-australia',
+    title: 'What Age Can a Child Ride an Electric Quad Bike in Australia?',
+    metaDescription: 'Age guidance for kids riding electric quad bikes in Australia, and what actually determines readiness.',
+    excerpt: 'What determines age-readiness for a kids\' electric quad bike, beyond a single number.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-01-21',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop kids electric quad bikes',
+    body: `There's no single nationally mandated minimum age for riding a kids' electric quad bike on private property in Australia — manufacturers provide recommended age ranges per model, but actual readiness depends on more than age alone.
+
+## Why there's no single legal age
+
+Kids' electric quad bikes ridden on private property (rather than public roads, where separate and generally much stricter rules apply) aren't typically subject to a specific minimum-age road rule the way driving a car is. Instead, manufacturer guidance per model — based on the bike's specific power tier, size and speed — is the main reference point for age-appropriateness.
+
+## What actually determines readiness
+
+Physical size relative to the bike (can the child comfortably reach and operate the controls), prior experience with similar ride-on toys or vehicles, ability to follow safety instructions consistently, and genuine attention span for sustained focus during riding all matter more than a birthday alone. A smaller, less experienced eight-year-old might not be ready for a bike that a more experienced, physically larger six-year-old handles confidently.
+
+## Using the lowest power tier as a safe default
+
+When in doubt, starting with the lowest available power tier for a child's age range — rather than the upper end of what's technically marketed for that age — gives a safety margin while you assess actual readiness in a controlled setting.
+
+## Public roads are a different matter entirely
+
+If there's any consideration of road use beyond private property — which generally requires registration, licensing and a vehicle that meets road rules, none of which kids' electric quad bikes are built to satisfy — that's a completely separate legal question from private-property backyard or farm use, and not something these bikes are designed or legal for.`,
+    faqs: [
+      { q: 'What age can a child ride an electric quad bike in Australia?', a: 'There\'s no single nationally mandated minimum age for private-property use — manufacturer age guidance per model is the main reference, but actual readiness depends on the child\'s physical size, prior experience and ability to follow safety instructions, not age alone. Public road use is a separate matter these bikes generally aren\'t built or legal for.' }
+    ]
+  },
+  {
+    slug: 'adult-electric-quad-bike-buying-guide',
+    title: 'Adult Electric Quad Bike Buying Guide: Range, Power and Terrain',
+    metaDescription: 'What to check before buying an adult electric quad bike or ATV — range, power output and terrain capability.',
+    excerpt: 'The key specs that matter when choosing an adult electric quad bike.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-01-28',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop adult electric quad bikes',
+    body: `Adult electric quad bikes span a wide range of power and capability — matching the right one to your actual intended use (recreational trail riding, light farm work, or genuine heavy-duty utility) avoids both overpaying and underbuying.
+
+## Range: match it to your actual riding sessions
+
+Check the battery's real-world range at typical riding speed and terrain (not just the maximum advertised figure) against how far you actually plan to ride in a single session. Recreational trail riders and farm users covering a property daily have genuinely different range needs.
+
+## Motor power and torque for your terrain
+
+Flatter, firmer trail riding needs less sustained torque than steep, loose or muddy terrain. If your riding regularly includes hills or challenging ground, prioritise torque and continuous power rating over top speed alone — sustained climbing ability matters more than how fast the quad goes on flat ground.
+
+## Payload and towing capacity, if relevant
+
+If you're using the quad for farm or utility work — hauling gear, towing a small trailer — check the specific payload and towing capacity ratings rather than assuming general "adult quad" capability covers it. These ratings vary significantly between recreational and utility-focused models.
+
+## Tyres and suspension for your terrain
+
+Terrain-appropriate tyres (more aggressive tread for mud and loose ground, smoother tread for firmer trails) and genuine suspension travel for rough terrain both matter more on an adult quad covering varied ground regularly than they do for occasional light use.`
+  },
+  {
+    slug: 'electric-quad-bike-vs-petrol-atv-costs',
+    title: 'Electric Quad Bike vs Petrol ATV: Running Costs Compared',
+    metaDescription: 'Comparing running costs between electric quad bikes and petrol ATVs over time.',
+    excerpt: 'An honest running-cost comparison between electric and petrol quad bikes.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-02-04',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop adult electric quad bikes',
+    body: `Running costs for electric and petrol quad bikes diverge significantly once you look beyond the upfront purchase price — the comparison depends heavily on how much and how you actually use the vehicle.
+
+## Fuel vs charging costs
+
+Petrol ATVs require regular refuelling at fluctuating fuel prices. Electric quad bikes charge from mains power at a generally lower and more predictable cost per kilometre travelled, particularly noticeable with regular, frequent use rather than occasional riding.
+
+## Maintenance costs over time
+
+Petrol ATVs need regular oil changes, air filter replacement, spark plugs and periodic engine servicing — ongoing costs that accumulate over the vehicle's life regardless of how carefully it's used. Electric quads have far fewer mechanical maintenance items, with battery health being the main long-term cost consideration instead.
+
+## The battery replacement factor
+
+Electric quad batteries do eventually need replacement, representing a meaningful cost at that point in the vehicle's life — this is worth factoring into a genuine total cost of ownership comparison rather than assuming electric has no significant mid-life cost at all. How many years that takes depends on usage patterns and charging habits, similar to e-bike batteries.
+
+## Which actually saves more, over time
+
+For regular, frequent use, electric's lower running costs (cheaper charging, less routine maintenance) generally accumulate meaningful savings over a petrol ATV's ongoing fuel and service costs — even accounting for eventual battery replacement. For occasional, light use, the gap is smaller and other factors (available charging access, terrain and range needs) may matter more than running cost alone in the decision.`
+  },
+  {
+    slug: 'electric-utility-quad-farm-buying-guide',
+    title: 'Electric Utility Quad Buying Guide for Farms and Acreage Properties',
+    metaDescription: 'What to check before buying an electric utility quad for farm and acreage property work.',
+    excerpt: 'Key considerations for choosing an electric utility quad for genuine farm and property work.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-02-11',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop electric utility quads',
+    body: `Farm and acreage property work demands more from a quad bike than recreational trail riding does — payload, towing capacity, range across a full working day and genuine durability all matter more here than top speed.
+
+## Payload and towing capacity for real farm tasks
+
+Check the quad's rated payload (how much you can carry on the rack or in an attached tray) and towing capacity (for trailers carrying feed, fencing materials, or equipment) against the actual tasks you need it for — a quad rated for light recreational use won't hold up to genuine daily farm hauling.
+
+## Range across a full working day
+
+Property work often means covering ground repeatedly across several hours, not a single short ride. Check real-world range at working speed with a typical load (payload reduces range, similar to how cargo affects an e-bike) against how much ground you actually need to cover in a working day, and consider whether charging access partway through the day is realistic if range falls short.
+
+## Durability for daily, varied-terrain use
+
+Farm and acreage terrain — mud, uneven ground, long grass, gravel tracks — puts more sustained strain on components than occasional recreational trail riding. Look for utility-specific models built with this daily-use durability in mind, rather than a recreational-tier quad stretched beyond its intended use.
+
+## Attachment and accessory compatibility
+
+If you plan to use the quad with specific attachments — a small trailer, a spray tank, tool racks — check compatibility and weight ratings for those specific accessories before buying, since not every model supports the same attachment range.`
+  },
+  {
+    slug: 'electric-vs-petrol-farm-quads-savings',
+    title: 'Electric vs Petrol Farm Quads: Which Saves More Over 5 Years?',
+    metaDescription: 'A 5-year running cost comparison between electric and petrol farm quad bikes.',
+    excerpt: 'A longer-term, honest look at electric vs petrol farm quad running costs.',
+    category: 'Quad Bike Guides',
+    categorySlug: 'electric-quad-bikes',
+    date: '2027-02-18',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-quad-bikes.webp',
+    ctaText: 'Shop electric utility quads',
+    body: `Over a longer ownership period, the running-cost gap between electric and petrol farm quads becomes clearer — though the answer still depends on usage intensity and your specific property's demands.
+
+## Year-to-year running costs add up differently
+
+Petrol farm quads carry ongoing fuel costs tied to usage intensity, plus scheduled maintenance (oil, filters, spark plugs) regardless of how light or heavy that use is. Electric quads carry charging costs (generally lower per kilometre) and reduced routine maintenance, but the comparison isn't simply "cheaper across the board" — it depends on how many hours per week the quad is genuinely worked.
+
+## Where electric's advantage compounds over 5 years
+
+For properties with heavy, daily quad use, electric's lower per-kilometre running cost and reduced maintenance frequency compound meaningfully over several years compared to a petrol equivalent doing the same workload — the savings are real, even after accounting for eventual battery replacement partway through that period.
+
+## Where the gap narrows
+
+For lighter, occasional use — a quad used a few times a week rather than daily — the total running-cost gap over 5 years is smaller, and other factors (charging infrastructure on the property, range needs for the terrain, familiarity with petrol engine maintenance) may matter as much as the cost comparison itself.
+
+## Factoring in the full picture, not just fuel vs charging
+
+A genuine 5-year comparison needs to include: charging/fuel costs at your actual usage level, routine maintenance costs for each, and the likely timing and cost of a battery replacement for the electric model. Done honestly, heavy-use properties tend to favour electric, while light, occasional use narrows the gap enough that other practical factors reasonably decide it.`
+  },
+  {
+    slug: 'electric-surfboard-buying-guide',
+    title: 'Electric Surfboard Buying Guide: Hydrofoil vs Standard Boards',
+    metaDescription: 'Choosing between a hydrofoil and standard electric surfboard, and what else to check before buying.',
+    excerpt: 'The key difference between hydrofoil and standard electric surfboards, explained.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-02-25',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric surfboards',
+    body: `Electric surfboards split broadly into two types — standard boards that stay on the water's surface, and hydrofoil boards that lift above it — and the right choice depends on what kind of riding experience you're after.
+
+## Standard electric surfboards
+
+A standard electric surfboard rides on the water's surface like a traditional surfboard or jet-ski hybrid, powered by a motor and propeller. This is the more intuitive riding experience for newcomers — closer to the feel of being on the water that most riders already have some reference point for, whether from surfing, paddleboarding or boating.
+
+## Hydrofoil electric surfboards
+
+A hydrofoil board uses a wing-shaped foil mounted beneath the board that lifts the entire board clear of the water's surface once it reaches sufficient speed, riding on the foil alone with minimal drag. This produces a genuinely different sensation — smoother, quieter, and often described as closer to flying than surfing — but it's a distinct skill with its own learning curve, including managing the board's height above the water and the different balance dynamics involved.
+
+## Which suits new riders better
+
+Standard electric surfboards generally offer a gentler, more intuitive learning curve for riders without hydrofoil experience, since the board behaves more predictably at low speed and when stationary. Hydrofoil boards have real appeal for the unique riding sensation but typically ask more of a new rider's balance and reflexes, especially during the transition from on-water to foiling.
+
+## Other factors beyond foil type
+
+Battery range and realistic session length, board weight (affects transport and launching), and your local water conditions (calm bays suit both types well; open water with chop favours whichever board you're more confident handling in rougher conditions) all matter alongside the hydrofoil-vs-standard decision.`
+  },
+  {
+    slug: 'learning-to-ride-electric-surfboard',
+    title: 'How Hard Is It to Learn to Ride an Electric Surfboard?',
+    metaDescription: 'A realistic look at the learning curve for riding an electric surfboard, standard and hydrofoil.',
+    excerpt: 'An honest assessment of how long it takes to feel confident on an electric surfboard.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-03-04',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric surfboards',
+    body: `Learning to ride an electric surfboard is genuinely more approachable than traditional surfing — you don't need to catch waves or paddle to generate speed — but it still has a real learning curve worth setting expectations around.
+
+## Starting on your knees or lying down
+
+Most new riders start in a kneeling or lying position rather than standing immediately, getting comfortable with the throttle control and the board's balance at low speed before attempting to stand. This staged approach significantly reduces falls compared to trying to stand up on the first attempt.
+
+## Throttle control is the main new skill
+
+Unlike traditional surfing, where wave timing and paddling are the hard parts, an electric surfboard's main new skill is smooth, controlled throttle management — jerky acceleration is the most common cause of early falls, similar to electric skateboards. Practising gentle, gradual throttle input in calm, flat water builds this reflex faster than attempting choppier conditions too soon.
+
+## Progressing to standing
+
+Once comfortable kneeling and controlling speed, most riders progress to standing over a handful of sessions — prior board sports experience (surfing, wakeboarding, skateboarding) genuinely helps here, since the standing balance skill transfers, even though the board's behaviour differs.
+
+## Hydrofoil adds a genuinely separate skill
+
+If you're learning on a hydrofoil board specifically, expect a longer learning curve than a standard board — managing the board's lift height above the water is a distinct skill from standing balance alone, and most riders spend meaningfully more sessions building confidence on a foil board than a standard one.
+
+## Realistic timeline
+
+Most new riders feel reasonably confident standing and cruising on a standard electric surfboard within a handful of sessions in calm water. Hydrofoil confidence typically takes longer. Calm, flat water and a few dedicated practice sessions matter more to progress than natural athleticism alone.`
+  },
+  {
+    slug: 'electric-jetboards-explained',
+    title: "Electric Jetboards Explained: What They Are and Who They're For",
+    metaDescription: 'What electric jetboards are, how they differ from surfboards and jet skis, and who they suit.',
+    excerpt: 'Understanding what an electric jetboard actually is and where it fits between surfboards and jet skis.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-03-11',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric jetboards',
+    body: `An electric jetboard sits between a stand-up electric surfboard and a jet ski — a compact, stand-up or kneel-on powered board using jet propulsion rather than a propeller, built for a faster, more manoeuvrable riding style than a standard electric surfboard.
+
+## How a jetboard differs from a standard electric surfboard
+
+Where a standard electric surfboard typically uses a propeller for propulsion, a jetboard uses jet propulsion (drawing water in and expelling it at speed, similar in principle to a jet ski), generally enabling tighter turns, faster acceleration and a more agile riding feel. The compact size also makes jetboards easier to transport and store than a full-size jet ski.
+
+## How it differs from a jet ski
+
+A jet ski is a seated or standing vehicle you ride on top of, with a full hull providing stability and typically higher top speed and longer range than a jetboard. A jetboard is a stand-up board you balance on directly, closer in riding feel to surfing or an electric surfboard, but with jet-propelled speed and manoeuvrability — a genuinely different, more athletic riding style than sitting on a jet ski.
+
+## Who jetboards genuinely suit
+
+Riders who enjoy the balance and athleticism of stand-up water sports (surfing, stand-up paddleboarding, wakeboarding) but want the speed and power of motorised propulsion, and who value the smaller size and easier transport/storage compared to a jet ski, are the natural fit for a jetboard.
+
+## What to expect as a new rider
+
+Similar to electric surfboards, most riders start kneeling to build throttle control and balance confidence before progressing to standing. Calm, open water without heavy boat traffic is the best environment for early sessions.`
+  },
+  {
+    slug: 'jetboard-buying-guide',
+    title: 'Jetboard Buying Guide: Power, Battery Life and Learning Curve',
+    metaDescription: 'What to check before buying a jetboard — motor power, realistic battery life and the learning curve.',
+    excerpt: 'The key specs and realistic expectations for buying a jetboard.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-03-18',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric jetboards',
+    body: `Buying a jetboard comes down to matching motor power and battery life to how you'll actually ride it, with realistic expectations set for the learning curve involved.
+
+## Motor power and top speed
+
+Higher-powered jetboards deliver faster acceleration and higher top speed, appealing once you're confident, but a lower-powered model with gentler throttle response is often the more forgiving choice while you're still building balance and throttle-control skills.
+
+## Realistic battery life per session
+
+Like any electric water sports device, advertised maximum ride time is a best-case figure measured under specific conditions. Rider weight, riding style (aggressive throttle use drains faster than cruising) and water conditions all affect real-world session length — plan for shorter realistic ride times than the advertised maximum, especially while still learning and riding more cautiously.
+
+## The learning curve, honestly
+
+As covered in our [jetboard explainer](/blog/electric-jetboards-explained/), most new riders start kneeling before progressing to standing, building throttle control in calm water first. Jet propulsion's quicker, more responsive power delivery compared to a propeller-driven surfboard means smooth throttle control matters even more here — a jetboard can accelerate more abruptly than a standard electric surfboard if you're not used to it.
+
+## Storage and transport considerations
+
+Check the board's weight and dimensions against how you'll actually transport and store it — jetboards are generally more compact than jet skis but still need secure, dry storage and a transport plan (roof rack, trailer, or vehicle space) that matches your specific model's size and weight.`
+  },
+  {
+    slug: 'electric-jet-ski-buying-guide',
+    title: 'Electric Jet Ski Buying Guide: Range, Charging and Running Costs',
+    metaDescription: 'What to check before buying an electric jet ski — realistic range, charging logistics and running costs.',
+    excerpt: 'The key considerations before buying an electric jet ski.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-03-25',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric jet skis',
+    body: `Electric jet skis are a genuinely newer category than electric surfboards or jetboards, and buying one means thinking carefully about range, charging logistics and realistic running costs alongside the usual performance specs.
+
+## Range: check it against your actual riding sessions
+
+Electric jet ski range varies significantly with riding style — aggressive, high-speed riding drains the battery considerably faster than cruising. Check the manufacturer's range figures at different riding intensities, if available, rather than relying on a single best-case number, and compare that realistically against how long your typical sessions actually run.
+
+## Charging logistics matter more here than for most EVs
+
+Unlike an e-bike you can charge at home overnight, a jet ski used from a boat ramp, marina or waterfront property needs a realistic charging plan — whether that's charging at home between outings, or access to charging infrastructure near where you launch. Factor this into your buying decision as seriously as the jet ski's performance specs.
+
+## Running costs vs petrol jet skis
+
+Electric jet skis generally cost less to run per session than petrol equivalents — no fuel, no oil changes, fewer moving parts to maintain. The upfront purchase price is a separate consideration, and running-cost savings accumulate over time with regular use rather than delivering an immediate payback.
+
+## Maintenance differences
+
+Fewer mechanical components generally means less routine maintenance than a petrol jet ski — no spark plugs, no oil changes, no carburettor or fuel system upkeep. Battery health becomes the main long-term maintenance consideration instead, similar to other electric vehicle categories.`
+  },
+  {
+    slug: 'electric-vs-petrol-jet-skis-worth-it',
+    title: 'Electric vs Petrol Jet Skis: Is the Switch Worth It Yet?',
+    metaDescription: 'An honest look at whether switching from a petrol jet ski to electric is worth it yet.',
+    excerpt: 'A balanced comparison of where electric jet skis genuinely compete with petrol, and where they don\'t yet.',
+    category: 'Water Sports Guides',
+    categorySlug: 'electric-water-sports',
+    date: '2027-04-01',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-water-sports.webp',
+    ctaText: 'Shop electric jet skis',
+    body: `Electric jet skis are a genuinely newer, fast-developing category — here's an honest look at where they currently compete well with petrol models, and where petrol still has a practical edge.
+
+## Where electric genuinely competes well
+
+Noise is a clear win — electric jet skis are dramatically quieter than petrol, which matters on quieter waterways, near residential shorelines, or for riders who simply prefer a less intrusive experience. Running costs also generally favour electric for regular users, with lower per-session charging costs and reduced routine maintenance compared to petrol's ongoing fuel and service needs.
+
+## Where petrol still has the edge
+
+Range and refuelling speed remain petrol's clearest advantages — a petrol jet ski refuels in minutes and can sustain longer riding sessions without the recharge downtime an electric model requires. For riders wanting extended all-day sessions on the water without interruption, this is a genuine practical consideration electric hasn't fully closed yet.
+
+## Charging infrastructure is still developing
+
+Unlike established petrol refuelling access at most boat ramps and marinas, charging infrastructure specifically for electric watercraft is still less widespread. This matters most for riders without home charging access near their usual launch point — a genuine practical limitation worth factoring in honestly rather than assuming charging will always be convenient.
+
+## The honest verdict
+
+For regular, shorter sessions from a home launch point with charging access, an electric jet ski is a genuinely competitive, quieter, cheaper-to-run option today. For riders wanting extended all-day sessions or relying on charging infrastructure that isn't yet widely available at their usual launch points, petrol remains the more practical choice for now — though that gap is narrowing as the category develops.`
   }
 ];
 
