@@ -406,7 +406,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-slate-950">
-      
+
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2.5 focus:rounded-lg focus:bg-sky-500 focus:text-slate-950 focus:font-bold focus:text-sm"
+      >
+        Skip to content
+      </a>
+
       {/* Primary Header */}
       <Header
         cartCount={cartItems.reduce((acc, i) => acc + i.quantity, 0)}
