@@ -17699,6 +17699,638 @@ Unlike established petrol refuelling access at most boat ramps and marinas, char
 ## The honest verdict
 
 For regular, shorter sessions from a home launch point with charging access, an electric jet ski is a genuinely competitive, quieter, cheaper-to-run option today. For riders wanting extended all-day sessions or relying on charging infrastructure that isn't yet widely available at their usual launch points, petrol remains the more practical choice for now — though that gap is narrowing as the category develops.`
+  },
+  {
+    slug: 'ebike-battery-buying-guide',
+    title: 'E-Bike Battery Buying Guide: Voltage, Ah and Compatibility Explained',
+    metaDescription: 'What voltage, Ah rating and compatibility actually mean when buying a replacement e-bike battery.',
+    excerpt: 'Decoding e-bike battery specs so you buy a genuinely compatible replacement.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-04-08',
+    readTime: '5 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike batteries',
+    body: `Buying a replacement e-bike battery means matching three things correctly — voltage, amp-hour (Ah) rating and physical/connector compatibility — getting any one wrong can mean a battery that doesn't work safely with your bike.
+
+## Voltage must match your bike's system exactly
+
+Common e-bike systems run at 36V or 48V, though other voltages exist. The replacement battery's voltage needs to match your bike's original system precisely — a mismatched voltage isn't just a performance issue, it can damage the motor and controller or create a genuine safety risk, so this isn't a spec to approximate.
+
+## Amp-hours (Ah) determines capacity, not compatibility
+
+Within the correct voltage, amp-hour rating determines how much energy the battery stores — and therefore your range. A higher Ah rating at the correct voltage generally gives more range without compatibility issues, so if your bike supports it, buying slightly higher capacity than the original is usually fine; buying lower voltage is not.
+
+## Physical fit and connector type
+
+Beyond the electrical specs, the battery needs to physically fit your bike's mounting system and use a compatible connector. Battery shape, mounting bracket style and connector pin configuration all vary between manufacturers and even between models from the same manufacturer — check these details specifically rather than assuming "same voltage" means "will fit."
+
+## Buying from the original manufacturer vs third-party
+
+An original or manufacturer-approved replacement guarantees compatibility and is generally the safer choice. Third-party batteries can work well but carry more risk of subtle incompatibility or lower build quality — if going this route, check reviews specifically for your bike model and prioritise sellers who clearly state voltage, Ah and connector compatibility rather than vague "universal fit" claims.`
+  },
+  {
+    slug: 'extend-ebike-battery-lifespan',
+    title: 'How to Extend Your E-Bike Battery Lifespan: 7 Charging Habits',
+    metaDescription: 'Seven practical charging habits that genuinely extend an e-bike battery\'s lifespan.',
+    excerpt: 'Simple charging habits that make a real difference to long-term battery health.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-04-15',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike batteries',
+    body: `## 1. Charge after rides, don't wait for empty
+
+Lithium batteries don't have a "memory effect" like older battery chemistries — topping up after most rides is better for long-term health than habitually running the battery down to 0% before charging.
+
+## 2. Avoid storing at 100% charge for long periods
+
+If the bike won't be ridden for an extended period (weeks), store the battery at a partial charge (commonly recommended around 40-60%) rather than fully charged — prolonged storage at full charge accelerates capacity loss more than a partial-charge storage level does.
+
+## 3. Keep the battery out of direct heat
+
+Heat is one of the most significant factors in long-term battery degradation. Avoid leaving the battery in direct sun, a hot car, or near other heat sources for extended periods, even when not charging.
+
+## 4. Use the charger that came with your battery
+
+Mismatched chargers — wrong voltage or current output — can both reduce battery lifespan and create a genuine safety risk. Always use the manufacturer-supplied charger, or a confirmed-compatible replacement if the original is lost or damaged.
+
+## 5. Avoid charging immediately after a hot ride
+
+Letting the battery cool to room temperature before charging (rather than plugging in immediately after a hard, hot ride) reduces thermal stress on the cells during charging.
+
+## 6. Don't leave it on the charger indefinitely
+
+Most modern e-bike chargers stop drawing significant current once full, but leaving a battery on the charger for days at a time isn't ideal practice — unplug once charged rather than treating the charger as a permanent storage state.
+
+## 7. Check for firmware or battery management updates
+
+Some e-bike systems receive battery management firmware updates from the manufacturer that can improve charging efficiency and battery protection — check periodically if your bike's system supports this.`
+  },
+  {
+    slug: 'ebike-charger-buying-guide',
+    title: 'E-Bike Charger Buying Guide: Fast vs Standard Chargers Explained',
+    metaDescription: 'The genuine trade-offs between fast and standard e-bike chargers, explained honestly.',
+    excerpt: 'What you actually gain and give up with a fast charger versus a standard one.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-04-22',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike chargers',
+    body: `Fast chargers genuinely cut charging time, but the convenience comes with trade-offs worth understanding before you buy one over the standard charger your bike came with.
+
+## What makes a charger "fast"
+
+Fast chargers deliver a higher current (amps) to the battery than a standard charger, reducing total charge time. This can be genuinely useful if you need a quick top-up between rides or have limited time windows for charging — the practical convenience is real.
+
+## The trade-off: heat and long-term battery stress
+
+Charging at a higher current generates more heat in the battery cells than slower, standard charging. Over many charge cycles, this additional thermal stress can contribute to slightly faster capacity degradation compared to consistently using a standard-rate charger — a genuine trade-off between convenience now and marginally longer-term battery health.
+
+## When fast charging makes practical sense
+
+If your riding pattern genuinely requires quick turnaround — multiple shorter rides in a day, limited charging windows, or occasional need for a rapid top-up before an unplanned trip — the convenience of fast charging reasonably outweighs the marginal long-term battery trade-off for most riders.
+
+## When a standard charger is the better everyday choice
+
+For typical overnight or between-use charging where time isn't a genuine constraint, a standard charger's gentler charging rate is kinder to long-term battery health without costing you anything in practice, since you weren't time-constrained anyway.
+
+## Compatibility matters as much as speed
+
+Whichever you choose, confirm the charger's voltage and connector match your specific battery — the same compatibility requirements covered in our [e-bike battery buying guide](/blog/ebike-battery-buying-guide/) apply to chargers too.`
+  },
+  {
+    slug: 'ebike-charger-compatibility-check',
+    title: 'Can You Use Any Charger With Your E-Bike Battery? What to Check First',
+    metaDescription: 'Whether you can use any charger with your e-bike battery, and the compatibility checks that matter.',
+    excerpt: 'The compatibility checks that determine whether a charger is actually safe for your battery.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-04-29',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike chargers',
+    body: `No — chargers aren't universally interchangeable across e-bike batteries, and using an incompatible one can damage the battery or create a genuine safety risk. Here's what actually needs to match.
+
+## Voltage must match the battery's rated voltage
+
+A charger's output voltage needs to match your battery's voltage (commonly 36V or 48V, among others) precisely. A mismatched voltage charger is the most serious compatibility error — it can damage the battery cells or create a fire risk, not just fail to charge properly.
+
+## Current (amp) rating affects charging speed and heat
+
+Within a correctly matched voltage, a charger's current rating (amps) determines how fast it charges. A charger rated for higher current than your battery's management system is designed to handle can generate excessive heat during charging — check your battery's specifications for the maximum current it's rated to accept safely.
+
+## Connector type is the most obvious but not the only check
+
+Beyond voltage and current, the physical connector needs to match. A connector that physically fits doesn't guarantee electrical compatibility, though — some connector types are used across multiple voltage systems, so a physical fit alone isn't sufficient confirmation of safe compatibility.
+
+## When in doubt, use the original or manufacturer-approved charger
+
+If you're unsure about compatibility, the safest approach is sticking with the charger originally supplied with your battery, or a replacement explicitly confirmed by the manufacturer as compatible — rather than assuming a similar-looking third-party charger is safe to use.`,
+    faqs: [
+      { q: 'Can you use any charger with your e-bike battery?', a: 'No — the charger\'s voltage needs to match your battery\'s rated voltage precisely, and current rating should be within what your battery\'s management system is designed to handle. Using a mismatched charger can damage the battery or create a safety risk, so stick with the original or a manufacturer-confirmed compatible charger.' }
+    ]
+  },
+  {
+    slug: 'replacement-scooter-battery-buying-guide',
+    title: 'Replacement Scooter Battery Buying Guide: What to Check Before You Buy',
+    metaDescription: 'What to check before buying a replacement electric scooter or mobility scooter battery.',
+    excerpt: 'The key checks before buying a replacement scooter battery, electric or mobility.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-05-06',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop replacement scooter batteries',
+    body: `Whether you're replacing an electric kick scooter battery or a mobility scooter battery, the same core compatibility checks apply — voltage, capacity and physical fit all need to match before you buy.
+
+## Confirm your scooter's exact battery specifications first
+
+Check your scooter's manual or the battery's original label for voltage and amp-hour (Ah) rating before shopping for a replacement — these numbers are the starting point for finding a genuinely compatible battery, rather than guessing based on the scooter's general model name alone.
+
+## Voltage compatibility is non-negotiable
+
+As with e-bike batteries, the replacement needs to match your scooter's rated voltage precisely. A mismatched voltage can damage the scooter's motor and controller, or create a genuine safety risk — this isn't a spec worth approximating.
+
+## Capacity (Ah) affects range, not safety, within the correct voltage
+
+At the correct voltage, a higher Ah-rated replacement generally gives more range without compatibility problems, provided your scooter's housing and mounting can physically accommodate it. Lower capacity than the original will simply give less range, not a safety issue — but always confirm voltage first.
+
+## Battery chemistry and age considerations for mobility scooters
+
+Mobility scooters sometimes use different battery chemistries (sealed lead-acid vs lithium) depending on age and model — check which chemistry your specific scooter is designed for, since this affects both the replacement battery you need and the charger compatibility covered separately in your scooter's documentation.
+
+## Physical fit and terminal type
+
+Confirm the replacement battery's physical dimensions fit your scooter's battery compartment, and that terminal/connector type matches — these vary between manufacturers even within the same voltage class.`
+  },
+  {
+    slug: 'mobility-scooter-battery-replacement-signs',
+    title: 'Signs Your Mobility Scooter Battery Needs Replacing',
+    metaDescription: 'The warning signs that indicate a mobility scooter battery needs replacing.',
+    excerpt: 'How to recognise when a mobility scooter battery has reached the end of its useful life.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-05-13',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop replacement scooter batteries',
+    body: `A mobility scooter battery's capacity declines gradually over its life, and recognising the signs early helps you plan a replacement before range becomes genuinely unreliable for your daily needs.
+
+## Noticeably reduced range at the same settings
+
+If trips that used to comfortably use a fraction of the battery now drain it significantly faster — on the same route, same speed setting, same conditions — this is usually the clearest sign of declining battery capacity rather than any other scooter issue.
+
+## Battery indicator behaving inconsistently
+
+A battery gauge that drops unusually quickly after showing a high charge, or that behaves erratically (jumping between levels rather than declining smoothly), often indicates the battery's cells are no longer holding charge consistently — a common sign of ageing battery capacity.
+
+## Longer charging times for the same range delivered
+
+If the battery takes noticeably longer to reach full charge than it used to, while still delivering less range than before, this combination is a strong indicator the battery has lost meaningful capacity rather than there being a charger issue alone.
+
+## Physical signs: swelling, corrosion or unusual heat
+
+Any visible swelling of the battery casing, corrosion around terminals, or unusual heat during charging are signs to stop using the battery and replace it promptly — these indicate a genuine safety concern, not just reduced performance.
+
+## When to act rather than wait
+
+Mobility scooters are often relied on for genuine daily independence — don't wait until the battery fails completely to plan a replacement. If you're noticing two or more of the signs above, it's a reasonable time to order a replacement before range becomes unreliable for trips that matter.`
+  },
+  {
+    slug: 'electric-scooter-charger-buying-guide',
+    title: 'Electric Scooter Charger Buying Guide: Matching Voltage and Amps',
+    metaDescription: 'What to check when buying a replacement electric scooter charger — voltage and amp matching.',
+    excerpt: 'The voltage and amp-matching checks that keep a replacement scooter charger safe.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-05-20',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop electric scooter chargers',
+    body: `A replacement electric scooter charger needs to match your scooter's battery on two specific numbers — voltage and current (amps) — before you consider anything else, including connector shape.
+
+## Voltage: find it on your scooter or original charger label
+
+Check your scooter's manual, the battery itself, or the original charger's label for the rated voltage. The replacement charger's output voltage needs to match this figure precisely — this is the single most important compatibility check, and getting it wrong risks damaging the battery or creating a safety issue.
+
+## Amp rating affects charging speed, within the correct voltage
+
+Once voltage is confirmed correct, the charger's amp rating determines charging speed. A higher-amp charger charges faster but generates more heat; using a charger rated higher than your battery's management system is designed to accept can cause excessive heat build-up during charging — check your battery's maximum accepted charging current if this information is available.
+
+## Connector type — check, but don't rely on it alone
+
+A matching connector shape is necessary but not sufficient confirmation of compatibility, since some connector types are shared across different voltage systems. Confirm voltage and amps first, with connector fit as an additional check rather than the primary one.
+
+## Buying from a reputable source
+
+Given the safety stakes of a mismatched charger, buying from a seller who clearly states voltage and amp specifications — rather than vague "universal" or "compatible with most scooters" marketing language — reduces the risk of an incorrect match.`
+  },
+  {
+    slug: 'electric-scooter-wont-charge-troubleshooting',
+    title: "Why Won't My Electric Scooter Charge? Common Charger Problems",
+    metaDescription: 'Common reasons an electric scooter won\'t charge, and how to troubleshoot them safely.',
+    excerpt: 'Troubleshooting the most common reasons an electric scooter stops charging.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-05-27',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop electric scooter chargers',
+    body: `A scooter that won't charge usually has one of a handful of common causes — most are straightforward to check before assuming the battery itself has failed.
+
+## Check the basics first
+
+Confirm the wall outlet is genuinely working (test with another device), check the charger's cable and connector for visible damage, and ensure the connector is fully and firmly seated into the scooter's charging port — a loose connection is one of the most common, and most easily fixed, causes of "won't charge" issues.
+
+## Charger indicator light behaviour tells you a lot
+
+Most chargers show a status light — typically red while charging, green when complete (colours vary by manufacturer, check your specific charger's documentation). No light at all when plugged in usually points to a charger fault or a dead outlet, while a light that behaves normally but the scooter still shows no charge progress may point to a battery or port issue instead.
+
+## Battery management system protection modes
+
+Many modern lithium batteries include protection circuitry that can enter a "sleep" or protective state if deeply discharged for an extended period — some batteries in this state won't accept a normal charge and may need a specific reset process (check your manufacturer's guidance) or a slow trickle-charge approach before accepting a full charge again.
+
+## Charging port damage or corrosion
+
+Inspect the scooter's charging port for visible damage, bent pins, or corrosion — exposure to moisture or dust over time can affect the connection even if the charger itself is working correctly.
+
+## When to stop troubleshooting and seek professional help
+
+If basic checks don't resolve the issue, or if you notice any swelling, unusual smell, or excessive heat from the battery, stop attempting to charge it and have it assessed by a qualified technician rather than continuing to troubleshoot — these are signs of a genuine safety issue, not just an inconvenience.`
+  },
+  {
+    slug: 'electric-scooter-spare-parts-guide',
+    title: 'Electric Scooter Spare Parts Guide: What Breaks First and How to Fix It',
+    metaDescription: 'The electric scooter parts that wear out first, and practical guidance on replacing them.',
+    excerpt: 'Which scooter components wear fastest, and how to approach replacing them.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-06-03',
+    readTime: '5 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop electric scooter parts',
+    body: `Certain electric scooter components wear out predictably faster than others under normal use — knowing which parts to watch helps you catch issues before they become bigger problems.
+
+## Tyres and tubes wear fastest under regular use
+
+Whether solid or pneumatic, tyres take the most direct wear from regular riding — pneumatic tyres can also puncture. Check tread wear and tyre pressure (for pneumatic tyres) regularly, and keep a spare tube on hand if you're running pneumatic tyres on a scooter used daily.
+
+## Brake pads wear with use, same as any vehicle
+
+Scooter brake pads wear down gradually with regular braking, and replacement is a routine maintenance item rather than a sign of a problem. Check for reduced stopping power or unusual noise when braking as the signal it's time to check pad wear.
+
+## Folding mechanism hinges take repeated stress
+
+For folding scooters, the folding hinge sees repeated mechanical stress with daily use — check for increasing play or looseness in the fold mechanism over time, as this is a wear item on scooters folded and unfolded regularly.
+
+## Grips and deck grip tape wear from exposure and use
+
+Handlebar grips and deck grip tape wear from weather exposure and foot/hand contact over time — these are inexpensive, straightforward replacement items that are worth addressing promptly, since worn grip reduces control and safety.
+
+## Electrical connectors and cables from repeated folding
+
+On folding scooters, internal cables and connectors that run through the folding hinge area see more flex stress than on a rigid frame — if you notice intermittent electrical issues (display flickering, inconsistent power), this is a common area to check, though it's best diagnosed by a qualified technician given the electrical systems involved.`
+  },
+  {
+    slug: 'electric-skateboard-replacement-parts',
+    title: 'Electric Skateboard Replacement Parts: Trucks, Wheels and Belts Explained',
+    metaDescription: 'Understanding electric skateboard trucks, wheels and drive belts, and when to replace them.',
+    excerpt: 'What each key electric skateboard component does, and when it needs replacing.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-06-10',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop electric scooter and skateboard parts',
+    body: `Trucks, wheels and drive belts are the three components that most directly affect an electric skateboard's ride feel and wear with use — understanding what each does helps you know when replacement is genuinely needed.
+
+## Trucks: steering and stability
+
+Trucks are the metal mechanisms connecting the wheels to the deck, controlling how the board turns when you lean. Over time, truck bushings (the rubber components that control turn resistance) wear and soften, which can make the board feel looser or less stable at speed than when new — a sign the bushings, not necessarily the whole truck assembly, may need replacing.
+
+## Wheels: grip, ride quality and wear
+
+Wheels wear down with use, and wear patterns can become uneven depending on riding style and surface. Reduced grip, visible flat spots, or a noticeably rougher ride on surfaces that used to feel smooth are signs of wheel wear worth checking — wheels are generally a more frequent, lower-cost replacement item than trucks.
+
+## Drive belts (on belt-drive models): power transmission
+
+Belt-drive electric skateboards use a belt to transmit motor power to the wheel — over time and distance, belts stretch and wear, which can show up as reduced power delivery or a slipping sensation under acceleration. Belt replacement is a routine maintenance item on belt-drive boards used regularly.
+
+## When to DIY vs get professional help
+
+Wheel and basic truck bushing replacement are generally manageable for confident DIY maintenance with the right tools. Belt replacement and anything involving the motor or electronics is better handled by a qualified technician, given the electrical systems and precise tensioning involved.`
+  },
+  {
+    slug: 'dirt-bike-battery-buying-guide-kids',
+    title: "Dirt Bike Battery Buying Guide: Replacement Batteries for Kids' Electric Dirt Bikes",
+    metaDescription: 'What to check before buying a replacement battery for a kids\' electric dirt bike.',
+    excerpt: 'The compatibility checks that matter when replacing a kids\' electric dirt bike battery.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-06-17',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop kids dirt bike batteries',
+    body: `Replacing a kids' electric dirt bike battery follows the same core compatibility rules as any e-vehicle battery — voltage, capacity and physical fit — with a couple of extra considerations specific to kids' off-road bikes.
+
+## Voltage and capacity, the same as any e-vehicle battery
+
+Confirm your dirt bike's exact voltage from the manual or the original battery's label, and match the replacement precisely — a mismatched voltage risks damaging the bike's motor and controller. Within the correct voltage, a higher amp-hour (Ah) rated replacement generally gives more ride time, provided it physically fits the bike's battery compartment.
+
+## Check if the bike has a speed limiter tied to the battery
+
+Some kids' electric dirt bikes link their adjustable speed limiter function to the specific original battery or controller pairing — confirm with the manufacturer whether a third-party or non-original replacement battery preserves this feature, since losing the speed limiter on a kids' bike is a genuine safety consideration, not just a convenience issue.
+
+## Durability for off-road use
+
+Kids' dirt bikes see more vibration, impact and dust exposure than road-going e-bikes or scooters. If buying a non-original replacement, check it's rated for off-road vehicle use rather than a battery designed for smoother-use applications like e-bikes or scooters.
+
+## Original manufacturer replacement is generally the safer default
+
+Given the safety-relevant speed limiter consideration and the off-road durability requirements, sourcing a manufacturer-original or explicitly manufacturer-approved replacement battery is generally the more reliable choice for a kids' dirt bike specifically, more so than for some other e-vehicle categories.`
+  },
+  {
+    slug: 'kids-dirt-bike-battery-lifespan',
+    title: "How Long Do Kids' Electric Dirt Bike Batteries Last?",
+    metaDescription: 'Realistic ride time and overall lifespan expectations for kids\' electric dirt bike batteries.',
+    excerpt: 'What affects both per-charge ride time and long-term battery life on kids\' electric dirt bikes.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-06-24',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop kids dirt bike batteries',
+    body: `Like any e-vehicle, "battery life" for a kids' electric dirt bike means two separate things — ride time per charge, and how many charge cycles the battery lasts before capacity noticeably declines.
+
+## Ride time per charge
+
+This depends on battery capacity, the speed tier/throttle setting used, rider weight, and terrain. A more aggressive young rider using higher throttle settings on varied terrain will drain the battery faster than gentle riding on flat, easy ground at a lower speed limiter setting — genuine ride time varies meaningfully based on how the bike is actually ridden.
+
+## Overall battery lifespan in charge cycles
+
+Separate from per-charge ride time, the battery has a finite number of charge cycles before capacity declines noticeably — generally in the range of several hundred cycles for a well-maintained lithium battery, similar to other e-vehicle categories, though exact figures vary by specific battery and usage pattern.
+
+## What shortens lifespan specifically for kids' dirt bikes
+
+Heat from storage in direct sun (common if the bike is left outside after a backyard riding session), deep discharges to 0% rather than regular top-ups, and the vibration/impact exposure of off-road riding can all contribute to faster wear than a gentler-use e-vehicle battery experiences.
+
+## Setting realistic expectations for parents
+
+A kids' dirt bike battery that delivered 45 minutes of riding when new will gradually deliver less over its lifespan — this is normal battery ageing, not necessarily a fault. If ride time drops sharply and suddenly rather than gradually, that's more likely to indicate a specific battery issue worth checking, per the warning signs in our [mobility scooter battery guide](/blog/mobility-scooter-battery-replacement-signs/), which apply similarly here.`
+  },
+  {
+    slug: 'ebike-tyre-buying-guide',
+    title: 'E-Bike Tyre Buying Guide: Puncture Resistance and Sizing Explained',
+    metaDescription: 'What to check when buying replacement e-bike tyres — puncture resistance, sizing and tread type.',
+    excerpt: 'The key checks for choosing the right replacement e-bike tyre.',
+    category: 'Parts Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-07-01',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike tyres',
+    body: `Choosing a replacement e-bike tyre means balancing sizing accuracy, puncture resistance and tread type against how and where you actually ride.
+
+## Sizing: get the exact numbers from your current tyre
+
+Tyre size is printed directly on the sidewall of your current tyre (a combination of diameter and width, e.g. 26 x 2.0). Match this precisely, or confirm with your bike's manual, rather than estimating by eye — an incorrectly sized tyre may not fit the rim safely or could rub against the frame.
+
+## Puncture resistance matters more for e-bikes than regular bikes
+
+E-bikes are generally heavier than regular bicycles and often ridden at higher average speeds, both of which increase the consequences of a puncture. Puncture-resistant tyres (using reinforced sidewalls or built-in protective layers) cost a little in rolling efficiency but meaningfully reduce the risk of being stranded by a flat, especially relevant for commuting use.
+
+## Tread type should match your riding surface
+
+Slick or semi-slick tread suits smooth road and path riding with lower rolling resistance; knobbier tread suits loose or unpaved surfaces with better grip, at the cost of slightly higher rolling resistance on smooth pavement. Match tread pattern to where you actually ride most, rather than defaulting to maximum grip if most of your riding is on sealed paths.
+
+## Load rating for e-bike weight
+
+Check the tyre's maximum load rating against your bike's weight plus rider weight — e-bikes are heavier than regular bicycles, and a tyre rated for lighter regular-bicycle use may not be appropriately rated for an e-bike's higher overall weight.`
+  },
+  {
+    slug: 'fix-flat-ebike-tyre-guide',
+    title: 'How to Fix a Flat E-Bike Tyre: Step-by-Step Guide',
+    metaDescription: 'A step-by-step guide to fixing a flat e-bike tyre safely.',
+    excerpt: 'The safe, step-by-step process for fixing a flat e-bike tyre at home.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-07-08',
+    readTime: '5 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike tyres',
+    body: `Fixing a flat e-bike tyre follows the same core process as a regular bicycle, with one important extra step — safely managing the motor and electrical components if the flat is on the motor wheel.
+
+## Step 1: Power down and remove the battery
+
+Before doing any wheel work, turn the bike off and remove the battery if your model allows it — this avoids any risk of the motor engaging accidentally while you're handling the wheel, and is good practice regardless of which wheel has the flat.
+
+## Step 2: Remove the wheel
+
+If the flat is on a hub-motor wheel, take extra care disconnecting the motor cable at the connector point before removing the wheel — note how it's connected so reassembly is straightforward, and avoid pulling on the cable itself rather than the connector housing.
+
+## Step 3: Remove the tyre and tube
+
+Use tyre levers to carefully work the tyre bead off the rim, then remove the inner tube. Check inside the tyre casing for whatever caused the puncture (glass, thorn, metal) before fitting a new or repaired tube — leaving the cause in place will likely cause another puncture immediately.
+
+## Step 4: Fit the new tube and tyre
+
+Partially inflate the new tube so it holds its shape, position it inside the tyre, then work the tyre bead back onto the rim, checking the tube isn't pinched between the tyre and rim anywhere around the full circumference before fully inflating.
+
+## Step 5: Reconnect the motor cable and reinstall the wheel
+
+If you disconnected a motor cable in step 2, reconnect it securely before fully reinstalling the wheel, then check the wheel is seated straight and the axle is fully secured.
+
+## When to get professional help instead
+
+If you're not confident handling the motor wheel's electrical connection, or if anything about the motor cable or connector looks damaged, it's worth having a qualified technician handle the repair rather than risking damage to the motor system.`
+  },
+  {
+    slug: 'ebike-brake-pads-buying-guide',
+    title: 'E-Bike Brake Pads Buying Guide: When to Replace and What to Choose',
+    metaDescription: 'When to replace e-bike brake pads, and what type to choose for your riding.',
+    excerpt: 'Recognising when brake pads need replacing, and choosing the right type for an e-bike.',
+    category: 'Parts Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-07-15',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike brake pads',
+    body: `E-bike brake pads wear faster than on a regular bicycle, given the extra weight and typically higher average speeds — knowing when to replace them and what type suits your bike matters for genuine stopping safety.
+
+## Why e-bikes wear brake pads faster
+
+The combination of a heavier bike (motor and battery add real weight) and generally higher average speeds than an unassisted bicycle means more braking force and heat generated per stop — this accelerates brake pad wear compared to a lighter, slower regular bike covering the same distance.
+
+## Signs it's time to replace
+
+Reduced stopping power, a squealing or grinding noise when braking, visibly thin pad material (most pads have a wear indicator line or minimum thickness marking), or the brake lever needing to travel further than usual before engaging are all signs worth checking promptly, since braking performance is directly safety-relevant.
+
+## Organic vs sintered (metallic) pads
+
+Organic pads generally offer quieter, smoother braking feel but wear faster and perform less consistently in wet conditions. Sintered (metallic) pads last longer and handle wet weather and heat better, at the cost of being noisier and sometimes feeling less immediately responsive. For an e-bike used regularly in varied weather, sintered pads are often the more practical long-term choice.
+
+## Match pad type to your specific brake system
+
+Confirm whether your e-bike uses disc brakes (most common on modern e-bikes) or rim brakes, and buy pads specifically compatible with your brake caliper model — pads aren't universally interchangeable across different brake systems or even between different disc brake manufacturers.`
+  },
+  {
+    slug: 'ebike-brake-pads-worn-signs',
+    title: 'How to Tell If Your E-Bike Brake Pads Need Replacing',
+    metaDescription: 'The practical checks that tell you whether e-bike brake pads need replacing now.',
+    excerpt: 'A practical checklist for assessing e-bike brake pad wear.',
+    category: 'How-To Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-07-22',
+    readTime: '3 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike brake pads',
+    body: `A few straightforward checks tell you reliably whether e-bike brake pads need replacing, without needing to be a bike mechanic to assess them.
+
+## The visual thickness check
+
+Most disc brake pads have a minimum thickness marking or wear indicator groove — visually inspect the pad material through the caliper (you can usually see it without removing the wheel) and compare against the manufacturer's minimum thickness guidance. Pad material worn down close to or below this line means replacement is due.
+
+## The sound check
+
+A high-pitched squeal under braking, especially if it's new or has become more frequent, often indicates pad material has worn thin enough that a wear-indicator feature (built into some pads specifically to make a noise at low thickness) is being triggered — treat this as a prompt to inspect the pads rather than ignoring it.
+
+## The feel check
+
+If the brake lever needs to travel noticeably further than it used to before you feel real stopping power, or if stopping distance feels longer than normal at the same speed, this is a practical sign of either worn pads or a brake system needing adjustment — either way, worth checking promptly.
+
+## The grinding check — stop riding if you notice this
+
+A grinding or metallic scraping sound under braking generally means the pad material has worn through completely and metal is contacting metal — this is a genuine safety issue, not just a maintenance reminder, and the bike shouldn't be ridden until it's addressed, since stopping power is seriously compromised at this point.`
+  },
+  {
+    slug: 'mid-drive-conversion-kit-buying-guide',
+    title: 'Mid-Drive Conversion Kit Buying Guide: Turn Any Bike Into an E-Bike',
+    metaDescription: 'What to check before buying a mid-drive conversion kit to turn a regular bike into an e-bike.',
+    excerpt: 'The key considerations for choosing a mid-drive conversion kit.',
+    category: 'Conversion Kit Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-07-29',
+    readTime: '5 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop mid-drive conversion kits',
+    body: `A mid-drive conversion kit replaces or works through your bike's existing bottom bracket area, delivering motor power through the bike's own gears — a genuinely effective way to electrify a regular bike, provided your frame and components are compatible.
+
+## Frame compatibility is the first thing to check
+
+Mid-drive kits require specific bottom bracket dimensions and frame clearance — not every bike frame accommodates every kit. Check the kit manufacturer's frame compatibility specifications against your specific bike before buying, since this is the single biggest factor in whether a mid-drive conversion is even possible on your bike.
+
+## Why mid-drive works through your gears (and why that matters)
+
+Unlike a hub motor kit, which delivers power at a fixed point regardless of gear, a mid-drive kit's power goes through the bike's existing drivetrain — meaning the motor benefits from your gearing, giving better torque for hills in low gears, similar to how your own pedalling power is amplified by gear selection. This is the main reason riders choose mid-drive over hub-motor conversion for hilly terrain.
+
+## Drivetrain wear considerations
+
+Because a mid-drive motor's power passes through your chain, cassette and derailleur the same way your pedalling does, these components wear faster under motor-assisted use than they would on an unpowered bike — budget for more frequent drivetrain maintenance after conversion than you were used to beforehand.
+
+## Installation complexity
+
+Mid-drive kits are generally more involved to install than hub-motor kits, often requiring bottom bracket removal and more precise fitting. If you're not confident with bicycle mechanical work, professional installation is worth the cost for a mid-drive kit specifically, more so than for some hub-motor kits designed for simpler DIY installation.`
+  },
+  {
+    slug: 'mid-drive-vs-hub-motor-kits',
+    title: 'Mid-Drive vs Hub Motor Conversion Kits: Which Should You Choose?',
+    metaDescription: 'Comparing mid-drive and hub motor e-bike conversion kits on performance, cost and installation.',
+    excerpt: 'An honest comparison to help you choose between a mid-drive and hub motor conversion kit.',
+    category: 'Conversion Kit Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-08-05',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop conversion kits',
+    body: `Mid-drive and hub motor conversion kits both turn a regular bike into an e-bike, but they deliver power differently — and that difference matters more for some riders and terrain than others.
+
+## Power delivery and hill performance
+
+Mid-drive kits deliver power through your bike's gears, giving better torque for climbing — relevant if your riding regularly includes hills. Hub motor kits deliver power at a fixed point in the wheel regardless of gear, which performs well on flatter terrain but can feel less capable on sustained, steep climbs compared to a mid-drive at the same power rating.
+
+## Installation simplicity favours hub motors
+
+Hub motor kits are generally simpler to install — often involving a wheel swap and controller wiring rather than bottom bracket work — making them more accessible for confident DIY installation without specialist bicycle mechanic tools. Mid-drive installation is typically more involved, as covered in our [mid-drive buying guide](/blog/mid-drive-conversion-kit-buying-guide/).
+
+## Weight distribution and handling feel
+
+A hub motor adds weight directly to the wheel it's installed in, which can slightly affect handling feel compared to a mid-drive motor's more centrally located weight near the bike's centre of gravity — most riders notice this more in cornering feel than in everyday straight-line riding.
+
+## Drivetrain wear
+
+As covered separately, mid-drive kits put more wear through your existing chain and cassette since motor power passes through them. Hub motor kits don't add this extra drivetrain wear, since power goes directly to the wheel rather than through the gears.
+
+## Which to choose
+
+Choose mid-drive if hill-climbing performance matters most and you're comfortable with (or willing to pay for) more involved installation. Choose a hub motor kit if simpler installation and lower cost matter more, and your riding is predominantly flatter terrain.`
+  },
+  {
+    slug: 'hub-motor-conversion-kit-buying-guide',
+    title: 'Hub Motor Conversion Kit Buying Guide: Front vs Rear Hub Motors',
+    metaDescription: 'Comparing front and rear hub motor e-bike conversion kits before you buy.',
+    excerpt: 'The practical trade-offs between front-wheel and rear-wheel hub motor conversion kits.',
+    category: 'Conversion Kit Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-08-12',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop hub motor conversion kits',
+    body: `A hub motor conversion kit can be fitted to either the front or rear wheel — each has genuine practical trade-offs worth understanding before choosing.
+
+## Front hub motors: simpler installation
+
+Front wheel installation is generally more straightforward, since it doesn't interact with the bike's existing drivetrain (gears, derailleur, chain) at all — the motor simply replaces the front wheel's hub. This makes front hub kits a popular choice for simpler DIY conversions.
+
+## Front hub motors: traction trade-offs
+
+A front hub motor drives the front wheel while your pedalling power still goes through the rear wheel — this works well generally, but on loose or slippery surfaces, a powered front wheel can occasionally feel less planted than a rear-driven setup, since steering and power delivery are combined at the same wheel.
+
+## Rear hub motors: more natural power feel
+
+Rear hub motors deliver power through the same wheel your pedalling already drives, which most riders find feels more natural and familiar — closer to how a regular bike's power delivery works, just with motor assistance added to the same wheel.
+
+## Rear hub motors: more involved installation
+
+Rear wheel installation is generally more involved, since the motor needs to work around the bike's existing drivetrain components (cassette, derailleur) rather than simply replacing a plain wheel hub — this makes rear hub kits somewhat more complex to install than front hub equivalents, though still simpler than mid-drive conversion.
+
+## Which to choose
+
+Front hub motors suit riders prioritising simpler installation and are a common recommendation for first-time converters. Rear hub motors suit riders who prioritise a more natural power-delivery feel and are comfortable with a somewhat more involved installation process.`
+  },
+  {
+    slug: 'is-it-legal-to-convert-bike-to-electric-australia',
+    title: 'Is It Legal to Convert a Bike to Electric in Australia?',
+    metaDescription: 'Whether converting a regular bike to electric with a kit is legal in Australia, and what makes it compliant.',
+    excerpt: 'What determines whether a converted e-bike is legally compliant in Australia.',
+    category: 'Conversion Kit Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2027-08-19',
+    readTime: '4 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop e-bike conversion kits',
+    body: `Converting a regular bike to electric with a conversion kit is legal in Australia, provided the finished, converted bike meets the same power-assisted pedal cycle standard that applies to any factory-built road-legal e-bike — the conversion method itself isn't restricted, but the end result needs to comply.
+
+## The same 250W/25km/h standard applies to converted bikes
+
+As covered in our [electric bike laws guide](/blog/electric-bike-laws-australia/), a compliant e-bike needs a continuous-rated motor output of 250W or less, with pedal assistance cutting out at 25km/h. This standard applies to a converted bike exactly the same way it applies to a factory-built one — the law doesn't distinguish between a bike built electric from the factory and one converted afterward, only whether the finished bike meets the power and speed thresholds.
+
+## Choosing a compliant conversion kit
+
+Many conversion kits are sold specifically rated to meet the 250W continuous standard, with assist cutoff programmed into the kit's controller. Check the kit's specifications explicitly state compliance with the relevant power and speed limits before buying, rather than assuming all kits are automatically compliant — some kits are sold with higher power ratings intended for off-road or non-road use.
+
+## What happens if the conversion exceeds the limit
+
+Exactly as with a non-compliant factory e-bike, a converted bike exceeding 250W continuous power or not cutting assistance at 25km/h is legally reclassified as a motor vehicle, requiring registration, a licence and insurance — which a converted bicycle generally can't obtain, since it doesn't meet motor vehicle design and safety standards either.
+
+## The practical takeaway
+
+Choose a conversion kit explicitly rated and marketed as compliant with the Australian pedal-assist standard, and confirm the controller's programmed assist cutoff genuinely matches 25km/h rather than assuming the hardware alone guarantees compliance — some kits allow the cutoff speed to be adjusted, which is where compliance can be accidentally lost after installation.`,
+    faqs: [
+      { q: 'Is it legal to convert a bike to electric in Australia?', a: 'Yes, provided the finished converted bike meets the same power-assisted pedal cycle standard as any road-legal e-bike — 250W continuous motor power or less, with pedal assistance cutting out at 25km/h. The conversion method itself isn\'t restricted, only whether the resulting bike complies with those limits.' }
+    ]
   }
 ];
 
