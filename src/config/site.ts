@@ -18331,6 +18331,703 @@ Choose a conversion kit explicitly rated and marketed as compliant with the Aust
     faqs: [
       { q: 'Is it legal to convert a bike to electric in Australia?', a: 'Yes, provided the finished converted bike meets the same power-assisted pedal cycle standard as any road-legal e-bike — 250W continuous motor power or less, with pedal assistance cutting out at 25km/h. The conversion method itself isn\'t restricted, only whether the resulting bike complies with those limits.' }
     ]
+  },
+  {
+    slug: 'bike-helmet-buying-guide-certifications',
+    title: 'Bike Helmet Buying Guide: What Safety Certifications Actually Mean',
+    metaDescription: 'What bike helmet safety certifications actually mean, and how to check for them before buying.',
+    excerpt: 'Decoding helmet safety certification marks so you buy genuine protection.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-08-26',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike helmets',
+    body: `A bike helmet's safety certification mark is the single most important thing to check before buying — it confirms the helmet has been independently tested to a recognised impact-protection standard, rather than just looking protective.
+
+## Why certification matters more than price or looks
+
+A helmet's outer appearance tells you nothing about its actual impact protection — the certification mark is the only reliable indicator that the helmet has passed standardised testing for impact absorption, strap strength and retention system performance. Always check for a genuine, recognised certification mark before considering style or price.
+
+## What the certification process actually tests
+
+Certified helmets undergo impact testing (dropping the helmet onto surfaces at specified forces and measuring impact absorption), strap and buckle strength testing, and retention system testing (confirming the helmet stays correctly positioned during an impact rather than shifting off the head). This is genuinely rigorous testing, not a marketing formality.
+
+## Fit matters as much as certification
+
+A certified helmet that doesn't fit correctly loses much of its protective value — it should sit level on your head (not tilted back), feel snug without being uncomfortably tight, and the strap should be adjusted so only one or two fingers fit between the strap and your chin.
+
+## Replacing a helmet after an impact
+
+A certified helmet's protective foam is generally designed to absorb a single significant impact by crushing — after any real crash or significant impact, replace the helmet even if it looks undamaged externally, since the internal protective structure may no longer offer the same protection.`
+  },
+  {
+    slug: 'do-you-need-helmet-ebike-australia',
+    title: 'Do You Legally Need a Helmet to Ride an E-Bike in Australia?',
+    metaDescription: 'Whether a helmet is legally required to ride an e-bike in Australia, and what type qualifies.',
+    excerpt: 'Helmet laws for e-bike riders across Australia, explained.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-09-02',
+    readTime: '3 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike helmets',
+    body: `Yes — every Australian state and territory requires an approved bicycle helmet for e-bike riders, the same as for regular cyclists, regardless of the rider's age.
+
+## Why e-bikes follow bicycle helmet law
+
+As covered in our [electric bike laws guide](/blog/electric-bike-laws-australia/), a compliant e-bike (250W continuous, 25km/h assist cutoff) is legally classed as a bicycle — which means it falls under the same mandatory helmet laws that apply to any bicycle rider in every Australian state and territory, with no exemption for e-bikes.
+
+## What counts as an approved helmet
+
+An approved helmet needs to meet the recognised Australian safety standard — look for a certification mark on the helmet (see our [helmet certification guide](/blog/bike-helmet-buying-guide-certifications/) for what to check), rather than any helmet-shaped headwear. A helmet without proper certification doesn't satisfy the legal requirement even if it looks similar to a compliant one.
+
+## Does this apply to all ages?
+
+Yes — the mandatory helmet requirement applies to e-bike riders of all ages across every state and territory, with no age-based exemption, consistent with standard bicycle helmet laws.
+
+## What about non-compliant, higher-powered e-bikes?
+
+If an e-bike exceeds the 250W/25km/h standard and is legally reclassified as a motor vehicle (covered in our electric bike laws guide), it would fall under motorcycle helmet requirements instead of bicycle helmet requirements — a different, generally more stringent, standard.`,
+    faqs: [
+      { q: 'Do you legally need a helmet to ride an e-bike in Australia?', a: 'Yes — every Australian state and territory requires an approved bicycle helmet for e-bike riders of all ages, since a compliant e-bike is legally classed as a bicycle and falls under the same mandatory helmet laws.' }
+    ]
+  },
+  {
+    slug: 'bike-lights-buying-guide',
+    title: 'Bike Lights Buying Guide: Lumens, Battery Life and Legal Requirements',
+    metaDescription: 'What to check when buying bike lights — lumen output, battery life and legal requirements.',
+    excerpt: 'Decoding lumen ratings and legal requirements for bike lights.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-09-09',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike lights',
+    body: `Bike lights serve two distinct purposes — being seen by others, and seeing the path ahead — and the lumen output, battery life and legal requirements differ depending on which purpose matters most for your riding.
+
+## Front lights: visibility vs illumination
+
+A front light used mainly for being seen on well-lit urban streets needs far fewer lumens than one meant to actually illuminate an unlit path or trail. For well-lit city commuting, a modest lumen front light is often sufficient; for genuinely dark, unlit routes, a significantly higher lumen output is needed to actually see the road surface ahead.
+
+## Rear lights: steady vs flashing modes
+
+Rear lights are primarily about being seen rather than illumination — flashing modes are generally more attention-grabbing to drivers than steady light, though some jurisdictions have specific rules about flashing-only rear lights, so check local road rules if relying on flash mode alone.
+
+## Battery life for your actual riding pattern
+
+Check the light's battery life at the brightness setting you'll actually use, not just the lowest-brightness maximum runtime figure — higher brightness settings drain the battery considerably faster, and a light that runs out mid-commute defeats the purpose.
+
+## Legal requirements vary slightly by state
+
+Every Australian state and territory requires lights for night riding, but specific requirements (minimum lumen output, whether both front and rear are mandatory, flashing vs steady rules) can vary — check your state's current bicycle lighting rules rather than assuming a single national standard covers every detail.`
+  },
+  {
+    slug: 'bike-lights-mandatory-night-australia',
+    title: 'Are Bike Lights Mandatory at Night in Australia?',
+    metaDescription: 'Whether bike lights are legally mandatory at night in Australia, and what the rules require.',
+    excerpt: 'The legal requirement for bike lights after dark, explained.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-09-16',
+    readTime: '3 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike lights',
+    body: `Yes — every Australian state and territory requires a bicycle (including a compliant e-bike) to display lights when ridden at night or in conditions of reduced visibility, such as heavy rain or fog.
+
+## What's generally required
+
+Most states require a white or yellow front light and a red rear light, visible from a specified distance, when riding between sunset and sunrise, or any time visibility is reduced. Many states also require a red rear reflector in addition to the rear light.
+
+## Why this applies to e-bikes the same as regular bikes
+
+Since a compliant e-bike is legally classed as a bicycle, the same night-riding lighting requirements that apply to any cyclist apply equally to e-bike riders — there's no exemption or different standard specifically for e-bikes.
+
+## Check your specific state's exact requirements
+
+While the core requirement (front and rear lights, visible at night) is broadly consistent, specific details like minimum visibility distance, whether reflectors satisfy part of the requirement, and exact enforcement can vary by state — check your state's current road rules for the precise wording if you want to confirm compliance exactly.
+
+## Practical advice beyond the legal minimum
+
+Even where a dim light technically satisfies the legal minimum, a genuinely bright front light improves both your visibility to others and your own ability to see the road — riding with lights that merely meet the legal minimum isn't necessarily riding with lights that are actually effective for safety.`,
+    faqs: [
+      { q: 'Are bike lights mandatory at night in Australia?', a: 'Yes — every state and territory requires a front light and rear light (and often a rear reflector) when cycling at night or in reduced visibility conditions, and this applies to compliant e-bikes the same as regular bicycles.' }
+    ]
+  },
+  {
+    slug: 'hi-vis-cycling-gear-buying-guide',
+    title: 'Hi-Vis Cycling Gear Buying Guide: Staying Visible on the Road',
+    metaDescription: 'What to look for in hi-vis cycling gear for genuine road visibility.',
+    excerpt: 'What actually makes hi-vis cycling gear effective, beyond bright colour alone.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-09-23',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop hi-vis cycling gear',
+    body: `Genuine visibility on the road comes from a combination of bright colour, reflective material and smart positioning — not just any brightly coloured garment labelled "hi-vis."
+
+## Fluorescent colour for daytime visibility
+
+Fluorescent colours (bright yellow-green, orange) stand out dramatically more than regular bright colours in daylight conditions, which is what makes dedicated hi-vis fabric more effective than simply wearing a normal brightly coloured jacket.
+
+## Reflective material for night and low-light visibility
+
+Fluorescent colour loses most of its visibility advantage after dark — reflective strips or panels (which bounce vehicle headlights directly back toward the driver) are what actually provide visibility at night, making both fluorescent colour and reflective material genuinely necessary for round-the-clock visibility, not just one or the other.
+
+## Positioning and coverage matter
+
+Reflective material positioned on moving parts of your body (ankles, where pedalling creates visible movement) can be more effective at catching a driver's attention than static reflective panels alone — some hi-vis cycling gear specifically incorporates ankle or wrist reflective elements for this reason.
+
+## Don't rely on gear alone
+
+Hi-vis gear meaningfully improves your visibility, but it doesn't replace riding defensively, using lights as covered in our [bike lights guide](/blog/bike-lights-buying-guide/), and assuming drivers may not have seen you regardless of what you're wearing.`
+  },
+  {
+    slug: 'best-hi-vis-jackets-commuter-cyclists',
+    title: 'Best Hi-Vis Jackets and Vests for Commuter Cyclists',
+    metaDescription: 'What to look for in a hi-vis jacket or vest built specifically for commuter cycling.',
+    excerpt: 'The features that matter most in hi-vis gear for daily commuter cycling.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-09-30',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop hi-vis cycling gear',
+    body: `A hi-vis jacket or vest built specifically for commuter cycling needs to balance visibility with the practical demands of being worn, packed and worn again daily — different priorities to a general-purpose hi-vis workwear garment.
+
+## Breathability for genuine physical effort
+
+Unlike static hi-vis workwear, cycling generates real heat and sweat — a jacket or vest with genuine ventilation (mesh panels, breathable fabric) is far more comfortable for daily commuting than a standard hi-vis garment not designed for active wear.
+
+## Vest vs jacket depends on your climate and layering needs
+
+A hi-vis vest worn over your regular clothing offers flexibility — easy to add or remove as temperature changes through a ride, and works over whatever you're already wearing. A dedicated hi-vis jacket offers more complete coverage and weather protection but less flexibility for varying conditions through the day.
+
+## Packability for the return commute
+
+If you're not wearing the hi-vis layer all day (just for the ride), check how easily it packs down — some commuter-specific hi-vis vests fold into a small integrated pouch, which matters if you're carrying it in a bag rather than wearing it the whole day.
+
+## Reflective placement for cycling-specific visibility
+
+As covered in our [hi-vis buying guide](/blog/hi-vis-cycling-gear-buying-guide/), reflective placement on moving parts (ankle bands, for instance) adds visibility beyond what a jacket or vest alone provides — worth considering as a complementary addition rather than relying on the jacket alone.`
+  },
+  {
+    slug: 'bike-u-lock-buying-guide',
+    title: 'Bike U-Lock Buying Guide: Security Ratings Explained',
+    metaDescription: 'What bike U-lock security ratings actually mean, and how to choose the right level.',
+    excerpt: 'Decoding U-lock security ratings so you buy genuine theft protection.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-10-07',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike U-locks',
+    body: `U-locks (also called D-locks) are generally considered one of the most secure bike lock formats, but security varies significantly between models — understanding what drives that variation helps you buy genuine protection rather than a false sense of security.
+
+## Shackle thickness and material
+
+A thicker, hardened-steel shackle is harder to cut with bolt cutters or an angle grinder than a thinner one — this is one of the most direct indicators of a U-lock's resistance to brute-force attack, and generally correlates with the lock's weight and price.
+
+## Crossbar and keyway design
+
+Beyond the shackle itself, the crossbar (the straight section connecting the two shackle arms) and keyway design affect resistance to specific attack methods like prying or lock-picking. Reputable lock manufacturers design these components specifically to resist known attack techniques, which is part of what you're paying for in a quality lock over a cheap generic one.
+
+## Matching lock security to where you park
+
+A higher-security, heavier U-lock makes sense for a bike regularly parked in high-theft areas or left unattended for extended periods. A lighter, still-reasonably-secure lock may be adequate for a bike that's rarely left unattended in public for long — but given e-bikes' higher resale value, it's worth erring toward stronger security than you might for a regular bicycle.
+
+## Size matters for how you can lock up
+
+A U-lock needs to be large enough to secure the frame and a wheel to a fixed object, but not so large that there's excess room inside the lock for a thief to insert tools for leverage attacks — a snug fit around what you're securing is part of genuine security, not just convenience.`
+  },
+  {
+    slug: 'u-lock-vs-d-lock-difference',
+    title: "U-Lock vs D-Lock: What's the Difference and Which Is More Secure?",
+    metaDescription: 'Whether U-locks and D-locks are actually different, and which offers more security.',
+    excerpt: 'Clearing up the U-lock vs D-lock naming confusion and what actually matters for security.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-10-14',
+    readTime: '3 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike U-locks',
+    body: `U-lock and D-lock are two names for essentially the same lock format — the naming difference comes from how the shackle's shape is described, not from any functional difference in security.
+
+## Same lock, two names
+
+"U-lock" describes the shackle's U shape before it's closed by the crossbar; "D-lock" describes the overall shape once closed (the straight crossbar plus the curved shackle forming a rough D outline). Both terms refer to the same style of rigid-shackle lock — you won't find a meaningful security difference based on which name a specific product uses.
+
+## What actually determines security, regardless of naming
+
+As covered in our [U-lock buying guide](/blog/bike-u-lock-buying-guide/), shackle thickness and material, crossbar and keyway design, and appropriately sized fit for your bike are what actually determine a lock's security — not whether the listing calls it a U-lock or D-lock.
+
+## Don't let naming confusion affect your buying decision
+
+If you're comparing two locks and one is labelled "U-lock" and the other "D-lock," treat this as irrelevant to the comparison — focus on the actual security specifications (shackle thickness, security rating if the manufacturer provides one, and build quality) rather than the name used.
+
+## The genuine comparison worth making
+
+The meaningful security comparison is between rigid-shackle locks (U/D-locks) generally and other lock formats like cable locks or chain locks — not between differently named versions of the same rigid-shackle format.`
+  },
+  {
+    slug: 'folding-bike-lock-buying-guide',
+    title: 'Folding Bike Lock Buying Guide: Portability vs Security Trade-Offs',
+    metaDescription: 'The genuine trade-offs between portability and security when choosing a folding bike lock.',
+    excerpt: 'What you gain and give up choosing a folding lock over a rigid U-lock.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-10-21',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop folding bike locks',
+    body: `Folding locks offer genuine portability advantages over a rigid U-lock, with some real security trade-offs worth understanding honestly before choosing one as your primary lock.
+
+## Why folding locks are more portable
+
+A folding lock collapses into a compact bundle of hinged metal bars, typically mounting to the frame in a small bracket — considerably more compact and lighter to carry than a rigid U-lock, which stays in its full U shape whether locked or not.
+
+## The security trade-off: hinge points
+
+A folding lock's hinges, while generally built to resist attack, do introduce additional mechanical joints compared to a solid rigid U-lock shackle — in general, a quality rigid U-lock tends to offer a higher baseline security ceiling than a folding lock of similar price, due to having fewer potential weak points.
+
+## Length and reach advantage
+
+Folding locks typically extend to a longer total length than a U-lock when unfolded, making it easier to lock the bike to a wider range of objects (larger posts, awkwardly shaped racks) that a rigid U-lock's fixed, smaller opening might not accommodate.
+
+## Choosing based on your actual risk level
+
+For a bike regularly left unattended in higher-theft areas, a quality rigid U-lock's generally higher security ceiling is the safer primary choice. For a bike that's rarely left unattended for long, or where the portability and flexible reach of a folding lock solve a genuine practical problem (awkward parking infrastructure), the security trade-off may be reasonably acceptable.`
+  },
+  {
+    slug: 'folding-locks-vs-u-locks-daily',
+    title: 'Folding Locks vs U-Locks: Which Should You Carry Daily?',
+    metaDescription: 'Whether a folding lock or U-lock is better suited for daily commuter carrying.',
+    excerpt: 'Helping daily commuters choose between a folding lock and a U-lock.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-10-28',
+    readTime: '3 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike locks',
+    body: `For daily commuter carrying specifically, the decision between a folding lock and a U-lock often comes down to how much security risk your specific parking situation presents, weighed against the real, daily cost of carrying extra weight and bulk.
+
+## If you park somewhere low-risk most days
+
+If your commute ends at a workplace with secure, supervised or indoor bike parking, and the lock is more of a backup than the primary defence, a lighter folding lock's portability advantage is reasonably worth the modest security trade-off for daily carrying comfort.
+
+## If you regularly park in higher-risk public locations
+
+If your bike is regularly left unattended on public streets or in higher-theft areas for extended periods, the generally higher security ceiling of a quality rigid U-lock is worth the extra weight and bulk of carrying it daily — this is specifically the scenario where a folding lock's trade-offs matter most.
+
+## A practical middle ground: compact U-locks
+
+Some U-locks are designed specifically in smaller, lighter form factors for daily commuter carrying, narrowing the portability gap with folding locks while retaining more of the rigid-shackle security advantage — worth considering if you want to minimise the trade-off rather than choosing one extreme or the other.
+
+## The honest bottom line
+
+Match the lock to your actual daily parking risk rather than defaulting to whichever feels lighter to carry — the lock that's actually protecting your bike in its highest-risk moment matters more than daily carrying comfort, though a genuinely unused heavy lock (left at home because it's annoying to carry) provides zero protection at all.`
+  },
+  {
+    slug: 'bike-chain-lock-buying-guide',
+    title: 'Bike Chain Lock Buying Guide: Thickness and Security Ratings Explained',
+    metaDescription: 'What chain thickness and security ratings mean when buying a bike chain lock.',
+    excerpt: 'Decoding chain lock thickness and security ratings for genuine theft protection.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-11-04',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike chain locks',
+    body: `Chain lock security comes down mainly to link thickness, link material hardness and the quality of the padlock securing it — three factors worth checking individually rather than judging a chain lock by its overall length or appearance alone.
+
+## Link thickness is the primary security indicator
+
+Thicker chain links are more resistant to bolt cutters and angle grinders than thinner links — this is the most direct, comparable security metric across different chain locks, similar to shackle thickness on a U-lock. Manufacturers typically state link diameter explicitly, worth comparing directly between models.
+
+## Hardened steel vs standard steel links
+
+Beyond thickness, the steel's hardness matters — hardened steel links resist cutting tools significantly better than standard steel links of the same thickness. Reputable security-focused chain locks typically state hardened steel construction explicitly.
+
+## The padlock matters as much as the chain
+
+A chain is only as secure as the padlock joining its ends — a high-quality, pick- and bump-resistant padlock paired with the chain is just as important as link thickness, and some lower-quality chain locks pair genuinely thick chain with a comparatively weak padlock, undermining the overall security.
+
+## Length and flexibility for your locking needs
+
+Chains offer more flexibility than a rigid U-lock for locking around awkwardly shaped objects or securing multiple bikes together, but added length can mean added weight — balance the length you genuinely need against the practical weight you're willing to carry.`
+  },
+  {
+    slug: 'chain-lock-vs-u-lock-theft',
+    title: 'Chain Lock vs U-Lock: Which Stops Bike Theft Better?',
+    metaDescription: 'Comparing chain locks and U-locks on genuine theft-prevention effectiveness.',
+    excerpt: 'An honest comparison of chain lock and U-lock theft resistance.',
+    category: 'Security Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-11-11',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike locks',
+    body: `Both chain locks and U-locks can offer genuinely strong theft resistance — the more meaningful comparison is between a specific high-quality example of each, rather than assuming one format is universally superior.
+
+## Comparable security at the high end
+
+A thick, hardened-steel chain paired with a quality padlock can match or exceed a mid-range U-lock's resistance to cutting tools. Similarly, a thin, low-quality chain is less secure than a quality hardened U-lock. The format matters less than the specific build quality within that format.
+
+## Flexibility favours chains
+
+Chains flex around awkwardly shaped objects, irregular bike racks, or securing multiple bikes together in ways a rigid U-lock's fixed shape can't match — a genuine practical advantage for certain parking situations.
+
+## Weight-to-security ratio generally favours U-locks
+
+For the same level of cutting resistance, a U-lock's rigid shackle design typically achieves that security at a lower overall weight than an equivalently secure chain — relevant if daily carrying weight matters to you as much as absolute security.
+
+## Combining both for maximum security
+
+For a bike parked long-term in a higher-theft area, some owners use both a U-lock and a chain lock together, securing different parts of the bike (frame plus wheel, for instance) — forcing a thief to defeat two different lock types and tools rather than one, which meaningfully increases the time and effort required.
+
+## The honest verdict
+
+Neither format is definitively "better" — a quality chain and a quality U-lock offer comparable real-world security, and the right choice depends more on your specific parking situation (flexibility needs, weight tolerance) than on the lock type alone.`
+  },
+  {
+    slug: 'bike-rack-basket-buying-guide',
+    title: 'Bike Rack and Basket Buying Guide: Front vs Rear Carrying Capacity',
+    metaDescription: 'Comparing front and rear bike rack and basket carrying capacity and handling effects.',
+    excerpt: 'How front and rear carrying placement affects capacity and handling.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-11-18',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike racks and baskets',
+    body: `Where you carry cargo on a bike — front or rear — affects both how much weight you can comfortably carry and how the bike handles with that weight loaded, worth understanding before choosing where to mount a rack or basket.
+
+## Rear racks generally handle more weight
+
+Rear-mounted racks, positioned over or near the rear wheel, generally support higher weight capacities than front baskets, and keep the bike's handling more predictable at higher loads since the weight sits closer to the bike's centre of gravity and over the stronger rear wheel.
+
+## Front baskets offer easier access and visibility
+
+A front basket keeps cargo in view and within easy reach without dismounting, useful for frequently accessed items (bag, shopping, phone) — but front-mounted weight affects steering more noticeably than rear-mounted weight, since it sits ahead of the steering axis.
+
+## Handling changes with loaded weight
+
+Heavier front loads can make steering feel heavier and less responsive, particularly noticeable at low speed or when manoeuvring. Heavier rear loads are generally less disruptive to steering feel but can affect rear traction and braking balance if loaded close to the rack's maximum rated capacity.
+
+## Matching the setup to what you're actually carrying
+
+For heavier, bulkier loads (grocery runs, larger bags), a rear rack with proper pannier bags generally handles the weight and balance better. For lighter, frequently accessed items you want visible and within reach, a front basket is the more convenient choice — many riders use both for different purposes rather than choosing one exclusively.`
+  },
+  {
+    slug: 'best-bike-baskets-racks-commuting',
+    title: 'Best Bike Baskets and Racks for Grocery Runs and Commuting',
+    metaDescription: 'What to look for in bike baskets and racks for grocery runs and daily commuting.',
+    excerpt: 'Matching bike carrying accessories to grocery runs and commuter carrying needs.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-11-25',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike racks and baskets',
+    body: `Grocery runs and daily commuting put different demands on bike carrying accessories — grocery trips need genuine capacity and stability for bulkier loads, while commuting often prioritises a secure, consistent spot for a bag or laptop.
+
+## For grocery runs: prioritise capacity and secure containment
+
+A rear rack with pannier bags generally handles grocery loads better than an open front basket — panniers keep items contained and balanced on both sides, and rear mounting keeps the bike's handling more predictable with a genuinely heavy, bulky grocery load compared to an open front basket that items could shift or fall from.
+
+## For commuting: prioritise quick access and security
+
+A front basket or a rack-mounted bag that's quick to load and unload suits the daily in-and-out nature of commuting better than needing to carefully pack panniers each morning. If carrying a laptop or valuables, check the basket or bag offers genuine weather protection and, ideally, some security against casual theft while the bike is parked.
+
+## Weight capacity matters for both use cases
+
+Check the rack or basket's rated weight capacity against your actual typical load — a genuinely full grocery haul can exceed a basket's rating more easily than expected, and exceeding the rated capacity affects both the accessory's durability and the bike's handling.
+
+## Quick-release vs permanently mounted
+
+Quick-release basket and pannier systems let you remove the carrying accessory when not needed (reducing weight and bulk for rides where you're not carrying anything), while permanently mounted racks offer a more solid, rattle-free connection for consistent heavy use — worth considering based on how consistently you actually carry cargo.`
+  },
+  {
+    slug: 'bike-pannier-buying-guide',
+    title: 'Bike Pannier Buying Guide: Waterproofing and Capacity Explained',
+    metaDescription: 'What to check for waterproofing and capacity when buying bike panniers.',
+    excerpt: 'The waterproofing and capacity specs that matter when choosing bike panniers.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-12-02',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike panniers',
+    body: `Bike panniers vary significantly in both waterproofing and capacity — matching both to how and where you'll actually use them avoids buying either more pannier than you need or, worse, one that lets your gear get wet.
+
+## Waterproofing: check the actual construction, not just marketing claims
+
+"Water-resistant" and genuinely waterproof are different things — a true waterproof pannier typically uses a roll-top closure and welded or sealed seams (similar to a dry bag), while water-resistant panniers may use zippers and treated fabric that resists light rain but isn't sealed against sustained or heavy rain. If you're commuting regardless of weather, genuine waterproof construction is worth prioritising over a cheaper water-resistant option.
+
+## Capacity: measured in litres, matched to actual use
+
+Pannier capacity is typically stated in litres — match this to what you actually carry regularly (laptop and lunch for commuting needs far less capacity than touring gear or a grocery shop) rather than buying maximum capacity "just in case," since larger panniers add weight and can affect handling when empty or lightly loaded too.
+
+## Mounting system compatibility
+
+Panniers attach to racks via hooks or clips that need to be compatible with your specific rack's rail diameter and spacing — check compatibility before buying, since not every pannier mounting system fits every rack universally.
+
+## Single vs double (paired) panniers
+
+A single pannier is simpler and lighter for lighter loads; a paired set balances weight on both sides of the rear wheel, which matters more as load weight increases, since an unbalanced single heavy pannier can affect handling more noticeably than a balanced pair carrying the same total weight.`
+  },
+  {
+    slug: 'panniers-vs-backpack-commuting',
+    title: "Panniers vs Backpack: What's Better for Commuting by E-Bike?",
+    metaDescription: 'Comparing panniers and backpacks for e-bike commuting comfort and practicality.',
+    excerpt: 'An honest comparison between panniers and a backpack for daily e-bike commuting.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-12-09',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike panniers',
+    body: `For e-bike commuting specifically, panniers and a backpack each have genuine advantages — the right choice depends mostly on comfort preference, what you're carrying, and how far you're riding.
+
+## Comfort: panniers win for longer or sweatier rides
+
+A loaded backpack sits directly on your back throughout the ride, which can mean a sweaty back and some fatigue over longer commutes, particularly in warmer weather. Panniers transfer all that weight to the bike itself rather than your body, which most riders find noticeably more comfortable on longer or hillier commutes — though an e-bike's motor assistance reduces how much this matters for the riding effort itself, it doesn't change the physical comfort of carrying weight on your back.
+
+## Backpacks win for flexibility and quick stops
+
+A backpack stays with you when you lock up the bike and walk into a building — no need to detach and carry panniers separately, or leave them on an unattended bike. For commutes involving multiple stops or situations where you don't want to leave bags attached to a parked bike, a backpack's built-in portability is a genuine advantage.
+
+## Capacity and weight distribution
+
+Panniers generally offer more usable capacity without the weight ever resting on your body, and (as covered in our pannier buying guide) a paired set balances weight evenly, which matters more as load increases. A backpack's capacity is more limited by what's comfortable to carry on your back for the full ride duration.
+
+## A reasonable middle ground
+
+Many commuters use a smaller daypack or sling bag for items they want with them off the bike (wallet, phone, keys) combined with a pannier for bulkier items like a laptop or lunch — getting some of the comfort benefit of panniers while keeping essential items accessible without detaching anything.`
+  },
+  {
+    slug: 'child-bike-seat-buying-guide',
+    title: 'Child Bike Seat Buying Guide: Age, Weight Limits and Safety Standards',
+    metaDescription: 'What to check for age, weight limits and safety standards when buying a child bike seat.',
+    excerpt: 'The safety and sizing checks that matter when buying a child bike seat.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-12-16',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop child bike seats',
+    body: `A child bike seat's age and weight guidance, harness design and mounting security all directly affect child safety — this is a category where checking the specifics properly matters more than almost any other bike accessory.
+
+## Age and weight guidance from the manufacturer
+
+Every child bike seat has a manufacturer-specified minimum and maximum age and weight range, generally tied to a child's neck strength and ability to sit supported — a child below the minimum age typically doesn't yet have the neck and core strength to safely ride in a bike seat, regardless of their weight. Check this guidance carefully rather than estimating based on size alone.
+
+## Harness design for genuine restraint
+
+A proper five-point harness (shoulders, hips, and between the legs) provides meaningfully more secure restraint than a simple lap belt — check the harness design explicitly, since this is one of the most safety-relevant features of any child bike seat.
+
+## Mounting security and compatibility
+
+Confirm the seat's mounting system is compatible with your specific bike's frame or rack, and that it can be securely fastened without excessive play or movement once installed — a loosely mounted seat undermines the harness's protection regardless of how good the harness itself is.
+
+## A helmet for the child, every ride
+
+A properly fitted child's bicycle helmet is essential for any child riding in a bike seat, the same mandatory requirement covered in our [helmet laws guide](/blog/do-you-need-helmet-ebike-australia/) — every ride, regardless of distance or how the parent feels about the trip's riskiness.`
+  },
+  {
+    slug: 'front-vs-rear-child-bike-seats',
+    title: 'Front-Mounted vs Rear-Mounted Child Bike Seats: Which Is Safer?',
+    metaDescription: 'Comparing front-mounted and rear-mounted child bike seats on safety and practicality.',
+    excerpt: 'An honest comparison of front and rear child bike seat positioning.',
+    category: 'Safety Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-12-23',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop child bike seats',
+    body: `Front-mounted and rear-mounted child bike seats both have genuine safety advantages, and the choice often comes down to the child's age and which trade-offs matter more to you as the rider.
+
+## Front-mounted seats: closer supervision, different handling impact
+
+A front-mounted seat positions the child directly in front of the rider, between the handlebars and the rider's body — this allows closer visual supervision and interaction during the ride, which many parents find reassuring, especially with younger children. The trade-off is that front-mounted weight affects steering more noticeably than rear-mounted weight, since it sits ahead of the steering axis, similar to the handling effect covered in our bike rack buying guide.
+
+## Rear-mounted seats: more common weight range, less steering impact
+
+Rear-mounted seats, positioned behind the rider over or near the rear wheel, generally have less impact on steering feel since the weight sits closer to the bike's centre of gravity. Rear seats also commonly accommodate a wider age and weight range than front seats, since there's typically more structural space to work with behind the rider.
+
+## Age guidance often differs between the two types
+
+Front-mounted seats are sometimes recommended for a narrower, often younger age range than rear-mounted seats, partly due to handlebar and reach constraints — check the specific manufacturer guidance for each seat type and model rather than assuming front and rear options cover identical age ranges.
+
+## Which is actually safer?
+
+Both are safe when correctly matched to the child's age/weight and properly installed — the meaningful safety factors are harness quality, secure mounting and appropriate age/weight matching (all covered in our [child bike seat buying guide](/blog/child-bike-seat-buying-guide/)), not front vs rear positioning alone. The choice between them is more reasonably based on supervision preference and handling impact than a clear overall safety winner.`
+  },
+  {
+    slug: 'bike-phone-mount-buying-guide',
+    title: 'Bike Phone Mount Buying Guide: Compatibility and Vibration Protection',
+    metaDescription: 'What to check for compatibility and vibration protection when buying a bike phone mount.',
+    excerpt: 'The practical checks that matter when choosing a secure bike phone mount.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2027-12-30',
+    readTime: '4 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike phone mounts',
+    body: `A good bike phone mount needs to hold your specific phone securely through real road vibration, without needing constant readjustment or risking the phone working loose mid-ride.
+
+## Phone size and case compatibility
+
+Check the mount's stated compatible phone width range against your phone, including the case if you ride with one attached — some mounts fit a phone without a case but not with a bulkier protective case, which matters if you don't want to remove your case for every ride.
+
+## Mounting mechanism security
+
+Mounts range from simple spring-clamp designs to more secure twist-lock or case-specific attachment systems. A basic clamp mount is generally adequate for smoother riding, but genuine vibration resistance over rough surfaces (relevant for off-road or poorly maintained road riding) benefits from a more secure, purpose-built locking mechanism rather than friction alone.
+
+## Vibration protection matters more than most buyers expect
+
+Sustained vibration from rough roads or trails can gradually work a poorly secured phone loose, or in extreme cases contribute to internal phone component wear over time. Mounts with some vibration dampening (rubber isolation between the clamp and handlebar mount) genuinely reduce this risk compared to a rigid, direct connection.
+
+## Handlebar diameter compatibility
+
+Confirm the mount's handlebar clamp range matches your bike's handlebar diameter — this varies between bike types, and a mount that's loose or requires excessive force to fit isn't securely holding your phone regardless of how good the phone-holding mechanism itself is.`
+  },
+  {
+    slug: 'best-bike-phone-mounts-navigation',
+    title: 'Best Bike Phone Mounts for Navigation on Long Rides',
+    metaDescription: 'What to look for in a bike phone mount specifically for navigation on longer rides.',
+    excerpt: 'Choosing a phone mount that holds up for navigation-heavy, longer rides.',
+    category: 'Accessory Guides',
+    categorySlug: 'safety-security-carry',
+    date: '2028-01-06',
+    readTime: '3 min read',
+    image: '/images/categories/category-safety-security-carry.webp',
+    ctaText: 'Shop bike phone mounts',
+    body: `For navigation-focused riding specifically — following a map app for an unfamiliar route or a longer ride — a few additional features matter beyond the basic security and compatibility covered in our general phone mount buying guide.
+
+## Screen visibility and glare
+
+A mount positioned to minimise glare (generally angled slightly to reduce direct sun reflection) makes a real difference when you're relying on the screen for turn-by-turn navigation throughout a ride, rather than glancing at it occasionally.
+
+## Battery drain from active navigation
+
+Active GPS navigation drains phone battery considerably faster than normal use — for longer rides, consider a mount with an integrated USB charging connection, or plan to start with a full charge and a power bank if your ride will exceed what the phone's battery comfortably covers while actively navigating.
+
+## Weatherproofing for longer, less predictable rides
+
+Longer rides carry more risk of encountering unexpected weather — a mount or accompanying phone case with genuine weather resistance protects against both rain and the vibration/dust exposure of a longer trip, worth prioritising over a mount designed only for short, predictable commutes.
+
+## Quick-release for stops along the way
+
+If your longer ride includes stops where you'd rather take the phone with you (cafes, photo stops, shops), a mount with a genuinely quick, one-handed release mechanism — covered as part of overall mount security in our [phone mount buying guide](/blog/bike-phone-mount-buying-guide/) — adds real convenience without compromising security while riding.`
+  },
+  {
+    slug: 'allied-buyers-guide-which-ev-category',
+    title: 'ALLIED Buyer\'s Guide: Which Electric Vehicle Category Is Right for You?',
+    metaDescription: 'A cross-category guide to help you choose the right electric vehicle for your needs, from e-bikes to mobility scooters.',
+    excerpt: 'A starting point for choosing between ALLIED\'s electric vehicle categories based on how you\'ll actually use it.',
+    category: 'Buyer\'s Guides',
+    categorySlug: '',
+    date: '2028-01-13',
+    readTime: '6 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Browse the full shop',
+    body: `With ten different electric vehicle categories in the ALLIED range, the right starting point is usually your actual use case, not which category has the most exciting specs.
+
+## Daily commuting or errands
+
+If you're replacing short car trips or public transport for a regular commute, electric bikes (commuter or folding models) or electric scooters are the most direct fit — both offer genuine door-to-door transport without licensing or registration requirements, covered in our [e-bike laws guide](/blog/electric-bike-laws-australia/).
+
+## Family transport and school runs
+
+Cargo e-bikes and electric tricycles suit carrying kids and gear, with cargo e-bikes offering higher payload capacity for multiple children and electric tricycles offering extra stability if balance is a concern for the rider.
+
+## Trail and off-road recreation
+
+Electric mountain bikes, electric dirt bikes and electric quad bikes cover off-road recreation at different intensity levels — eMTBs for trail cycling, dirt bikes and quads for more motorsport-adjacent off-road riding, each with different licensing considerations covered in their respective category guides.
+
+## Mobility and accessibility needs
+
+Mobility scooters (travel/folding or heavy-duty) address genuine mobility and independence needs, with the right model depending on whether portability (travel) or terrain capability and daily range (heavy-duty) matters more for your situation.
+
+## Water sports and recreation
+
+Electric surfboards, jetboards and jet skis cover powered water sports at different price points and skill levels, from board-based balance sports through to seated personal watercraft.
+
+## Kids and backyard fun
+
+Electric balance bikes, kids' quad bikes, go-karts and hoverboards cover different ages and riding styles for younger riders, each with age-appropriate power tiers covered in their category guides.
+
+## Once you've found your category
+
+Browse the specific category for detailed model comparisons, or check our [parts and accessories range](/blog/) if you already own a compatible vehicle and need batteries, chargers or safety gear.`
+  },
+  {
+    slug: 'electric-vehicle-battery-care-101',
+    title: 'Electric Vehicle Battery Care 101: Lithium Maintenance Tips for Every ALLIED Product',
+    metaDescription: 'Universal lithium battery care tips that apply across every ALLIED electric vehicle category.',
+    excerpt: 'The core lithium battery care principles that apply whether you ride an e-bike, scooter or mobility scooter.',
+    category: 'Battery Guides',
+    categorySlug: 'batteries-parts-kits',
+    date: '2028-01-20',
+    readTime: '5 min read',
+    image: '/images/categories/category-batteries-parts-kits.webp',
+    ctaText: 'Shop batteries and chargers',
+    body: `Whatever ALLIED electric vehicle you ride — e-bike, scooter, hoverboard, mobility scooter, dirt bike or quad — the lithium battery powering it responds to the same core care principles, since the underlying cell chemistry is fundamentally the same across categories.
+
+## Charge after use, don't wait for empty
+
+As covered in our [e-bike battery charging habits guide](/blog/extend-ebike-battery-lifespan/), lithium batteries have no memory effect — regularly topping up after use is better for long-term health than habitually running the battery down to zero across any of these vehicle categories.
+
+## Avoid heat exposure during storage
+
+Leaving any lithium-powered vehicle's battery in direct sun, a hot car, or near other heat sources accelerates capacity degradation — this applies identically whether it's an e-bike battery, a mobility scooter battery, or a kids' electric dirt bike battery.
+
+## Store at partial charge for extended breaks
+
+If any of your electric vehicles won't be used for an extended period — a seasonal mobility scooter, a dirt bike between riding trips — storing the battery at a partial charge (rather than fully charged or fully flat) reduces long-term capacity loss during that idle period.
+
+## Always use the correct, matched charger
+
+The charger compatibility principles covered in our [e-bike charger compatibility guide](/blog/ebike-charger-compatibility-check/) apply across every category — voltage mismatch risks damage or safety issues regardless of whether it's an e-bike, scooter or dirt bike battery.
+
+## Watch for the same warning signs across every category
+
+Reduced range at the same settings, inconsistent battery gauge behaviour, longer charging times for less output, and any swelling, corrosion or unusual heat — the warning signs covered in our [mobility scooter battery guide](/blog/mobility-scooter-battery-replacement-signs/) apply to recognising ageing or failing batteries across every ALLIED product category, not just mobility scooters.
+
+## One set of habits, every ALLIED vehicle
+
+Because the underlying lithium battery technology is consistent across the range, building these habits once genuinely protects every electric vehicle you own — whichever categories you've added to your garage.`
+  },
+  {
+    slug: 'crypto-bank-wire-discount-explained',
+    title: "Crypto & Bank Wire Payments: How ALLIED's 10% Discount Works",
+    metaDescription: 'How ALLIED\'s 10% direct bank wire and cryptocurrency payment discount works.',
+    excerpt: 'A straightforward explanation of how to use ALLIED\'s direct payment discount.',
+    category: 'Shopping Guides',
+    categorySlug: '',
+    date: '2028-01-27',
+    readTime: '3 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Browse the shop',
+    body: `ALLIED offers a 10% discount on orders paid via direct bank wire or cryptocurrency — a straightforward way to reduce the total cost of your order by avoiding standard card processing fees.
+
+## Why the discount exists
+
+Standard card payment processing carries transaction fees that are built into typical retail pricing. Direct bank wire and cryptocurrency payments avoid these processing fees entirely, and ALLIED passes that saving directly back to customers who choose either payment method, rather than keeping it as margin.
+
+## How to use it
+
+Select direct bank wire or cryptocurrency as your payment method at checkout, and the 10% discount applies to your order total. Full payment details and instructions are provided at checkout once you select the relevant option.
+
+## What to check before choosing this option
+
+Bank wire and cryptocurrency payments are typically processed differently to instant card payments — confirm the expected processing timeframe for your chosen method, since dispatch generally follows confirmed payment receipt, and factor this into your order timing if you need the item by a specific date.
+
+## Who this suits
+
+This discount suits buyers comfortable with bank transfer or cryptocurrency payment methods who want to minimise total order cost — if you prefer the instant confirmation of card payment and the small percentage difference isn't a priority, standard card checkout remains available without this specific discount applied.`
   }
 ];
 
