@@ -1,13 +1,44 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { POSTS } from '../../config/site';
-import { BookOpen, Clock, Calendar, ArrowRight, User } from 'lucide-react';
+import { BookOpen, Clock, Calendar, ArrowRight, User, ShoppingBag } from 'lucide-react';
 
-export const BlogView: React.FC = () => {
-  const [activePost, setActivePost] = useState<typeof POSTS[0] | null>(null);
+interface BlogViewProps {
+  selectedSlug: string | null;
+  onSelectPost: (slug: string | null) => void;
+  onNavigateCategory: (categorySlug: string) => void;
+}
+
+// Renders a post's `body` field — plain text where a blank line separates
+// paragraphs and a line starting with "## " becomes a subheading. Keeps post
+// authoring to plain strings in site.ts instead of JSX/HTML per post.
+function renderBody(body: string) {
+  const blocks = body.trim().split(/\n\n+/);
+  return blocks.map((block, i) => {
+    if (block.startsWith('## ')) {
+      return (
+        <h2 key={i} className="text-xl font-bold text-white pt-2">
+          {block.slice(3)}
+        </h2>
+      );
+    }
+    if (block.startsWith('- ')) {
+      const items = block.split('\n').map(line => line.replace(/^- /, ''));
+      return (
+        <ul key={i} className="list-disc list-inside space-y-1.5 text-slate-300">
+          {items.map((item, j) => <li key={j}>{item}</li>)}
+        </ul>
+      );
+    }
+    return <p key={i}>{block}</p>;
+  });
+}
+
+export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, onNavigateCategory }) => {
+  const activePost = POSTS.find(p => p.slug === selectedSlug) || null;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12 space-y-12">
-      
+
       {/* Header */}
       <div className="text-center space-y-3">
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-mono">
@@ -26,7 +57,7 @@ export const BlogView: React.FC = () => {
         /* Full Article View */
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 space-y-6 shadow-2xl">
           <button
-            onClick={() => setActivePost(null)}
+            onClick={() => onSelectPost(null)}
             className="text-xs font-mono text-sky-400 hover:underline flex items-center gap-1"
           >
             ← Back to All Blog Articles
@@ -59,15 +90,31 @@ export const BlogView: React.FC = () => {
 
           <div className="space-y-4 text-slate-300 text-sm leading-relaxed border-t border-slate-800 pt-6">
             <p className="font-semibold text-white text-base leading-snug">{activePost.excerpt}</p>
-            <p>
-              When evaluating electric bikes and commercial e-vehicles in Australia, selecting the right battery capacity and motor output is paramount. All ALLIED Electric Bikes supplied by ALLIED FORKLIFTS PTY LTD (ABN 66 060 256 377) feature high-density 36V 15.6Ah LG and 48V Samsung lithium cells designed for longevity in harsh Australian climates.
-            </p>
-            <p>
-              Proper lithium battery health management involves charging after every significant ride, avoiding complete discharge down to 0%, and storing the battery pack at ambient room temperatures (15°C to 25°C). Following these simple guidelines ensures over 800+ complete charge cycles with minimal capacity degradation.
-            </p>
-            <p>
-              For further technical assistance or custom fleet battery pack inquiries, contact our Perth technical hub in Malaga WA on <strong>+61 8 9248 8555</strong>.
-            </p>
+            {renderBody(activePost.body)}
+          </div>
+
+          {activePost.faqs && activePost.faqs.length > 0 && (
+            <div className="space-y-4 border-t border-slate-800 pt-6">
+              <h2 className="text-xl font-bold text-white">Frequently Asked Questions</h2>
+              <div className="space-y-3">
+                {activePost.faqs.map((f, i) => (
+                  <div key={i} className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1.5">
+                    <p className="font-semibold text-white text-sm">{f.q}</p>
+                    <p className="text-slate-400 text-sm leading-relaxed">{f.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="border-t border-slate-800 pt-6">
+            <button
+              onClick={() => onNavigateCategory(activePost.categorySlug)}
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-sm transition-colors"
+            >
+              <ShoppingBag className="w-4 h-4" />
+              {activePost.ctaText}
+            </button>
           </div>
         </div>
       ) : (
@@ -80,7 +127,7 @@ export const BlogView: React.FC = () => {
               onClick={(e) => {
                 if (!e.ctrlKey && !e.metaKey && e.button === 0) {
                   e.preventDefault();
-                  setActivePost(post);
+                  onSelectPost(post.slug);
                 }
               }}
               className="group bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/50 transition-all cursor-pointer flex flex-col justify-between shadow-xl block"

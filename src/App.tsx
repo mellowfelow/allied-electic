@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
-import { SITE, CATEGORIES, PRODUCTS, FAQ, Product, getProductKeywordPhrase, getProductBrandName, BRANDS } from './config/site';
+import { SITE, CATEGORIES, PRODUCTS, FAQ, POSTS, Product, getProductKeywordPhrase, getProductBrandName, BRANDS } from './config/site';
 import { OrderItem } from './lib/orderStore';
 import { useSEO } from './lib/seo';
 import { Header } from './components/Header';
@@ -32,6 +32,7 @@ export default function App() {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
   const [selectedSubSubcategory, setSelectedSubSubcategory] = useState<string | null>(null);
   const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
+  const [selectedPostSlug, setSelectedPostSlug] = useState<string | null>(null);
   
   // Cart State
   const [cartItems, setCartItems] = useState<OrderItem[]>(() => {
@@ -95,6 +96,7 @@ export default function App() {
       setQuickViewProduct(null);
     } else if (route === 'blog') {
       setActiveTab('blog');
+      setSelectedPostSlug(parts[1] ? decodeURIComponent(parts[1]) : null);
       setQuickViewProduct(null);
     } else if (route === 'about') {
       setActiveTab('about');
@@ -147,13 +149,15 @@ export default function App() {
         : '/shop/';
     } else if (activeTab === 'brands') {
       path = selectedBrand ? `/brands/${selectedBrand}/` : '/brands/';
+    } else if (activeTab === 'blog') {
+      path = selectedPostSlug ? `/blog/${selectedPostSlug}/` : '/blog/';
     } else if (activeTab !== 'home') {
       path = `/${activeTab}/`;
     }
     if (window.location.pathname !== path) {
       window.history.pushState(null, '', path);
     }
-  }, [activeTab, selectedCategory, selectedSubcategory, selectedBrand, quickViewProduct]);
+  }, [activeTab, selectedCategory, selectedSubcategory, selectedBrand, selectedPostSlug, quickViewProduct]);
 
   const handleNavigateBrand = (slug: string | null) => {
     setActiveTab('brands');
@@ -216,6 +220,7 @@ export default function App() {
   const activeCategoryObj = CATEGORIES.find(c => c.slug === selectedCategory);
   const activeSubcatObj = activeCategoryObj?.subcategories.find(s => s.slug === selectedSubcategory);
   const activeBrandObj = BRANDS.find(b => b.slug === selectedBrand);
+  const activePostObj = POSTS.find(p => p.slug === selectedPostSlug);
 
   const seoByTab: Record<string, { title: string; description: string; path: string; jsonLd?: object[]; image?: string; noindex?: boolean }> = {
     home: {
@@ -262,7 +267,42 @@ export default function App() {
         ]
       }]
     },
-    blog: {
+    blog: activePostObj ? {
+      title: activePostObj.title,
+      description: activePostObj.metaDescription,
+      path: `blog/${activePostObj.slug}`,
+      image: activePostObj.image,
+      jsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: activePostObj.title,
+          description: activePostObj.metaDescription,
+          image: `https://${SITE.domain}${activePostObj.image}`,
+          datePublished: activePostObj.date,
+          author: { '@type': 'Organization', name: SITE.name },
+          publisher: { '@id': `https://${SITE.domain}/#organization` }
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://${SITE.domain}/blog/` },
+            { '@type': 'ListItem', position: 3, name: activePostObj.title, item: `https://${SITE.domain}/blog/${activePostObj.slug}/` }
+          ]
+        },
+        ...(activePostObj.faqs && activePostObj.faqs.length > 0 ? [{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: activePostObj.faqs.map(f => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a }
+          }))
+        }] : [])
+      ]
+    } : {
       title: 'E-Bike & Electric Transport Blog',
       description: 'In-depth technical guides, lithium battery maintenance tips, and Australian electric bike comparisons from ALLIED.',
       path: 'blog'
@@ -409,7 +449,16 @@ export default function App() {
           />
         )}
 
-        {activeTab === 'blog' && <BlogView />}
+        {activeTab === 'blog' && (
+          <BlogView
+            selectedSlug={selectedPostSlug}
+            onSelectPost={(slug) => setSelectedPostSlug(slug)}
+            onNavigateCategory={(cat) => {
+              handleSelectCategory(cat);
+              setActiveTab('shop');
+            }}
+          />
+        )}
 
         {activeTab === 'about' && <AboutView />}
 

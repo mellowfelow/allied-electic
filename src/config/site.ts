@@ -15834,31 +15834,191 @@ export function getProductBrandName(product: Pick<Product, 'name'>): string {
 
 export const POSTS = [
   {
-    slug: 'electric-city-bike-buying-guide-australia',
-    title: 'Australian Electric Bike Buying Guide: Step-Through vs Commuter vs Folding',
-    excerpt: 'Detailed comparison of step-through, commuter and folding e-bikes to help you choose the right model for urban Australian commuting.',
+    slug: 'electric-bike-laws-australia',
+    title: 'Electric Bike Laws in Australia: The Complete State-by-State Guide',
+    metaDescription: 'Electric bike laws vary by state in Australia. This guide covers power limits, registration, helmet rules and where you can ride — updated for 2026.',
+    excerpt: 'Everything you need to know about e-bike power limits, registration and where you can legally ride across every Australian state and territory.',
     category: 'E-Bike Guides',
-    date: '2026-09-15',
-    readTime: '5 min read',
-    image: 'https://picsum.photos/id/1071/800/600'
-  },
-  {
-    slug: 'lithium-battery-care-and-range-extension',
-    title: 'How to Extend Your E-Bike Lithium Battery Lifespan & Maximize km Range',
-    excerpt: 'Expert maintenance tips on charging cycles, storage temperatures, and pedal-assist optimization for 36V and 48V LG/Samsung lithium battery packs.',
-    category: 'Battery Tech',
-    date: '2026-08-28',
+    categorySlug: 'electric-bikes',
+    date: '2026-01-15',
     readTime: '7 min read',
-    image: 'https://picsum.photos/id/1072/800/600'
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop road-legal electric bikes',
+    body: `Buying an electric bike in Australia means understanding one thing first: whether it's actually legal to ride on public roads and paths without a licence, registration or insurance. The good news is that the vast majority of e-bikes sold here — including every ALLIED electric bike — are built to a national standard that keeps them firmly in "ordinary bicycle" territory under the law.
+
+## Is my e-bike road-legal in Australia?
+
+Australia follows the power-assisted pedal cycle (PAPC) standard, based on EN15194. To qualify, an e-bike needs a continuous-rated motor output of 250W or less, and the motor's assistance has to cut out once the bike reaches 25km/h — after that, you're on pedal power alone (or pushing against a throttle that does nothing). A bike built to this standard is legally treated the same as a regular pushbike: no licence, no registration, no number plates, and no compulsory third-party insurance.
+
+The two numbers that matter are continuous power (not peak power — marketing specs sometimes quote a higher "peak" figure that isn't the relevant one) and the 25km/h assist cutoff. Every ALLIED e-bike is built to meet this standard.
+
+## State-by-state rules
+
+The 250W/25km/h standard is recognised nationally through the Australian Road Rules, which each state and territory adopts into its own road traffic legislation. In practice this means the core rule — ride on a compliant e-bike and you're treated as a cyclist — holds consistently from Queensland to Tasmania. Where states differ is around the edges: which paths and trails e-bikes are permitted on (shared paths, bike lanes, and road shoulders are generally fine; some bushland and National Park trails restrict motorised vehicles including e-bikes), and how aggressively each jurisdiction enforces modified or non-compliant bikes (illegally derestricted throttle-only bikes have drawn increasing attention from WA, NSW and Victorian police in particular). If you're riding near a specific trail network or national park, it's worth a quick check with the local council or park authority rather than assuming — but for everyday road and path riding, a compliant e-bike needs no paperwork anywhere in the country.
+
+## Do I need a licence or registration?
+
+No. A compliant e-bike (250W continuous, 25km/h assist cutoff) is legally a bicycle, not a motor vehicle. You don't need a driver's licence, you don't register it, and you don't need a number plate. This is true even for younger riders — the general minimum riding age rules that apply to regular bicycles apply here too, rather than any motorcycle-style licensing regime.
+
+## Helmet and safety requirements
+
+Helmet laws are a state matter, but every Australian state and territory requires an approved bicycle helmet for riders of all ages on an e-bike, the same as for a regular bike. Front and rear lights are required for night riding, and in most states you're required to have a working bell. These are the same road rules that apply to any pushbike — an e-bike doesn't get special treatment, in either direction.
+
+## What happens if my e-bike exceeds the legal power limit?
+
+This is where things get serious. A bike with a motor rated above 250W continuous, or one where the pedal assist (or throttle) keeps working past 25km/h, is no longer classed as a bicycle under the law — it becomes a motor vehicle, which means it legally needs registration, a licence to ride, and compulsory insurance, none of which most non-compliant e-bikes can get because they don't meet motor vehicle design rules either. Riding one on public roads or paths without that paperwork is riding an unregistered, unlicensed vehicle, and enforcement has increased in several states as imported throttle-only and "derestricted" e-bikes have become more common. Always check the continuous power rating (not peak) and the assist cutoff speed before you buy — every ALLIED e-bike's specification sheet states both clearly.
+
+## The takeaway
+
+If you're buying a mainstream e-bike from a reputable supplier — commuter, cargo, mountain, folding or fat-tyre — you're almost certainly buying a compliant, ride-anywhere-a-bike-can-go vehicle with zero paperwork. The rules only become a problem with derestricted or imported throttle-heavy bikes that exceed the 250W/25km/h standard. Check the spec sheet, buy compliant, and ride with the same freedom as any other cyclist.`,
+    faqs: [
+      { q: 'What is the legal power limit for e-bikes in Australia?', a: 'Up to 250W continuous-rated motor power, with pedal assistance cutting out at 25km/h. This is the Australia-wide power-assisted pedal cycle (PAPC) standard, based on EN15194.' },
+      { q: 'Do I need a licence to ride an electric bike in Australia?', a: 'No — a compliant e-bike (250W continuous, 25km/h assist cutoff) is legally classed as a bicycle, not a motor vehicle, so no licence, registration or insurance is required.' },
+      { q: 'Can I ride an e-bike on shared paths and bike lanes?', a: 'Yes, a compliant e-bike can generally use the same shared paths, bike lanes and road shoulders as a regular bicycle. Some bushland trails and national parks restrict motorised vehicles, so check locally if you plan to ride off-road.' },
+      { q: 'What happens if my e-bike exceeds the power limit?', a: 'It\'s legally reclassified as a motor vehicle, requiring registration, a licence and insurance — which most non-compliant e-bikes can\'t obtain because they don\'t meet motor vehicle design rules either. Riding one without that paperwork is treated as riding an unregistered vehicle.' }
+    ]
   },
   {
-    slug: 'commercial-cargo-ebike-fleet-economics',
-    title: 'Replacing Diesel Utility Carts with Cargo E-Bikes: Fuel & Maintenance ROI',
-    excerpt: 'Financial breakdown showing how Australian resorts, universities, and industrial sites save up to $8,500 per year per vehicle with cargo e-bikes.',
-    category: 'Fleet Economics',
-    date: '2026-07-20',
+    slug: 'what-is-an-electric-bike',
+    title: "What Is an E-Bike? A Beginner's Guide",
+    metaDescription: 'New to e-bikes? Here\'s exactly what an electric bike is, how pedal-assist works, and whether one is right for your commute.',
+    excerpt: 'A straightforward explainer on how e-bikes actually work, the difference between pedal-assist and throttle, and who they suit.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-01-29',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Browse our full electric bike range',
+    body: `An electric bike — e-bike for short — is a regular bicycle with a motor, battery and controller added to assist your pedalling. It isn't a motorcycle or a scooter you sit on and twist a throttle to go; on a compliant Australian e-bike, the motor only adds power while you're pedalling, and it's capped at 25km/h of assistance. Beyond that speed, you're riding on leg power alone, just like any other cyclist.
+
+## How an e-bike actually works
+
+Three components make the system work together. The motor — usually a hub motor built into the front or rear wheel, or a mid-drive motor mounted near the pedals — provides the extra push. The battery, a lithium-ion pack mounted on the frame or rear rack, stores the energy. And a pedal-assist sensor (either a cadence sensor that detects you're pedalling, or a more responsive torque sensor that detects how hard you're pushing) tells the motor when and how much to help. Ride up a hill or into a headwind, and the motor adds power proportional to your own effort — you still get exercise, just with the hardest parts smoothed out.
+
+## Throttle vs pedal-assist — what's the difference?
+
+Pedal-assist (sometimes called "pedelec") only provides power when you're actively pedalling — stop pedalling, and the assistance stops too. A throttle, by contrast, lets you accelerate without pedalling at all, similar to a scooter. Compliant Australian e-bikes can include a throttle, but it's restricted to walking pace (around 6km/h) for manoeuvring — it isn't meant to replace pedal-assist as your main way of riding. Most ALLIED e-bikes are primarily pedal-assist, which is also what keeps them classed as bicycles under Australian road rules rather than motor vehicles.
+
+## Who is an e-bike for?
+
+E-bikes suit a wider range of riders than regular bikes do. Commuters get a sweat-free way to arrive at work on a bike they'd otherwise avoid taking up hills. Parents get the extra power needed to haul a cargo bike loaded with kids and groceries. Older riders or anyone returning to cycling after an injury get enough assistance to keep riding distances and routes they'd otherwise find too demanding. And recreational riders just get to go further, for longer, with less fatigue. The common thread is that an e-bike doesn't replace pedalling — it removes the barriers that stop people pedalling in the first place.
+
+## How much does an e-bike cost in Australia?
+
+Pricing varies a lot by category — entry-level commuters sit at one end, premium cargo and mountain e-bikes at the other. We've broken down what drives the price difference in our [full pricing guide](/blog/electric-bike-prices-australia/).`,
+    faqs: [
+      { q: 'What are e-bikes?', a: 'An e-bike (electric bike) is a regular bicycle fitted with a motor, battery and pedal-assist sensor that adds power while you pedal — it doesn\'t replace pedalling, it assists it, and compliant models are capped at 25km/h of motor assistance.' },
+      { q: 'What is the difference between pedal-assist and throttle on an e-bike?', a: 'Pedal-assist only provides motor power while you\'re actively pedalling. A throttle lets you accelerate without pedalling, similar to a scooter — on compliant Australian e-bikes, throttle use is restricted to walking pace for manoeuvring only.' }
+    ]
+  },
+  {
+    slug: 'electric-bike-prices-australia',
+    title: 'How Much Do Electric Bikes Cost in Australia?',
+    metaDescription: 'A realistic breakdown of electric bike prices in Australia in 2026 — from budget commuters to premium cargo and mountain e-bikes.',
+    excerpt: 'What actually drives the price of an e-bike, and what you can expect to get at each price tier.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-02-12',
     readTime: '6 min read',
-    image: 'https://picsum.photos/id/1079/800/600'
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'See today\'s prices',
+    body: `E-bike prices in Australia span a wide range, and the gap between the cheapest and most expensive models usually comes down to four things: battery capacity, motor type, frame/component quality and brand. Here's a realistic breakdown of what you get at each tier.
+
+## Entry-level e-bikes
+
+At the budget end, you're typically looking at a hub-motor e-bike with a smaller battery pack (lower Ah rating, meaning shorter range) and simpler components — still a genuine, compliant 250W pedal-assist bike, but with fewer refinements like suspension, premium brakes or a display console. These are a solid entry point for short, flat commutes where you don't need maximum range.
+
+## Mid-range commuter and folding e-bikes
+
+Step up and you get larger-capacity 36V or 48V lithium battery packs (meaning real-world range in the 60-90km bracket depending on terrain and assist level), better-quality hub or mid-drive motors, and usually a proper LCD or LED display showing speed, battery level and assist mode. Folding e-bikes sit in a similar bracket — the folding mechanism and more compact frame engineering add cost relative to a standard commuter, but you gain the ability to fit the bike in a car boot, under a desk, or in a small apartment.
+
+## Premium cargo, mountain and fat-tyre e-bikes
+
+At the top end, you're paying for purpose-built engineering: cargo e-bikes need reinforced frames and higher payload-rated motors to safely carry kids or heavy loads; electric mountain bikes (eMTBs) need genuine off-road suspension, more powerful mid-drive motors for climbing, and rugged components built to handle trail impacts; fat-tyre e-bikes need wider rims and tyres plus a frame designed around that extra width. These categories cost more because the engineering requirements are genuinely higher, not just because of branding.
+
+## What drives the price — battery capacity, motor type, brand
+
+Three factors explain almost all of the price difference between models: battery capacity (measured in watt-hours — a bigger battery costs more but gives more range per charge), motor type (hub motors are generally cheaper to produce than mid-drive motors, which offer better torque for hills and off-road use), and brand/componentry (established brands with better warranties, service networks and component quality command a premium over generic imports). When comparing prices, check the continuous power rating and battery capacity side by side rather than price alone — a cheaper bike with a smaller battery might cost more per kilometre of real-world range than a pricier one.`
+  },
+  {
+    slug: 'mobility-scooter-rules-australia',
+    title: 'Mobility Scooter Rules in Australia: What You Need to Know',
+    metaDescription: 'Do you need a licence for a mobility scooter in Australia? Here\'s what\'s legal, where you can ride, and what to look for when buying one.',
+    excerpt: 'Licensing, speed limits and where you can legally ride a mobility scooter across Australia.',
+    category: 'Mobility Guides',
+    categorySlug: 'mobility-scooters',
+    date: '2026-02-26',
+    readTime: '6 min read',
+    image: '/images/categories/category-mobility-scooters.webp',
+    ctaText: 'Shop mobility scooters',
+    body: `Mobility scooters occupy a similar legal space to e-bikes in Australia — they're treated as a type of pedestrian mobility aid rather than a motor vehicle, provided they meet certain limits, which means most buyers never need to deal with licensing or registration at all.
+
+## Do you need a licence for a mobility scooter?
+
+In most Australian states and territories, no licence is required to ride a standard mobility scooter. The general rule most jurisdictions apply is a maximum unoccupied weight around 110kg and a top speed capped around 10km/h on footpaths (some allow a higher road-shoulder speed in specific circumstances). Scooters within these limits are classed as "motorised wheelchairs" or "personal mobility devices" under pedestrian road rules, not motor vehicles — so no licence, no registration, and no compulsory insurance.
+
+## Where can you ride?
+
+Compliant mobility scooters can generally use footpaths, shared paths and pedestrian crossings, giving riders the same access as a pedestrian. Most states restrict mobility scooters from main roads except to cross them, and some set lower speed limits in pedestrian-heavy areas like shopping precincts. Heavier, faster all-terrain and off-road mobility scooters can exceed the standard weight/speed thresholds — if you're considering one of these for genuine off-road use, it's worth checking your state's specific rules before buying, since some may fall outside the footpath-legal category and require registration as a motor vehicle instead.
+
+## What to look for when buying one
+
+Beyond legal compliance, the two practical factors that matter most are range (battery capacity determines how far you can travel before recharging — important if you're using the scooter for regular errands rather than short trips) and portability (travel and folding mobility scooters break down or fold for car boots and air travel, while heavy-duty all-terrain models prioritise stability and weight capacity over portability). Match the scooter to how you'll actually use it: a lightweight folding model for errands and travel, or a heavy-duty model if you need to cover rougher ground or carry more weight.`,
+    faqs: [
+      { q: 'Do I need a licence to ride a mobility scooter in Australia?', a: 'No licence is required for a standard mobility scooter in most states, but speed and footpath-use rules vary by state — check your state transport authority before buying a heavy-duty or all-terrain model that may exceed standard weight/speed limits.' },
+      { q: 'What are the rules for mobility scooters on footpaths?', a: 'Compliant mobility scooters (generally capped around 10km/h and 110kg unoccupied weight) can use footpaths and shared paths the same way a pedestrian can. They\'re generally restricted from main roads except to cross them.' }
+    ]
+  },
+  {
+    slug: 'electric-bike-facts',
+    title: "10 Facts About E-Bikes You Probably Didn't Know",
+    metaDescription: 'From battery range to Australian riding rules, here are 10 facts about electric bikes worth knowing before you buy.',
+    excerpt: 'Ten genuinely useful facts about how e-bikes work, what affects range, and what to check before buying.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-03-12',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Explore electric bikes',
+    body: `## 1. "Continuous" power and "peak" power are different numbers
+
+A bike spec sheet might list a peak motor output well above 250W — that's a short-burst maximum, not the legally relevant figure. What determines whether a bike is road-legal in Australia is the continuous-rated power, which needs to be 250W or under.
+
+## 2. Pedal-assist cuts out at 25km/h, not your top speed
+
+The motor stops adding power once you hit 25km/h on a compliant e-bike — you can still pedal faster than that under your own power, same as on a regular bike, but the motor won't help you go faster.
+
+## 3. Real-world range is always less than the advertised maximum
+
+Advertised range figures are usually measured under ideal conditions — flat ground, lowest assist level, average rider weight. Hills, higher assist levels, cargo weight, cold weather and rider weight all reduce real-world range, sometimes significantly.
+
+## 4. Battery capacity is measured in watt-hours (Wh), not just voltage
+
+Voltage alone (36V vs 48V) doesn't tell you the full story — amp-hours (Ah) matter too. Watt-hours (voltage × amp-hours) is the figure that actually indicates total energy capacity and therefore range.
+
+## 5. Lithium batteries don't need to be fully drained before charging
+
+Unlike older battery chemistries, lithium-ion batteries don't have a "memory effect" — topping up the charge after every ride is better for long-term battery health than regularly running it down to empty.
+
+## 6. Hub motors and mid-drive motors behave differently
+
+Hub motors (built into the wheel) are simpler, cheaper and lower-maintenance, but deliver power at a fixed point regardless of gear. Mid-drive motors (mounted near the pedals) work through the bike's gears, giving better torque for hills and off-road climbing at a higher price point.
+
+## 7. Cold weather genuinely reduces battery performance
+
+Lithium batteries lose capacity in cold temperatures — expect noticeably reduced range on a cold morning compared to a warm afternoon, even on the same route at the same assist level.
+
+## 8. A throttle doesn't make an e-bike illegal — but an unrestricted one can
+
+Compliant e-bikes can include a throttle, provided it's limited to walking pace (around 6km/h) for manoeuvring. A throttle that provides full-speed power without pedalling pushes the bike outside the legal bicycle classification.
+
+## 9. Tyre pressure affects range more than most riders realise
+
+Under-inflated tyres increase rolling resistance, which means the motor works harder — and drains the battery faster — to maintain the same speed. Checking tyre pressure regularly is a simple, free way to protect your range.
+
+## 10. Service intervals matter more on an e-bike than a regular bike
+
+Between the extra weight, motor torque and higher average speeds, drivetrain components (chains, cassettes, brake pads) wear faster on an e-bike than on a regular bicycle. Regular servicing isn't optional maintenance — it's what keeps the extra power delivering safely.`
   }
 ];
 
