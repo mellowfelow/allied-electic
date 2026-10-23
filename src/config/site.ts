@@ -16510,6 +16510,721 @@ Trikes are wider than two-wheeled bikes, which affects how easily they fit throu
 ## Which is actually more stable, overall?
 
 For most everyday riding — stopping, starting, slow manoeuvring, riding at a relaxed pace — a trike's stability advantage is the more relevant one for the majority of riders. For confident, experienced cyclists riding at higher speeds with cornering, a two-wheeled e-bike's lean-based balance is the more natural and capable system. The right choice depends on which speed range and which stability challenge actually applies to how you ride.`
+  },
+  {
+    slug: 'best-commuter-electric-scooters',
+    title: 'Best Commuter Electric Scooters for the Daily Office Run',
+    metaDescription: 'What actually matters in a commuter electric scooter — portability, range and durability for the daily office run.',
+    excerpt: 'The features that separate a genuinely good commuter scooter from a mediocre one.',
+    category: 'Scooter Guides',
+    categorySlug: 'electric-scooters',
+    date: '2026-07-09',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-scooters.webp',
+    ctaText: 'Shop commuter electric scooters',
+    body: `A commuter electric scooter needs to balance three things most other scooters don't have to: portability (you're probably carrying it indoors or onto transport), enough range for a realistic round trip, and durability for genuine daily use rather than occasional recreational riding.
+
+## Portability: folded size and weight both matter
+
+If any part of your commute involves carrying the scooter — into an office, onto a train or bus, up apartment stairs — folded weight matters as much as folded size. A scooter that folds compactly but weighs significantly more than you want to carry daily defeats the purpose.
+
+## Range: round-trip distance, with margin
+
+As with e-bikes, advertised range figures are best-case numbers. Check your actual round-trip commute distance against the scooter's realistic range at a normal riding speed, not the maximum figure measured under ideal test conditions.
+
+## Durability for daily wear
+
+A scooter ridden five days a week needs solid build quality — check tyre type (solid tyres need no maintenance but transmit more vibration; pneumatic tyres ride smoother but can puncture), and deck/frame material. Daily commuting is a genuinely different use case to occasional weekend riding, and components wear accordingly faster.
+
+## Weatherproofing for year-round commuting
+
+If you're commuting regardless of weather, check the scooter has a genuine water-resistance rating for the deck and electronics — riding through puddles or light rain shouldn't be a concern on a bike bought for daily transport.`
+  },
+  {
+    slug: 'electric-scooter-laws-australia',
+    title: 'Electric Scooter Laws in Australia: State-by-State Guide',
+    metaDescription: 'Electric scooter laws vary significantly by state in Australia — speed limits, where you can ride, and age requirements.',
+    excerpt: 'Electric scooter rules differ more between states than e-bike rules do — here\'s what to check.',
+    category: 'Scooter Guides',
+    categorySlug: 'electric-scooters',
+    date: '2026-07-16',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-scooters.webp',
+    ctaText: 'Browse electric scooters',
+    body: `Unlike e-bikes, which follow a fairly consistent national standard, electric scooter laws vary more significantly state to state in Australia — power limits, speed limits, minimum riding age and where you're allowed to ride all differ depending on where you live.
+
+## Why scooters are regulated differently to e-bikes
+
+E-bikes fit neatly into the existing "bicycle" category because they retain pedals and a recognisable bike structure. Electric scooters don't have that same built-in classification, so each state has had to introduce its own specific e-scooter regulations rather than relying on one harmonised national rule — which is why the requirements genuinely differ more between states for scooters than for e-bikes.
+
+## What's generally consistent
+
+Most states that permit e-scooter use on public infrastructure apply a speed cap (commonly around 25km/h on shared paths, sometimes lower in pedestrian-heavy areas) and a power limit on the motor. A helmet is required in every state that permits road or path use. Most states also set a minimum riding age, commonly in the early-to-mid teens, though the exact age varies.
+
+## What varies significantly by state
+
+Where you're allowed to ride differs the most — some states permit e-scooters on roads with a speed limit up to 50km/h, others restrict them to shared paths and bike lanes only, and policies on footpath riding vary considerably. Some states have introduced trial or permit schemes for scooters above the standard power/speed thresholds, while others haven't. Given how much this varies, check your specific state or territory's current e-scooter regulations before buying, rather than assuming rules from one state apply nationally.
+
+## Before you buy
+
+Confirm the scooter's power rating and top speed against your state's current limits, and check where you're actually permitted to ride it — a scooter that's technically compliant with the power limit isn't much use if your state restricts where it can be ridden.`,
+    faqs: [
+      { q: 'Are electric scooter laws the same in every Australian state?', a: 'No — unlike e-bikes, electric scooter rules vary significantly by state, including speed limits, where you can ride (roads, bike lanes, footpaths), and minimum riding age. Check your specific state or territory\'s current regulations before buying.' }
+    ]
+  },
+  {
+    slug: 'long-range-electric-scooters-how-far',
+    title: 'Long Range Electric Scooters: How Far Can You Really Go on One Charge?',
+    metaDescription: 'Realistic range expectations for long-range electric scooters, and what affects distance per charge.',
+    excerpt: 'What determines real-world range on a long-range electric scooter, beyond the advertised maximum.',
+    category: 'Scooter Guides',
+    categorySlug: 'electric-scooters',
+    date: '2026-07-23',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-scooters.webp',
+    ctaText: 'Shop long-range electric scooters',
+    body: `Long-range electric scooters are built around larger-capacity battery packs, but how far you actually get on a charge depends on more than just the battery spec sheet.
+
+## Battery capacity sets the ceiling
+
+Range starts with watt-hours (Wh) — a larger battery stores more energy and sets a higher theoretical maximum range. Long-range scooters typically use noticeably larger packs than standard commuter models specifically to extend this ceiling.
+
+## Rider weight has a real, measurable effect
+
+Heavier riders draw more power to maintain the same speed, which reduces range compared to the lighter test rider typically used for manufacturer range claims. This is one of the biggest gaps between advertised and real-world range.
+
+## Terrain and riding style matter as much as battery size
+
+Hills, frequent acceleration from stops, and higher average speed all increase power draw significantly compared to flat, steady-speed riding. A long-range scooter ridden hard through hilly terrain can see noticeably reduced range compared to the same scooter on a flat commute at moderate speed.
+
+## Tyre type and pressure
+
+Pneumatic (air-filled) tyres generally roll more efficiently than solid tyres, and correctly inflated tyres reduce rolling resistance compared to under-inflated ones — a small, easily overlooked factor that adds up over a full charge.
+
+## A realistic way to estimate your range
+
+Rather than trusting the maximum advertised figure, look for range tested at a moderate, realistic speed (not the lowest possible speed, which manufacturers sometimes use to maximise the headline number) and apply a safety margin — treating the advertised maximum as roughly 70-80% achievable under normal riding conditions is a reasonable rule of thumb.`
+  },
+  {
+    slug: 'performance-vs-commuter-scooters',
+    title: "Performance vs Commuter Electric Scooters: What's the Real Difference?",
+    metaDescription: 'The practical differences between performance and commuter electric scooters, compared honestly.',
+    excerpt: 'What actually separates a performance scooter from a commuter one, beyond marketing.',
+    category: 'Scooter Guides',
+    categorySlug: 'electric-scooters',
+    date: '2026-07-30',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-scooters.webp',
+    ctaText: 'Shop long-range electric scooters',
+    body: `"Performance" and "commuter" electric scooters often use similar underlying technology, but the engineering priorities — and the trade-offs that come with them — genuinely differ.
+
+## Motor power and top speed
+
+Performance scooters typically run higher-powered motors (sometimes dual-motor setups) for faster acceleration and higher top speed. Commuter scooters generally use a single, lower-powered motor tuned for efficiency and range over raw speed — adequate for getting to work, not built for maximum velocity.
+
+## Weight and portability trade-offs
+
+Higher power generally means a larger battery and more robust components, which adds weight — performance scooters are usually noticeably heavier and less portable than commuter-focused models. If you need to carry the scooter regularly, this is a genuine trade-off against the extra power.
+
+## Suspension and ride quality
+
+Performance scooters more often include dedicated suspension for stability at higher speed and over rougher terrain. Commuter scooters more commonly rely on tyre cushioning alone, which is adequate for smooth urban paths but less comfortable over rougher surfaces or at higher speed.
+
+## Price and what you're actually paying for
+
+The price difference between tiers usually reflects motor power, battery capacity, suspension componentry and build quality — not just branding. If your riding is purely a smooth, short commute, a commuter-tier scooter likely delivers everything you need without paying for performance headroom you won't use.
+
+## Which should you choose?
+
+If your priority is getting to work efficiently on a lighter, more portable scooter, commuter-tier makes more sense. If you want higher speed, longer range, and don't mind the extra weight, performance-tier scooters deliver genuinely more capability — just confirm your state's speed limits apply before buying for top speed alone.`
+  },
+  {
+    slug: 'street-electric-skateboards-beginners',
+    title: "Street Electric Skateboards: A Beginner's Guide to Riding in the City",
+    metaDescription: 'A beginner\'s guide to riding street electric skateboards safely in urban environments.',
+    excerpt: 'What new riders need to know before taking a street electric skateboard into the city.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-08-06',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop street electric longboards',
+    body: `Street electric skateboards (electric longboards built for smooth pavement) are genuinely accessible to new riders, but the learning curve has a few specific stages worth knowing before you start.
+
+## Start with the basics of standing and balance
+
+Before engaging any motor assistance, spend time simply standing on the board — static balance, foot positioning (usually slightly wider than shoulder width, with a comfortable stance that works for you), and getting comfortable with the board's natural sway.
+
+## Learn the remote before you need it in traffic
+
+Most electric skateboards use a handheld remote controlling acceleration and braking. Practice smooth, gradual throttle input and braking in an empty car park or quiet area first — jerky inputs are the most common cause of new-rider falls, and you want this reflex built before riding anywhere with traffic or pedestrians.
+
+## Braking technique matters more than acceleration
+
+Electric brake technology on these boards is generally very capable, but sudden hard braking at speed can throw an unprepared rider forward. Practice progressive braking — easing off the throttle first, then applying brake pressure gradually — until it's automatic.
+
+## City riding specifics
+
+Watch for surface changes (potholes, tram tracks, uneven pavement) that are more disruptive at skateboard wheel size than on a bike. Keep speed conservative around pedestrians and intersections, and be aware that your visibility to drivers is lower than on a bike — ride defensively and assume you haven't been seen.
+
+## Protective gear isn't optional for beginners
+
+A helmet at minimum, and ideally wrist guards and knee pads while you're still building balance and remote confidence. Falls while learning are common even for naturally coordinated riders — gear isn't about low skill, it's about managing a genuinely real risk during the learning phase.`
+  },
+  {
+    slug: 'best-street-electric-longboards',
+    title: 'Best Street Electric Longboards for Campus and Commuting',
+    metaDescription: 'What to look for in a street electric longboard for campus riding and daily commuting.',
+    excerpt: 'The features that matter most for campus and commuter electric longboard riding.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-08-13',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop street electric longboards',
+    body: `For campus and commuter riding, the ideal electric longboard prioritises portability, smooth-surface efficiency and manageable weight over the all-terrain capability or top speed that other riders might chase.
+
+## Deck length and portability
+
+Longer decks generally offer more stable high-speed riding, but shorter, lighter decks are easier to carry into lecture halls, offices or onto public transport. For campus use specifically — where you're regularly carrying the board between classes — weigh portability more heavily than top-speed stability.
+
+## Wheel type for smooth surfaces
+
+Street-focused boards typically use smaller, harder urethane wheels optimised for smooth pavement — efficient and fast on clean surfaces, but less forgiving over rough or cracked pavement than the larger, softer pneumatic wheels used on all-terrain boards. If your campus or commute route has consistently good pavement, this is the right trade-off for efficiency.
+
+## Range for a realistic daily distance
+
+Campus commutes are often shorter than cross-town commutes, so you may not need maximum-range battery capacity — but factor in riding between multiple classes throughout the day, which adds up faster than a single point-to-point commute.
+
+## Braking and remote reliability
+
+Daily use means daily reliance on the remote and braking system working consistently — check reviews specifically for remote connectivity reliability and consistent braking feel, since these affect confidence and safety more than most other spec differences on a board used every day.`
+  },
+  {
+    slug: 'all-terrain-electric-skateboards-worth-it',
+    title: 'All-Terrain Electric Skateboards: Are They Worth the Extra Cost?',
+    metaDescription: 'Whether an all-terrain electric skateboard is worth the extra cost over a standard street board.',
+    excerpt: 'An honest assessment of what you actually get for the extra cost of an all-terrain board.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-08-20',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop all-terrain electric skateboards',
+    body: `All-terrain electric skateboards cost more than street-focused boards, and the extra cost buys genuine capability — but only if you actually ride on terrain that needs it.
+
+## What the extra cost actually buys
+
+All-terrain boards use larger, softer pneumatic (air-filled) tyres instead of the hard urethane wheels on street boards, giving real grip and cushioning over gravel, grass, dirt and rough pavement. They typically also run more powerful motors to handle the extra rolling resistance these tyres create, and often sturdier decks and trucks built for off-road impact.
+
+## Where it's genuinely worth it
+
+If your regular riding route includes unpaved paths, gravel trails, rough or cracked pavement, or you want the option to ride off smooth surfaces entirely, an all-terrain board delivers capability a street board simply can't match — street boards struggle badly on loose or uneven surfaces.
+
+## Where it's probably not worth it
+
+If your riding is consistently on smooth pavement — city streets, campus paths, bike lanes — the extra weight, cost and slightly reduced top-end efficiency of an all-terrain board buys you capability you won't use. A street board will likely feel faster and more responsive on the surfaces you're actually riding.
+
+## The honest verdict
+
+All-terrain boards aren't simply "better" — they're built for a different use case. The extra cost is genuinely justified if you ride mixed or rough terrain regularly, and genuinely unnecessary if your riding stays on smooth, consistent pavement.`
+  },
+  {
+    slug: 'best-all-terrain-electric-skateboards-australia',
+    title: 'Best All-Terrain Electric Skateboards for Off-Road Riding in Australia',
+    metaDescription: 'What to look for in an all-terrain electric skateboard built for Australian off-road conditions.',
+    excerpt: 'Key features for genuine off-road electric skateboard performance.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-08-27',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop all-terrain electric skateboards',
+    body: `Genuine off-road electric skateboard performance in Australian conditions — gravel fire trails, dirt paths, uneven bushland tracks — comes down to a few specific components rather than general build quality alone.
+
+## Tyre size and pressure range
+
+Larger-diameter pneumatic tyres roll over obstacles more easily than smaller ones, and a wider adjustable pressure range lets you soften the ride for rougher terrain or firm it up for efficiency on smoother sections. This flexibility matters more off-road than it does on consistent pavement.
+
+## Motor power for genuine hill climbing
+
+Off-road terrain often includes inclines that demand more sustained torque than flat street riding — check the motor's continuous power rating (not just peak), since sustained climbing is where underpowered motors overheat or bog down.
+
+## Trucks and deck flex built for impact
+
+Off-road riding transmits more impact through the deck and trucks than smooth pavement does. Boards built specifically for all-terrain use typically have reinforced trucks and a deck flex pattern designed to absorb rough terrain rather than transmitting every bump directly to the rider.
+
+## Battery protection from dust and moisture
+
+Off-road and trail riding exposes the board to more dust, dirt and moisture than street riding. Check the battery enclosure's water and dust resistance rating if you're planning regular trail use — this is a detail that matters far more off-road than it does for pavement commuting.`
+  },
+  {
+    slug: 'mini-electric-skateboards-commuting',
+    title: 'Mini Electric Skateboards: Are They Powerful Enough for Daily Commuting?',
+    metaDescription: 'Whether mini electric skateboards have enough power and range for genuine daily commuting use.',
+    excerpt: 'An honest look at whether compact electric skateboards suit real commuting needs.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-09-03',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop mini electric skateboards',
+    body: `Mini electric skateboards trade some power and range for genuine portability — whether that trade-off works for your commute depends mostly on distance and how often you need to carry the board.
+
+## The honest power trade-off
+
+Smaller decks mean smaller batteries and generally less powerful motors than full-size street or all-terrain boards. This doesn't make mini boards underpowered for short, flat commutes, but it does mean less headroom for hills, longer distances, or carrying extra weight like a backpack full of gear.
+
+## Where mini boards genuinely shine
+
+For short commutes under a few kilometres on flat, smooth terrain — a quick trip from a train station to the office, campus riding between nearby buildings, or short errands — a mini board's compact size and lighter weight make it easier to carry than a full-size board, without meaningfully compromising the actual ride for that distance.
+
+## Where they fall short
+
+Longer commutes, hilly terrain, or routes requiring sustained higher speed will expose a mini board's smaller battery and motor more than a short, flat trip would. If your commute regularly exceeds a few kilometres or includes real hills, a full-size board's larger battery and motor will serve you better.
+
+## The realistic verdict
+
+Mini electric skateboards aren't underpowered in general — they're purpose-built for short, portable trips, and excel at exactly that. Match the board to your actual commute distance and terrain rather than assuming "mini" means "compromised" across the board.`
+  },
+  {
+    slug: 'onewheel-australia-cost-learning',
+    title: 'Onewheel Australia: What It Costs and How Hard Is It to Learn?',
+    metaDescription: 'What Onewheel-style boards cost in Australia, and a realistic look at the learning curve.',
+    excerpt: 'An honest look at Onewheel pricing and what the learning curve actually involves.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-09-10',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop Onewheel-style boards',
+    body: `Onewheel-style self-balancing boards occupy a different price bracket and learning curve to traditional electric skateboards — understanding both before buying sets realistic expectations.
+
+## What drives the cost
+
+Onewheel-style boards use self-balancing technology (gyroscopic sensors and motor control constantly adjusting to keep the board level) that's genuinely more complex than a standard electric skateboard's simple throttle/brake system. This technology, combined with the single large pneumatic tyre and robust motor needed to handle the board's unique riding dynamics, is what justifies the typically higher price point compared to a standard street electric skateboard.
+
+## The learning curve, honestly
+
+Unlike a standard electric skateboard (where you stand on a static deck and the challenge is mostly about remote control technique), a Onewheel-style board requires learning genuine balance — leaning forward to accelerate, leaning back to decelerate, with the board's self-balancing system doing the rest. Most new riders need several practice sessions in a safe, open, grassy area before feeling confident, and falls during the learning phase are common even for people with skateboard or snowboard experience.
+
+## What makes learning easier
+
+Starting in a wide, open, soft-surfaced area (grass rather than pavement) reduces injury risk while you're building balance confidence. Many riders find starting with one foot at a time, getting comfortable with the board's "nose lift" warning feel as the battery runs low or you approach the board's limits, speeds up the learning process considerably.
+
+## Is it worth the learning investment?
+
+For riders willing to put in a few dedicated practice sessions, a Onewheel-style board offers a genuinely different, often described as more engaging, riding experience than a standard electric skateboard — closer to snowboarding or surfing in feel. If you want to ride confidently on day one with minimal learning curve, a standard street electric skateboard is the easier starting point.`
+  },
+  {
+    slug: 'onewheel-vs-electric-skateboard',
+    title: 'Onewheel vs Traditional Electric Skateboard: Which Should You Choose?',
+    metaDescription: 'Comparing Onewheel-style boards to traditional electric skateboards on riding feel, learning curve and practicality.',
+    excerpt: 'An honest comparison to help you choose between a Onewheel-style board and a traditional electric skateboard.',
+    category: 'Skateboard Guides',
+    categorySlug: 'electric-skateboards',
+    date: '2026-09-17',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-skateboards.webp',
+    ctaText: 'Shop Onewheel-style boards',
+    body: `Both are electric self-propelled boards, but the riding mechanics, learning curve and practical handling differ enough that they genuinely suit different riders and priorities.
+
+## Riding mechanics are fundamentally different
+
+A traditional electric skateboard uses a handheld remote for acceleration and braking, with the rider's job mostly being balance and steering through weight shift. A Onewheel-style board has no remote — acceleration and braking come entirely from leaning forward and back, with the self-balancing system handling the rest. This is a genuinely different skill to learn, closer to snowboarding than skateboarding.
+
+## Learning curve favours traditional boards
+
+New riders generally reach basic competence faster on a traditional electric skateboard, since the remote control separates "balancing on the deck" from "controlling speed" into two more manageable skills. A Onewheel-style board combines both into one integrated balance skill, which takes longer to feel natural for most new riders.
+
+## Terrain versatility can favour either, depending on the model
+
+Both categories include terrain-specific models — street and all-terrain traditional boards, and Onewheel-style boards generally handle mixed terrain reasonably well due to their large single tyre. The specific model's tyre size and motor power matter more than the general category when it comes to terrain capability.
+
+## Portability and carrying
+
+Traditional electric skateboards are generally flatter and easier to tuck under an arm or into a bag. Onewheel-style boards are bulkier and heavier due to their single large wheel and motor housing, which makes them less convenient to carry on transport or into buildings.
+
+## The honest recommendation
+
+If you want the fastest path to confident daily riding, choose a traditional electric skateboard. If you're drawn to a more immersive, snowboard-like riding feel and are willing to invest in the learning curve, a Onewheel-style board offers a genuinely different experience worth the effort for the right rider.`
+  },
+  {
+    slug: 'electric-unicycles-explained',
+    title: 'Electric Unicycles Explained: Are They Harder to Ride Than a Hoverboard?',
+    metaDescription: 'What electric unicycles are, how they work, and how the learning curve compares to a hoverboard.',
+    excerpt: 'An honest comparison of the electric unicycle learning curve against a hoverboard.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-09-24',
+    readTime: '5 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop electric unicycles',
+    body: `An electric unicycle (EUC) is a self-balancing single-wheeled device you stand on, with both feet on pedals either side of the wheel — and yes, it's genuinely a harder skill to learn than a hoverboard.
+
+## How an electric unicycle works
+
+A gyroscopic sensor system constantly detects your lean angle and adjusts motor power to keep the wheel under your centre of gravity. Leaning forward accelerates, leaning back decelerates — similar in principle to a Onewheel-style board, but with no separate footpads either side for extra stability, since both your feet are balanced directly above the single wheel.
+
+## Why it's harder than a hoverboard
+
+A hoverboard has two wheels, one under each foot, spread apart for a wider, more inherently stable base. An electric unicycle has one wheel, with both feet positioned close together directly above it — there's no side-to-side stability without active balance, which is the main reason EUCs have a steeper learning curve. Most new riders need meaningfully more practice time on an EUC than a hoverboard before feeling confident.
+
+## What makes learning manageable
+
+Starting with a wall, railing or a second person to hold onto for the first attempts (similar to learning to ride a bike) helps enormously. Many riders find that once the initial balance "clicks" — often after multiple short sessions rather than one long one — progress speeds up noticeably. Soft, open ground reduces injury risk during this phase.
+
+## Who EUCs genuinely suit
+
+Riders willing to invest real practice time, often drawn by the EUC's compact size (easier to carry than a hoverboard once mastered), genuinely engaging riding feel, and typically higher top speed and range than a hoverboard. If you want the easiest possible learning curve, a hoverboard is the more beginner-friendly starting point.`
+  },
+  {
+    slug: 'electric-unicycle-buying-guide',
+    title: 'Electric Unicycle Buying Guide: Wheel Size, Speed and Beginner Safety',
+    metaDescription: 'What to check before buying an electric unicycle — wheel size, top speed and beginner safety features.',
+    excerpt: 'The key specs that matter when choosing an electric unicycle, especially for new riders.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-10-01',
+    readTime: '4 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop electric unicycles',
+    body: `Choosing an electric unicycle comes down to matching wheel size and top speed to your experience level — bigger, faster isn't automatically better for a new rider.
+
+## Wheel size affects stability and portability
+
+Larger wheels generally roll over small obstacles and rough surfaces more smoothly, giving a more stable feel at speed. Smaller wheels are lighter and more portable to carry, but can feel twitchier and less forgiving over uneven ground — a meaningful consideration for a beginner still building core balance skills.
+
+## Top speed: buy below your current skill, not above it
+
+A higher top speed spec sounds appealing, but EUCs typically provide speed warnings (vibration or tilt-back) as you approach the device's limits — riding regularly near those limits as a beginner increases fall risk significantly. For new riders, a model with a lower maximum speed and a comfortable safety margin is a genuinely safer starting point than buying for maximum capability from day one.
+
+## Beginner safety features worth checking
+
+Look for clear, reliable speed-limit warning systems (tilt-back or vibration alerts before you hit the hard cutoff), a stable low-speed balance feel, and manufacturer guidance on recommended beginner speed limits. Some models offer an adjustable or "beginner mode" speed cap, which is a genuinely useful feature while you're still learning.
+
+## Protective gear is essential, not optional
+
+Given the genuine learning curve and fall risk discussed in our [electric unicycles explainer](/blog/electric-unicycles-explained/), a helmet, wrist guards and knee pads are worth treating as mandatory equipment during the learning phase, regardless of how athletic or coordinated you already are.`
+  },
+  {
+    slug: 'hoverboard-buying-guide',
+    title: 'Hoverboard Buying Guide: Battery Safety, Speed and What to Avoid',
+    metaDescription: 'What to check before buying a hoverboard — battery safety certification, speed and build quality.',
+    excerpt: 'The safety checks that matter most when buying a hoverboard.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-10-08',
+    readTime: '5 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop hoverboards',
+    body: `Hoverboards had a well-documented battery safety problem in their early years — uncertified batteries catching fire — which makes battery certification the single most important thing to check before buying, well ahead of speed or features.
+
+## Battery safety certification matters most
+
+Look specifically for hoverboards with certified battery packs (UL 2272 is the internationally recognised standard for hoverboard electrical systems) rather than buying on price alone from an unverified seller. This single check addresses the fire-risk issue that damaged the hoverboard category's reputation early on, and reputable sellers will clearly state this certification.
+
+## Speed and power for your use case
+
+Most hoverboards offer modest top speeds suitable for casual riding rather than genuine transport — check the specific model's top speed and weight capacity against who'll actually be riding it, since weight limits affect both performance and battery life.
+
+## Build quality signs worth checking
+
+A solid, snug wheel-to-body fit with no excessive wobble, responsive and consistent self-balancing sensors (test-ride if possible), and a sturdy deck that doesn't flex excessively under weight are all signs of a well-built hoverboard versus a cheaply made one.
+
+## What to avoid
+
+Unbranded or unverifiable hoverboards sold without clear battery certification information, unusually cheap pricing relative to similar-spec certified models (a common warning sign for cut corners on battery safety), and boards with no clear weight limit or safety documentation provided.
+
+## Charging safety habits
+
+Always charge on a hard, non-flammable surface, never leave charging unattended for extended periods, and use only the charger supplied with the specific board — mismatched chargers are a known risk factor for battery issues.`
+  },
+  {
+    slug: 'best-hoverboards-kids-vs-adults',
+    title: "Best Hoverboards for Kids vs Adults: What's the Difference?",
+    metaDescription: 'How hoverboards for kids differ from adult models — weight limits, speed and safety features.',
+    excerpt: 'What actually changes between a kids\' hoverboard and an adult one.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-10-15',
+    readTime: '4 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop hoverboards',
+    body: `Kids' and adult hoverboards aren't just different colours and sizes — weight limits, speed caps and build durability are genuinely tuned differently for each.
+
+## Weight limits and why they matter
+
+Every hoverboard has a minimum and maximum rider weight for safe, responsive balance sensing — a board rated for a child's weight range will typically feel unresponsive or overly sensitive under an adult's weight, and vice versa. Check the specific weight range against the intended rider, rather than assuming "kids" and "adult" are just marketing labels.
+
+## Speed caps differ for safety
+
+Kids-oriented hoverboards commonly include a lower maximum speed cap than adult models, reflecting both lower average rider weight (which affects how fast the board can safely accelerate and brake) and the generally lower risk tolerance appropriate for younger riders still building balance skills.
+
+## Build durability for different use patterns
+
+Kids' hoverboards often see harder, more frequent falls and knocks during the learning phase — some models are built with this in mind, using more impact-resistant materials around the deck edges and wheel housings.
+
+## Parental control features on some kids' models
+
+Certain kids-oriented hoverboards include app-based or physical speed-limiting controls that let a parent cap the maximum speed below the board's full capability while a child is still learning — a genuinely useful feature not typically found on adult-focused models.
+
+## Choosing the right one
+
+Match the weight range to the actual rider first, then consider speed cap and build durability based on riding experience level — a confident teenager might outgrow a kids' model's weight range before they outgrow wanting the lower speed cap, which is worth factoring into the decision.`
+  },
+  {
+    slug: 'hoverboard-go-kart-attachments-explained',
+    title: 'Hoverboard Go-Kart Attachments: Turn Your Hoverboard Into a Kart',
+    metaDescription: 'How hoverboard go-kart attachments work, and what to check for compatibility.',
+    excerpt: 'How a go-kart attachment transforms a standard hoverboard, and what to check before buying one.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-10-22',
+    readTime: '4 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop hoverboard go-kart attachments',
+    body: `A hoverboard go-kart attachment is a frame that clamps around a standard hoverboard, adding a seat, steering bar and front wheel — turning the self-balancing board into a seated, steered kart without needing to learn to balance on it at all.
+
+## How it actually works
+
+The hoverboard slots into the attachment frame and provides the drive power — you steer and control acceleration/braking through handlebars connected to the hoverboard's lean-sensing mechanism, rather than by leaning your body directly. This removes the balance-learning requirement entirely, since you're seated and the frame keeps the hoverboard upright.
+
+## Why this appeals especially to younger riders
+
+Kids who aren't ready for (or aren't interested in) learning to balance on a hoverboard directly can still get the self-balancing board's power and fun through the kart conversion — seated, with a clear steering mechanism that feels more intuitive than lean-based balance for many younger riders.
+
+## Compatibility is the key thing to check
+
+Not every go-kart attachment fits every hoverboard — wheel diameter and overall hoverboard dimensions need to match the attachment frame's specifications. Always check the attachment's stated compatible hoverboard size range before buying, rather than assuming a universal fit.
+
+## What you still need to check on the hoverboard itself
+
+Since the attachment relies entirely on the hoverboard's motor and battery, the same battery safety certification guidance from our [hoverboard buying guide](/blog/hoverboard-buying-guide/) applies just as much here — a kart attachment doesn't change the importance of starting with a safe, certified hoverboard underneath it.`
+  },
+  {
+    slug: 'hoverboard-go-kart-vs-standalone',
+    title: 'Hoverboard Go-Kart vs Standalone Electric Go-Kart: Which Is Better for Kids?',
+    metaDescription: 'Comparing hoverboard go-kart conversions to standalone electric go-karts for kids.',
+    excerpt: 'An honest comparison between a hoverboard-kart conversion and a dedicated electric go-kart.',
+    category: 'Self-Balancing EV Guides',
+    categorySlug: 'self-balancing-ev',
+    date: '2026-10-29',
+    readTime: '4 min read',
+    image: '/images/categories/category-self-balancing-ev.webp',
+    ctaText: 'Shop hoverboard go-kart attachments',
+    body: `Both get a child seated and steering rather than balancing, but a hoverboard-kart conversion and a dedicated standalone electric go-kart differ meaningfully in power, cost and flexibility.
+
+## Power and speed
+
+A standalone electric go-kart is purpose-built with its own motor and battery sized for kart use, typically delivering more consistent power and higher top speed than a hoverboard-kart conversion, which is limited by whatever hoverboard is powering it — usually a more modest, kid-oriented top speed.
+
+## Flexibility: two vehicles in one vs one dedicated vehicle
+
+A hoverboard-kart attachment's biggest advantage is flexibility — remove the hoverboard from the frame and it's back to a standalone hoverboard for a child ready to learn balance riding, or for another family member. A standalone go-kart is just a go-kart; you get one vehicle for one use case, but it's typically a more robust, purpose-built one.
+
+## Cost comparison
+
+If you already own a compatible hoverboard, a go-kart attachment is usually a cheaper way to add kart riding than buying a dedicated standalone kart. If you're starting from scratch with neither, compare the total cost of hoverboard plus attachment against a standalone kart's price directly, since the gap varies by model.
+
+## Build robustness
+
+Standalone go-karts are generally built as a single integrated unit specifically for the stresses of kart-style riding — tighter turns, varied terrain. A hoverboard-kart attachment's durability depends partly on the frame's build quality and partly on the hoverboard itself, which wasn't originally designed to be ridden within a kart frame.
+
+## Which to choose
+
+If you want maximum flexibility and already have (or want) a standalone hoverboard too, the attachment route offers two riding styles from one core device. If you want a single, more powerful, purpose-built kart experience, a standalone electric go-kart is the more robust dedicated option.`
+  },
+  {
+    slug: 'electric-balance-bike-age',
+    title: 'What Age Is Right for an Electric Balance Bike?',
+    metaDescription: 'The right age range for an electric balance bike, and what to check for your child\'s stage.',
+    excerpt: 'Matching an electric balance bike to your child\'s age and riding stage.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-11-05',
+    readTime: '4 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop electric balance bikes',
+    body: `Electric balance bikes are generally designed for young riders who've already mastered a standard (non-electric) balance bike or are comfortable riding a regular bicycle, rather than being a genuine "first bike" for the very youngest children.
+
+## Why balance skill comes before electric assistance
+
+A standard balance bike teaches core balance and steering without the complexity of pedals or power — most children benefit from mastering this stage on a non-powered balance bike first. Adding motor power before balance is solid can make the bike harder to control safely, since unexpected acceleration is more disruptive to a rider still building core stability.
+
+## What to check for your child's specific stage
+
+Look at the manufacturer's recommended age and height range for the specific model, and honestly assess whether your child has already developed confident balance and steering on a non-powered bike. A physically capable five-year-old with strong balance skills might be ready sooner than an older child who's had less bike time.
+
+## Speed caps matter enormously here
+
+Electric balance bikes for young children should have a genuinely low, tightly capped top speed — this isn't the category to prioritise power or range in. The entire point is a gentle introduction to motorised riding at a pace a young child can safely process and control.
+
+## Supervision expectations
+
+Even with a speed-capped electric balance bike, close adult supervision during early rides is important — motor assistance, even gentle, changes the bike's behaviour compared to the pure balance bike your child may already be used to, and that adjustment period deserves direct supervision.`,
+    faqs: [
+      { q: 'What age is right for an electric balance bike?', a: 'Electric balance bikes generally suit children who\'ve already mastered a standard non-powered balance bike or regular bicycle — the specific recommended age varies by model, so check the manufacturer\'s guidance, but balance skill matters more than age alone.' }
+    ]
+  },
+  {
+    slug: 'electric-balance-bike-vs-regular',
+    title: 'Electric Balance Bike vs Regular Balance Bike: Is It Worth the Upgrade?',
+    metaDescription: 'Whether an electric balance bike is worth it over a standard non-powered balance bike.',
+    excerpt: 'An honest look at what motor assistance actually adds to the balance bike stage.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-11-12',
+    readTime: '4 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop electric balance bikes',
+    body: `A regular balance bike teaches core cycling skills with zero power assistance — the question with an electric version is whether added motor power genuinely helps at this early stage, or adds complexity without much benefit.
+
+## What a regular balance bike does well
+
+A standard balance bike's entire value is its simplicity — no pedals, no motor, just a low seat and two wheels, letting a child focus purely on balance and steering using their feet to push off and stop. This simplicity is arguably the point, and most cycling development advice treats it as the ideal first step precisely because there's nothing else to manage.
+
+## Where an electric version adds genuine value
+
+For a child who's already confident on a regular balance bike and showing interest in more speed or distance than leg-push alone comfortably provides, a speed-capped electric balance bike can extend the fun and engagement of the balance-bike stage before moving to a full pedal bike — essentially a bridge step for kids not quite ready for pedals but wanting more than a push-bike offers.
+
+## Where it's probably unnecessary
+
+For a child just starting the balance-bike stage, the simplicity of a non-powered bike is likely the better learning tool — adding motor power before basic balance is solid doesn't accelerate learning and can make an already-challenging coordination task more complex.
+
+## The honest verdict
+
+An electric balance bike isn't a mandatory upgrade — it's a genuinely useful option for an already-confident balance-bike rider who wants more speed and range before progressing to pedals, but not a necessary starting point for a child beginning the balance-bike stage for the first time.`
+  },
+  {
+    slug: 'childrens-electric-dirt-bike-buying-guide',
+    title: 'Childrens Electric Dirt Bike Buying Guide: Power Limits by Age',
+    metaDescription: 'Choosing a childrens electric dirt bike with the right power limit for your child\'s age and skill.',
+    excerpt: 'Matching power output to age and skill when buying a kids\' electric dirt bike.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-11-19',
+    readTime: '5 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop childrens electric dirt bikes',
+    body: `Kids' electric dirt bikes are generally sold across a range of power and speed tiers aimed at different age and skill levels — buying the right tier matters more for safety here than almost any other kids' EV category.
+
+## Why power tiers exist
+
+Unlike a balance bike or hoverboard, an off-road dirt bike involves genuine speed and terrain challenges — rough ground, inclines, loose surfaces. Manufacturers typically offer multiple power/speed tiers specifically so younger, less experienced riders can start on a genuinely limited, manageable bike rather than a scaled-down version of an adult model.
+
+## Matching power to age and skill, not just age alone
+
+While manufacturers provide age guidance for each power tier, actual riding experience and physical size matter as much as age alone. A smaller, less experienced child should start on the lowest power tier regardless of age, while a taller, more experienced young rider might be ready for a mid-tier bike sooner.
+
+## What to check beyond raw power output
+
+Adjustable speed limiters (many kids' electric dirt bikes let a parent cap the maximum speed below the bike's full capability while a child is building confidence), brake quality and responsiveness, and frame/seat sizing appropriate to the child's height all matter alongside the headline power figure.
+
+## Safety gear and supervision expectations
+
+A genuine off-road dirt bike, even at the lowest kids' power tier, carries real fall and collision risk on uneven terrain. Full protective gear (helmet, knee and elbow pads, appropriate riding boots) and close supervision, especially during the first several rides on any new power tier, are essential rather than optional.`
+  },
+  {
+    slug: 'are-electric-dirt-bikes-safe-for-kids',
+    title: "Are Electric Dirt Bikes Safe for Kids? A Parent's Safety Checklist",
+    metaDescription: 'A practical safety checklist for parents considering an electric dirt bike for their child.',
+    excerpt: 'What parents should check before and during a child\'s electric dirt bike riding.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-11-26',
+    readTime: '5 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop childrens electric dirt bikes',
+    body: `Electric dirt bikes can be a safe, genuinely enjoyable off-road activity for kids when matched correctly to age and skill, with the right gear and supervision — but like any off-road motorised activity, the risk is real if those basics are skipped.
+
+## Before the first ride
+
+- Confirm the bike's power tier genuinely matches your child's age, size and prior riding experience — not just the manufacturer's general age guidance alone
+- Check and use any available speed limiter to cap the bike below its full capability while your child builds confidence
+- Fit full protective gear: helmet (motocross-style, not a bicycle helmet, for genuine off-road impact protection), knee and elbow pads, and sturdy closed footwear
+- Choose a genuinely safe riding area — flat, open, free of hazards like rocks, holes or traffic — for the first several sessions
+
+## During early rides
+
+- Supervise closely, within quick reach, for at least the first several sessions on any new bike or power tier
+- Watch for signs of overconfidence outpacing actual skill — a common pattern where early comfort leads to riskier choices before genuine competence catches up
+- Keep sessions shorter early on — fatigue affects reaction time and judgement, especially for younger riders
+
+## Ongoing safety habits
+
+- Regularly check brakes, tyres and the general mechanical condition of the bike, the same as you would for any vehicle in regular use
+- Gradually introduce more challenging terrain only once your child has demonstrated consistent control on easier ground
+- Reassess the power tier as your child grows and skill improves — a bike that was appropriately limiting a year ago may now be holding back a more capable rider, which has its own risk if it encourages risky workarounds
+
+## The honest bottom line
+
+Electric dirt bikes aren't inherently unsafe for kids — the risk comes from mismatched power tiers, inadequate gear, or insufficient supervision, all of which are within a parent's control to manage.`,
+    faqs: [
+      { q: 'Are electric dirt bikes safe for kids?', a: 'Yes, when matched correctly to the child\'s age, size and riding experience, used with full protective gear and a speed limiter where available, and supervised closely during early rides. The main risks come from mismatched power tiers or inadequate supervision rather than the bikes themselves.' }
+    ]
+  },
+  {
+    slug: 'electric-go-kart-buying-guide',
+    title: 'Electric Go Kart Buying Guide: Speed, Safety and Backyard Space Needed',
+    metaDescription: 'What to check before buying an electric go kart — speed, safety features and the space you actually need.',
+    excerpt: 'The key considerations before buying an electric go-kart, including realistic space requirements.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-12-03',
+    readTime: '5 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop electric go-karts',
+    body: `Electric go-karts range widely in speed, size and safety features — matching the right one to your available space and rider's age avoids both a disappointing purchase and a genuine safety mismatch.
+
+## Speed tiers and age appropriateness
+
+Like kids' electric dirt bikes, go-karts are typically sold across multiple speed tiers aimed at different ages. Younger or less experienced riders should start on the lowest available speed tier regardless of how capable they seem, since kart handling at speed — especially cornering — requires developed reflexes that take time to build.
+
+## Realistic backyard space requirements
+
+A go-kart needs genuine turning radius to operate safely — tighter than most buyers initially expect once you account for safe braking distance and a margin around obstacles. Measure your actual available space (not just length, but turning width) before buying, and be realistic about whether your yard supports safe operation at the kart's actual speed, not just straight-line length.
+
+## Safety features worth checking
+
+Seatbelts or harnesses appropriate to the rider's age, a roll bar or protective frame on faster models, and a reliable, easy-to-reach brake are the features that matter most. Adjustable speed limiting (letting a parent cap maximum speed below the kart's full capability) is genuinely valuable while a young rider builds confidence and skill.
+
+## What surface matters
+
+Smooth, flat, obstacle-free ground — concrete, pavers or firm level lawn — gives the most predictable, safe operation. Loose gravel, slopes or uneven ground all increase the skill required to operate the kart safely, which matters more for younger or less experienced riders.`
+  },
+  {
+    slug: 'electric-go-kart-vs-petrol',
+    title: 'Electric Go Kart vs Petrol Go Kart: Which Is Better for Home Use?',
+    metaDescription: 'Comparing electric and petrol go-karts for home and backyard use — noise, maintenance and running costs.',
+    excerpt: 'An honest comparison between electric and petrol go-karts for home use.',
+    category: 'Kids EV Guides',
+    categorySlug: 'kids-off-road-ev',
+    date: '2026-12-10',
+    readTime: '4 min read',
+    image: '/images/categories/category-kids-off-road-ev.webp',
+    ctaText: 'Shop electric go-karts',
+    body: `For backyard and home use specifically — as opposed to a dedicated track — electric go-karts have genuine practical advantages over petrol models that go beyond simply being the "modern" option.
+
+## Noise is the biggest practical difference for home use
+
+Electric go-karts are dramatically quieter than petrol ones — a meaningful consideration if neighbours are close by, or if you want to avoid the kart being a constant source of noise complaints during regular backyard use. This is one of the most commonly cited reasons families choose electric for home use specifically.
+
+## Maintenance: electric is simpler for occasional home use
+
+Petrol karts need regular fuel, oil changes and periodic engine maintenance even with light use — fuel can also degrade if the kart sits unused for extended periods between uses, a common pattern for backyard karts rather than track-dedicated ones. Electric karts need charging and basic battery care, with no fuel system to maintain or degrade during idle periods.
+
+## Running costs favour electric for casual use
+
+Charging costs less than fuel for equivalent usage, and there's no oil or filter replacement cost. For a kart used occasionally in the backyard rather than regularly at a track, these savings are modest in absolute terms but add up over the kart's lifespan.
+
+## Where petrol still has an edge
+
+Petrol karts generally offer more sustained power for genuine track-style use and don't require downtime for recharging between sessions — relevant if you're using the kart heavily across a full day rather than shorter backyard sessions. For true track or motorsport-style use, petrol's refuelling speed and sustained power remain advantages.
+
+## The home-use verdict
+
+For typical backyard and home use — shorter sessions, noise-sensitive neighbours, occasional rather than constant use — an electric go-kart is generally the more practical choice. Petrol retains its edge specifically for sustained, track-style use where refuelling speed and extended power delivery matter most.`
   }
 ];
 
