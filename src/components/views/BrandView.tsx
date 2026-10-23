@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BRANDS, getProductsForBrand, Product } from '../../config/site';
 import { ProductCard } from '../ProductCard';
-import { Zap, ChevronRight } from 'lucide-react';
+import { Zap, ChevronRight, ChevronLeft } from 'lucide-react';
+
+const PRODUCTS_PER_PAGE = 16; // 4 columns x 4 rows
 
 interface BrandViewProps {
   selectedBrand: string | null;
@@ -21,6 +23,11 @@ export const BrandView: React.FC<BrandViewProps> = ({
   comparedIds
 }) => {
   const brand = BRANDS.find(b => b.slug === selectedBrand);
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [selectedBrand]);
 
   // /brands/ index — lists every stocked brand with a dedicated page
   if (!brand) {
@@ -65,6 +72,13 @@ export const BrandView: React.FC<BrandViewProps> = ({
   }
 
   const filtered = getProductsForBrand(brand.slug);
+  const totalPages = Math.ceil(filtered.length / PRODUCTS_PER_PAGE);
+  const pageProducts = filtered.slice((page - 1) * PRODUCTS_PER_PAGE, page * PRODUCTS_PER_PAGE);
+
+  const goToPage = (p: number) => {
+    setPage(Math.max(1, Math.min(totalPages, p)));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
@@ -105,8 +119,9 @@ export const BrandView: React.FC<BrandViewProps> = ({
           <p className="text-slate-300 font-bold text-sm">No {brand.name} products currently in stock.</p>
         </div>
       ) : (
+        <div className="space-y-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filtered.map((product, index) => (
+          {pageProducts.map((product, index) => (
             <ProductCard
               key={product.id}
               product={product}
@@ -117,6 +132,44 @@ export const BrandView: React.FC<BrandViewProps> = ({
               priority={index < 4}
             />
           ))}
+        </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 font-mono text-sm">
+            <button
+              onClick={() => goToPage(page - 1)}
+              disabled={page === 1}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous page"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <button
+                key={p}
+                onClick={() => goToPage(p)}
+                className={`w-9 h-9 rounded-lg border transition-colors ${
+                  p === page
+                    ? 'bg-sky-500 border-sky-500 text-slate-950 font-bold'
+                    : 'border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400'
+                }`}
+              >
+                {p}
+              </button>
+            ))}
+
+            <button
+              onClick={() => goToPage(page + 1)}
+              disabled={page === totalPages}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Next page"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        )}
         </div>
       )}
 

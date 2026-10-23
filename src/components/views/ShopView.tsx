@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { CATEGORIES, PRODUCTS, Product } from '../../config/site';
 import { ProductCard } from '../ProductCard';
-import { Zap, ChevronRight } from 'lucide-react';
+import { Zap, ChevronRight, ChevronLeft } from 'lucide-react';
+
+const PRODUCTS_PER_PAGE = 16; // 4 columns x 4 rows
 
 interface ShopViewProps {
   selectedCategory: string | null;
@@ -25,10 +27,16 @@ export const ShopView: React.FC<ShopViewProps> = ({
 }) => {
   const [activeSubcat, setActiveSubcat] = useState<string | null>(initialSubcat || null);
   const [priceSort, setPriceSort] = useState<'default' | 'low-high' | 'high-low'>('default');
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     setActiveSubcat(initialSubcat || null);
   }, [initialSubcat]);
+
+  // Reset to page 1 whenever the filtered set changes shape.
+  useEffect(() => {
+    setPage(1);
+  }, [selectedCategory, activeSubcat, priceSort]);
 
   let filtered = selectedCategory
     ? PRODUCTS.filter(p => p.category === selectedCategory)
@@ -43,6 +51,14 @@ export const ShopView: React.FC<ShopViewProps> = ({
   } else if (priceSort === 'high-low') {
     filtered = [...filtered].sort((a, b) => b.price - a.price);
   }
+
+  const totalPages = Math.ceil(filtered.length / PRODUCTS_PER_PAGE);
+  const pageProducts = filtered.slice((page - 1) * PRODUCTS_PER_PAGE, page * PRODUCTS_PER_PAGE);
+
+  const goToPage = (p: number) => {
+    setPage(Math.max(1, Math.min(totalPages, p)));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const currentCategoryObj = CATEGORIES.find(c => c.slug === selectedCategory);
   const currentSubcatObj = currentCategoryObj?.subcategories.find(s => s.slug === activeSubcat);
@@ -204,8 +220,9 @@ export const ShopView: React.FC<ShopViewProps> = ({
           </button>
         </div>
       ) : (
+        <div className="space-y-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filtered.map((product, index) => (
+          {pageProducts.map((product, index) => (
             <ProductCard
               key={product.id}
               product={product}
@@ -216,6 +233,44 @@ export const ShopView: React.FC<ShopViewProps> = ({
               priority={index < 4}
             />
           ))}
+        </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 font-mono text-sm">
+            <button
+              onClick={() => goToPage(page - 1)}
+              disabled={page === 1}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous page"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <button
+                key={p}
+                onClick={() => goToPage(p)}
+                className={`w-9 h-9 rounded-lg border transition-colors ${
+                  p === page
+                    ? 'bg-sky-500 border-sky-500 text-slate-950 font-bold'
+                    : 'border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400'
+                }`}
+              >
+                {p}
+              </button>
+            ))}
+
+            <button
+              onClick={() => goToPage(page + 1)}
+              disabled={page === totalPages}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Next page"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        )}
         </div>
       )}
 
