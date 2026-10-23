@@ -66,10 +66,12 @@ export const AdminReplyPortal: React.FC<{ isOpen: boolean; onClose: () => void }
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null);
   const [selectedEnquiry, setSelectedEnquiry] = useState<Enquiry | null>(null);
 
-  // Composer fields
-  const [rawPaymentText, setRawPaymentText] = useState(
-    `Bank: Commonwealth Bank of Australia\nBSB: 066-123\nAccount Number: 1045 8892\nAccount Name: ALLIED FORKLIFTS PTY LTD\nPayID: finance@alliedelectricvehicles.com.au\nReference: Use Order Ref Number`
-  );
+  // Composer fields — starts empty. Never pre-fill this with sample bank/
+  // wallet details: a fabricated default here is formatted exactly like real
+  // payment data, so an admin who doesn't look closely could send it to a
+  // paying customer unedited. The admin must paste ALLIED's real details
+  // every time.
+  const [rawPaymentText, setRawPaymentText] = useState('');
   const [parsedFields, setParsedFields] = useState<ParsedPaymentField[]>([]);
   const [emailSentSuccess, setEmailSentSuccess] = useState(false);
   const [paymentEmailSent, setPaymentEmailSent] = useState(false);
