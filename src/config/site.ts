@@ -15842,7 +15842,7 @@ export const POSTS = [
     categorySlug: 'electric-bikes',
     date: '2026-01-15',
     readTime: '7 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-bike-laws-australia.webp',
     ctaText: 'Shop road-legal electric bikes',
     body: `Buying an electric bike in Australia means understanding one thing first: whether it's actually legal to ride on public roads and paths without a licence, registration or insurance. The good news is that the vast majority of e-bikes sold here — including every ALLIED electric bike — are built to a national standard that keeps them firmly in "ordinary bicycle" territory under the law.
 
@@ -15887,7 +15887,7 @@ If you're buying a mainstream e-bike from a reputable supplier — commuter, car
     categorySlug: 'electric-bikes',
     date: '2026-01-29',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-what-is-an-electric-bike.webp',
     ctaText: 'Browse our full electric bike range',
     body: `An electric bike — e-bike for short — is a regular bicycle with a motor, battery and controller added to assist your pedalling. It isn't a motorcycle or a scooter you sit on and twist a throttle to go; on a compliant Australian e-bike, the motor only adds power while you're pedalling, and it's capped at 25km/h of assistance. Beyond that speed, you're riding on leg power alone, just like any other cyclist.
 
@@ -15920,7 +15920,7 @@ Pricing varies a lot by category — entry-level commuters sit at one end, premi
     categorySlug: 'electric-bikes',
     date: '2026-02-12',
     readTime: '6 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-bike-prices-australia.webp',
     ctaText: 'See today\'s prices',
     body: `E-bike prices in Australia span a wide range, and the gap between the cheapest and most expensive models usually comes down to four things: battery capacity, motor type, frame/component quality and brand. Here's a realistic breakdown of what you get at each tier.
 
@@ -15949,7 +15949,7 @@ Three factors explain almost all of the price difference between models: battery
     categorySlug: 'mobility-scooters',
     date: '2026-02-26',
     readTime: '6 min read',
-    image: '/images/categories/category-mobility-scooters.webp',
+    image: '/images/blog/blog-mobility-scooter-rules-australia.webp',
     ctaText: 'Shop mobility scooters',
     body: `Mobility scooters occupy a similar legal space to e-bikes in Australia — they're treated as a type of pedestrian mobility aid rather than a motor vehicle, provided they meet certain limits, which means most buyers never need to deal with licensing or registration at all.
 
@@ -15978,7 +15978,7 @@ Beyond legal compliance, the two practical factors that matter most are range (b
     categorySlug: 'electric-bikes',
     date: '2026-03-12',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-bike-facts.webp',
     ctaText: 'Explore electric bikes',
     body: `## 1. "Continuous" power and "peak" power are different numbers
 
@@ -16029,7 +16029,7 @@ Between the extra weight, motor torque and higher average speeds, drivetrain com
     categorySlug: 'electric-bikes',
     date: '2026-03-19',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-best-electric-commuter-bikes-australia.webp',
     ctaText: 'Shop electric commuter bikes',
     body: `Choosing an electric commuter bike comes down to matching the bike's specification to how your actual commute plays out — not just picking the highest-spec model you can afford.
 
@@ -16062,7 +16062,7 @@ If you're commuting rain or shine, check the battery and electronics have a real
     categorySlug: 'electric-bikes',
     date: '2026-03-26',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-ebike-battery-life-how-long.webp',
     ctaText: 'Shop electric commuter bikes',
     body: `"How long does the battery last" actually means two different questions — how far it goes per charge, and how many charge cycles it survives before capacity noticeably drops. Both matter, for different reasons.
 
@@ -16091,7 +16091,7 @@ If your range has dropped noticeably compared to when the bike was new, even at 
     categorySlug: 'electric-bikes',
     date: '2026-04-02',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-cargo-bike-vs-car.webp',
     ctaText: 'Shop electric cargo bikes',
     body: `Cargo e-bikes have genuinely replaced the second car for plenty of Australian families doing the school run, but it's not a universal win — it depends heavily on distance, route and how many kids you're carrying.
 
@@ -16120,7 +16120,7 @@ Payload capacity (how much weight the bike and its rated accessories can carry �
     categorySlug: 'electric-bikes',
     date: '2026-04-09',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-cargo-bike-weight-capacity.webp',
     ctaText: 'Shop electric cargo bikes',
     body: `A cargo e-bike's payload rating is the total weight it's rated to safely carry — rider plus cargo plus any accessories like child seats — and it's a frame and component engineering figure, not just a motor power number.
 
@@ -16149,7 +16149,7 @@ Just because a bike is rated for a certain payload doesn't mean riding at that l
     categorySlug: 'electric-bikes',
     date: '2026-04-16',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-hardtail-vs-full-suspension-emtb.webp',
     ctaText: 'Shop electric mountain bikes',
     body: `Hardtail (front suspension only) and full-suspension (front and rear) electric mountain bikes aren't simply "budget vs premium" — each suits different terrain and riding styles.
 
@@ -16178,7 +16178,7 @@ Because the motor handles climbing effort, some riders who'd normally choose a l
     categorySlug: 'electric-bikes',
     date: '2026-04-23',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-emtb-maintenance-checklist.webp',
     ctaText: 'Shop electric mountain bikes',
     body: `An eMTB sees harder use than a commuter bike — trail impacts, mud, dust and higher-torque motor output all add wear. A basic maintenance routine before and after rides keeps it trail-ready and catches small issues before they become expensive ones.
 
@@ -16215,7 +16215,7 @@ Any unusual motor noise, inconsistent power delivery, brake fade under hard use,
     categorySlug: 'electric-bikes',
     date: '2026-04-30',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-best-folding-electric-bikes-australia.webp',
     ctaText: 'Shop folding electric bikes',
     body: `A folding e-bike is only as good as its folded dimensions and weight — the riding experience matters too, but for apartment, boat and caravan buyers, storage footprint is usually the deciding factor.
 
@@ -16244,7 +16244,7 @@ Folding e-bikes often use smaller-capacity batteries to keep weight and folded s
     categorySlug: 'electric-bikes',
     date: '2026-05-07',
     readTime: '3 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-fold-electric-bike-how-to.webp',
     ctaText: 'Shop folding electric bikes',
     body: `Most folding e-bikes use a similar three-point folding sequence — frame, pedals/handlebar stem, and seat post — and once you've done it a handful of times, the whole process genuinely takes under 15 seconds.
 
@@ -16277,7 +16277,7 @@ Raise the seat post to your riding height and lock it, unfold and lock the handl
     categorySlug: 'electric-bikes',
     date: '2026-05-14',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-fat-tyre-ebike-sand-gravel.webp',
     ctaText: 'Shop fat tyre electric bikes',
     body: `Fat tyre e-bikes — typically running tyres 4 inches wide or more — are built specifically to handle surfaces that would bog down a standard-width tyre, and sand and gravel are exactly the conditions they're designed for.
 
@@ -16306,7 +16306,7 @@ The wider contact patch that helps on sand and gravel means more rolling resista
     categorySlug: 'electric-bikes',
     date: '2026-05-21',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-fat-tyre-vs-standard-bike-tyres.webp',
     ctaText: 'Shop fat tyre electric bikes',
     body: `Beyond the obvious visual difference, fat and standard tyres change an e-bike's ride feel, efficiency and suitability for different terrain in ways worth understanding before you choose.
 
@@ -16335,7 +16335,7 @@ Choose fat tyres if you regularly ride sand, loose gravel, or want the smoother,
     categorySlug: 'electric-bikes',
     date: '2026-05-28',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-dirt-bike-laws-australia.webp',
     ctaText: 'Shop electric dirt bikes',
     body: `Electric dirt bikes sit in a different legal category to road e-bikes, and understanding the distinction matters before you buy — most electric dirt bikes are built for off-road use only, not road or path riding.
 
@@ -16368,7 +16368,7 @@ If road and path riding matters to you, look at the road-legal electric bike cat
     categorySlug: 'electric-bikes',
     date: '2026-06-04',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-dirt-bike-vs-petrol.webp',
     ctaText: 'Shop electric dirt bikes',
     body: `Electric and petrol dirt bikes suit different priorities — neither is universally better, and the right choice depends on what matters most to you: running cost, maintenance, noise, or raw power delivery.
 
@@ -16401,7 +16401,7 @@ This is where petrol still generally has the edge — refuelling takes minutes, 
     categorySlug: 'electric-bikes',
     date: '2026-06-11',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-moped-buying-guide.webp',
     ctaText: 'Shop electric mopeds',
     body: `Electric mopeds sit in their own category, separate from both road-legal e-bikes and electric dirt bikes — generally more powerful than a pedal-assist e-bike, which usually means different licensing requirements apply.
 
@@ -16430,7 +16430,7 @@ Confirm the exact power rating, top speed and whether the specific model require
     categorySlug: 'electric-bikes',
     date: '2026-06-18',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-moped-licence-australia.webp',
     ctaText: 'Shop electric mopeds',
     body: `Unlike compliant pedal-assist e-bikes, most electric mopeds require a licence to ride legally on Australian roads — the exact requirement depends on the moped's power output and top speed, and varies by state.
 
@@ -16462,7 +16462,7 @@ If you don't currently hold a moped or motorcycle licence and want a zero-licenc
     categorySlug: 'electric-bikes',
     date: '2026-06-25',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-tricycles-for-seniors.webp',
     ctaText: 'Shop electric tricycles',
     body: `For riders concerned about balance — whether due to age, injury recovery, or inner-ear or vestibular conditions — an electric tricycle removes the single biggest barrier to riding: the need to balance a two-wheeled bike, especially at low speed or when stopped.
 
@@ -16491,7 +16491,7 @@ An electric tricycle isn't a lesser version of a two-wheeled e-bike — for ride
     categorySlug: 'electric-bikes',
     date: '2026-07-02',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-electric-trike-vs-electric-bike.webp',
     ctaText: 'Shop electric tricycles',
     body: `Stability means different things depending on speed — and electric trikes and two-wheeled e-bikes trade stability advantages back and forth depending on whether you're stopped, moving slowly, or riding at speed.
 
@@ -16520,7 +16520,7 @@ For most everyday riding — stopping, starting, slow manoeuvring, riding at a r
     categorySlug: 'electric-scooters',
     date: '2026-07-09',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-scooters.webp',
+    image: '/images/blog/blog-best-commuter-electric-scooters.webp',
     ctaText: 'Shop commuter electric scooters',
     body: `A commuter electric scooter needs to balance three things most other scooters don't have to: portability (you're probably carrying it indoors or onto transport), enough range for a realistic round trip, and durability for genuine daily use rather than occasional recreational riding.
 
@@ -16549,7 +16549,7 @@ If you're commuting regardless of weather, check the scooter has a genuine water
     categorySlug: 'electric-scooters',
     date: '2026-07-16',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-scooters.webp',
+    image: '/images/blog/blog-electric-scooter-laws-australia.webp',
     ctaText: 'Browse electric scooters',
     body: `Unlike e-bikes, which follow a fairly consistent national standard, electric scooter laws vary more significantly state to state in Australia — power limits, speed limits, minimum riding age and where you're allowed to ride all differ depending on where you live.
 
@@ -16581,7 +16581,7 @@ Confirm the scooter's power rating and top speed against your state's current li
     categorySlug: 'electric-scooters',
     date: '2026-07-23',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-scooters.webp',
+    image: '/images/blog/blog-long-range-electric-scooters-how-far.webp',
     ctaText: 'Shop long-range electric scooters',
     body: `Long-range electric scooters are built around larger-capacity battery packs, but how far you actually get on a charge depends on more than just the battery spec sheet.
 
@@ -16614,7 +16614,7 @@ Rather than trusting the maximum advertised figure, look for range tested at a m
     categorySlug: 'electric-scooters',
     date: '2026-07-30',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-scooters.webp',
+    image: '/images/blog/blog-performance-vs-commuter-scooters.webp',
     ctaText: 'Shop long-range electric scooters',
     body: `"Performance" and "commuter" electric scooters often use similar underlying technology, but the engineering priorities — and the trade-offs that come with them — genuinely differ.
 
@@ -16647,7 +16647,7 @@ If your priority is getting to work efficiently on a lighter, more portable scoo
     categorySlug: 'electric-skateboards',
     date: '2026-08-06',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-street-electric-skateboards-beginners.webp',
     ctaText: 'Shop street electric longboards',
     body: `Street electric skateboards (electric longboards built for smooth pavement) are genuinely accessible to new riders, but the learning curve has a few specific stages worth knowing before you start.
 
@@ -16680,7 +16680,7 @@ A helmet at minimum, and ideally wrist guards and knee pads while you're still b
     categorySlug: 'electric-skateboards',
     date: '2026-08-13',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-best-street-electric-longboards.webp',
     ctaText: 'Shop street electric longboards',
     body: `For campus and commuter riding, the ideal electric longboard prioritises portability, smooth-surface efficiency and manageable weight over the all-terrain capability or top speed that other riders might chase.
 
@@ -16709,7 +16709,7 @@ Daily use means daily reliance on the remote and braking system working consiste
     categorySlug: 'electric-skateboards',
     date: '2026-08-20',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-all-terrain-electric-skateboards-worth-it.webp',
     ctaText: 'Shop all-terrain electric skateboards',
     body: `All-terrain electric skateboards cost more than street-focused boards, and the extra cost buys genuine capability — but only if you actually ride on terrain that needs it.
 
@@ -16738,7 +16738,7 @@ All-terrain boards aren't simply "better" — they're built for a different use 
     categorySlug: 'electric-skateboards',
     date: '2026-08-27',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-best-all-terrain-electric-skateboards-australia.webp',
     ctaText: 'Shop all-terrain electric skateboards',
     body: `Genuine off-road electric skateboard performance in Australian conditions — gravel fire trails, dirt paths, uneven bushland tracks — comes down to a few specific components rather than general build quality alone.
 
@@ -16767,7 +16767,7 @@ Off-road and trail riding exposes the board to more dust, dirt and moisture than
     categorySlug: 'electric-skateboards',
     date: '2026-09-03',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-mini-electric-skateboards-commuting.webp',
     ctaText: 'Shop mini electric skateboards',
     body: `Mini electric skateboards trade some power and range for genuine portability — whether that trade-off works for your commute depends mostly on distance and how often you need to carry the board.
 
@@ -16796,7 +16796,7 @@ Mini electric skateboards aren't underpowered in general — they're purpose-bui
     categorySlug: 'electric-skateboards',
     date: '2026-09-10',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-onewheel-australia-cost-learning.webp',
     ctaText: 'Shop Onewheel-style boards',
     body: `Onewheel-style self-balancing boards occupy a different price bracket and learning curve to traditional electric skateboards — understanding both before buying sets realistic expectations.
 
@@ -16825,7 +16825,7 @@ For riders willing to put in a few dedicated practice sessions, a Onewheel-style
     categorySlug: 'electric-skateboards',
     date: '2026-09-17',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-skateboards.webp',
+    image: '/images/blog/blog-onewheel-vs-electric-skateboard.webp',
     ctaText: 'Shop Onewheel-style boards',
     body: `Both are electric self-propelled boards, but the riding mechanics, learning curve and practical handling differ enough that they genuinely suit different riders and priorities.
 
@@ -16858,7 +16858,7 @@ If you want the fastest path to confident daily riding, choose a traditional ele
     categorySlug: 'self-balancing-ev',
     date: '2026-09-24',
     readTime: '5 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-electric-unicycles-explained.webp',
     ctaText: 'Shop electric unicycles',
     body: `An electric unicycle (EUC) is a self-balancing single-wheeled device you stand on, with both feet on pedals either side of the wheel — and yes, it's genuinely a harder skill to learn than a hoverboard.
 
@@ -16887,7 +16887,7 @@ Riders willing to invest real practice time, often drawn by the EUC's compact si
     categorySlug: 'self-balancing-ev',
     date: '2026-10-01',
     readTime: '4 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-electric-unicycle-buying-guide.webp',
     ctaText: 'Shop electric unicycles',
     body: `Choosing an electric unicycle comes down to matching wheel size and top speed to your experience level — bigger, faster isn't automatically better for a new rider.
 
@@ -16916,7 +16916,7 @@ Given the genuine learning curve and fall risk discussed in our [electric unicyc
     categorySlug: 'self-balancing-ev',
     date: '2026-10-08',
     readTime: '5 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-hoverboard-buying-guide.webp',
     ctaText: 'Shop hoverboards',
     body: `Hoverboards had a well-documented battery safety problem in their early years — uncertified batteries catching fire — which makes battery certification the single most important thing to check before buying, well ahead of speed or features.
 
@@ -16949,7 +16949,7 @@ Always charge on a hard, non-flammable surface, never leave charging unattended 
     categorySlug: 'self-balancing-ev',
     date: '2026-10-15',
     readTime: '4 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-best-hoverboards-kids-vs-adults.webp',
     ctaText: 'Shop hoverboards',
     body: `Kids' and adult hoverboards aren't just different colours and sizes — weight limits, speed caps and build durability are genuinely tuned differently for each.
 
@@ -16982,7 +16982,7 @@ Match the weight range to the actual rider first, then consider speed cap and bu
     categorySlug: 'self-balancing-ev',
     date: '2026-10-22',
     readTime: '4 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-hoverboard-go-kart-attachments-explained.webp',
     ctaText: 'Shop hoverboard go-kart attachments',
     body: `A hoverboard go-kart attachment is a frame that clamps around a standard hoverboard, adding a seat, steering bar and front wheel — turning the self-balancing board into a seated, steered kart without needing to learn to balance on it at all.
 
@@ -17011,7 +17011,7 @@ Since the attachment relies entirely on the hoverboard's motor and battery, the 
     categorySlug: 'self-balancing-ev',
     date: '2026-10-29',
     readTime: '4 min read',
-    image: '/images/categories/category-self-balancing-ev.webp',
+    image: '/images/blog/blog-hoverboard-go-kart-vs-standalone.webp',
     ctaText: 'Shop hoverboard go-kart attachments',
     body: `Both get a child seated and steering rather than balancing, but a hoverboard-kart conversion and a dedicated standalone electric go-kart differ meaningfully in power, cost and flexibility.
 
@@ -17044,7 +17044,7 @@ If you want maximum flexibility and already have (or want) a standalone hoverboa
     categorySlug: 'kids-off-road-ev',
     date: '2026-11-05',
     readTime: '4 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-electric-balance-bike-age.webp',
     ctaText: 'Shop electric balance bikes',
     body: `Electric balance bikes are generally designed for young riders who've already mastered a standard (non-electric) balance bike or are comfortable riding a regular bicycle, rather than being a genuine "first bike" for the very youngest children.
 
@@ -17076,7 +17076,7 @@ Even with a speed-capped electric balance bike, close adult supervision during e
     categorySlug: 'kids-off-road-ev',
     date: '2026-11-12',
     readTime: '4 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-electric-balance-bike-vs-regular.webp',
     ctaText: 'Shop electric balance bikes',
     body: `A regular balance bike teaches core cycling skills with zero power assistance — the question with an electric version is whether added motor power genuinely helps at this early stage, or adds complexity without much benefit.
 
@@ -17105,7 +17105,7 @@ An electric balance bike isn't a mandatory upgrade — it's a genuinely useful o
     categorySlug: 'kids-off-road-ev',
     date: '2026-11-19',
     readTime: '5 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-childrens-electric-dirt-bike-buying-guide.webp',
     ctaText: 'Shop childrens electric dirt bikes',
     body: `Kids' electric dirt bikes are generally sold across a range of power and speed tiers aimed at different age and skill levels — buying the right tier matters more for safety here than almost any other kids' EV category.
 
@@ -17134,7 +17134,7 @@ A genuine off-road dirt bike, even at the lowest kids' power tier, carries real 
     categorySlug: 'kids-off-road-ev',
     date: '2026-11-26',
     readTime: '5 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-are-electric-dirt-bikes-safe-for-kids.webp',
     ctaText: 'Shop childrens electric dirt bikes',
     body: `Electric dirt bikes can be a safe, genuinely enjoyable off-road activity for kids when matched correctly to age and skill, with the right gear and supervision — but like any off-road motorised activity, the risk is real if those basics are skipped.
 
@@ -17173,7 +17173,7 @@ Electric dirt bikes aren't inherently unsafe for kids — the risk comes from mi
     categorySlug: 'kids-off-road-ev',
     date: '2026-12-03',
     readTime: '5 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-electric-go-kart-buying-guide.webp',
     ctaText: 'Shop electric go-karts',
     body: `Electric go-karts range widely in speed, size and safety features — matching the right one to your available space and rider's age avoids both a disappointing purchase and a genuine safety mismatch.
 
@@ -17202,7 +17202,7 @@ Smooth, flat, obstacle-free ground — concrete, pavers or firm level lawn — g
     categorySlug: 'kids-off-road-ev',
     date: '2026-12-10',
     readTime: '4 min read',
-    image: '/images/categories/category-kids-off-road-ev.webp',
+    image: '/images/blog/blog-electric-go-kart-vs-petrol.webp',
     ctaText: 'Shop electric go-karts',
     body: `For backyard and home use specifically — as opposed to a dedicated track — electric go-karts have genuine practical advantages over petrol models that go beyond simply being the "modern" option.
 
@@ -17235,7 +17235,7 @@ For typical backyard and home use — shorter sessions, noise-sensitive neighbou
     categorySlug: 'mobility-scooters',
     date: '2026-12-17',
     readTime: '5 min read',
-    image: '/images/categories/category-mobility-scooters.webp',
+    image: '/images/blog/blog-travel-mobility-scooter-buying-guide.webp',
     ctaText: 'Shop travel mobility scooters',
     body: `A travel or folding mobility scooter is only genuinely useful if it actually fits your car boot and matches how you intend to transport it — checking real dimensions and weight before buying avoids a frustrating mismatch.
 
@@ -17264,7 +17264,7 @@ Travel scooters often use smaller batteries than heavy-duty models to keep weigh
     categorySlug: 'mobility-scooters',
     date: '2026-12-24',
     readTime: '4 min read',
-    image: '/images/categories/category-mobility-scooters.webp',
+    image: '/images/blog/blog-folding-mobility-scooter-plane-australia.webp',
     ctaText: 'Shop travel mobility scooters',
     body: `Folding mobility scooters can generally be taken on flights within Australia, but acceptance depends on the airline's specific policies around battery type and size — not a single blanket national rule.
 
@@ -17296,7 +17296,7 @@ Many airlines require advance notice for mobility device transport, sometimes 48
     categorySlug: 'mobility-scooters',
     date: '2026-12-31',
     readTime: '5 min read',
-    image: '/images/categories/category-mobility-scooters.webp',
+    image: '/images/blog/blog-heavy-duty-mobility-scooter-buying-guide.webp',
     ctaText: 'Shop heavy-duty mobility scooters',
     body: `Heavy-duty mobility scooters prioritise weight capacity, stability and terrain capability over the portability that travel scooters focus on — the right choice if daily, all-terrain use matters more than fitting in a car boot.
 
@@ -17325,7 +17325,7 @@ Wider wheelbase and lower centre of gravity both improve stability, particularly
     categorySlug: 'mobility-scooters',
     date: '2027-01-07',
     readTime: '4 min read',
-    image: '/images/categories/category-mobility-scooters.webp',
+    image: '/images/blog/blog-heavy-duty-vs-standard-mobility-scooters.webp',
     ctaText: 'Shop heavy-duty mobility scooters',
     body: `Heavy-duty mobility scooters cost more and weigh more than standard models — worth it if your use case genuinely needs the extra capability, unnecessary if it doesn't.
 
@@ -17354,7 +17354,7 @@ Write down your actual typical use — where you ride, how often, what terrain, 
     categorySlug: 'electric-quad-bikes',
     date: '2027-01-14',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-kids-electric-quad-bike-buying-guide.webp',
     ctaText: 'Shop kids electric quad bikes',
     body: `Kids' electric quad bikes, like kids' electric dirt bikes, are typically sold across multiple power tiers specifically designed for different ages and skill levels — getting this match right matters more for safety than any other single spec.
 
@@ -17383,7 +17383,7 @@ Full protective gear (helmet, goggles if riding on dusty ground, closed footwear
     categorySlug: 'electric-quad-bikes',
     date: '2027-01-21',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-electric-quad-bike-age-australia.webp',
     ctaText: 'Shop kids electric quad bikes',
     body: `There's no single nationally mandated minimum age for riding a kids' electric quad bike on private property in Australia — manufacturers provide recommended age ranges per model, but actual readiness depends on more than age alone.
 
@@ -17415,7 +17415,7 @@ If there's any consideration of road use beyond private property — which gener
     categorySlug: 'electric-quad-bikes',
     date: '2027-01-28',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-adult-electric-quad-bike-buying-guide.webp',
     ctaText: 'Shop adult electric quad bikes',
     body: `Adult electric quad bikes span a wide range of power and capability — matching the right one to your actual intended use (recreational trail riding, light farm work, or genuine heavy-duty utility) avoids both overpaying and underbuying.
 
@@ -17444,7 +17444,7 @@ Terrain-appropriate tyres (more aggressive tread for mud and loose ground, smoot
     categorySlug: 'electric-quad-bikes',
     date: '2027-02-04',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-electric-quad-bike-vs-petrol-atv-costs.webp',
     ctaText: 'Shop adult electric quad bikes',
     body: `Running costs for electric and petrol quad bikes diverge significantly once you look beyond the upfront purchase price — the comparison depends heavily on how much and how you actually use the vehicle.
 
@@ -17473,7 +17473,7 @@ For regular, frequent use, electric's lower running costs (cheaper charging, les
     categorySlug: 'electric-quad-bikes',
     date: '2027-02-11',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-electric-utility-quad-farm-buying-guide.webp',
     ctaText: 'Shop electric utility quads',
     body: `Farm and acreage property work demands more from a quad bike than recreational trail riding does — payload, towing capacity, range across a full working day and genuine durability all matter more here than top speed.
 
@@ -17502,7 +17502,7 @@ If you plan to use the quad with specific attachments — a small trailer, a spr
     categorySlug: 'electric-quad-bikes',
     date: '2027-02-18',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-quad-bikes.webp',
+    image: '/images/blog/blog-electric-vs-petrol-farm-quads-savings.webp',
     ctaText: 'Shop electric utility quads',
     body: `Over a longer ownership period, the running-cost gap between electric and petrol farm quads becomes clearer — though the answer still depends on usage intensity and your specific property's demands.
 
@@ -17531,7 +17531,7 @@ A genuine 5-year comparison needs to include: charging/fuel costs at your actual
     categorySlug: 'electric-water-sports',
     date: '2027-02-25',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-electric-surfboard-buying-guide.webp',
     ctaText: 'Shop electric surfboards',
     body: `Electric surfboards split broadly into two types — standard boards that stay on the water's surface, and hydrofoil boards that lift above it — and the right choice depends on what kind of riding experience you're after.
 
@@ -17560,7 +17560,7 @@ Battery range and realistic session length, board weight (affects transport and 
     categorySlug: 'electric-water-sports',
     date: '2027-03-04',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-learning-to-ride-electric-surfboard.webp',
     ctaText: 'Shop electric surfboards',
     body: `Learning to ride an electric surfboard is genuinely more approachable than traditional surfing — you don't need to catch waves or paddle to generate speed — but it still has a real learning curve worth setting expectations around.
 
@@ -17593,7 +17593,7 @@ Most new riders feel reasonably confident standing and cruising on a standard el
     categorySlug: 'electric-water-sports',
     date: '2027-03-11',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-electric-jetboards-explained.webp',
     ctaText: 'Shop electric jetboards',
     body: `An electric jetboard sits between a stand-up electric surfboard and a jet ski — a compact, stand-up or kneel-on powered board using jet propulsion rather than a propeller, built for a faster, more manoeuvrable riding style than a standard electric surfboard.
 
@@ -17622,7 +17622,7 @@ Similar to electric surfboards, most riders start kneeling to build throttle con
     categorySlug: 'electric-water-sports',
     date: '2027-03-18',
     readTime: '4 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-jetboard-buying-guide.webp',
     ctaText: 'Shop electric jetboards',
     body: `Buying a jetboard comes down to matching motor power and battery life to how you'll actually ride it, with realistic expectations set for the learning curve involved.
 
@@ -17651,7 +17651,7 @@ Check the board's weight and dimensions against how you'll actually transport an
     categorySlug: 'electric-water-sports',
     date: '2027-03-25',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-electric-jet-ski-buying-guide.webp',
     ctaText: 'Shop electric jet skis',
     body: `Electric jet skis are a genuinely newer category than electric surfboards or jetboards, and buying one means thinking carefully about range, charging logistics and realistic running costs alongside the usual performance specs.
 
@@ -17680,7 +17680,7 @@ Fewer mechanical components generally means less routine maintenance than a petr
     categorySlug: 'electric-water-sports',
     date: '2027-04-01',
     readTime: '5 min read',
-    image: '/images/categories/category-electric-water-sports.webp',
+    image: '/images/blog/blog-electric-vs-petrol-jet-skis-worth-it.webp',
     ctaText: 'Shop electric jet skis',
     body: `Electric jet skis are a genuinely newer, fast-developing category — here's an honest look at where they currently compete well with petrol models, and where petrol still has a practical edge.
 
@@ -17709,7 +17709,7 @@ For regular, shorter sessions from a home launch point with charging access, an 
     categorySlug: 'batteries-parts-kits',
     date: '2027-04-08',
     readTime: '5 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-battery-buying-guide.webp',
     ctaText: 'Shop e-bike batteries',
     body: `Buying a replacement e-bike battery means matching three things correctly — voltage, amp-hour (Ah) rating and physical/connector compatibility — getting any one wrong can mean a battery that doesn't work safely with your bike.
 
@@ -17738,7 +17738,7 @@ An original or manufacturer-approved replacement guarantees compatibility and is
     categorySlug: 'batteries-parts-kits',
     date: '2027-04-15',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-extend-ebike-battery-lifespan.webp',
     ctaText: 'Shop e-bike batteries',
     body: `## 1. Charge after rides, don't wait for empty
 
@@ -17777,7 +17777,7 @@ Some e-bike systems receive battery management firmware updates from the manufac
     categorySlug: 'batteries-parts-kits',
     date: '2027-04-22',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-charger-buying-guide.webp',
     ctaText: 'Shop e-bike chargers',
     body: `Fast chargers genuinely cut charging time, but the convenience comes with trade-offs worth understanding before you buy one over the standard charger your bike came with.
 
@@ -17810,7 +17810,7 @@ Whichever you choose, confirm the charger's voltage and connector match your spe
     categorySlug: 'batteries-parts-kits',
     date: '2027-04-29',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-charger-compatibility-check.webp',
     ctaText: 'Shop e-bike chargers',
     body: `No — chargers aren't universally interchangeable across e-bike batteries, and using an incompatible one can damage the battery or create a genuine safety risk. Here's what actually needs to match.
 
@@ -17842,7 +17842,7 @@ If you're unsure about compatibility, the safest approach is sticking with the c
     categorySlug: 'batteries-parts-kits',
     date: '2027-05-06',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-replacement-scooter-battery-buying-guide.webp',
     ctaText: 'Shop replacement scooter batteries',
     body: `Whether you're replacing an electric kick scooter battery or a mobility scooter battery, the same core compatibility checks apply — voltage, capacity and physical fit all need to match before you buy.
 
@@ -17875,7 +17875,7 @@ Confirm the replacement battery's physical dimensions fit your scooter's battery
     categorySlug: 'batteries-parts-kits',
     date: '2027-05-13',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-mobility-scooter-battery-replacement-signs.webp',
     ctaText: 'Shop replacement scooter batteries',
     body: `A mobility scooter battery's capacity declines gradually over its life, and recognising the signs early helps you plan a replacement before range becomes genuinely unreliable for your daily needs.
 
@@ -17908,7 +17908,7 @@ Mobility scooters are often relied on for genuine daily independence — don't w
     categorySlug: 'batteries-parts-kits',
     date: '2027-05-20',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-electric-scooter-charger-buying-guide.webp',
     ctaText: 'Shop electric scooter chargers',
     body: `A replacement electric scooter charger needs to match your scooter's battery on two specific numbers — voltage and current (amps) — before you consider anything else, including connector shape.
 
@@ -17937,7 +17937,7 @@ Given the safety stakes of a mismatched charger, buying from a seller who clearl
     categorySlug: 'batteries-parts-kits',
     date: '2027-05-27',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-electric-scooter-wont-charge-troubleshooting.webp',
     ctaText: 'Shop electric scooter chargers',
     body: `A scooter that won't charge usually has one of a handful of common causes — most are straightforward to check before assuming the battery itself has failed.
 
@@ -17970,7 +17970,7 @@ If basic checks don't resolve the issue, or if you notice any swelling, unusual 
     categorySlug: 'batteries-parts-kits',
     date: '2027-06-03',
     readTime: '5 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-electric-scooter-spare-parts-guide.webp',
     ctaText: 'Shop electric scooter parts',
     body: `Certain electric scooter components wear out predictably faster than others under normal use — knowing which parts to watch helps you catch issues before they become bigger problems.
 
@@ -18003,7 +18003,7 @@ On folding scooters, internal cables and connectors that run through the folding
     categorySlug: 'batteries-parts-kits',
     date: '2027-06-10',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-electric-skateboard-replacement-parts.webp',
     ctaText: 'Shop electric scooter and skateboard parts',
     body: `Trucks, wheels and drive belts are the three components that most directly affect an electric skateboard's ride feel and wear with use — understanding what each does helps you know when replacement is genuinely needed.
 
@@ -18032,7 +18032,7 @@ Wheel and basic truck bushing replacement are generally manageable for confident
     categorySlug: 'batteries-parts-kits',
     date: '2027-06-17',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-dirt-bike-battery-buying-guide-kids.webp',
     ctaText: 'Shop kids dirt bike batteries',
     body: `Replacing a kids' electric dirt bike battery follows the same core compatibility rules as any e-vehicle battery — voltage, capacity and physical fit — with a couple of extra considerations specific to kids' off-road bikes.
 
@@ -18061,7 +18061,7 @@ Given the safety-relevant speed limiter consideration and the off-road durabilit
     categorySlug: 'batteries-parts-kits',
     date: '2027-06-24',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-kids-dirt-bike-battery-lifespan.webp',
     ctaText: 'Shop kids dirt bike batteries',
     body: `Like any e-vehicle, "battery life" for a kids' electric dirt bike means two separate things — ride time per charge, and how many charge cycles the battery lasts before capacity noticeably declines.
 
@@ -18090,7 +18090,7 @@ A kids' dirt bike battery that delivered 45 minutes of riding when new will grad
     categorySlug: 'batteries-parts-kits',
     date: '2027-07-01',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-tyre-buying-guide.webp',
     ctaText: 'Shop e-bike tyres',
     body: `Choosing a replacement e-bike tyre means balancing sizing accuracy, puncture resistance and tread type against how and where you actually ride.
 
@@ -18119,7 +18119,7 @@ Check the tyre's maximum load rating against your bike's weight plus rider weigh
     categorySlug: 'batteries-parts-kits',
     date: '2027-07-08',
     readTime: '5 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-fix-flat-ebike-tyre-guide.webp',
     ctaText: 'Shop e-bike tyres',
     body: `Fixing a flat e-bike tyre follows the same core process as a regular bicycle, with one important extra step — safely managing the motor and electrical components if the flat is on the motor wheel.
 
@@ -18156,7 +18156,7 @@ If you're not confident handling the motor wheel's electrical connection, or if 
     categorySlug: 'batteries-parts-kits',
     date: '2027-07-15',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-brake-pads-buying-guide.webp',
     ctaText: 'Shop e-bike brake pads',
     body: `E-bike brake pads wear faster than on a regular bicycle, given the extra weight and typically higher average speeds — knowing when to replace them and what type suits your bike matters for genuine stopping safety.
 
@@ -18185,7 +18185,7 @@ Confirm whether your e-bike uses disc brakes (most common on modern e-bikes) or 
     categorySlug: 'batteries-parts-kits',
     date: '2027-07-22',
     readTime: '3 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-ebike-brake-pads-worn-signs.webp',
     ctaText: 'Shop e-bike brake pads',
     body: `A few straightforward checks tell you reliably whether e-bike brake pads need replacing, without needing to be a bike mechanic to assess them.
 
@@ -18214,7 +18214,7 @@ A grinding or metallic scraping sound under braking generally means the pad mate
     categorySlug: 'batteries-parts-kits',
     date: '2027-07-29',
     readTime: '5 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-mid-drive-conversion-kit-buying-guide.webp',
     ctaText: 'Shop mid-drive conversion kits',
     body: `A mid-drive conversion kit replaces or works through your bike's existing bottom bracket area, delivering motor power through the bike's own gears — a genuinely effective way to electrify a regular bike, provided your frame and components are compatible.
 
@@ -18243,7 +18243,7 @@ Mid-drive kits are generally more involved to install than hub-motor kits, often
     categorySlug: 'batteries-parts-kits',
     date: '2027-08-05',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-mid-drive-vs-hub-motor-kits.webp',
     ctaText: 'Shop conversion kits',
     body: `Mid-drive and hub motor conversion kits both turn a regular bike into an e-bike, but they deliver power differently — and that difference matters more for some riders and terrain than others.
 
@@ -18276,7 +18276,7 @@ Choose mid-drive if hill-climbing performance matters most and you're comfortabl
     categorySlug: 'batteries-parts-kits',
     date: '2027-08-12',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-hub-motor-conversion-kit-buying-guide.webp',
     ctaText: 'Shop hub motor conversion kits',
     body: `A hub motor conversion kit can be fitted to either the front or rear wheel — each has genuine practical trade-offs worth understanding before choosing.
 
@@ -18309,7 +18309,7 @@ Front hub motors suit riders prioritising simpler installation and are a common 
     categorySlug: 'batteries-parts-kits',
     date: '2027-08-19',
     readTime: '4 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-is-it-legal-to-convert-bike-to-electric-australia.webp',
     ctaText: 'Shop e-bike conversion kits',
     body: `Converting a regular bike to electric with a conversion kit is legal in Australia, provided the finished, converted bike meets the same power-assisted pedal cycle standard that applies to any factory-built road-legal e-bike — the conversion method itself isn't restricted, but the end result needs to comply.
 
@@ -18341,7 +18341,7 @@ Choose a conversion kit explicitly rated and marketed as compliant with the Aust
     categorySlug: 'safety-security-carry',
     date: '2027-08-26',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-helmet-buying-guide-certifications.webp',
     ctaText: 'Shop bike helmets',
     body: `A bike helmet's safety certification mark is the single most important thing to check before buying — it confirms the helmet has been independently tested to a recognised impact-protection standard, rather than just looking protective.
 
@@ -18370,7 +18370,7 @@ A certified helmet's protective foam is generally designed to absorb a single si
     categorySlug: 'safety-security-carry',
     date: '2027-09-02',
     readTime: '3 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-do-you-need-helmet-ebike-australia.webp',
     ctaText: 'Shop bike helmets',
     body: `Yes — every Australian state and territory requires an approved bicycle helmet for e-bike riders, the same as for regular cyclists, regardless of the rider's age.
 
@@ -18402,7 +18402,7 @@ If an e-bike exceeds the 250W/25km/h standard and is legally reclassified as a m
     categorySlug: 'safety-security-carry',
     date: '2027-09-09',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-lights-buying-guide.webp',
     ctaText: 'Shop bike lights',
     body: `Bike lights serve two distinct purposes — being seen by others, and seeing the path ahead — and the lumen output, battery life and legal requirements differ depending on which purpose matters most for your riding.
 
@@ -18431,7 +18431,7 @@ Every Australian state and territory requires lights for night riding, but speci
     categorySlug: 'safety-security-carry',
     date: '2027-09-16',
     readTime: '3 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-lights-mandatory-night-australia.webp',
     ctaText: 'Shop bike lights',
     body: `Yes — every Australian state and territory requires a bicycle (including a compliant e-bike) to display lights when ridden at night or in conditions of reduced visibility, such as heavy rain or fog.
 
@@ -18463,7 +18463,7 @@ Even where a dim light technically satisfies the legal minimum, a genuinely brig
     categorySlug: 'safety-security-carry',
     date: '2027-09-23',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-hi-vis-cycling-gear-buying-guide.webp',
     ctaText: 'Shop hi-vis cycling gear',
     body: `Genuine visibility on the road comes from a combination of bright colour, reflective material and smart positioning — not just any brightly coloured garment labelled "hi-vis."
 
@@ -18492,7 +18492,7 @@ Hi-vis gear meaningfully improves your visibility, but it doesn't replace riding
     categorySlug: 'safety-security-carry',
     date: '2027-09-30',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-best-hi-vis-jackets-commuter-cyclists.webp',
     ctaText: 'Shop hi-vis cycling gear',
     body: `A hi-vis jacket or vest built specifically for commuter cycling needs to balance visibility with the practical demands of being worn, packed and worn again daily — different priorities to a general-purpose hi-vis workwear garment.
 
@@ -18521,7 +18521,7 @@ As covered in our [hi-vis buying guide](/blog/hi-vis-cycling-gear-buying-guide/)
     categorySlug: 'safety-security-carry',
     date: '2027-10-07',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-u-lock-buying-guide.webp',
     ctaText: 'Shop bike U-locks',
     body: `U-locks (also called D-locks) are generally considered one of the most secure bike lock formats, but security varies significantly between models — understanding what drives that variation helps you buy genuine protection rather than a false sense of security.
 
@@ -18550,7 +18550,7 @@ A U-lock needs to be large enough to secure the frame and a wheel to a fixed obj
     categorySlug: 'safety-security-carry',
     date: '2027-10-14',
     readTime: '3 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-u-lock-vs-d-lock-difference.webp',
     ctaText: 'Shop bike U-locks',
     body: `U-lock and D-lock are two names for essentially the same lock format — the naming difference comes from how the shackle's shape is described, not from any functional difference in security.
 
@@ -18579,7 +18579,7 @@ The meaningful security comparison is between rigid-shackle locks (U/D-locks) ge
     categorySlug: 'safety-security-carry',
     date: '2027-10-21',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-folding-bike-lock-buying-guide.webp',
     ctaText: 'Shop folding bike locks',
     body: `Folding locks offer genuine portability advantages over a rigid U-lock, with some real security trade-offs worth understanding honestly before choosing one as your primary lock.
 
@@ -18608,7 +18608,7 @@ For a bike regularly left unattended in higher-theft areas, a quality rigid U-lo
     categorySlug: 'safety-security-carry',
     date: '2027-10-28',
     readTime: '3 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-folding-locks-vs-u-locks-daily.webp',
     ctaText: 'Shop bike locks',
     body: `For daily commuter carrying specifically, the decision between a folding lock and a U-lock often comes down to how much security risk your specific parking situation presents, weighed against the real, daily cost of carrying extra weight and bulk.
 
@@ -18637,7 +18637,7 @@ Match the lock to your actual daily parking risk rather than defaulting to which
     categorySlug: 'safety-security-carry',
     date: '2027-11-04',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-chain-lock-buying-guide.webp',
     ctaText: 'Shop bike chain locks',
     body: `Chain lock security comes down mainly to link thickness, link material hardness and the quality of the padlock securing it — three factors worth checking individually rather than judging a chain lock by its overall length or appearance alone.
 
@@ -18666,7 +18666,7 @@ Chains offer more flexibility than a rigid U-lock for locking around awkwardly s
     categorySlug: 'safety-security-carry',
     date: '2027-11-11',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-chain-lock-vs-u-lock-theft.webp',
     ctaText: 'Shop bike locks',
     body: `Both chain locks and U-locks can offer genuinely strong theft resistance — the more meaningful comparison is between a specific high-quality example of each, rather than assuming one format is universally superior.
 
@@ -18699,7 +18699,7 @@ Neither format is definitively "better" — a quality chain and a quality U-lock
     categorySlug: 'safety-security-carry',
     date: '2027-11-18',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-rack-basket-buying-guide.webp',
     ctaText: 'Shop bike racks and baskets',
     body: `Where you carry cargo on a bike — front or rear — affects both how much weight you can comfortably carry and how the bike handles with that weight loaded, worth understanding before choosing where to mount a rack or basket.
 
@@ -18728,7 +18728,7 @@ For heavier, bulkier loads (grocery runs, larger bags), a rear rack with proper 
     categorySlug: 'safety-security-carry',
     date: '2027-11-25',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-best-bike-baskets-racks-commuting.webp',
     ctaText: 'Shop bike racks and baskets',
     body: `Grocery runs and daily commuting put different demands on bike carrying accessories — grocery trips need genuine capacity and stability for bulkier loads, while commuting often prioritises a secure, consistent spot for a bag or laptop.
 
@@ -18757,7 +18757,7 @@ Quick-release basket and pannier systems let you remove the carrying accessory w
     categorySlug: 'safety-security-carry',
     date: '2027-12-02',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-pannier-buying-guide.webp',
     ctaText: 'Shop bike panniers',
     body: `Bike panniers vary significantly in both waterproofing and capacity — matching both to how and where you'll actually use them avoids buying either more pannier than you need or, worse, one that lets your gear get wet.
 
@@ -18786,7 +18786,7 @@ A single pannier is simpler and lighter for lighter loads; a paired set balances
     categorySlug: 'safety-security-carry',
     date: '2027-12-09',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-panniers-vs-backpack-commuting.webp',
     ctaText: 'Shop bike panniers',
     body: `For e-bike commuting specifically, panniers and a backpack each have genuine advantages — the right choice depends mostly on comfort preference, what you're carrying, and how far you're riding.
 
@@ -18815,7 +18815,7 @@ Many commuters use a smaller daypack or sling bag for items they want with them 
     categorySlug: 'safety-security-carry',
     date: '2027-12-16',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-child-bike-seat-buying-guide.webp',
     ctaText: 'Shop child bike seats',
     body: `A child bike seat's age and weight guidance, harness design and mounting security all directly affect child safety — this is a category where checking the specifics properly matters more than almost any other bike accessory.
 
@@ -18844,7 +18844,7 @@ A properly fitted child's bicycle helmet is essential for any child riding in a 
     categorySlug: 'safety-security-carry',
     date: '2027-12-23',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-front-vs-rear-child-bike-seats.webp',
     ctaText: 'Shop child bike seats',
     body: `Front-mounted and rear-mounted child bike seats both have genuine safety advantages, and the choice often comes down to the child's age and which trade-offs matter more to you as the rider.
 
@@ -18873,7 +18873,7 @@ Both are safe when correctly matched to the child's age/weight and properly inst
     categorySlug: 'safety-security-carry',
     date: '2027-12-30',
     readTime: '4 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-bike-phone-mount-buying-guide.webp',
     ctaText: 'Shop bike phone mounts',
     body: `A good bike phone mount needs to hold your specific phone securely through real road vibration, without needing constant readjustment or risking the phone working loose mid-ride.
 
@@ -18902,7 +18902,7 @@ Confirm the mount's handlebar clamp range matches your bike's handlebar diameter
     categorySlug: 'safety-security-carry',
     date: '2028-01-06',
     readTime: '3 min read',
-    image: '/images/categories/category-safety-security-carry.webp',
+    image: '/images/blog/blog-best-bike-phone-mounts-navigation.webp',
     ctaText: 'Shop bike phone mounts',
     body: `For navigation-focused riding specifically — following a map app for an unfamiliar route or a longer ride — a few additional features matter beyond the basic security and compatibility covered in our general phone mount buying guide.
 
@@ -18931,7 +18931,7 @@ If your longer ride includes stops where you'd rather take the phone with you (c
     categorySlug: '',
     date: '2028-01-13',
     readTime: '6 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-allied-buyers-guide-which-ev-category.webp',
     ctaText: 'Browse the full shop',
     body: `With ten different electric vehicle categories in the ALLIED range, the right starting point is usually your actual use case, not which category has the most exciting specs.
 
@@ -18972,7 +18972,7 @@ Browse the specific category for detailed model comparisons, or check our [parts
     categorySlug: 'batteries-parts-kits',
     date: '2028-01-20',
     readTime: '5 min read',
-    image: '/images/categories/category-batteries-parts-kits.webp',
+    image: '/images/blog/blog-electric-vehicle-battery-care-101.webp',
     ctaText: 'Shop batteries and chargers',
     body: `Whatever ALLIED electric vehicle you ride — e-bike, scooter, hoverboard, mobility scooter, dirt bike or quad — the lithium battery powering it responds to the same core care principles, since the underlying cell chemistry is fundamentally the same across categories.
 
@@ -19009,7 +19009,7 @@ Because the underlying lithium battery technology is consistent across the range
     categorySlug: '',
     date: '2028-01-27',
     readTime: '3 min read',
-    image: '/images/categories/category-electric-bikes.webp',
+    image: '/images/blog/blog-crypto-bank-wire-discount-explained.webp',
     ctaText: 'Browse the shop',
     body: `ALLIED offers a 10% discount on orders paid via direct bank wire or cryptocurrency — a straightforward way to reduce the total cost of your order by avoiding standard card processing fees.
 

@@ -84,8 +84,8 @@ export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, 
             </div>
           </div>
 
-          <div className="bg-white aspect-[16/9] rounded-2xl overflow-hidden p-2 border border-slate-800">
-            <img src={activePost.image} alt={activePost.title} className="w-full h-full object-cover rounded-xl" />
+          <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-slate-800">
+            <img src={activePost.image} alt={activePost.title} className="w-full h-full object-cover" />
           </div>
 
           <div className="space-y-4 text-slate-300 text-sm leading-relaxed border-t border-slate-800 pt-6">
@@ -132,11 +132,12 @@ export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, 
               }}
               className="group bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/50 transition-all cursor-pointer flex flex-col justify-between shadow-xl block"
             >
-              <div className="bg-white aspect-[4/3] overflow-hidden p-3 border-b border-slate-800">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
 
