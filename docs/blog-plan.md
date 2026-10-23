@@ -1,5 +1,14 @@
 # Blog Plan — ALLIED ELECTRIC VEHICLES
 
+**BUILD STATUS (2026-10-23): ALL 103 POSTS ARE LIVE.** Every post in this plan has been written
+and shipped to `src/config/site.ts` (`POSTS` array), with real per-post SEO (title, meta
+description, canonical, Article + BreadcrumbList + FAQPage JSON-LD where applicable), working
+`/blog/:slug/` routing, and a CTA linking back to the relevant shop category. Verified: 103/103
+unique slugs and titles, 0 duplicate or broken internal links, 0 broken images, `tsc` clean,
+production build succeeds, sitemap regenerated (707 URLs). This plan document now serves as the
+historical record of the keyword research and planning — see `src/config/site.ts` for the live
+content itself.
+
 **Status note (updated 2026-10-23):** All 100 posts are now Semrush-verified. Posts 1–5 were
 verified in earlier rounds; Posts 6–100 were verified in this session against the AU database in
 Keyword Magic Tool, one search per subcategory's core commercial term, with the primary post in

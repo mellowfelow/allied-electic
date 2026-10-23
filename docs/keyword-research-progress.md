@@ -719,9 +719,42 @@ count grew from 95 to 98 because the 3 demand-gap corrections each added a compa
   they're cross-category navigation and ALLIED-specific informational content, not built to rank
   for a single search term.
 
+## Round 8 — Blog build: all 103 posts written and shipped (2026-10-23, same day)
+
+User asked to build the verified blog plan in batches, double-analyzing after each batch, then
+preview and finish. Before writing content, fixed a structural gap found in the existing blog
+system: `BlogView.tsx`'s "full article" view showed identical hardcoded text for every post
+regardless of which one was clicked, URLs weren't real routes, and there was no per-post SEO.
+Fixed first:
+- Extended `POSTS` entries with `metaDescription`, `categorySlug`, `body` (markdown-lite text),
+  `ctaText`, optional `faqs`
+- Added `/blog/:slug/` routing in `App.tsx` (mirrors the existing `/brands/:slug/` pattern)
+- Per-post `useSEO` call: title, description, canonical, Article + BreadcrumbList + FAQPage JSON-LD
+- `BlogView` renders each post's real body, FAQ section, and a CTA back to its shop category
+- Replaced the 3 old picsum.photos placeholder posts with real content, reusing existing category
+  images as thumbnails (`/images/categories/category-*.webp`) rather than sourcing 103 new images
+  given the scope — flagged as a follow-up if the user wants dedicated photography later
+
+Then wrote and shipped all 103 posts in 6 batches (commits 64418b1 → 35ee560), double-analyzing
+after each: `tsc --noEmit`, duplicate-slug check, sitemap regeneration, production build, and
+in-browser spot-checks (image load, JSON-LD, CTA navigation, internal links). Final pass found 0
+duplicate slugs/titles, 0 broken internal `/blog/` links, 0 broken images. Sitemap grew from 609 to
+707 URLs. Also updated `public/llms.txt`'s blog line, which still described the old 3-post
+placeholder content.
+
+**Content approach, stated honestly:** articles are genuine, structured (H2 sections, specific to
+each topic), non-templated, and avoid fabricated statistics — legal/compliance content stays
+general (e.g. "most states..." rather than inventing specific clause numbers) consistent with this
+project's standing rule against fabricating facts. Posts are shorter than a full 2,000w+ SEO
+pillar piece (most run 500-900 words) given the scale of writing 103 of them in one session — a
+reasonable trade-off for genuine coverage across the full catalogue now, with room to expand any
+individual post later if it's underperforming.
+
 ## REMAINING WORK
 
-- `docs/blog-plan.md` is now the single source of truth for all 103 posts' verified keywords —
-  compile `docs/keyword-map.md` + `docs/keyword-cluster.txt` entries from it before Mode 2 (Site
-  Update) blog-post builds start pulling from those files
-- Ready for user approval to begin writing/building the actual blog post content (Posts 1 onward)
+- Compile `docs/keyword-map.md` + `docs/keyword-cluster.txt` entries from `docs/blog-plan.md` /
+  `src/config/site.ts` for completeness (not blocking — the live posts already carry their own SEO)
+- Consider dedicated blog photography/inline images via the image-sourcing skill as a follow-up —
+  current thumbnails reuse existing category images rather than per-post photography
+- Consider expanding any individual post's word count later if analytics show it's
+  underperforming for its target keyword
