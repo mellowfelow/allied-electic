@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { POSTS } from '../../config/site';
-import { BookOpen, Clock, Calendar, ArrowRight, User, ShoppingBag } from 'lucide-react';
+import { BookOpen, Clock, Calendar, ArrowRight, User, ShoppingBag, ChevronLeft, ChevronRight } from 'lucide-react';
+
+const POSTS_PER_PAGE = 16; // 4 columns x 4 rows
 
 interface BlogViewProps {
   selectedSlug: string | null;
@@ -35,9 +37,23 @@ function renderBody(body: string) {
 
 export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, onNavigateCategory }) => {
   const activePost = POSTS.find(p => p.slug === selectedSlug) || null;
+  const [page, setPage] = useState(1);
+
+  const totalPages = Math.ceil(POSTS.length / POSTS_PER_PAGE);
+  const pagePosts = POSTS.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+
+  // Jump to the top of the grid whenever the page changes, and reset back to
+  // page 1 whenever the user returns to the grid from a full article.
+  useEffect(() => {
+    if (!activePost) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [page, activePost]);
+
+  const goToPage = (p: number) => {
+    setPage(Math.max(1, Math.min(totalPages, p)));
+  };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-12 space-y-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
       {/* Header */}
       <div className="text-center space-y-3">
@@ -55,7 +71,7 @@ export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, 
 
       {activePost ? (
         /* Full Article View */
-        <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 space-y-6 shadow-2xl">
+        <div className="max-w-5xl mx-auto bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 space-y-6 shadow-2xl">
           <button
             onClick={() => onSelectPost(null)}
             className="text-xs font-mono text-sky-400 hover:underline flex items-center gap-1"
@@ -118,9 +134,10 @@ export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, 
           </div>
         </div>
       ) : (
-        /* Blog Article Cards Grid */
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {POSTS.map((post) => (
+        /* Blog Article Cards Grid — 16 per page, 4 columns x 4 rows */
+        <div className="space-y-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {pagePosts.map((post) => (
             <a
               key={post.slug}
               href={`/blog/${post.slug}/`}
@@ -162,6 +179,44 @@ export const BlogView: React.FC<BlogViewProps> = ({ selectedSlug, onSelectPost, 
               </div>
             </a>
           ))}
+        </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 font-mono text-sm">
+            <button
+              onClick={() => goToPage(page - 1)}
+              disabled={page === 1}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous page"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <button
+                key={p}
+                onClick={() => goToPage(p)}
+                className={`w-9 h-9 rounded-lg border transition-colors ${
+                  p === page
+                    ? 'bg-sky-500 border-sky-500 text-slate-950 font-bold'
+                    : 'border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400'
+                }`}
+              >
+                {p}
+              </button>
+            ))}
+
+            <button
+              onClick={() => goToPage(page + 1)}
+              disabled={page === totalPages}
+              className="p-2 rounded-lg border border-slate-800 text-slate-300 hover:border-sky-500/50 hover:text-sky-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Next page"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        )}
         </div>
       )}
 
