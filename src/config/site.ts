@@ -16019,6 +16019,497 @@ Under-inflated tyres increase rolling resistance, which means the motor works ha
 ## 10. Service intervals matter more on an e-bike than a regular bike
 
 Between the extra weight, motor torque and higher average speeds, drivetrain components (chains, cassettes, brake pads) wear faster on an e-bike than on a regular bicycle. Regular servicing isn't optional maintenance — it's what keeps the extra power delivering safely.`
+  },
+  {
+    slug: 'best-electric-commuter-bikes-australia',
+    title: 'Best Electric Commuter Bikes for Australian Cities (2026 Buying Guide)',
+    metaDescription: 'Comparing the features that matter most in an electric commuter bike for Australian cities — range, weight, tyres and theft security.',
+    excerpt: 'What actually separates a good electric commuter bike from a mediocre one, for real Australian city riding.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-03-19',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric commuter bikes',
+    body: `Choosing an electric commuter bike comes down to matching the bike's specification to how your actual commute plays out — not just picking the highest-spec model you can afford.
+
+## Range: match it to your round trip, with margin
+
+Add up your round-trip commute distance, then look for a bike with comfortably more range than that at a realistic assist level — not the bike's maximum advertised range, which is usually measured on the lowest assist setting. A 15km round trip on mid-level assist eats battery faster than the spec sheet implies, especially with hills or a headwind.
+
+## Weight matters more than it looks on a spec sheet
+
+A commuter bike you're lifting up stairs, onto a train, or into a small apartment benefits enormously from a lighter frame and battery — even a few kilos makes a real difference in daily handling. If your commute involves any carrying, weigh this more heavily than raw spec numbers.
+
+## Tyres: puncture resistance over raw speed
+
+City commuting means debris, glass and potholes. Puncture-resistant tyres cost a little in rolling efficiency but save you from the far bigger cost of a flat tyre on the way to work. This matters more for commuters than for recreational riders.
+
+## Security: an integrated frame lock or at least solid lock points
+
+A commuter bike spends hours parked outside, unattended. Look for solid frame lock points and consider pairing the bike with a quality U-lock rather than relying on a flimsy cable lock — e-bikes are a higher theft target than regular bikes because of resale value.
+
+## Weatherproofing for genuine year-round use
+
+If you're commuting rain or shine, check the battery and electronics have a real IP water-resistance rating, not just "splash resistant" marketing language. This is especially relevant for anyone riding through an Australian wet season or regular morning dew.`
+  },
+  {
+    slug: 'ebike-battery-life-how-long',
+    title: 'How Long Does an Electric Commuter Bike Battery Last?',
+    metaDescription: 'How long an e-bike battery lasts per charge, and over its lifespan — plus what actually shortens battery life.',
+    excerpt: 'The real difference between per-charge range and total battery lifespan, and what shortens each.',
+    category: 'Battery Tech',
+    categorySlug: 'electric-bikes',
+    date: '2026-03-26',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric commuter bikes',
+    body: `"How long does the battery last" actually means two different questions — how far it goes per charge, and how many charge cycles it survives before capacity noticeably drops. Both matter, for different reasons.
+
+## Per-charge range
+
+This depends on battery capacity (Wh), assist level, terrain, rider weight and tyre pressure. A battery rated for 70-90km under ideal conditions will typically deliver meaningfully less on hilly terrain, at higher assist levels, or carrying extra cargo weight. Treat the advertised maximum as a best-case number, not a guarantee.
+
+## Lifespan in charge cycles
+
+Separately from per-charge range, a lithium battery pack has a finite number of full charge cycles — typically several hundred — before capacity starts noticeably declining. A "charge cycle" counts as one full discharge-to-charge equivalent, which might be spread across several partial charges. Charging habits genuinely affect how many cycles you get: topping up regularly (rather than deep-discharging to zero) and avoiding storage at full charge for long periods both help extend total battery life.
+
+## What actually shortens battery life
+
+Heat is the biggest factor — leaving a battery in direct sun or a hot car degrades cells faster than normal use. Deep discharges to 0% stress the cells more than partial discharge-recharge cycles. And long-term storage at 100% charge (rather than a partial charge) accelerates capacity loss if the bike won't be ridden for weeks.
+
+## When to consider a replacement battery
+
+If your range has dropped noticeably compared to when the bike was new, even at the same assist level and route, the battery has likely lost meaningful capacity. Replacement battery packs are available separately rather than requiring a whole new bike — check our [e-bike battery buying guide](/blog/ebike-battery-buying-guide/) for what to look for.`
+  },
+  {
+    slug: 'electric-cargo-bike-vs-car',
+    title: 'Electric Cargo Bike vs Car: Is It Worth Switching for the School Run?',
+    metaDescription: 'Comparing an electric cargo bike to a car for the school run — cost, time and practicality considered honestly.',
+    excerpt: 'An honest look at where a cargo e-bike genuinely beats the car, and where it doesn\'t.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-04-02',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric cargo bikes',
+    body: `Cargo e-bikes have genuinely replaced the second car for plenty of Australian families doing the school run, but it's not a universal win — it depends heavily on distance, route and how many kids you're carrying.
+
+## Where the cargo e-bike wins
+
+For school runs under about 5km, especially with decent bike infrastructure (bike lanes, shared paths), a cargo e-bike is often genuinely faster door-to-door once you factor in parking and drop-off queues at the school gate. There's no fuel cost, no parking fees, minimal maintenance compared to a car, and most cargo e-bikes can carry two kids plus bags comfortably with the right seat/harness setup.
+
+## Where the car still wins
+
+Longer multi-stop routes (school drop-off, then straight to an office across town), genuinely bad weather days, more than two kids, or routes with significant hills and no bike infrastructure all favour the car. A cargo e-bike motor helps enormously with hills, but it doesn't eliminate the exposure to weather or the practical limit on how many kids and bags you can realistically carry safely.
+
+## The honest middle ground
+
+Most families who switch don't sell the car entirely — they use the cargo bike for the school run and short errands, and keep the car for longer trips, bad weather, or when carrying more than the bike comfortably handles. The real saving isn't eliminating car ownership, it's reducing how much you use the car day to day, which cuts fuel costs and parking stress without requiring you to go car-free.
+
+## What to check before switching
+
+Payload capacity (how much weight the bike and its rated accessories can carry — kids plus bags), motor torque (hill-climbing ability matters a lot with a loaded bike), and whether the local route has safe bike infrastructure for the distance involved.`
+  },
+  {
+    slug: 'electric-cargo-bike-weight-capacity',
+    title: 'How Much Weight Can an Electric Cargo Bike Carry?',
+    metaDescription: 'What determines a cargo e-bike\'s weight capacity, and how to read the payload rating correctly.',
+    excerpt: 'Understanding payload ratings so you buy a cargo e-bike that genuinely handles your load.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-04-09',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric cargo bikes',
+    body: `A cargo e-bike's payload rating is the total weight it's rated to safely carry — rider plus cargo plus any accessories like child seats — and it's a frame and component engineering figure, not just a motor power number.
+
+## What the payload rating actually includes
+
+The published payload capacity typically covers everything beyond the bike's own weight: the rider, passengers (kids in seats), cargo in the front or rear bay, and any mounted accessories. It's a combined total, not a "cargo only" figure — a heavier rider leaves less capacity for cargo and vice versa.
+
+## Frame and component engineering, not just motor power
+
+A higher payload rating comes from reinforced frame tubing, stronger wheels and spokes, heavier-duty brakes rated for the extra stopping weight, and a motor and battery sized to handle that load without excessive strain. A bike advertised with a high payload but standard commuter-grade wheels and brakes is a mismatch worth questioning.
+
+## Front-loader vs longtail — different weight distribution
+
+Front-loader cargo bikes (cargo bay ahead of the rider) and longtail cargo bikes (extended rear rack) distribute weight differently, which affects handling at full load. Longtails tend to feel more like a regular bike at speed; front-loaders carry weight lower and more centrally, which some riders find more stable at low speed with kids aboard, but they handle differently when turning.
+
+## Don't max out the rating for daily use
+
+Just because a bike is rated for a certain payload doesn't mean riding at that limit every day is ideal — braking distance, handling and component wear all increase as you approach the maximum rated load. For regular daily use, leaving some margin below the stated maximum keeps the ride predictable and reduces wear on brakes and tyres.`
+  },
+  {
+    slug: 'hardtail-vs-full-suspension-emtb',
+    title: 'Hardtail vs Full-Suspension Electric Mountain Bikes: Which Should You Buy?',
+    metaDescription: 'Hardtail vs full-suspension electric mountain bikes compared — weight, cost, maintenance and trail suitability.',
+    excerpt: 'Which eMTB suspension type actually suits your riding, honestly assessed.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-04-16',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric mountain bikes',
+    body: `Hardtail (front suspension only) and full-suspension (front and rear) electric mountain bikes aren't simply "budget vs premium" — each suits different terrain and riding styles.
+
+## Hardtail: lighter, simpler, cheaper to maintain
+
+A hardtail eMTB has no rear shock, which means less weight, fewer components to service, and typically a lower price for the same motor and battery spec. The trade-off is a rougher ride on technical, rocky or root-heavy trails, since the rear wheel transmits more impact directly to the rider.
+
+## Full-suspension: smoother on technical terrain, heavier, pricier
+
+A rear shock absorbs impacts from rocks, roots and drops, keeping the rear wheel in better contact with the ground on rough terrain — genuinely useful on technical single-track. That comes with extra weight, a higher price for equivalent componentry, and more maintenance (an additional shock to service, more pivot points that can wear).
+
+## Which suits which rider
+
+If most of your riding is fire trails, gravel paths, or moderately technical single-track, a hardtail is often the better value choice — you get the e-assist benefit without paying for suspension travel you won't fully use. If you're riding genuinely technical, rocky or root-heavy trails regularly, full-suspension's extra comfort and control becomes worth the added weight and cost.
+
+## The e-assist factor changes the calculation slightly
+
+Because the motor handles climbing effort, some riders who'd normally choose a lighter hardtail for ease of pedalling uphill find the weight penalty of full-suspension less significant on an eMTB than on a regular mountain bike — the motor absorbs some of that extra weight's climbing cost. This makes full-suspension a more viable option on an eMTB than it might be on an unassisted bike of similar trail ambition.`
+  },
+  {
+    slug: 'emtb-maintenance-checklist',
+    title: "Electric Mountain Bike Maintenance: A Beginner's Checklist",
+    metaDescription: 'A practical eMTB maintenance checklist covering what to check before and after every trail ride.',
+    excerpt: 'The maintenance habits that keep an electric mountain bike trail-ready.',
+    category: 'How-To Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-04-23',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric mountain bikes',
+    body: `An eMTB sees harder use than a commuter bike — trail impacts, mud, dust and higher-torque motor output all add wear. A basic maintenance routine before and after rides keeps it trail-ready and catches small issues before they become expensive ones.
+
+## Before every ride
+
+- Check tyre pressure — low pressure increases pinch-flat risk on rocky trails and makes the motor work harder
+- Squeeze the brake levers and confirm firm, consistent resistance with no excessive travel
+- Check the battery is charged and securely locked into its mount
+- Quickly inspect for loose bolts on the stem, seatpost and pedals
+
+## After every ride
+
+- Wipe down the frame and drivetrain, especially after mud or dust — build-up accelerates chain and cassette wear
+- Check the chain for visible dirt or dryness and lube if needed
+- Inspect tyres for cuts or embedded debris picked up on the trail
+- Wipe the battery contacts and mount area dry before storing, especially after a wet ride
+
+## Weekly or after several rides
+
+- Check and adjust chain tension/wear with a chain checker tool if you have one
+- Inspect brake pads for wear — eMTB braking loads are higher than a standard bike due to extra weight and speed
+- Check suspension (if full-suspension) for smooth travel with no unusual noise or sticking
+
+## When to take it to a service centre
+
+Any unusual motor noise, inconsistent power delivery, brake fade under hard use, or visible frame damage from a crash are all reasons to get the bike professionally checked rather than troubleshooting yourself — the motor and battery systems involve higher voltages than a standard bicycle component and are best left to a qualified technician.`
+  },
+  {
+    slug: 'best-folding-electric-bikes-australia',
+    title: 'Best Folding Electric Bikes for Apartments, Boats and Caravans',
+    metaDescription: 'What to look for in a folding electric bike for small apartments, boats and caravan storage.',
+    excerpt: 'Choosing a folding e-bike for genuinely tight storage — apartments, boats and caravans.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-04-30',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop folding electric bikes',
+    body: `A folding e-bike is only as good as its folded dimensions and weight — the riding experience matters too, but for apartment, boat and caravan buyers, storage footprint is usually the deciding factor.
+
+## Check folded dimensions against your actual space
+
+Before buying, measure the space you actually have — under a bed, in a caravan locker, a boat's below-deck storage — and compare it against the bike's folded length, width and height, not just a general "compact" marketing claim. A few centimetres can be the difference between fitting and not fitting.
+
+## Weight matters more here than almost any other e-bike category
+
+If you're lifting the bike onto a boat, into a caravan locker, or up apartment stairs regularly, folded weight becomes a genuinely daily consideration. Smaller wheel sizes (commonly used on folding e-bikes) usually mean a lighter overall package than a full-size folding frame.
+
+## Fold speed and mechanism durability
+
+A folding mechanism that takes 30 seconds of fiddling defeats the purpose if you're folding and unfolding it daily. Look for a simple, positive-latching mechanism rather than one requiring multiple separate steps or tools. Mechanism durability matters too — a folding e-bike used daily puts more cycles through its hinges than one folded occasionally.
+
+## Range trade-offs with smaller frames
+
+Folding e-bikes often use smaller-capacity batteries to keep weight and folded size down, which generally means less range than a full-size commuter at a similar price point. If you need longer range, check the specific battery capacity rather than assuming all folding bikes perform the same.`
+  },
+  {
+    slug: 'fold-electric-bike-how-to',
+    title: 'How to Fold an Electric Bike in Under 15 Seconds (Step-by-Step)',
+    metaDescription: 'Step-by-step guide to folding a folding electric bike quickly and safely.',
+    excerpt: 'The correct folding sequence for a quick, safe fold every time.',
+    category: 'How-To Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-05-07',
+    readTime: '3 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop folding electric bikes',
+    body: `Most folding e-bikes use a similar three-point folding sequence — frame, pedals/handlebar stem, and seat post — and once you've done it a handful of times, the whole process genuinely takes under 15 seconds.
+
+## Step 1: Fold the main frame hinge
+
+Release the main frame latch (usually a quick-release lever near the centre of the frame) and fold the bike in half, bringing the rear wheel up to meet the front. Make sure the latch clicks fully closed and locked before letting go — a half-closed frame latch is the most common folding mistake and can let the frame spring open unexpectedly.
+
+## Step 2: Fold the handlebar stem
+
+Release the stem's folding latch and rotate the handlebars down and in toward the frame. On most folding e-bikes this also folds the pedals or lets them rotate flat against the frame, reducing the overall width.
+
+## Step 3: Drop the seat post
+
+Release the seat post quick-release and lower the saddle down as far as it goes. This is usually the step riders forget, and it's often what determines whether the folded bike actually fits in your target storage space.
+
+## Confirm everything is locked before carrying
+
+Before picking the bike up, give the frame a gentle shake to confirm the main latch is fully engaged — a folded e-bike that isn't properly locked can spring open while being carried, which is both inconvenient and a safety risk given the bike's weight.
+
+## Unfolding is the same sequence in reverse
+
+Raise the seat post to your riding height and lock it, unfold and lock the handlebar stem, then unfold and lock the main frame latch last — checking each latch clicks fully closed before riding.`
+  },
+  {
+    slug: 'fat-tyre-ebike-sand-gravel',
+    title: 'Fat Tyre Electric Bikes: Are They Good for Sand and Gravel Riding?',
+    metaDescription: 'Whether a fat tyre electric bike genuinely performs well on sand and gravel, and what to expect.',
+    excerpt: 'An honest look at fat tyre e-bike performance on soft, loose surfaces.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-05-14',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop fat tyre electric bikes',
+    body: `Fat tyre e-bikes — typically running tyres 4 inches wide or more — are built specifically to handle surfaces that would bog down a standard-width tyre, and sand and gravel are exactly the conditions they're designed for.
+
+## Why width helps on soft surfaces
+
+A wider tyre spreads the bike's weight over a larger contact patch, reducing how deep it sinks into sand or loose gravel. Combined with lower tyre pressure (fat tyres typically run at lower PSI than standard tyres), this gives noticeably better flotation and traction than a standard-width tyre would on the same surface.
+
+## What to expect on genuinely soft sand
+
+Even with fat tyres, very soft, dry beach sand above the tideline is still hard going — the motor helps considerably, but expect to work harder and go slower than on firmer, packed sand closer to the waterline. Fat tyres make soft sand rideable where a standard bike would struggle badly, but they don't eliminate the extra effort entirely.
+
+## Gravel performance
+
+On gravel tracks and fire trails, fat tyres offer genuinely confident traction and a smoother ride than a standard-width tyre, absorbing small bumps that would otherwise transmit through to the rider. This makes fat tyre e-bikes a solid choice for riders regularly covering unsealed roads or trails.
+
+## The trade-off: rolling resistance on sealed roads
+
+The wider contact patch that helps on sand and gravel means more rolling resistance on smooth sealed roads compared to a standard or gravel tyre — expect the motor to work a little harder, and range to be slightly reduced, on pure road riding. If your riding is split between pavement and off-road, this is worth weighing up.`
+  },
+  {
+    slug: 'fat-tyre-vs-standard-bike-tyres',
+    title: "Fat Tyre vs Standard Electric Bike Tyres: What's the Difference?",
+    metaDescription: 'The practical differences between fat tyres and standard electric bike tyres, compared.',
+    excerpt: 'What actually changes between a fat tyre e-bike and a standard one.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-05-21',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop fat tyre electric bikes',
+    body: `Beyond the obvious visual difference, fat and standard tyres change an e-bike's ride feel, efficiency and suitability for different terrain in ways worth understanding before you choose.
+
+## Width and contact patch
+
+Fat tyres (commonly 4 inches or wider) create a much larger ground contact patch than standard tyres (typically 1.5-2.5 inches), which is what gives them better flotation on soft surfaces and a smoother ride over small bumps — the extra air volume acts almost like built-in suspension.
+
+## Tyre pressure differences
+
+Fat tyres run at noticeably lower pressure than standard tyres — this is intentional, as lower pressure is part of what gives the larger contact patch its grip and cushioning on soft terrain. Standard tyres run higher pressure for lower rolling resistance on hard, smooth surfaces.
+
+## Rolling resistance and range impact
+
+Standard tyres roll more efficiently on sealed roads, meaning less motor effort and slightly better range for the same battery capacity. Fat tyres trade some of that road efficiency for off-road capability — a reasonable trade-off if you genuinely ride on sand, gravel or snow, but unnecessary overhead if your riding is entirely on pavement.
+
+## Which to choose
+
+Choose fat tyres if you regularly ride sand, loose gravel, or want the smoother, more cushioned feel over rough surfaces. Choose standard tyres if your riding is mostly sealed roads and paths, where the lower rolling resistance translates to better efficiency and a livelier, faster-feeling ride.`
+  },
+  {
+    slug: 'electric-dirt-bike-laws-australia',
+    title: "Electric Dirt Bike Laws in Australia: What's Road Legal and What's Not",
+    metaDescription: 'Electric dirt bike laws in Australia explained — what\'s road legal, what\'s off-road only, and why it matters.',
+    excerpt: 'The legal distinction between road-legal and off-road-only electric dirt bikes in Australia.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-05-28',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric dirt bikes',
+    body: `Electric dirt bikes sit in a different legal category to road e-bikes, and understanding the distinction matters before you buy — most electric dirt bikes are built for off-road use only, not road or path riding.
+
+## Why most electric dirt bikes aren't road-legal
+
+The power-assisted pedal cycle standard that keeps road e-bikes classed as bicycles (250W continuous, 25km/h assist cutoff, functioning pedals) generally doesn't apply to electric dirt bikes, which are typically throttle-controlled, significantly more powerful, and don't rely on pedalling at all. That means most electric dirt bikes fall under motor vehicle classification rather than bicycle rules — and without registration, number plates and a rider's licence covering that vehicle class, they can't legally be ridden on public roads or footpaths.
+
+## Where you can legally ride one
+
+Private property with the landowner's permission is always an option, regardless of the bike's power or classification. Beyond that, designated off-road motorcycle parks and trail networks that permit electric dirt bikes are the main legal option — check with the specific venue, as not all off-road parks that cater to petrol dirt bikes have confirmed policies for electric models yet.
+
+## What applies to youth and kids' electric dirt bikes
+
+Smaller, lower-powered youth and kids' electric dirt bikes are almost always designed as off-road-only vehicles too, built for backyard and supervised trail use rather than road riding — they don't typically meet the road-legal e-bike standard either, since most are throttle-controlled without functioning pedals.
+
+## The practical takeaway
+
+If road and path riding matters to you, look at the road-legal electric bike categories (commuter, mountain, folding) instead, which are built from the outset to meet the 250W/25km/h pedal-assist standard. If off-road trail riding is the goal, an electric dirt bike is purpose-built for that use — just plan to ride it on private property or designated off-road venues rather than public roads.`,
+    faqs: [
+      { q: 'Are electric dirt bikes road legal in Australia?', a: 'Generally no. Most electric dirt bikes are throttle-controlled and significantly more powerful than the 250W/25km/h pedal-assist standard that keeps road e-bikes classed as bicycles, which means they fall under motor vehicle rules and need registration and a licence to ride on public roads — most can\'t obtain that registration.' },
+      { q: 'Where can I legally ride an electric dirt bike?', a: 'On private property with the landowner\'s permission, or at designated off-road motorcycle parks and trail networks that permit electric dirt bikes. Check with the specific venue, as policies vary.' }
+    ]
+  },
+  {
+    slug: 'electric-dirt-bike-vs-petrol',
+    title: 'Electric Dirt Bike vs Petrol Dirt Bike: Which Is Right for You?',
+    metaDescription: 'Comparing electric and petrol dirt bikes on power delivery, maintenance, noise and running costs.',
+    excerpt: 'An honest comparison between electric and petrol dirt bikes for off-road riding.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-06-04',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric dirt bikes',
+    body: `Electric and petrol dirt bikes suit different priorities — neither is universally better, and the right choice depends on what matters most to you: running cost, maintenance, noise, or raw power delivery.
+
+## Power delivery feels different
+
+Electric motors deliver instant, smooth torque from zero RPM — no clutch, no gear changes needed on most models, and immediate throttle response. Petrol dirt bikes build power through the rev range and require clutch/gear management, which some riders prefer for the control and feel, while others find the electric bike's simplicity easier to learn on.
+
+## Maintenance: electric wins on routine upkeep
+
+Electric dirt bikes have far fewer moving parts to maintain — no oil changes, no air filter cleaning, no carburettor tuning, no spark plugs. Petrol bikes need regular oil changes, filter maintenance and periodic tuning. Both need chain, tyre and brake maintenance regardless of power source.
+
+## Noise: a genuinely significant difference
+
+Electric dirt bikes are dramatically quieter than petrol bikes — this matters a lot if you're riding near residential areas, want to avoid disturbing neighbours or wildlife, or are riding at venues with noise restrictions. It's one of the most commonly cited reasons riders switch to electric.
+
+## Running costs
+
+Electric dirt bikes cost less to run day-to-day — charging is cheaper than fuel, and there's no oil or filter replacement cost. Petrol bikes have a longer track record of parts availability and aftermarket support, which matters if you're planning significant modifications or need parts urgently at a remote riding location.
+
+## Range and ride time
+
+This is where petrol still generally has the edge — refuelling takes minutes, while recharging an electric dirt bike's battery takes considerably longer. If you're riding all day at a remote location without charging access, factor this into your decision, or plan around spare battery packs if the model supports them.`
+  },
+  {
+    slug: 'electric-moped-buying-guide',
+    title: 'Electric Moped Buying Guide: Range, Speed and Licensing in Australia',
+    metaDescription: 'What to check before buying an electric moped in Australia — range, top speed and licensing requirements.',
+    excerpt: 'The key specs and legal requirements to check before buying an electric moped.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-06-11',
+    readTime: '5 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric mopeds',
+    body: `Electric mopeds sit in their own category, separate from both road-legal e-bikes and electric dirt bikes — generally more powerful than a pedal-assist e-bike, which usually means different licensing requirements apply.
+
+## Range: check real-world figures, not just maximum
+
+Like any electric vehicle, an electric moped's advertised maximum range is a best-case figure. Check the battery capacity (Wh) and consider how your actual commute — distance, hills, stop-start traffic — compares to the conditions under which the range figure was measured.
+
+## Top speed and what it means for licensing
+
+Because electric mopeds typically exceed the 25km/h pedal-assist cap and often don't rely on functioning pedals the way a compliant e-bike does, they're usually classed differently under state transport law — which generally means a moped or motorcycle licence, and registration, is required. This varies by state and by the specific model's power output and top speed, so confirm the exact requirements with your state transport authority before buying, based on that specific moped's specifications.
+
+## Battery and charging considerations
+
+Check whether the battery is removable (can be taken inside to charge, useful if you don't have off-street parking with power access) or fixed in place (requiring the whole vehicle to be near a charging point). This affects day-to-day convenience more than most buyers initially expect.
+
+## What to check before you buy
+
+Confirm the exact power rating, top speed and whether the specific model requires registration and a licence in your state — don't assume based on general moped rules, since requirements and thresholds vary. Also check service and spare parts availability locally, since electric moped maintenance needs differ from both regular e-bikes and petrol scooters.`
+  },
+  {
+    slug: 'electric-moped-licence-australia',
+    title: 'Do You Need a Licence to Ride an Electric Moped in Australia?',
+    metaDescription: 'Whether you need a licence to ride an electric moped in Australia, and how requirements vary by state.',
+    excerpt: 'Licensing requirements for electric mopeds, and why they differ from road-legal e-bikes.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-06-18',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric mopeds',
+    body: `Unlike compliant pedal-assist e-bikes, most electric mopeds require a licence to ride legally on Australian roads — the exact requirement depends on the moped's power output and top speed, and varies by state.
+
+## Why mopeds are treated differently to e-bikes
+
+The bicycle classification that exempts compliant e-bikes from licensing applies specifically to 250W-continuous, 25km/h-assist-cutoff, pedal-equipped bikes. Electric mopeds typically exceed one or more of these thresholds — higher power, higher top speed, and often no functioning pedals at all — which generally moves them into moped or motorcycle vehicle classification under state transport law.
+
+## What licence class is usually required
+
+Most states require at minimum a moped or motorcycle licence (sometimes a restricted or learner-class licence depending on the moped's power output) to ride an electric moped on public roads. Requirements and licence classes vary meaningfully between states, so check directly with your state's transport authority using the specific moped's power rating and top speed before assuming a general rule applies.
+
+## Registration is also typically required
+
+Alongside the licence requirement, electric mopeds generally need registration and number plates to be ridden legally on public roads — unlike compliant e-bikes, which need neither. Budget for registration costs and compulsory third-party insurance as part of total ownership cost, not just the purchase price.
+
+## The practical takeaway
+
+If you don't currently hold a moped or motorcycle licence and want a zero-licence option, a road-legal pedal-assist e-bike (250W, 25km/h assist cutoff) is the category that avoids licensing entirely. If you specifically want an electric moped for its higher speed and lower physical effort, factor the licensing and registration requirement into your decision from the start.`,
+    faqs: [
+      { q: 'Do you need a licence to ride an electric moped in Australia?', a: 'In most states, yes — electric mopeds typically exceed the power and speed thresholds that keep pedal-assist e-bikes exempt from licensing, which generally means a moped or motorcycle licence and registration are required. Requirements vary by state and by the moped\'s specific power output, so confirm with your state transport authority.' }
+    ]
+  },
+  {
+    slug: 'electric-tricycles-for-seniors',
+    title: 'Electric Tricycles for Seniors and Riders with Balance Concerns',
+    metaDescription: 'Why electric tricycles suit seniors and riders with balance concerns, and what to look for.',
+    excerpt: 'How electric tricycles provide stability without giving up the benefits of e-bike riding.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-06-25',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric tricycles',
+    body: `For riders concerned about balance — whether due to age, injury recovery, or inner-ear or vestibular conditions — an electric tricycle removes the single biggest barrier to riding: the need to balance a two-wheeled bike, especially at low speed or when stopped.
+
+## Why three wheels changes everything
+
+A tricycle is inherently stable at any speed, including when fully stopped — you can sit on it without pedalling and it won't tip. This matters enormously for riders who find slow-speed balance (starting off, stopping, navigating tight spaces) the hardest part of cycling, which is a common concern for older riders and anyone with balance-affecting conditions.
+
+## Stability without giving up e-bike benefits
+
+An electric tricycle still delivers all the core benefits of an e-bike — pedal-assist that reduces physical effort on hills and longer distances, genuine exercise at a comfortable pace, and independence for errands and local trips — without requiring the balance and reflexes that two-wheeled riding demands.
+
+## What to look for
+
+Check the tricycle's turning radius (wider than a standard bike, which affects manoeuvring in tight spaces like shopping centre car parks), cargo capacity if you plan to use it for grocery runs or errands, and seat comfort/adjustability, since many tricycle riders use the bike for longer, more relaxed rides than a commuter might.
+
+## A genuine alternative, not a compromise
+
+An electric tricycle isn't a lesser version of a two-wheeled e-bike — for riders where balance is a genuine concern, it's the category that makes independent riding possible at all. Combined with pedal-assist, it offers real exercise and genuine transport independence without the fall risk that stops many older or balance-affected riders from cycling in the first place.`
+  },
+  {
+    slug: 'electric-trike-vs-electric-bike',
+    title: 'Electric Trike vs Electric Bike: Which Is More Stable?',
+    metaDescription: 'Comparing stability, handling and practicality between electric trikes and standard two-wheeled e-bikes.',
+    excerpt: 'How electric trikes and two-wheeled e-bikes actually compare on stability and handling.',
+    category: 'E-Bike Guides',
+    categorySlug: 'electric-bikes',
+    date: '2026-07-02',
+    readTime: '4 min read',
+    image: '/images/categories/category-electric-bikes.webp',
+    ctaText: 'Shop electric tricycles',
+    body: `Stability means different things depending on speed — and electric trikes and two-wheeled e-bikes trade stability advantages back and forth depending on whether you're stopped, moving slowly, or riding at speed.
+
+## At a standstill and low speed: trikes win clearly
+
+A trike doesn't need to be balanced to stay upright — stopped at traffic lights, navigating a tight car park, or starting off from rest, a trike simply sits stable with zero balance requirement. A two-wheeled bike demands active balance at these moments, which is exactly where riders with balance concerns, reduced strength, or limited reflexes struggle most.
+
+## At speed and through corners: two wheels handle differently
+
+A two-wheeled e-bike leans into corners, which is how cyclists naturally balance centrifugal force at speed — this feels intuitive to experienced riders. A trike doesn't lean, which means cornering at speed requires more deliberate, slower handling to avoid the outer wheel losing grip or the trike tipping — most trikes are simply not designed for fast cornering the way a two-wheeled bike is.
+
+## Width and manoeuvring
+
+Trikes are wider than two-wheeled bikes, which affects how easily they fit through narrow gaps, gates, and tight urban infrastructure. This is a genuine practical downside worth considering if your riding involves navigating narrow paths or doorways regularly.
+
+## Which is actually more stable, overall?
+
+For most everyday riding — stopping, starting, slow manoeuvring, riding at a relaxed pace — a trike's stability advantage is the more relevant one for the majority of riders. For confident, experienced cyclists riding at higher speeds with cornering, a two-wheeled e-bike's lean-based balance is the more natural and capable system. The right choice depends on which speed range and which stability challenge actually applies to how you ride.`
   }
 ];
 
