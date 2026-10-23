@@ -425,6 +425,7 @@ export default function App() {
         setActiveTab={setActiveTab}
         selectedCategory={selectedCategory}
         setSelectedCategory={handleSelectCategory}
+        onNavigateBrand={handleNavigateBrand}
       />
 
       {/* Main Content Area */}

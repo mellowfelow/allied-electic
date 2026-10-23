@@ -10,7 +10,8 @@ import {
   Menu,
   X,
   SlidersHorizontal,
-  ShieldCheck
+  ShieldCheck,
+  Tag
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -24,6 +25,7 @@ interface HeaderProps {
   setActiveTab: (tab: string) => void;
   selectedCategory: string | null;
   setSelectedCategory: (cat: string | null, subcat?: string | null) => void;
+  onNavigateBrand: (slug: string | null) => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -37,6 +39,7 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   selectedCategory,
   setSelectedCategory,
+  onNavigateBrand,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [megaMenuOpen, setMegaMenuOpen] = useState(false);
@@ -212,7 +215,21 @@ export const Header: React.FC<HeaderProps> = ({
               )}
             </div>
 
-            {/* 2. Blog */}
+            {/* 2. Brands */}
+            <a
+              href="/brands/"
+              onClick={(e) => {
+                if (!e.ctrlKey && !e.metaKey && e.button === 0) {
+                  e.preventDefault();
+                  onNavigateBrand(null);
+                }
+              }}
+              className={`px-3.5 py-2 rounded-lg transition-colors ${activeTab === 'brands' ? 'text-sky-400 bg-sky-500/10 font-bold' : 'hover:text-sky-400 hover:bg-slate-900'}`}
+            >
+              Brands
+            </a>
+
+            {/* 3. Blog */}
             <a
               href="/blog/"
               onClick={(e) => {
@@ -225,7 +242,7 @@ export const Header: React.FC<HeaderProps> = ({
               Blog
             </a>
 
-            {/* 3. About */}
+            {/* 4. About */}
             <a
               href="/about/"
               onClick={(e) => {
@@ -238,7 +255,7 @@ export const Header: React.FC<HeaderProps> = ({
               About
             </a>
 
-            {/* 4. Contact */}
+            {/* 5. Contact */}
             <a
               href="/contact/"
               onClick={(e) => {
@@ -251,7 +268,7 @@ export const Header: React.FC<HeaderProps> = ({
               Contact
             </a>
 
-            {/* 5. Compare */}
+            {/* 6. Compare */}
             <a
               href="/compare/"
               onClick={(e) => {
@@ -328,6 +345,13 @@ export const Header: React.FC<HeaderProps> = ({
               className={`w-full text-left px-4 py-3 rounded-lg font-medium ${activeTab === 'shop' ? 'bg-sky-500/10 text-sky-400' : 'text-slate-200'}`}
             >
               Shop
+            </button>
+            <button
+              onClick={() => { onNavigateBrand(null); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-lg font-medium flex items-center gap-2 ${activeTab === 'brands' ? 'bg-sky-500/10 text-sky-400' : 'text-slate-200'}`}
+            >
+              <Tag className="w-4 h-4 text-sky-400" />
+              <span>Brands</span>
             </button>
             <button
               onClick={() => { setActiveTab('blog'); setMobileMenuOpen(false); }}
